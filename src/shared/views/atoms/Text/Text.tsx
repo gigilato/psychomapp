@@ -4,11 +4,11 @@ import React, { Component } from 'react'
 import { Text as TextDefault } from 'react-native'
 import Animated from 'react-native-reanimated'
 
-import { getContent } from './Text.lib'
+import { getContent, textVariants } from './Text.lib'
 import { ITextProps } from './Text.props'
 
 export const Text = ({
-  // variant = 'body',
+  variant = 'body',
   className,
   textTransform,
   children,
@@ -16,7 +16,10 @@ export const Text = ({
   ...props
 }: ITextProps) => {
   return (
-    <TextDefault className={clsx(reversed && 'text-white', className)} {...props}>
+    <TextDefault
+      className={clsx(textVariants[variant], reversed && 'text-white', className)}
+      {...props}
+    >
       {getContent(children, textTransform)}
     </TextDefault>
   )

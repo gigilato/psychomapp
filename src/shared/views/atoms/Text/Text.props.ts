@@ -7,7 +7,6 @@ export type TextVariant =
   // Body
   | 'body'
   | 'boldBody'
-  | 'italicBody'
 
 export interface ITextProps extends Omit<TextProps, 'textTransform'> {
   textTransform?: TextTransform

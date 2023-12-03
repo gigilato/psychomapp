@@ -1,8 +1,8 @@
 import { useSafeAreaInsets as useSafeAreaInsetsDefault } from 'react-native-safe-area-context'
 
-import { spacings } from '$theme'
+import { spacing } from '$theme'
 
-const getNonZeroInset = (inset: number) => (inset === 0 ? spacings.m : inset)
+const getNonZeroInset = (inset: number) => (inset === 0 ? spacing.m : inset)
 
 type SafeAreaInset =
   | 'currentTop'
@@ -23,8 +23,8 @@ export const useSafeAreaInsets = (): Record<SafeAreaInset, number> => {
     bottom: getNonZeroInset(insets.bottom),
     left: insets.left,
     right: insets.right,
-    hPadding: spacings.l,
-    vPadding: spacings.l,
+    hPadding: spacing.l,
+    vPadding: spacing.l,
   }
 }
 

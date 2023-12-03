@@ -5,12 +5,11 @@ import { TextTransform, TextVariant } from './Text.props'
 
 export const textVariants: Record<TextVariant, string> = {
   // Title
-  title: 'font-[LibreFranklin_700Bold] text-[34px] leading-[42px]',
-  subtitle: 'font-[LibreFranklin_700Bold] text-[20px] leading-[28px]',
+  title: 'font-[SpaceGrotesk-Bold] text-[34px] leading-[42px]',
+  subtitle: 'font-[SpaceGrotesk-Bold] text-[20px] leading-[28px]',
   // Body
-  body: 'font-[LibreFranklin_400Regular] text-[14px] leading-[18px]',
-  boldBody: 'font-[LibreFranklin_600SemiBold] text-[14px] leading-[18px]',
-  italicBody: 'font-[LibreFranklin_400Regular_Italic] text-[14px] leading-[18px]',
+  body: 'font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]',
+  boldBody: 'font-[SpaceGrotesk-Medium] text-[14px] leading-[18px]',
 }
 
 export const getContent = (children: ReactNode, textTransform?: TextTransform) => {

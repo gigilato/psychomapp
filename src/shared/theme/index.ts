@@ -1,3 +1,3 @@
-export * from './theme.borderRadii'
+export * from './theme.borderRadius'
 export * from './theme.colors'
-export * from './theme.spacings'
+export * from './theme.spacing'

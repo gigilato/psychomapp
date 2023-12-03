@@ -23,7 +23,7 @@
     "update:prod": "eas build --profile production --platform ios"
   },
   "dependencies": {
-    "@expo-google-fonts/libre-franklin": "^0.2.3",
+    "@expo-google-fonts/space-grotesk": "^0.2.3",
     "@expo/vector-icons": "^13.0.0",
     "clsx": "^2.0.0",
     "expo": "~49.0.15",
