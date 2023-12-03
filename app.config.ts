@@ -9,6 +9,7 @@ export default ({ config }: ConfigContext): ExpoConfig => {
     slug: 'psychomapp',
     version: appVersion.expo.version,
     orientation: 'default',
+    scheme: 'psychomapp',
     icon: './assets/icon.png',
     userInterfaceStyle: 'light',
     splash: {
@@ -40,6 +41,9 @@ export default ({ config }: ConfigContext): ExpoConfig => {
     web: {
       favicon: './assets/favicon.png',
     },
+    extra: {
+      eas: { projectId: '3b9b3761-b746-4bce-b3f2-f32fefb45c93' },
+    },
     hooks: {
       postPublish: [
         {
@@ -47,11 +51,13 @@ export default ({ config }: ConfigContext): ExpoConfig => {
           config: {
             organization: 'psychomapp',
             project: 'mobile',
-            authToken: '40ab974ebf78475f96451f353da3951c086cb18619cd4377bd79f5de3b1dd120',
           },
         },
       ],
     },
-    plugins: ['sentry-expo'],
+    plugins: [
+      'sentry-expo',
+      ['expo-build-properties', { ios: { useFrameworks: 'static', deploymentTarget: '13.0' } }],
+    ],
   }
 }

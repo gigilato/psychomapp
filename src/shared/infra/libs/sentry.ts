@@ -9,6 +9,7 @@ export const init = () =>
   Sentry.init({
     dsn: sentry.dns,
     enableInExpoDevelopment: true,
+    enableNative: false,
     debug: env !== 'production',
   })
 
