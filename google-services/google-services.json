@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "851697112919",
+    "project_id": "psychomapp",
+    "storage_bucket": "psychomapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:851697112919:android:ae8785d4aaeca7d36f1012",
+        "android_client_info": {
+          "package_name": "com.psychomapp.mobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDE1DjL2G-zBdcU2oVcxodoGBmMvkQ-XEw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
