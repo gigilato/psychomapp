@@ -40,5 +40,18 @@ export default ({ config }: ConfigContext): ExpoConfig => {
     web: {
       favicon: './assets/favicon.png',
     },
+    hooks: {
+      postPublish: [
+        {
+          file: 'sentry-expo/upload-sourcemaps',
+          config: {
+            organization: 'psychomapp',
+            project: 'mobile',
+            authToken: '40ab974ebf78475f96451f353da3951c086cb18619cd4377bd79f5de3b1dd120',
+          },
+        },
+      ],
+    },
+    plugins: ['sentry-expo'],
   }
 }

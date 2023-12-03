@@ -14,6 +14,7 @@
       "$libs/*": ["./src/shared/libs/*"],
       "$infra/*": ["./src/shared/infra/*"],
       "$constants/*": ["./src/shared/constants/*"],
+      "$config": ["./src/shared/config"],
       "$assets/*": ["./src/shared/assets/*"],
       "$theme": ["./src/shared/theme"],
       "$views/*": ["./src/shared/views/*"],

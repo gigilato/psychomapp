@@ -16,6 +16,7 @@ module.exports = function (api) {
             $libs: './src/shared/libs/',
             $infra: './src/shared/infra',
             $constants: './src/shared/constants',
+            $config: './src/shared/config',
             $theme: './src/shared/theme',
             $assets: './src/shared/assets',
             $views: './src/shared/views',

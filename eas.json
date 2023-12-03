@@ -14,7 +14,10 @@
         "cocoapods": "1.12.0"
       },
       "env": {
-        "APP_ENV": "dev"
+        "APP_ENV": "dev",
+        "SENTRY_ORG": "psychomapp",
+        "SENTRY_PROJECT": "mobile",
+        "SENTRY_AUTH_TOKEN": "40ab974ebf78475f96451f353da3951c086cb18619cd4377bd79f5de3b1dd120"
       },
       "cache": {
         "key": "2"
@@ -27,7 +30,10 @@
         "buildType": "apk"
       },
       "env": {
-        "APP_ENV": "staging"
+        "APP_ENV": "staging",
+        "SENTRY_ORG": "psychomapp",
+        "SENTRY_PROJECT": "mobile",
+        "SENTRY_AUTH_TOKEN": "40ab974ebf78475f96451f353da3951c086cb18619cd4377bd79f5de3b1dd120"
       },
       "ios": {
         "cocoapods": "1.12.0"
@@ -39,7 +45,10 @@
     "production": {
       "channel": "production",
       "env": {
-        "APP_ENV": "production"
+        "APP_ENV": "production",
+        "SENTRY_ORG": "psychomapp",
+        "SENTRY_PROJECT": "mobile",
+        "SENTRY_AUTH_TOKEN": "40ab974ebf78475f96451f353da3951c086cb18619cd4377bd79f5de3b1dd120"
       },
       "ios": {
         "cocoapods": "1.12.0"
