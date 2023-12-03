@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Image renders with contain 1`] = `
+<ViewManagerAdapter_ExpoImage
+  className="h-[150]"
+  contentFit="contain"
+  contentPosition={
+    {
+      "left": "50%",
+      "top": "50%",
+    }
+  }
+  onError={[Function]}
+  onLoad={[Function]}
+  onLoadStart={[Function]}
+  onProgress={[Function]}
+  placeholder={[]}
+  source={[]}
+  style={{}}
+  transition={null}
+/>
+`;
+
+exports[`Image renders with cover 1`] = `
+<ViewManagerAdapter_ExpoImage
+  className="h-[150]"
+  contentFit="cover"
+  contentPosition={
+    {
+      "left": "50%",
+      "top": "50%",
+    }
+  }
+  onError={[Function]}
+  onLoad={[Function]}
+  onLoadStart={[Function]}
+  onProgress={[Function]}
+  placeholder={[]}
+  source={[]}
+  style={{}}
+  transition={null}
+/>
+`;
+
+exports[`RatioImage renders correctly 1`] = `
+<ViewManagerAdapter_ExpoImage
+  contentFit="cover"
+  contentPosition={
+    {
+      "left": "50%",
+      "top": "50%",
+    }
+  }
+  onError={[Function]}
+  onLoad={[Function]}
+  onLoadStart={[Function]}
+  onProgress={[Function]}
+  placeholder={[]}
+  source={[]}
+  style={{}}
+  transition={null}
+/>
+`;

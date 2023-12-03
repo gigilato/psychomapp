@@ -1,5 +1,6 @@
 module.exports = {
   root: true,
+  env: { node: true },
   extends: ['universe/native', 'prettier'],
   plugins: ['prettier', 'jest', 'testing-library'],
   rules: {

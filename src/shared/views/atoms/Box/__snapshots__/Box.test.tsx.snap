@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Box renders correctly 1`] = `
+<View>
+  <View>
+    <View />
+    <View />
+    <View />
+  </View>
+</View>
+`;
+
+exports[`Center renders correctly 1`] = `<View />`;
+
+exports[`Screen renders correctly 1`] = `<View />`;

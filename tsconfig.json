@@ -1,6 +1,26 @@
 {
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
-    "strict": true
+    "strict": true,
+    "paths": {
+      "$atoms": ["./src/shared/views/atoms"],
+      "$atoms/*": ["./src/shared/views/atoms/*"],
+      "$molecules": ["./src/shared/views/molecules"],
+      "$molecules/*": ["./src/shared/views/molecules/*"],
+      "$organisms": ["./src/shared/views/organisms"],
+      "$organisms/*": ["./src/shared/views/organisms/*"],
+      "$forms": ["./src/shared/views/forms"],
+      "$forms/*": ["./src/shared/views/forms/*"],
+      "$libs/*": ["./src/shared/libs/*"],
+      "$infra/*": ["./src/shared/infra/*"],
+      "$constants/*": ["./src/shared/constants/*"],
+      "$assets/*": ["./src/shared/assets/*"],
+      "$theme": ["./src/shared/theme"],
+      "$views/*": ["./src/shared/views/*"],
+      "$types/*": ["./src/shared/types/*"],
+      "$features/*": ["./src/features/*"],
+      "$shared/*": ["./src/shared/*"],
+      "$app/*": ["./src/app/*"]
+    }
   }
 }
