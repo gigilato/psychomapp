@@ -23,6 +23,14 @@ export const captureException = (exception: unknown) =>
     ? Sentry.Browser.captureException(exception)
     : Sentry.Native.captureException(exception)
 
+export const setUser = (userId: string) =>
+  Platform.OS === 'web'
+    ? Sentry.Browser.setUser({ id: userId })
+    : Sentry.Native.setUser({ id: userId })
+
+export const clearUser = () =>
+  Platform.OS === 'web' ? Sentry.Browser.setUser(null) : Sentry.Native.setUser(null)
+
 export const logScreen = (screen: string, properties?: Record<string, string | undefined>) =>
   addBreadcrumb({
     category: 'navigation',

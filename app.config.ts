@@ -58,6 +58,7 @@ export default ({ config }: ConfigContext): ExpoConfig => {
     plugins: [
       'sentry-expo',
       ['expo-build-properties', { ios: { useFrameworks: 'static', deploymentTarget: '13.0' } }],
+      '@react-native-firebase/app',
     ],
   }
 }

@@ -5,6 +5,7 @@ import { loadFontsAsync } from '$assets/fonts'
 import { loadIconsAsync } from '$assets/icons'
 import { loadImagesAsync } from '$assets/images'
 import * as crashlytics from '$infra/crashlytics'
+import * as remoteConfig from '$infra/remoteConfig'
 
 export const useAppLoading = () => {
   const [isLoadingComplete, setLoadingComplete] = useState(false)
@@ -15,6 +16,7 @@ export const useAppLoading = () => {
       await loadImagesAsync()
       await loadIconsAsync()
       crashlytics.init()
+      await remoteConfig.init()
     } catch (e) {
       console.warn(e)
     } finally {
