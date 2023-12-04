@@ -1,8 +1,7 @@
 import { Asset } from 'expo-asset'
 
 export const images = {
-  icon: require('./icon.png'),
-  splash: require('./splash.png'),
+  logo: require('./logo.png'),
 }
 
 export const loadImagesAsync = () => Asset.loadAsync(Object.values(images))

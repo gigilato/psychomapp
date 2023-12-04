@@ -52,20 +52,27 @@ exports[`Image renders with cover 1`] = `
 
 exports[`RatioImage renders correctly 1`] = `
 <ViewManagerAdapter_ExpoImage
-  contentFit="cover"
+  contentFit="contain"
   contentPosition={
     {
       "left": "50%",
       "top": "50%",
     }
   }
+  height={100}
   onError={[Function]}
   onLoad={[Function]}
   onLoadStart={[Function]}
   onProgress={[Function]}
   placeholder={[]}
   source={[]}
-  style={{}}
+  style={
+    {
+      "height": 100,
+      "width": 100,
+    }
+  }
   transition={null}
+  width={100}
 />
 `;

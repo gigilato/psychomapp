@@ -39,7 +39,11 @@ export const TextInput = memo<ITextInputProps>(
 
       return (
         <Box className={className}>
-          {label ? <Text className={clsx('mb-xs', textColor)}>{label}</Text> : null}
+          {label ? (
+            <Text variant="boldBody" className={clsx('mb-xs', textColor)}>
+              {label}
+            </Text>
+          ) : null}
           <HStack
             className={clsx(
               'items-center rounded-s py-s border-[1px] bg-white overflow-hidden',

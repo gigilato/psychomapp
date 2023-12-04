@@ -13,6 +13,7 @@
       "$forms/*": ["./src/shared/views/forms/*"],
       "$libs/*": ["./src/shared/libs/*"],
       "$infra/*": ["./src/shared/infra/*"],
+      "$app/*": ["./src/shared/app/*"],
       "$constants/*": ["./src/shared/constants/*"],
       "$config": ["./src/shared/config"],
       "$assets/*": ["./src/shared/assets/*"],
@@ -21,7 +22,6 @@
       "$types/*": ["./src/shared/types/*"],
       "$features/*": ["./src/features/*"],
       "$shared/*": ["./src/shared/*"],
-      "$app/*": ["./src/app/*"]
     }
   }
 }

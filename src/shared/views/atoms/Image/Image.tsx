@@ -16,7 +16,7 @@ const RatioImage = memo<IImageProps>(({ source, width, height, style, ...props }
 })
 
 export const Image = ({ width, height, ...props }: IImageProps) => {
-  if (width && height) return <RatioImage width={width} height={height} {...props} />
+  if (width || height) return <RatioImage width={width} height={height} {...props} />
 
   return <DefaultImage {...props} />
 }
