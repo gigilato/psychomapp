@@ -5,7 +5,7 @@ import { SafeAreaProvider } from 'react-native-safe-area-context'
 
 import { Screen } from '$atoms'
 import { EmailInput, PasswordInput } from '$forms'
-import { Button } from '$molecules'
+import { Button, PressableText } from '$molecules'
 
 import { useAppLoading } from './infra/appLoading'
 
@@ -34,7 +34,10 @@ const AppContent = () => {
             placeholder="Votre mot de passe"
             ref={passwordRef}
           />
-          <Button ID="SignIn" title="Se connecter" className="mt-l" />
+          <PressableText variant="link" ID="forgotPassword" className="mt-s self-end">
+            Mot de passe oublié ?
+          </PressableText>
+          <Button ID="SignIn" title="Se connecter" className="mt-xl" />
         </Screen>
       ) : (
         <LoadingScreen />

@@ -9,6 +9,7 @@ export type TextVariant =
   | 'boldBody'
   // action
   | 'button'
+  | 'link'
 
 export interface ITextProps extends Omit<TextProps, 'textTransform'> {
   textTransform?: TextTransform
