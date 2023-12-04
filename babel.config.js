@@ -28,6 +28,7 @@ module.exports = function (api) {
         },
       ],
       ['nativewind/babel', { mode: 'compileOnly' }],
+      'expo-router/babel',
       'react-native-reanimated/plugin',
     ],
   }

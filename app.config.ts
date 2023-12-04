@@ -40,6 +40,7 @@ export default ({ config }: ConfigContext): ExpoConfig => {
     },
     web: {
       favicon: './assets/favicon.png',
+      bundler: 'metro',
     },
     extra: {
       eas: { projectId: '3b9b3761-b746-4bce-b3f2-f32fefb45c93' },
@@ -59,6 +60,7 @@ export default ({ config }: ConfigContext): ExpoConfig => {
       'sentry-expo',
       ['expo-build-properties', { ios: { useFrameworks: 'static', deploymentTarget: '13.0' } }],
       '@react-native-firebase/app',
+      'expo-router',
     ],
   }
 }

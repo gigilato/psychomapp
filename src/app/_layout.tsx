@@ -1,11 +1,16 @@
-import { registerRootComponent } from 'expo'
+import { Slot } from 'expo-router'
 import * as SplashScreen from 'expo-splash-screen'
 import { LogBox } from 'react-native'
 import 'react-native-url-polyfill/auto'
-
-import { App } from './src/app/App'
+import { SafeAreaProvider } from 'react-native-safe-area-context'
 
 LogBox.ignoreLogs(['EventEmitter.removeListener', 'new NativeEventEmitter'])
 SplashScreen.preventAutoHideAsync()
 
-registerRootComponent(App)
+export default function AppLayout() {
+  return (
+    <SafeAreaProvider>
+      <Slot />
+    </SafeAreaProvider>
+  )
+}
