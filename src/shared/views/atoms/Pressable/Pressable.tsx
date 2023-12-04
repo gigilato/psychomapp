@@ -1,4 +1,3 @@
-import React from 'react'
 import { Pressable as PressableDefault } from 'react-native'
 import Animated from 'react-native-reanimated'
 
@@ -12,8 +11,8 @@ export const Pressable = ({ style, ID, ...props }: IPressableProps) => {
   return (
     <AnimatedPressable
       testID={ID}
-      style={[animatedStyle, style]}
       {...props}
+      style={[animatedStyle, style]}
       onPressIn={onPressIn}
       onPressOut={onPressOut}
       onPress={onPress}

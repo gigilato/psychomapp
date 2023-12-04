@@ -8,7 +8,7 @@ const { sentry, env } = config
 export const init = () =>
   Sentry.init({
     dsn: sentry.dns,
-    enableInExpoDevelopment: true,
+    enableInExpoDevelopment: false,
     enableNative: false,
     debug: env !== 'production',
   })

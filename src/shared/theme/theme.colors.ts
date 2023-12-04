@@ -1,10 +1,13 @@
 export const colors = {
-  white: '#E9EEF3',
-  black: '#171A20',
+  white: '#FFFFFF',
+  black: '#000000',
+  light: '#E9EEF3',
+  dark: '#171A20',
   transparent: 'transparent',
   warning: '#FF923B',
   success: '#228C59',
   danger: '#AE3232',
+  disabled: '#E1DCDC',
   grey: {
     classic: '#3F434A',
     strong: '#868383',

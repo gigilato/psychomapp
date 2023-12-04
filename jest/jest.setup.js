@@ -37,15 +37,24 @@ jest.mock('$atoms/Image/Image.lib', () => ({
 
 jest.mock('react-native-safe-area-context', () => mockSafeAreaContext)
 
-// jest.mock('@react-native-firebase/remote-config', () => ({
-//   __esModule: true,
-//   default: () => ({
-//     setDefaults: jest.fn(),
-//     getString: jest.fn(),
-//     getBoolean: jest.fn(),
-//     getNumber: jest.fn(),
-//   }),
-// }))
+jest.mock('@react-native-firebase/remote-config', () => ({
+  __esModule: true,
+  default: () => ({
+    setDefaults: jest.fn(),
+    getString: jest.fn(),
+    getBoolean: jest.fn(),
+    getNumber: jest.fn(),
+  }),
+}))
+
+jest.mock('@react-native-firebase/analytics', () => ({
+  __esModule: true,
+  default: () => ({
+    logEvent: jest.fn(),
+    setUserProperty: jest.fn(),
+    setUserId: jest.fn(),
+  }),
+}))
 
 // jest.mock('@shopify/react-native-skia', () => {
 //   const { View } = require('react-native')

@@ -10,6 +10,8 @@ export const textVariants: Record<TextVariant, string> = {
   // Body
   body: 'font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]',
   boldBody: 'font-[SpaceGrotesk-Medium] text-[14px] leading-[18px]',
+  // action
+  button: 'font-[SpaceGrotesk-Bold] text-[16px] classic',
 }
 
 export const getContent = (children: ReactNode, textTransform?: TextTransform) => {

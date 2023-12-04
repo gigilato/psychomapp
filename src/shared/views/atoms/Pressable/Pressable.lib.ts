@@ -2,7 +2,7 @@ import { useCallback, useMemo } from 'react'
 import { GestureResponderEvent } from 'react-native'
 import { useAnimatedStyle, useSharedValue, withTiming, interpolate } from 'react-native-reanimated'
 
-// import * as analytics from '$infra/analytics'
+import * as analytics from '$infra/analytics'
 
 import { IPressableProps } from './Pressable.props'
 
@@ -14,6 +14,8 @@ export const usePressable = ({
   animationOpacity = 0.7,
   animationScale = 0.98,
   animationDuration = 300,
+  event,
+  eventProperties,
 }: Omit<IPressableProps, 'ID'>) => {
   const transition = useSharedValue(0)
   const animationConfig = useMemo(() => ({ duration: animationDuration }), [animationDuration])
@@ -36,9 +38,9 @@ export const usePressable = ({
   const handlePress = useCallback(
     (gestureEvent: GestureResponderEvent) => {
       onPress?.(gestureEvent)
-      // if (event) analytics.logEvent(event, eventProperties)
+      if (event) analytics.logEvent(event, eventProperties)
     },
-    [onPress]
+    [event, eventProperties, onPress]
   )
 
   const animatedStyle = useAnimatedStyle(() => {

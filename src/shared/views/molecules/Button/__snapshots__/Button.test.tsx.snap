@@ -1,0 +1,876 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button renders correctly 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  animation="scale"
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "transform": [
+        {
+          "scale": undefined,
+        },
+      ],
+    }
+  }
+  testID=""
+>
+  <Text>
+    Title
+  </Text>
+</View>
+`;
+
+exports[`Button renders disabled correctly 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": true,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  animation="none"
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={{}}
+  testID=""
+>
+  <Text>
+    Title
+  </Text>
+</View>
+`;
+
+exports[`Button renders error correctly 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  animation="scale"
+  animationOpacity={0.2}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "transform": [
+        {
+          "scale": undefined,
+        },
+      ],
+    }
+  }
+  testID=""
+>
+  <Text>
+    Title
+  </Text>
+</View>
+`;
+
+exports[`Button renders icon left correctly 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  animation="scale"
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "transform": [
+        {
+          "scale": undefined,
+        },
+      ],
+    }
+  }
+  testID=""
+>
+  <Text
+    allowFontScaling={false}
+    selectable={false}
+    style={
+      {
+        "color": undefined,
+        "fontFamily": "IcoMoon",
+        "fontSize": 24,
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+      }
+    }
+  >
+    
+  </Text>
+  <Text>
+    Title
+  </Text>
+</View>
+`;
+
+exports[`Button renders icon left disabled correctly 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": true,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  animation="none"
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={{}}
+  testID=""
+>
+  <Text
+    allowFontScaling={false}
+    selectable={false}
+    style={
+      {
+        "color": undefined,
+        "fontFamily": "IcoMoon",
+        "fontSize": 24,
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+      }
+    }
+  >
+    
+  </Text>
+  <Text>
+    Title
+  </Text>
+</View>
+`;
+
+exports[`Button renders icon left error correctly 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  animation="scale"
+  animationOpacity={0.2}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "transform": [
+        {
+          "scale": undefined,
+        },
+      ],
+    }
+  }
+  testID=""
+>
+  <Text
+    allowFontScaling={false}
+    selectable={false}
+    style={
+      {
+        "color": undefined,
+        "fontFamily": "IcoMoon",
+        "fontSize": 24,
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+      }
+    }
+  >
+    
+  </Text>
+  <Text>
+    Title
+  </Text>
+</View>
+`;
+
+exports[`Button renders icon right correctly 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  animation="scale"
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "transform": [
+        {
+          "scale": undefined,
+        },
+      ],
+    }
+  }
+  testID=""
+>
+  <Text>
+    Title
+  </Text>
+  <Text />
+</View>
+`;
+
+exports[`Button renders icon right disabled correctly 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": true,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  animation="none"
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={{}}
+  testID=""
+>
+  <Text>
+    Title
+  </Text>
+  <Text
+    allowFontScaling={false}
+    selectable={false}
+    style={
+      {
+        "color": undefined,
+        "fontFamily": "IcoMoon",
+        "fontSize": 24,
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+      }
+    }
+  >
+    
+  </Text>
+</View>
+`;
+
+exports[`Button renders icon right error correctly 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  animation="scale"
+  animationOpacity={0.2}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "transform": [
+        {
+          "scale": undefined,
+        },
+      ],
+    }
+  }
+  testID=""
+>
+  <Text>
+    Title
+  </Text>
+  <Text
+    allowFontScaling={false}
+    selectable={false}
+    style={
+      {
+        "color": undefined,
+        "fontFamily": "IcoMoon",
+        "fontSize": 24,
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+      }
+    }
+  >
+    
+  </Text>
+</View>
+`;
+
+exports[`Button renders loading correctly 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": true,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  animation="scale"
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "transform": [
+        {
+          "scale": undefined,
+        },
+      ],
+    }
+  }
+  testID=""
+>
+  <ActivityIndicator
+    color="white"
+  />
+</View>
+`;
+
+exports[`IconButton renders correctly 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  animation="scale"
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "transform": [
+        {
+          "scale": undefined,
+        },
+      ],
+    }
+  }
+  testID=""
+>
+  <Text
+    allowFontScaling={false}
+    selectable={false}
+    style={
+      {
+        "color": undefined,
+        "fontFamily": "IcoMoon",
+        "fontSize": 24,
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+      }
+    }
+  >
+    
+  </Text>
+</View>
+`;
+
+exports[`IconButton renders disabled correctly 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": true,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  animation="none"
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={{}}
+  testID=""
+>
+  <Text
+    allowFontScaling={false}
+    selectable={false}
+    style={
+      {
+        "color": undefined,
+        "fontFamily": "IcoMoon",
+        "fontSize": 24,
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+      }
+    }
+  >
+    
+  </Text>
+</View>
+`;
+
+exports[`IconButton renders error correctly 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  animation="scale"
+  animationOpacity={0.2}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "transform": [
+        {
+          "scale": undefined,
+        },
+      ],
+    }
+  }
+  testID=""
+>
+  <Text
+    allowFontScaling={false}
+    selectable={false}
+    style={
+      {
+        "color": undefined,
+        "fontFamily": "IcoMoon",
+        "fontSize": 24,
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+      }
+    }
+  >
+    
+  </Text>
+</View>
+`;
+
+exports[`IconButton renders loading correctly 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": true,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  animation="scale"
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "transform": [
+        {
+          "scale": undefined,
+        },
+      ],
+    }
+  }
+  testID=""
+>
+  <ActivityIndicator
+    color="white"
+  />
+</View>
+`;
+
+exports[`PressableIcon renders correctly 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  hitSlop={5}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "opacity": undefined,
+    }
+  }
+  testID="test"
+>
+  <Text
+    allowFontScaling={false}
+    selectable={false}
+    style={
+      {
+        "color": undefined,
+        "fontFamily": "IcoMoon",
+        "fontSize": 24,
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+      }
+    }
+  >
+    
+  </Text>
+</View>
+`;
+
+exports[`PressableText renders correctly 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  hitSlop={5}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    [
+      {
+        "opacity": undefined,
+      },
+      undefined,
+    ]
+  }
+  testID="test"
+>
+  <Text>
+    text
+  </Text>
+</View>
+`;
