@@ -4,6 +4,7 @@ import { TextInput as RNTextInput } from 'react-native'
 
 import { Box, HStack, Text, textVariants } from '$atoms'
 import { PressableIcon } from '$molecules/Button'
+import { colors } from '$theme'
 
 import { useTextInput } from './TextInput.lib'
 import { ITextInputProps } from './TextInput.props'
@@ -53,24 +54,25 @@ export const TextInput = memo<ITextInputProps>(
                 iconClassName={clsx('ml-xs', textColor, iconLeftClassName)}
               />
             )}
-            <RNTextInput
-              testID={ID}
-              ref={innerRef}
-              className={clsx(
-                'flex-1 pr-[52px] px-s text-[16px] leading-[20px]',
-                textVariants.body
-              )}
-              keyboardType="default"
-              autoCapitalize="none"
-              {...inputProps}
-              {...props}
-            />
+            <Box className="flex-1 px-s ">
+              <RNTextInput
+                testID={ID}
+                ref={innerRef}
+                className={clsx('text-[16px] leading-[20px]', textVariants.body)}
+                keyboardType="default"
+                autoCapitalize="none"
+                cursorColor={colors.primary.classic}
+                selectionColor={colors.primary.classic}
+                {...inputProps}
+                {...props}
+              />
+            </Box>
             {(iconRight || props.value !== '') && (
               <PressableIcon
                 ID={`${ID}/RightIcon`}
                 onPress={onPressIconRight ? onPressIconRight : clearInput}
                 icon={iconRight ?? 'cross'}
-                iconClassName={clsx('mr-xs', textColor, 'text-danger', iconRightClassName)}
+                iconClassName={clsx('mr-xs', textColor, iconRightClassName)}
               />
             )}
           </HStack>
@@ -81,26 +83,30 @@ export const TextInput = memo<ITextInputProps>(
   )
 )
 
-export const EmailInput = (props: ITextInputProps) => (
+export const EmailInput = forwardRef<RNTextInput, ITextInputProps>((props, ref) => (
   <TextInput
+    ref={ref}
     keyboardType="email-address"
     autoComplete="email"
     iconRight={props.value === '' ? 'envelope' : undefined}
     {...props}
   />
+))
+
+export const PasswordInput = forwardRef<RNTextInput, ITextInputProps>(
+  ({ iconRight, ...props }, ref) => {
+    const [isPasswordVisible, setIsPasswordVisible] = useState(false)
+
+    return (
+      <TextInput
+        ref={ref}
+        textContentType="password"
+        autoComplete="password"
+        secureTextEntry={!isPasswordVisible}
+        iconRight={props.value === '' ? 'lock' : isPasswordVisible ? 'eye-barred' : 'eye'}
+        onPressIconRight={() => setIsPasswordVisible(!isPasswordVisible)}
+        {...props}
+      />
+    )
+  }
 )
-
-export const PasswordInput = ({ iconRight, ...props }: ITextInputProps) => {
-  const [isPasswordVisible, setIsPasswordVisible] = useState(false)
-
-  return (
-    <TextInput
-      textContentType="password"
-      autoComplete="password"
-      secureTextEntry={!isPasswordVisible}
-      iconRight={props.value === '' ? 'lock' : isPasswordVisible ? 'eye-barred' : 'eye'}
-      onPressIconRight={() => setIsPasswordVisible(!isPasswordVisible)}
-      {...props}
-    />
-  )
-}

@@ -30,5 +30,5 @@ class CenterComponent extends Component<IBoxProps> {
 export const AnimatedCenter = Animated.createAnimatedComponent(CenterComponent)
 
 export const Screen = ({ className, ...props }: IBoxProps) => (
-  <Box className={clsx('flex-1', className)} {...props} />
+  <Box className={clsx('flex-1 bg-light', className)} {...props} />
 )

@@ -42,15 +42,33 @@ exports[`EmailInput renders correctly 1`] = `
       ]
     }
   >
-    <TextInput
-      autoCapitalize="none"
-      autoComplete="email"
-      className="flex-1 pr-[52px] px-s text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
-      keyboardType="email-address"
-      onBlur={[Function]}
-      onFocus={[Function]}
-      testID="test"
-    />
+    <View
+      style={
+        [
+          {
+            "flexBasis": "0%",
+            "flexGrow": 1,
+            "flexShrink": 1,
+          },
+          {
+            "paddingLeft": 12,
+            "paddingRight": 12,
+          },
+        ]
+      }
+    >
+      <TextInput
+        autoCapitalize="none"
+        autoComplete="email"
+        className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
+        cursorColor="#6C464F"
+        keyboardType="email-address"
+        onBlur={[Function]}
+        onFocus={[Function]}
+        selectionColor="#6C464F"
+        testID="test"
+      />
+    </View>
     <View
       accessibilityState={
         {
@@ -109,9 +127,6 @@ exports[`EmailInput renders correctly 1`] = `
               },
               {
                 "color": "#3F434A",
-              },
-              {
-                "color": "#AE3232",
               },
             ],
             {
@@ -172,16 +187,34 @@ exports[`EmailInput renders correctly with value 1`] = `
       ]
     }
   >
-    <TextInput
-      autoCapitalize="none"
-      autoComplete="email"
-      className="flex-1 pr-[52px] px-s text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
-      keyboardType="email-address"
-      onBlur={[Function]}
-      onFocus={[Function]}
-      testID="test"
-      value="test"
-    />
+    <View
+      style={
+        [
+          {
+            "flexBasis": "0%",
+            "flexGrow": 1,
+            "flexShrink": 1,
+          },
+          {
+            "paddingLeft": 12,
+            "paddingRight": 12,
+          },
+        ]
+      }
+    >
+      <TextInput
+        autoCapitalize="none"
+        autoComplete="email"
+        className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
+        cursorColor="#6C464F"
+        keyboardType="email-address"
+        onBlur={[Function]}
+        onFocus={[Function]}
+        selectionColor="#6C464F"
+        testID="test"
+        value="test"
+      />
+    </View>
     <View
       accessibilityState={
         {
@@ -240,9 +273,6 @@ exports[`EmailInput renders correctly with value 1`] = `
               },
               {
                 "color": "#3F434A",
-              },
-              {
-                "color": "#AE3232",
               },
             ],
             {
@@ -303,17 +333,35 @@ exports[`PasswordInput renders correctly 1`] = `
       ]
     }
   >
-    <TextInput
-      autoCapitalize="none"
-      autoComplete="password"
-      className="flex-1 pr-[52px] px-s text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
-      keyboardType="default"
-      onBlur={[Function]}
-      onFocus={[Function]}
-      secureTextEntry={true}
-      testID="test"
-      textContentType="password"
-    />
+    <View
+      style={
+        [
+          {
+            "flexBasis": "0%",
+            "flexGrow": 1,
+            "flexShrink": 1,
+          },
+          {
+            "paddingLeft": 12,
+            "paddingRight": 12,
+          },
+        ]
+      }
+    >
+      <TextInput
+        autoCapitalize="none"
+        autoComplete="password"
+        className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
+        cursorColor="#6C464F"
+        keyboardType="default"
+        onBlur={[Function]}
+        onFocus={[Function]}
+        secureTextEntry={true}
+        selectionColor="#6C464F"
+        testID="test"
+        textContentType="password"
+      />
+    </View>
     <View
       accessibilityState={
         {
@@ -372,9 +420,6 @@ exports[`PasswordInput renders correctly 1`] = `
               },
               {
                 "color": "#3F434A",
-              },
-              {
-                "color": "#AE3232",
               },
             ],
             {
@@ -435,18 +480,36 @@ exports[`PasswordInput renders correctly with value 1`] = `
       ]
     }
   >
-    <TextInput
-      autoCapitalize="none"
-      autoComplete="password"
-      className="flex-1 pr-[52px] px-s text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
-      keyboardType="default"
-      onBlur={[Function]}
-      onFocus={[Function]}
-      secureTextEntry={true}
-      testID="test"
-      textContentType="password"
-      value="test"
-    />
+    <View
+      style={
+        [
+          {
+            "flexBasis": "0%",
+            "flexGrow": 1,
+            "flexShrink": 1,
+          },
+          {
+            "paddingLeft": 12,
+            "paddingRight": 12,
+          },
+        ]
+      }
+    >
+      <TextInput
+        autoCapitalize="none"
+        autoComplete="password"
+        className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
+        cursorColor="#6C464F"
+        keyboardType="default"
+        onBlur={[Function]}
+        onFocus={[Function]}
+        secureTextEntry={true}
+        selectionColor="#6C464F"
+        testID="test"
+        textContentType="password"
+        value="test"
+      />
+    </View>
     <View
       accessibilityState={
         {
@@ -505,9 +568,6 @@ exports[`PasswordInput renders correctly with value 1`] = `
               },
               {
                 "color": "#3F434A",
-              },
-              {
-                "color": "#AE3232",
               },
             ],
             {
@@ -568,18 +628,36 @@ exports[`PasswordInput shows password on icon press 1`] = `
       ]
     }
   >
-    <TextInput
-      autoCapitalize="none"
-      autoComplete="password"
-      className="flex-1 pr-[52px] px-s text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
-      keyboardType="default"
-      onBlur={[Function]}
-      onFocus={[Function]}
-      secureTextEntry={false}
-      testID="test"
-      textContentType="password"
-      value="test"
-    />
+    <View
+      style={
+        [
+          {
+            "flexBasis": "0%",
+            "flexGrow": 1,
+            "flexShrink": 1,
+          },
+          {
+            "paddingLeft": 12,
+            "paddingRight": 12,
+          },
+        ]
+      }
+    >
+      <TextInput
+        autoCapitalize="none"
+        autoComplete="password"
+        className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
+        cursorColor="#6C464F"
+        keyboardType="default"
+        onBlur={[Function]}
+        onFocus={[Function]}
+        secureTextEntry={false}
+        selectionColor="#6C464F"
+        testID="test"
+        textContentType="password"
+        value="test"
+      />
+    </View>
     <View
       accessibilityState={
         {
@@ -638,9 +716,6 @@ exports[`PasswordInput shows password on icon press 1`] = `
               },
               {
                 "color": "#3F434A",
-              },
-              {
-                "color": "#AE3232",
               },
             ],
             {
@@ -701,18 +776,36 @@ exports[`PasswordInput shows password on icon press 2`] = `
       ]
     }
   >
-    <TextInput
-      autoCapitalize="none"
-      autoComplete="password"
-      className="flex-1 pr-[52px] px-s text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
-      keyboardType="default"
-      onBlur={[Function]}
-      onFocus={[Function]}
-      secureTextEntry={true}
-      testID="test"
-      textContentType="password"
-      value="test"
-    />
+    <View
+      style={
+        [
+          {
+            "flexBasis": "0%",
+            "flexGrow": 1,
+            "flexShrink": 1,
+          },
+          {
+            "paddingLeft": 12,
+            "paddingRight": 12,
+          },
+        ]
+      }
+    >
+      <TextInput
+        autoCapitalize="none"
+        autoComplete="password"
+        className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
+        cursorColor="#6C464F"
+        keyboardType="default"
+        onBlur={[Function]}
+        onFocus={[Function]}
+        secureTextEntry={true}
+        selectionColor="#6C464F"
+        testID="test"
+        textContentType="password"
+        value="test"
+      />
+    </View>
     <View
       accessibilityState={
         {
@@ -771,9 +864,6 @@ exports[`PasswordInput shows password on icon press 2`] = `
               },
               {
                 "color": "#3F434A",
-              },
-              {
-                "color": "#AE3232",
               },
             ],
             {
@@ -834,14 +924,32 @@ exports[`TextInput renders correctly 1`] = `
       ]
     }
   >
-    <TextInput
-      autoCapitalize="none"
-      className="flex-1 pr-[52px] px-s text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
-      keyboardType="default"
-      onBlur={[Function]}
-      onFocus={[Function]}
-      testID="test"
-    />
+    <View
+      style={
+        [
+          {
+            "flexBasis": "0%",
+            "flexGrow": 1,
+            "flexShrink": 1,
+          },
+          {
+            "paddingLeft": 12,
+            "paddingRight": 12,
+          },
+        ]
+      }
+    >
+      <TextInput
+        autoCapitalize="none"
+        className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
+        cursorColor="#6C464F"
+        keyboardType="default"
+        onBlur={[Function]}
+        onFocus={[Function]}
+        selectionColor="#6C464F"
+        testID="test"
+      />
+    </View>
     <View
       accessibilityState={
         {
@@ -933,15 +1041,33 @@ exports[`TextInput renders correctly with value 1`] = `
       ]
     }
   >
-    <TextInput
-      autoCapitalize="none"
-      className="flex-1 pr-[52px] px-s text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
-      keyboardType="default"
-      onBlur={[Function]}
-      onFocus={[Function]}
-      testID="test"
-      value="test"
-    />
+    <View
+      style={
+        [
+          {
+            "flexBasis": "0%",
+            "flexGrow": 1,
+            "flexShrink": 1,
+          },
+          {
+            "paddingLeft": 12,
+            "paddingRight": 12,
+          },
+        ]
+      }
+    >
+      <TextInput
+        autoCapitalize="none"
+        className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
+        cursorColor="#6C464F"
+        keyboardType="default"
+        onBlur={[Function]}
+        onFocus={[Function]}
+        selectionColor="#6C464F"
+        testID="test"
+        value="test"
+      />
+    </View>
     <View
       accessibilityState={
         {
@@ -1000,9 +1126,6 @@ exports[`TextInput renders correctly with value 1`] = `
               },
               {
                 "color": "#3F434A",
-              },
-              {
-                "color": "#AE3232",
               },
             ],
             {
@@ -1063,14 +1186,32 @@ exports[`TextInput renders error correctly 1`] = `
       ]
     }
   >
-    <TextInput
-      autoCapitalize="none"
-      className="flex-1 pr-[52px] px-s text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
-      keyboardType="default"
-      onBlur={[Function]}
-      onFocus={[Function]}
-      testID="test"
-    />
+    <View
+      style={
+        [
+          {
+            "flexBasis": "0%",
+            "flexGrow": 1,
+            "flexShrink": 1,
+          },
+          {
+            "paddingLeft": 12,
+            "paddingRight": 12,
+          },
+        ]
+      }
+    >
+      <TextInput
+        autoCapitalize="none"
+        className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
+        cursorColor="#6C464F"
+        keyboardType="default"
+        onBlur={[Function]}
+        onFocus={[Function]}
+        selectionColor="#6C464F"
+        testID="test"
+      />
+    </View>
     <View
       accessibilityState={
         {
@@ -1126,9 +1267,6 @@ exports[`TextInput renders error correctly 1`] = `
             [
               {
                 "marginRight": 8,
-              },
-              {
-                "color": "#AE3232",
               },
               {
                 "color": "#AE3232",
@@ -1287,14 +1425,32 @@ exports[`TextInput renders icon left correctly 1`] = `
         
       </Text>
     </View>
-    <TextInput
-      autoCapitalize="none"
-      className="flex-1 pr-[52px] px-s text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
-      keyboardType="default"
-      onBlur={[Function]}
-      onFocus={[Function]}
-      testID="test"
-    />
+    <View
+      style={
+        [
+          {
+            "flexBasis": "0%",
+            "flexGrow": 1,
+            "flexShrink": 1,
+          },
+          {
+            "paddingLeft": 12,
+            "paddingRight": 12,
+          },
+        ]
+      }
+    >
+      <TextInput
+        autoCapitalize="none"
+        className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
+        cursorColor="#6C464F"
+        keyboardType="default"
+        onBlur={[Function]}
+        onFocus={[Function]}
+        selectionColor="#6C464F"
+        testID="test"
+      />
+    </View>
     <View
       accessibilityState={
         {
@@ -1353,9 +1509,6 @@ exports[`TextInput renders icon left correctly 1`] = `
               },
               {
                 "color": "#3F434A",
-              },
-              {
-                "color": "#AE3232",
               },
             ],
             {
@@ -1488,14 +1641,32 @@ exports[`TextInput renders icon left error correctly 1`] = `
         
       </Text>
     </View>
-    <TextInput
-      autoCapitalize="none"
-      className="flex-1 pr-[52px] px-s text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
-      keyboardType="default"
-      onBlur={[Function]}
-      onFocus={[Function]}
-      testID="test"
-    />
+    <View
+      style={
+        [
+          {
+            "flexBasis": "0%",
+            "flexGrow": 1,
+            "flexShrink": 1,
+          },
+          {
+            "paddingLeft": 12,
+            "paddingRight": 12,
+          },
+        ]
+      }
+    >
+      <TextInput
+        autoCapitalize="none"
+        className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
+        cursorColor="#6C464F"
+        keyboardType="default"
+        onBlur={[Function]}
+        onFocus={[Function]}
+        selectionColor="#6C464F"
+        testID="test"
+      />
+    </View>
     <View
       accessibilityState={
         {
@@ -1551,9 +1722,6 @@ exports[`TextInput renders icon left error correctly 1`] = `
             [
               {
                 "marginRight": 8,
-              },
-              {
-                "color": "#AE3232",
               },
               {
                 "color": "#AE3232",
@@ -1640,14 +1808,32 @@ exports[`TextInput renders icon right correctly 1`] = `
       ]
     }
   >
-    <TextInput
-      autoCapitalize="none"
-      className="flex-1 pr-[52px] px-s text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
-      keyboardType="default"
-      onBlur={[Function]}
-      onFocus={[Function]}
-      testID="test"
-    />
+    <View
+      style={
+        [
+          {
+            "flexBasis": "0%",
+            "flexGrow": 1,
+            "flexShrink": 1,
+          },
+          {
+            "paddingLeft": 12,
+            "paddingRight": 12,
+          },
+        ]
+      }
+    >
+      <TextInput
+        autoCapitalize="none"
+        className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
+        cursorColor="#6C464F"
+        keyboardType="default"
+        onBlur={[Function]}
+        onFocus={[Function]}
+        selectionColor="#6C464F"
+        testID="test"
+      />
+    </View>
     <View
       accessibilityState={
         {
@@ -1706,9 +1892,6 @@ exports[`TextInput renders icon right correctly 1`] = `
               },
               {
                 "color": "#3F434A",
-              },
-              {
-                "color": "#AE3232",
               },
             ],
             {
@@ -1769,14 +1952,32 @@ exports[`TextInput renders icon right error correctly 1`] = `
       ]
     }
   >
-    <TextInput
-      autoCapitalize="none"
-      className="flex-1 pr-[52px] px-s text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
-      keyboardType="default"
-      onBlur={[Function]}
-      onFocus={[Function]}
-      testID="test"
-    />
+    <View
+      style={
+        [
+          {
+            "flexBasis": "0%",
+            "flexGrow": 1,
+            "flexShrink": 1,
+          },
+          {
+            "paddingLeft": 12,
+            "paddingRight": 12,
+          },
+        ]
+      }
+    >
+      <TextInput
+        autoCapitalize="none"
+        className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
+        cursorColor="#6C464F"
+        keyboardType="default"
+        onBlur={[Function]}
+        onFocus={[Function]}
+        selectionColor="#6C464F"
+        testID="test"
+      />
+    </View>
     <View
       accessibilityState={
         {
@@ -1832,9 +2033,6 @@ exports[`TextInput renders icon right error correctly 1`] = `
             [
               {
                 "marginRight": 8,
-              },
-              {
-                "color": "#AE3232",
               },
               {
                 "color": "#AE3232",
@@ -1944,14 +2142,32 @@ exports[`TextInput renders label correctly 1`] = `
       ]
     }
   >
-    <TextInput
-      autoCapitalize="none"
-      className="flex-1 pr-[52px] px-s text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
-      keyboardType="default"
-      onBlur={[Function]}
-      onFocus={[Function]}
-      testID="test"
-    />
+    <View
+      style={
+        [
+          {
+            "flexBasis": "0%",
+            "flexGrow": 1,
+            "flexShrink": 1,
+          },
+          {
+            "paddingLeft": 12,
+            "paddingRight": 12,
+          },
+        ]
+      }
+    >
+      <TextInput
+        autoCapitalize="none"
+        className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
+        cursorColor="#6C464F"
+        keyboardType="default"
+        onBlur={[Function]}
+        onFocus={[Function]}
+        selectionColor="#6C464F"
+        testID="test"
+      />
+    </View>
     <View
       accessibilityState={
         {
@@ -2010,9 +2226,6 @@ exports[`TextInput renders label correctly 1`] = `
               },
               {
                 "color": "#3F434A",
-              },
-              {
-                "color": "#AE3232",
               },
             ],
             {
@@ -2073,15 +2286,33 @@ exports[`TextInput should clear text on icon right press 1`] = `
       ]
     }
   >
-    <TextInput
-      autoCapitalize="none"
-      className="flex-1 pr-[52px] px-s text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
-      keyboardType="default"
-      onBlur={[Function]}
-      onFocus={[Function]}
-      testID="test"
-      value="test"
-    />
+    <View
+      style={
+        [
+          {
+            "flexBasis": "0%",
+            "flexGrow": 1,
+            "flexShrink": 1,
+          },
+          {
+            "paddingLeft": 12,
+            "paddingRight": 12,
+          },
+        ]
+      }
+    >
+      <TextInput
+        autoCapitalize="none"
+        className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
+        cursorColor="#6C464F"
+        keyboardType="default"
+        onBlur={[Function]}
+        onFocus={[Function]}
+        selectionColor="#6C464F"
+        testID="test"
+        value="test"
+      />
+    </View>
     <View
       accessibilityState={
         {
@@ -2140,9 +2371,6 @@ exports[`TextInput should clear text on icon right press 1`] = `
               },
               {
                 "color": "#3F434A",
-              },
-              {
-                "color": "#AE3232",
               },
             ],
             {

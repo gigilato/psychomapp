@@ -1,7 +1,7 @@
 export const colors = {
   white: '#FFFFFF',
   black: '#000000',
-  light: '#E9EEF3',
+  light: '#FFFCF9',
   dark: '#171A20',
   transparent: 'transparent',
   warning: '#FF923B',

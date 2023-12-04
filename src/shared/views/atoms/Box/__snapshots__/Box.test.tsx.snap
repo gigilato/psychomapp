@@ -95,6 +95,9 @@ exports[`Screen renders correctly 1`] = `
         "flexGrow": 1,
         "flexShrink": 1,
       },
+      {
+        "backgroundColor": "#FFFCF9",
+      },
     ]
   }
 />

@@ -14,7 +14,7 @@ export const useTextInput = (
 ) => {
   const [isFocused, setIsFocus] = useState(false)
   const innerRef = useRef<TextInput>(null)
-  useImperativeHandle(ref, () => ({ ...(innerRef as any).current }))
+  useImperativeHandle(ref, () => (innerRef as any).current)
 
   const onFieldFocus = useCallback(
     (e: NativeSyntheticEvent<TextInputFocusEventData>) => {

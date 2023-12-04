@@ -1,8 +1,11 @@
 import { StatusBar } from 'expo-status-bar'
-import { ActivityIndicator } from 'react-native'
+import { useRef } from 'react'
+import { ActivityIndicator, TextInput } from 'react-native'
 import { SafeAreaProvider } from 'react-native-safe-area-context'
 
-import { Screen, Center, Text } from '$atoms'
+import { Screen } from '$atoms'
+import { EmailInput, PasswordInput } from '$forms'
+import { Button } from '$molecules'
 
 import { useAppLoading } from './infra/appLoading'
 
@@ -13,13 +16,26 @@ const LoadingScreen = () => (
 )
 const AppContent = () => {
   const isReady = useAppLoading()
+  const passwordRef = useRef<TextInput>(null)
   return (
     <>
       {isReady ? (
-        <Center className="flex-1">
-          <Text>Open up App.tsx to start working on your app!</Text>
-          <StatusBar style="auto" />
-        </Center>
+        <Screen className="justify-center px-l">
+          <EmailInput
+            ID="signIn/email"
+            label="Email"
+            placeholder="Votre email"
+            onSubmitEditing={() => passwordRef.current?.focus()}
+          />
+          <PasswordInput
+            className="mt-s"
+            ID="signIn/password"
+            label="Mot de passe"
+            placeholder="Votre mot de passe"
+            ref={passwordRef}
+          />
+          <Button ID="SignIn" title="Se connecter" className="mt-l" />
+        </Screen>
       ) : (
         <LoadingScreen />
       )}
