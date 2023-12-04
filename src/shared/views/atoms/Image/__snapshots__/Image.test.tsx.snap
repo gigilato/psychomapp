@@ -2,7 +2,6 @@
 
 exports[`Image renders with contain 1`] = `
 <ViewManagerAdapter_ExpoImage
-  className="h-[150]"
   contentFit="contain"
   contentPosition={
     {
@@ -10,20 +9,24 @@ exports[`Image renders with contain 1`] = `
       "top": "50%",
     }
   }
+  height={150}
   onError={[Function]}
   onLoad={[Function]}
   onLoadStart={[Function]}
   onProgress={[Function]}
   placeholder={[]}
   source={[]}
-  style={{}}
+  style={
+    {
+      "height": 150,
+    }
+  }
   transition={null}
 />
 `;
 
 exports[`Image renders with cover 1`] = `
 <ViewManagerAdapter_ExpoImage
-  className="h-[150]"
   contentFit="cover"
   contentPosition={
     {
@@ -31,13 +34,18 @@ exports[`Image renders with cover 1`] = `
       "top": "50%",
     }
   }
+  height={150}
   onError={[Function]}
   onLoad={[Function]}
   onLoadStart={[Function]}
   onProgress={[Function]}
   placeholder={[]}
   source={[]}
-  style={{}}
+  style={
+    {
+      "height": 150,
+    }
+  }
   transition={null}
 />
 `;

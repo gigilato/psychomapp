@@ -33,10 +33,12 @@ exports[`Pressable renders correctly 1`] = `
   onStartShouldSetResponder={[Function]}
   style={
     [
-      {
-        "opacity": undefined,
-      },
-      undefined,
+      [
+        {
+          "opacity": undefined,
+        },
+        undefined,
+      ],
     ]
   }
   testID="test"
@@ -86,14 +88,16 @@ exports[`Pressable renders with scale 1`] = `
   onStartShouldSetResponder={[Function]}
   style={
     [
-      {
-        "transform": [
-          {
-            "scale": undefined,
-          },
-        ],
-      },
-      undefined,
+      [
+        {
+          "transform": [
+            {
+              "scale": undefined,
+            },
+          ],
+        },
+        undefined,
+      ],
     ]
   }
   testID="test"
@@ -141,9 +145,26 @@ exports[`Pressable renders with styles 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    {
-      "opacity": undefined,
-    }
+    [
+      {
+        "paddingBottom": 12,
+        "paddingLeft": 12,
+        "paddingRight": 12,
+        "paddingTop": 12,
+      },
+      {
+        "borderBottomLeftRadius": 6,
+        "borderBottomRightRadius": 6,
+        "borderTopLeftRadius": 6,
+        "borderTopRightRadius": 6,
+      },
+      [
+        {
+          "opacity": undefined,
+        },
+        undefined,
+      ],
+    ]
   }
   testID="test"
 >

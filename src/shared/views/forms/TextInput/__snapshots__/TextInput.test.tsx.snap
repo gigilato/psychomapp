@@ -2,10 +2,50 @@
 
 exports[`EmailInput renders correctly 1`] = `
 <View>
-  <View>
+  <View
+    style={
+      [
+        {
+          "flexDirection": "row",
+        },
+        {
+          "alignItems": "center",
+        },
+        {
+          "borderBottomLeftRadius": 6,
+          "borderBottomRightRadius": 6,
+          "borderTopLeftRadius": 6,
+          "borderTopRightRadius": 6,
+        },
+        {
+          "paddingBottom": 12,
+          "paddingTop": 12,
+        },
+        {
+          "borderBottomWidth": 1,
+          "borderLeftWidth": 1,
+          "borderRightWidth": 1,
+          "borderTopWidth": 1,
+        },
+        {
+          "backgroundColor": "#FFFFFF",
+        },
+        {
+          "overflow": "hidden",
+        },
+        {
+          "borderBottomColor": "#3F434A",
+          "borderLeftColor": "#3F434A",
+          "borderRightColor": "#3F434A",
+          "borderTopColor": "#3F434A",
+        },
+      ]
+    }
+  >
     <TextInput
       autoCapitalize="none"
       autoComplete="email"
+      className="flex-1 pr-[52px] px-s text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
       keyboardType="email-address"
       onBlur={[Function]}
       onFocus={[Function]}
@@ -44,10 +84,12 @@ exports[`EmailInput renders correctly 1`] = `
       onStartShouldSetResponder={[Function]}
       style={
         [
-          {
-            "opacity": undefined,
-          },
-          undefined,
+          [
+            {
+              "opacity": undefined,
+            },
+            undefined,
+          ],
         ]
       }
       testID="test/RightIcon"
@@ -56,13 +98,29 @@ exports[`EmailInput renders correctly 1`] = `
         allowFontScaling={false}
         selectable={false}
         style={
-          {
-            "color": undefined,
-            "fontFamily": "IcoMoon",
-            "fontSize": 24,
-            "fontStyle": "normal",
-            "fontWeight": "normal",
-          }
+          [
+            {
+              "color": undefined,
+              "fontSize": 24,
+            },
+            [
+              {
+                "marginRight": 8,
+              },
+              {
+                "color": "#3F434A",
+              },
+              {
+                "color": "#AE3232",
+              },
+            ],
+            {
+              "fontFamily": "IcoMoon",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            {},
+          ]
         }
       >
         
@@ -74,10 +132,50 @@ exports[`EmailInput renders correctly 1`] = `
 
 exports[`EmailInput renders correctly with value 1`] = `
 <View>
-  <View>
+  <View
+    style={
+      [
+        {
+          "flexDirection": "row",
+        },
+        {
+          "alignItems": "center",
+        },
+        {
+          "borderBottomLeftRadius": 6,
+          "borderBottomRightRadius": 6,
+          "borderTopLeftRadius": 6,
+          "borderTopRightRadius": 6,
+        },
+        {
+          "paddingBottom": 12,
+          "paddingTop": 12,
+        },
+        {
+          "borderBottomWidth": 1,
+          "borderLeftWidth": 1,
+          "borderRightWidth": 1,
+          "borderTopWidth": 1,
+        },
+        {
+          "backgroundColor": "#FFFFFF",
+        },
+        {
+          "overflow": "hidden",
+        },
+        {
+          "borderBottomColor": "#3F434A",
+          "borderLeftColor": "#3F434A",
+          "borderRightColor": "#3F434A",
+          "borderTopColor": "#3F434A",
+        },
+      ]
+    }
+  >
     <TextInput
       autoCapitalize="none"
       autoComplete="email"
+      className="flex-1 pr-[52px] px-s text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
       keyboardType="email-address"
       onBlur={[Function]}
       onFocus={[Function]}
@@ -117,10 +215,12 @@ exports[`EmailInput renders correctly with value 1`] = `
       onStartShouldSetResponder={[Function]}
       style={
         [
-          {
-            "opacity": undefined,
-          },
-          undefined,
+          [
+            {
+              "opacity": undefined,
+            },
+            undefined,
+          ],
         ]
       }
       testID="test/RightIcon"
@@ -129,13 +229,29 @@ exports[`EmailInput renders correctly with value 1`] = `
         allowFontScaling={false}
         selectable={false}
         style={
-          {
-            "color": undefined,
-            "fontFamily": "IcoMoon",
-            "fontSize": 24,
-            "fontStyle": "normal",
-            "fontWeight": "normal",
-          }
+          [
+            {
+              "color": undefined,
+              "fontSize": 24,
+            },
+            [
+              {
+                "marginRight": 8,
+              },
+              {
+                "color": "#3F434A",
+              },
+              {
+                "color": "#AE3232",
+              },
+            ],
+            {
+              "fontFamily": "IcoMoon",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            {},
+          ]
         }
       >
         
@@ -147,10 +263,50 @@ exports[`EmailInput renders correctly with value 1`] = `
 
 exports[`PasswordInput renders correctly 1`] = `
 <View>
-  <View>
+  <View
+    style={
+      [
+        {
+          "flexDirection": "row",
+        },
+        {
+          "alignItems": "center",
+        },
+        {
+          "borderBottomLeftRadius": 6,
+          "borderBottomRightRadius": 6,
+          "borderTopLeftRadius": 6,
+          "borderTopRightRadius": 6,
+        },
+        {
+          "paddingBottom": 12,
+          "paddingTop": 12,
+        },
+        {
+          "borderBottomWidth": 1,
+          "borderLeftWidth": 1,
+          "borderRightWidth": 1,
+          "borderTopWidth": 1,
+        },
+        {
+          "backgroundColor": "#FFFFFF",
+        },
+        {
+          "overflow": "hidden",
+        },
+        {
+          "borderBottomColor": "#3F434A",
+          "borderLeftColor": "#3F434A",
+          "borderRightColor": "#3F434A",
+          "borderTopColor": "#3F434A",
+        },
+      ]
+    }
+  >
     <TextInput
       autoCapitalize="none"
       autoComplete="password"
+      className="flex-1 pr-[52px] px-s text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
       keyboardType="default"
       onBlur={[Function]}
       onFocus={[Function]}
@@ -191,10 +347,12 @@ exports[`PasswordInput renders correctly 1`] = `
       onStartShouldSetResponder={[Function]}
       style={
         [
-          {
-            "opacity": undefined,
-          },
-          undefined,
+          [
+            {
+              "opacity": undefined,
+            },
+            undefined,
+          ],
         ]
       }
       testID="test/RightIcon"
@@ -203,13 +361,29 @@ exports[`PasswordInput renders correctly 1`] = `
         allowFontScaling={false}
         selectable={false}
         style={
-          {
-            "color": undefined,
-            "fontFamily": "IcoMoon",
-            "fontSize": 24,
-            "fontStyle": "normal",
-            "fontWeight": "normal",
-          }
+          [
+            {
+              "color": undefined,
+              "fontSize": 24,
+            },
+            [
+              {
+                "marginRight": 8,
+              },
+              {
+                "color": "#3F434A",
+              },
+              {
+                "color": "#AE3232",
+              },
+            ],
+            {
+              "fontFamily": "IcoMoon",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            {},
+          ]
         }
       >
         
@@ -221,10 +395,50 @@ exports[`PasswordInput renders correctly 1`] = `
 
 exports[`PasswordInput renders correctly with value 1`] = `
 <View>
-  <View>
+  <View
+    style={
+      [
+        {
+          "flexDirection": "row",
+        },
+        {
+          "alignItems": "center",
+        },
+        {
+          "borderBottomLeftRadius": 6,
+          "borderBottomRightRadius": 6,
+          "borderTopLeftRadius": 6,
+          "borderTopRightRadius": 6,
+        },
+        {
+          "paddingBottom": 12,
+          "paddingTop": 12,
+        },
+        {
+          "borderBottomWidth": 1,
+          "borderLeftWidth": 1,
+          "borderRightWidth": 1,
+          "borderTopWidth": 1,
+        },
+        {
+          "backgroundColor": "#FFFFFF",
+        },
+        {
+          "overflow": "hidden",
+        },
+        {
+          "borderBottomColor": "#3F434A",
+          "borderLeftColor": "#3F434A",
+          "borderRightColor": "#3F434A",
+          "borderTopColor": "#3F434A",
+        },
+      ]
+    }
+  >
     <TextInput
       autoCapitalize="none"
       autoComplete="password"
+      className="flex-1 pr-[52px] px-s text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
       keyboardType="default"
       onBlur={[Function]}
       onFocus={[Function]}
@@ -266,10 +480,12 @@ exports[`PasswordInput renders correctly with value 1`] = `
       onStartShouldSetResponder={[Function]}
       style={
         [
-          {
-            "opacity": undefined,
-          },
-          undefined,
+          [
+            {
+              "opacity": undefined,
+            },
+            undefined,
+          ],
         ]
       }
       testID="test/RightIcon"
@@ -278,13 +494,29 @@ exports[`PasswordInput renders correctly with value 1`] = `
         allowFontScaling={false}
         selectable={false}
         style={
-          {
-            "color": undefined,
-            "fontFamily": "IcoMoon",
-            "fontSize": 24,
-            "fontStyle": "normal",
-            "fontWeight": "normal",
-          }
+          [
+            {
+              "color": undefined,
+              "fontSize": 24,
+            },
+            [
+              {
+                "marginRight": 8,
+              },
+              {
+                "color": "#3F434A",
+              },
+              {
+                "color": "#AE3232",
+              },
+            ],
+            {
+              "fontFamily": "IcoMoon",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            {},
+          ]
         }
       >
         
@@ -296,10 +528,50 @@ exports[`PasswordInput renders correctly with value 1`] = `
 
 exports[`PasswordInput shows password on icon press 1`] = `
 <View>
-  <View>
+  <View
+    style={
+      [
+        {
+          "flexDirection": "row",
+        },
+        {
+          "alignItems": "center",
+        },
+        {
+          "borderBottomLeftRadius": 6,
+          "borderBottomRightRadius": 6,
+          "borderTopLeftRadius": 6,
+          "borderTopRightRadius": 6,
+        },
+        {
+          "paddingBottom": 12,
+          "paddingTop": 12,
+        },
+        {
+          "borderBottomWidth": 1,
+          "borderLeftWidth": 1,
+          "borderRightWidth": 1,
+          "borderTopWidth": 1,
+        },
+        {
+          "backgroundColor": "#FFFFFF",
+        },
+        {
+          "overflow": "hidden",
+        },
+        {
+          "borderBottomColor": "#3F434A",
+          "borderLeftColor": "#3F434A",
+          "borderRightColor": "#3F434A",
+          "borderTopColor": "#3F434A",
+        },
+      ]
+    }
+  >
     <TextInput
       autoCapitalize="none"
       autoComplete="password"
+      className="flex-1 pr-[52px] px-s text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
       keyboardType="default"
       onBlur={[Function]}
       onFocus={[Function]}
@@ -341,10 +613,12 @@ exports[`PasswordInput shows password on icon press 1`] = `
       onStartShouldSetResponder={[Function]}
       style={
         [
-          {
-            "opacity": undefined,
-          },
-          undefined,
+          [
+            {
+              "opacity": undefined,
+            },
+            undefined,
+          ],
         ]
       }
       testID="test/RightIcon"
@@ -353,13 +627,29 @@ exports[`PasswordInput shows password on icon press 1`] = `
         allowFontScaling={false}
         selectable={false}
         style={
-          {
-            "color": undefined,
-            "fontFamily": "IcoMoon",
-            "fontSize": 24,
-            "fontStyle": "normal",
-            "fontWeight": "normal",
-          }
+          [
+            {
+              "color": undefined,
+              "fontSize": 24,
+            },
+            [
+              {
+                "marginRight": 8,
+              },
+              {
+                "color": "#3F434A",
+              },
+              {
+                "color": "#AE3232",
+              },
+            ],
+            {
+              "fontFamily": "IcoMoon",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            {},
+          ]
         }
       >
         
@@ -371,10 +661,50 @@ exports[`PasswordInput shows password on icon press 1`] = `
 
 exports[`PasswordInput shows password on icon press 2`] = `
 <View>
-  <View>
+  <View
+    style={
+      [
+        {
+          "flexDirection": "row",
+        },
+        {
+          "alignItems": "center",
+        },
+        {
+          "borderBottomLeftRadius": 6,
+          "borderBottomRightRadius": 6,
+          "borderTopLeftRadius": 6,
+          "borderTopRightRadius": 6,
+        },
+        {
+          "paddingBottom": 12,
+          "paddingTop": 12,
+        },
+        {
+          "borderBottomWidth": 1,
+          "borderLeftWidth": 1,
+          "borderRightWidth": 1,
+          "borderTopWidth": 1,
+        },
+        {
+          "backgroundColor": "#FFFFFF",
+        },
+        {
+          "overflow": "hidden",
+        },
+        {
+          "borderBottomColor": "#3F434A",
+          "borderLeftColor": "#3F434A",
+          "borderRightColor": "#3F434A",
+          "borderTopColor": "#3F434A",
+        },
+      ]
+    }
+  >
     <TextInput
       autoCapitalize="none"
       autoComplete="password"
+      className="flex-1 pr-[52px] px-s text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
       keyboardType="default"
       onBlur={[Function]}
       onFocus={[Function]}
@@ -416,10 +746,12 @@ exports[`PasswordInput shows password on icon press 2`] = `
       onStartShouldSetResponder={[Function]}
       style={
         [
-          {
-            "opacity": undefined,
-          },
-          undefined,
+          [
+            {
+              "opacity": undefined,
+            },
+            undefined,
+          ],
         ]
       }
       testID="test/RightIcon"
@@ -428,13 +760,29 @@ exports[`PasswordInput shows password on icon press 2`] = `
         allowFontScaling={false}
         selectable={false}
         style={
-          {
-            "color": undefined,
-            "fontFamily": "IcoMoon",
-            "fontSize": 24,
-            "fontStyle": "normal",
-            "fontWeight": "normal",
-          }
+          [
+            {
+              "color": undefined,
+              "fontSize": 24,
+            },
+            [
+              {
+                "marginRight": 8,
+              },
+              {
+                "color": "#3F434A",
+              },
+              {
+                "color": "#AE3232",
+              },
+            ],
+            {
+              "fontFamily": "IcoMoon",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            {},
+          ]
         }
       >
         
@@ -446,9 +794,49 @@ exports[`PasswordInput shows password on icon press 2`] = `
 
 exports[`TextInput renders correctly 1`] = `
 <View>
-  <View>
+  <View
+    style={
+      [
+        {
+          "flexDirection": "row",
+        },
+        {
+          "alignItems": "center",
+        },
+        {
+          "borderBottomLeftRadius": 6,
+          "borderBottomRightRadius": 6,
+          "borderTopLeftRadius": 6,
+          "borderTopRightRadius": 6,
+        },
+        {
+          "paddingBottom": 12,
+          "paddingTop": 12,
+        },
+        {
+          "borderBottomWidth": 1,
+          "borderLeftWidth": 1,
+          "borderRightWidth": 1,
+          "borderTopWidth": 1,
+        },
+        {
+          "backgroundColor": "#FFFFFF",
+        },
+        {
+          "overflow": "hidden",
+        },
+        {
+          "borderBottomColor": "#3F434A",
+          "borderLeftColor": "#3F434A",
+          "borderRightColor": "#3F434A",
+          "borderTopColor": "#3F434A",
+        },
+      ]
+    }
+  >
     <TextInput
       autoCapitalize="none"
+      className="flex-1 pr-[52px] px-s text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
       keyboardType="default"
       onBlur={[Function]}
       onFocus={[Function]}
@@ -487,10 +875,12 @@ exports[`TextInput renders correctly 1`] = `
       onStartShouldSetResponder={[Function]}
       style={
         [
-          {
-            "opacity": undefined,
-          },
-          undefined,
+          [
+            {
+              "opacity": undefined,
+            },
+            undefined,
+          ],
         ]
       }
       testID="test/RightIcon"
@@ -503,9 +893,49 @@ exports[`TextInput renders correctly 1`] = `
 
 exports[`TextInput renders correctly with value 1`] = `
 <View>
-  <View>
+  <View
+    style={
+      [
+        {
+          "flexDirection": "row",
+        },
+        {
+          "alignItems": "center",
+        },
+        {
+          "borderBottomLeftRadius": 6,
+          "borderBottomRightRadius": 6,
+          "borderTopLeftRadius": 6,
+          "borderTopRightRadius": 6,
+        },
+        {
+          "paddingBottom": 12,
+          "paddingTop": 12,
+        },
+        {
+          "borderBottomWidth": 1,
+          "borderLeftWidth": 1,
+          "borderRightWidth": 1,
+          "borderTopWidth": 1,
+        },
+        {
+          "backgroundColor": "#FFFFFF",
+        },
+        {
+          "overflow": "hidden",
+        },
+        {
+          "borderBottomColor": "#3F434A",
+          "borderLeftColor": "#3F434A",
+          "borderRightColor": "#3F434A",
+          "borderTopColor": "#3F434A",
+        },
+      ]
+    }
+  >
     <TextInput
       autoCapitalize="none"
+      className="flex-1 pr-[52px] px-s text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
       keyboardType="default"
       onBlur={[Function]}
       onFocus={[Function]}
@@ -545,10 +975,12 @@ exports[`TextInput renders correctly with value 1`] = `
       onStartShouldSetResponder={[Function]}
       style={
         [
-          {
-            "opacity": undefined,
-          },
-          undefined,
+          [
+            {
+              "opacity": undefined,
+            },
+            undefined,
+          ],
         ]
       }
       testID="test/RightIcon"
@@ -557,13 +989,29 @@ exports[`TextInput renders correctly with value 1`] = `
         allowFontScaling={false}
         selectable={false}
         style={
-          {
-            "color": undefined,
-            "fontFamily": "IcoMoon",
-            "fontSize": 24,
-            "fontStyle": "normal",
-            "fontWeight": "normal",
-          }
+          [
+            {
+              "color": undefined,
+              "fontSize": 24,
+            },
+            [
+              {
+                "marginRight": 8,
+              },
+              {
+                "color": "#3F434A",
+              },
+              {
+                "color": "#AE3232",
+              },
+            ],
+            {
+              "fontFamily": "IcoMoon",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            {},
+          ]
         }
       >
         
@@ -575,9 +1023,49 @@ exports[`TextInput renders correctly with value 1`] = `
 
 exports[`TextInput renders error correctly 1`] = `
 <View>
-  <View>
+  <View
+    style={
+      [
+        {
+          "flexDirection": "row",
+        },
+        {
+          "alignItems": "center",
+        },
+        {
+          "borderBottomLeftRadius": 6,
+          "borderBottomRightRadius": 6,
+          "borderTopLeftRadius": 6,
+          "borderTopRightRadius": 6,
+        },
+        {
+          "paddingBottom": 12,
+          "paddingTop": 12,
+        },
+        {
+          "borderBottomWidth": 1,
+          "borderLeftWidth": 1,
+          "borderRightWidth": 1,
+          "borderTopWidth": 1,
+        },
+        {
+          "backgroundColor": "#FFFFFF",
+        },
+        {
+          "overflow": "hidden",
+        },
+        {
+          "borderBottomColor": "#AE3232",
+          "borderLeftColor": "#AE3232",
+          "borderRightColor": "#AE3232",
+          "borderTopColor": "#AE3232",
+        },
+      ]
+    }
+  >
     <TextInput
       autoCapitalize="none"
+      className="flex-1 pr-[52px] px-s text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
       keyboardType="default"
       onBlur={[Function]}
       onFocus={[Function]}
@@ -616,10 +1104,12 @@ exports[`TextInput renders error correctly 1`] = `
       onStartShouldSetResponder={[Function]}
       style={
         [
-          {
-            "opacity": undefined,
-          },
-          undefined,
+          [
+            {
+              "opacity": undefined,
+            },
+            undefined,
+          ],
         ]
       }
       testID="test/RightIcon"
@@ -628,20 +1118,56 @@ exports[`TextInput renders error correctly 1`] = `
         allowFontScaling={false}
         selectable={false}
         style={
-          {
-            "color": undefined,
-            "fontFamily": "IcoMoon",
-            "fontSize": 24,
-            "fontStyle": "normal",
-            "fontWeight": "normal",
-          }
+          [
+            {
+              "color": undefined,
+              "fontSize": 24,
+            },
+            [
+              {
+                "marginRight": 8,
+              },
+              {
+                "color": "#AE3232",
+              },
+              {
+                "color": "#AE3232",
+              },
+            ],
+            {
+              "fontFamily": "IcoMoon",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            {},
+          ]
         }
       >
         
       </Text>
     </View>
   </View>
-  <Text>
+  <Text
+    style={
+      [
+        {
+          "fontFamily": "SpaceGrotesk-Regular",
+        },
+        {
+          "fontSize": 14,
+        },
+        {
+          "lineHeight": 18,
+        },
+        {
+          "marginTop": 8,
+        },
+        {
+          "color": "#AE3232",
+        },
+      ]
+    }
+  >
     error
   </Text>
 </View>
@@ -649,7 +1175,46 @@ exports[`TextInput renders error correctly 1`] = `
 
 exports[`TextInput renders icon left correctly 1`] = `
 <View>
-  <View>
+  <View
+    style={
+      [
+        {
+          "flexDirection": "row",
+        },
+        {
+          "alignItems": "center",
+        },
+        {
+          "borderBottomLeftRadius": 6,
+          "borderBottomRightRadius": 6,
+          "borderTopLeftRadius": 6,
+          "borderTopRightRadius": 6,
+        },
+        {
+          "paddingBottom": 12,
+          "paddingTop": 12,
+        },
+        {
+          "borderBottomWidth": 1,
+          "borderLeftWidth": 1,
+          "borderRightWidth": 1,
+          "borderTopWidth": 1,
+        },
+        {
+          "backgroundColor": "#FFFFFF",
+        },
+        {
+          "overflow": "hidden",
+        },
+        {
+          "borderBottomColor": "#3F434A",
+          "borderLeftColor": "#3F434A",
+          "borderRightColor": "#3F434A",
+          "borderTopColor": "#3F434A",
+        },
+      ]
+    }
+  >
     <View
       accessibilityState={
         {
@@ -683,10 +1248,12 @@ exports[`TextInput renders icon left correctly 1`] = `
       onStartShouldSetResponder={[Function]}
       style={
         [
-          {
-            "opacity": undefined,
-          },
-          undefined,
+          [
+            {
+              "opacity": undefined,
+            },
+            undefined,
+          ],
         ]
       }
       testID="test/LeftIcon"
@@ -695,13 +1262,26 @@ exports[`TextInput renders icon left correctly 1`] = `
         allowFontScaling={false}
         selectable={false}
         style={
-          {
-            "color": undefined,
-            "fontFamily": "IcoMoon",
-            "fontSize": 24,
-            "fontStyle": "normal",
-            "fontWeight": "normal",
-          }
+          [
+            {
+              "color": undefined,
+              "fontSize": 24,
+            },
+            [
+              {
+                "marginLeft": 8,
+              },
+              {
+                "color": "#3F434A",
+              },
+            ],
+            {
+              "fontFamily": "IcoMoon",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            {},
+          ]
         }
       >
         
@@ -709,6 +1289,7 @@ exports[`TextInput renders icon left correctly 1`] = `
     </View>
     <TextInput
       autoCapitalize="none"
+      className="flex-1 pr-[52px] px-s text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
       keyboardType="default"
       onBlur={[Function]}
       onFocus={[Function]}
@@ -747,10 +1328,12 @@ exports[`TextInput renders icon left correctly 1`] = `
       onStartShouldSetResponder={[Function]}
       style={
         [
-          {
-            "opacity": undefined,
-          },
-          undefined,
+          [
+            {
+              "opacity": undefined,
+            },
+            undefined,
+          ],
         ]
       }
       testID="test/RightIcon"
@@ -759,13 +1342,29 @@ exports[`TextInput renders icon left correctly 1`] = `
         allowFontScaling={false}
         selectable={false}
         style={
-          {
-            "color": undefined,
-            "fontFamily": "IcoMoon",
-            "fontSize": 24,
-            "fontStyle": "normal",
-            "fontWeight": "normal",
-          }
+          [
+            {
+              "color": undefined,
+              "fontSize": 24,
+            },
+            [
+              {
+                "marginRight": 8,
+              },
+              {
+                "color": "#3F434A",
+              },
+              {
+                "color": "#AE3232",
+              },
+            ],
+            {
+              "fontFamily": "IcoMoon",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            {},
+          ]
         }
       >
         
@@ -777,7 +1376,46 @@ exports[`TextInput renders icon left correctly 1`] = `
 
 exports[`TextInput renders icon left error correctly 1`] = `
 <View>
-  <View>
+  <View
+    style={
+      [
+        {
+          "flexDirection": "row",
+        },
+        {
+          "alignItems": "center",
+        },
+        {
+          "borderBottomLeftRadius": 6,
+          "borderBottomRightRadius": 6,
+          "borderTopLeftRadius": 6,
+          "borderTopRightRadius": 6,
+        },
+        {
+          "paddingBottom": 12,
+          "paddingTop": 12,
+        },
+        {
+          "borderBottomWidth": 1,
+          "borderLeftWidth": 1,
+          "borderRightWidth": 1,
+          "borderTopWidth": 1,
+        },
+        {
+          "backgroundColor": "#FFFFFF",
+        },
+        {
+          "overflow": "hidden",
+        },
+        {
+          "borderBottomColor": "#AE3232",
+          "borderLeftColor": "#AE3232",
+          "borderRightColor": "#AE3232",
+          "borderTopColor": "#AE3232",
+        },
+      ]
+    }
+  >
     <View
       accessibilityState={
         {
@@ -811,10 +1449,12 @@ exports[`TextInput renders icon left error correctly 1`] = `
       onStartShouldSetResponder={[Function]}
       style={
         [
-          {
-            "opacity": undefined,
-          },
-          undefined,
+          [
+            {
+              "opacity": undefined,
+            },
+            undefined,
+          ],
         ]
       }
       testID="test/LeftIcon"
@@ -823,13 +1463,26 @@ exports[`TextInput renders icon left error correctly 1`] = `
         allowFontScaling={false}
         selectable={false}
         style={
-          {
-            "color": undefined,
-            "fontFamily": "IcoMoon",
-            "fontSize": 24,
-            "fontStyle": "normal",
-            "fontWeight": "normal",
-          }
+          [
+            {
+              "color": undefined,
+              "fontSize": 24,
+            },
+            [
+              {
+                "marginLeft": 8,
+              },
+              {
+                "color": "#AE3232",
+              },
+            ],
+            {
+              "fontFamily": "IcoMoon",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            {},
+          ]
         }
       >
         
@@ -837,6 +1490,7 @@ exports[`TextInput renders icon left error correctly 1`] = `
     </View>
     <TextInput
       autoCapitalize="none"
+      className="flex-1 pr-[52px] px-s text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
       keyboardType="default"
       onBlur={[Function]}
       onFocus={[Function]}
@@ -875,10 +1529,12 @@ exports[`TextInput renders icon left error correctly 1`] = `
       onStartShouldSetResponder={[Function]}
       style={
         [
-          {
-            "opacity": undefined,
-          },
-          undefined,
+          [
+            {
+              "opacity": undefined,
+            },
+            undefined,
+          ],
         ]
       }
       testID="test/RightIcon"
@@ -887,20 +1543,56 @@ exports[`TextInput renders icon left error correctly 1`] = `
         allowFontScaling={false}
         selectable={false}
         style={
-          {
-            "color": undefined,
-            "fontFamily": "IcoMoon",
-            "fontSize": 24,
-            "fontStyle": "normal",
-            "fontWeight": "normal",
-          }
+          [
+            {
+              "color": undefined,
+              "fontSize": 24,
+            },
+            [
+              {
+                "marginRight": 8,
+              },
+              {
+                "color": "#AE3232",
+              },
+              {
+                "color": "#AE3232",
+              },
+            ],
+            {
+              "fontFamily": "IcoMoon",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            {},
+          ]
         }
       >
         
       </Text>
     </View>
   </View>
-  <Text>
+  <Text
+    style={
+      [
+        {
+          "fontFamily": "SpaceGrotesk-Regular",
+        },
+        {
+          "fontSize": 14,
+        },
+        {
+          "lineHeight": 18,
+        },
+        {
+          "marginTop": 8,
+        },
+        {
+          "color": "#AE3232",
+        },
+      ]
+    }
+  >
     error
   </Text>
 </View>
@@ -908,9 +1600,49 @@ exports[`TextInput renders icon left error correctly 1`] = `
 
 exports[`TextInput renders icon right correctly 1`] = `
 <View>
-  <View>
+  <View
+    style={
+      [
+        {
+          "flexDirection": "row",
+        },
+        {
+          "alignItems": "center",
+        },
+        {
+          "borderBottomLeftRadius": 6,
+          "borderBottomRightRadius": 6,
+          "borderTopLeftRadius": 6,
+          "borderTopRightRadius": 6,
+        },
+        {
+          "paddingBottom": 12,
+          "paddingTop": 12,
+        },
+        {
+          "borderBottomWidth": 1,
+          "borderLeftWidth": 1,
+          "borderRightWidth": 1,
+          "borderTopWidth": 1,
+        },
+        {
+          "backgroundColor": "#FFFFFF",
+        },
+        {
+          "overflow": "hidden",
+        },
+        {
+          "borderBottomColor": "#3F434A",
+          "borderLeftColor": "#3F434A",
+          "borderRightColor": "#3F434A",
+          "borderTopColor": "#3F434A",
+        },
+      ]
+    }
+  >
     <TextInput
       autoCapitalize="none"
+      className="flex-1 pr-[52px] px-s text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
       keyboardType="default"
       onBlur={[Function]}
       onFocus={[Function]}
@@ -949,10 +1681,12 @@ exports[`TextInput renders icon right correctly 1`] = `
       onStartShouldSetResponder={[Function]}
       style={
         [
-          {
-            "opacity": undefined,
-          },
-          undefined,
+          [
+            {
+              "opacity": undefined,
+            },
+            undefined,
+          ],
         ]
       }
       testID="test/RightIcon"
@@ -961,13 +1695,29 @@ exports[`TextInput renders icon right correctly 1`] = `
         allowFontScaling={false}
         selectable={false}
         style={
-          {
-            "color": undefined,
-            "fontFamily": "IcoMoon",
-            "fontSize": 24,
-            "fontStyle": "normal",
-            "fontWeight": "normal",
-          }
+          [
+            {
+              "color": undefined,
+              "fontSize": 24,
+            },
+            [
+              {
+                "marginRight": 8,
+              },
+              {
+                "color": "#3F434A",
+              },
+              {
+                "color": "#AE3232",
+              },
+            ],
+            {
+              "fontFamily": "IcoMoon",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            {},
+          ]
         }
       >
         
@@ -979,9 +1729,49 @@ exports[`TextInput renders icon right correctly 1`] = `
 
 exports[`TextInput renders icon right error correctly 1`] = `
 <View>
-  <View>
+  <View
+    style={
+      [
+        {
+          "flexDirection": "row",
+        },
+        {
+          "alignItems": "center",
+        },
+        {
+          "borderBottomLeftRadius": 6,
+          "borderBottomRightRadius": 6,
+          "borderTopLeftRadius": 6,
+          "borderTopRightRadius": 6,
+        },
+        {
+          "paddingBottom": 12,
+          "paddingTop": 12,
+        },
+        {
+          "borderBottomWidth": 1,
+          "borderLeftWidth": 1,
+          "borderRightWidth": 1,
+          "borderTopWidth": 1,
+        },
+        {
+          "backgroundColor": "#FFFFFF",
+        },
+        {
+          "overflow": "hidden",
+        },
+        {
+          "borderBottomColor": "#AE3232",
+          "borderLeftColor": "#AE3232",
+          "borderRightColor": "#AE3232",
+          "borderTopColor": "#AE3232",
+        },
+      ]
+    }
+  >
     <TextInput
       autoCapitalize="none"
+      className="flex-1 pr-[52px] px-s text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
       keyboardType="default"
       onBlur={[Function]}
       onFocus={[Function]}
@@ -1020,10 +1810,12 @@ exports[`TextInput renders icon right error correctly 1`] = `
       onStartShouldSetResponder={[Function]}
       style={
         [
-          {
-            "opacity": undefined,
-          },
-          undefined,
+          [
+            {
+              "opacity": undefined,
+            },
+            undefined,
+          ],
         ]
       }
       testID="test/RightIcon"
@@ -1032,20 +1824,56 @@ exports[`TextInput renders icon right error correctly 1`] = `
         allowFontScaling={false}
         selectable={false}
         style={
-          {
-            "color": undefined,
-            "fontFamily": "IcoMoon",
-            "fontSize": 24,
-            "fontStyle": "normal",
-            "fontWeight": "normal",
-          }
+          [
+            {
+              "color": undefined,
+              "fontSize": 24,
+            },
+            [
+              {
+                "marginRight": 8,
+              },
+              {
+                "color": "#AE3232",
+              },
+              {
+                "color": "#AE3232",
+              },
+            ],
+            {
+              "fontFamily": "IcoMoon",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            {},
+          ]
         }
       >
         
       </Text>
     </View>
   </View>
-  <Text>
+  <Text
+    style={
+      [
+        {
+          "fontFamily": "SpaceGrotesk-Regular",
+        },
+        {
+          "fontSize": 14,
+        },
+        {
+          "lineHeight": 18,
+        },
+        {
+          "marginTop": 8,
+        },
+        {
+          "color": "#AE3232",
+        },
+      ]
+    }
+  >
     error
   </Text>
 </View>
@@ -1053,12 +1881,72 @@ exports[`TextInput renders icon right error correctly 1`] = `
 
 exports[`TextInput renders label correctly 1`] = `
 <View>
-  <Text>
+  <Text
+    style={
+      [
+        {
+          "fontFamily": "SpaceGrotesk-Regular",
+        },
+        {
+          "fontSize": 14,
+        },
+        {
+          "lineHeight": 18,
+        },
+        {
+          "marginBottom": 8,
+        },
+        {
+          "color": "#3F434A",
+        },
+      ]
+    }
+  >
     label
   </Text>
-  <View>
+  <View
+    style={
+      [
+        {
+          "flexDirection": "row",
+        },
+        {
+          "alignItems": "center",
+        },
+        {
+          "borderBottomLeftRadius": 6,
+          "borderBottomRightRadius": 6,
+          "borderTopLeftRadius": 6,
+          "borderTopRightRadius": 6,
+        },
+        {
+          "paddingBottom": 12,
+          "paddingTop": 12,
+        },
+        {
+          "borderBottomWidth": 1,
+          "borderLeftWidth": 1,
+          "borderRightWidth": 1,
+          "borderTopWidth": 1,
+        },
+        {
+          "backgroundColor": "#FFFFFF",
+        },
+        {
+          "overflow": "hidden",
+        },
+        {
+          "borderBottomColor": "#3F434A",
+          "borderLeftColor": "#3F434A",
+          "borderRightColor": "#3F434A",
+          "borderTopColor": "#3F434A",
+        },
+      ]
+    }
+  >
     <TextInput
       autoCapitalize="none"
+      className="flex-1 pr-[52px] px-s text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
       keyboardType="default"
       onBlur={[Function]}
       onFocus={[Function]}
@@ -1097,10 +1985,12 @@ exports[`TextInput renders label correctly 1`] = `
       onStartShouldSetResponder={[Function]}
       style={
         [
-          {
-            "opacity": undefined,
-          },
-          undefined,
+          [
+            {
+              "opacity": undefined,
+            },
+            undefined,
+          ],
         ]
       }
       testID="test/RightIcon"
@@ -1109,13 +1999,29 @@ exports[`TextInput renders label correctly 1`] = `
         allowFontScaling={false}
         selectable={false}
         style={
-          {
-            "color": undefined,
-            "fontFamily": "IcoMoon",
-            "fontSize": 24,
-            "fontStyle": "normal",
-            "fontWeight": "normal",
-          }
+          [
+            {
+              "color": undefined,
+              "fontSize": 24,
+            },
+            [
+              {
+                "marginRight": 8,
+              },
+              {
+                "color": "#3F434A",
+              },
+              {
+                "color": "#AE3232",
+              },
+            ],
+            {
+              "fontFamily": "IcoMoon",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            {},
+          ]
         }
       >
         
@@ -1127,9 +2033,49 @@ exports[`TextInput renders label correctly 1`] = `
 
 exports[`TextInput should clear text on icon right press 1`] = `
 <View>
-  <View>
+  <View
+    style={
+      [
+        {
+          "flexDirection": "row",
+        },
+        {
+          "alignItems": "center",
+        },
+        {
+          "borderBottomLeftRadius": 6,
+          "borderBottomRightRadius": 6,
+          "borderTopLeftRadius": 6,
+          "borderTopRightRadius": 6,
+        },
+        {
+          "paddingBottom": 12,
+          "paddingTop": 12,
+        },
+        {
+          "borderBottomWidth": 1,
+          "borderLeftWidth": 1,
+          "borderRightWidth": 1,
+          "borderTopWidth": 1,
+        },
+        {
+          "backgroundColor": "#FFFFFF",
+        },
+        {
+          "overflow": "hidden",
+        },
+        {
+          "borderBottomColor": "#3F434A",
+          "borderLeftColor": "#3F434A",
+          "borderRightColor": "#3F434A",
+          "borderTopColor": "#3F434A",
+        },
+      ]
+    }
+  >
     <TextInput
       autoCapitalize="none"
+      className="flex-1 pr-[52px] px-s text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
       keyboardType="default"
       onBlur={[Function]}
       onFocus={[Function]}
@@ -1169,10 +2115,12 @@ exports[`TextInput should clear text on icon right press 1`] = `
       onStartShouldSetResponder={[Function]}
       style={
         [
-          {
-            "opacity": undefined,
-          },
-          undefined,
+          [
+            {
+              "opacity": undefined,
+            },
+            undefined,
+          ],
         ]
       }
       testID="test/RightIcon"
@@ -1181,13 +2129,29 @@ exports[`TextInput should clear text on icon right press 1`] = `
         allowFontScaling={false}
         selectable={false}
         style={
-          {
-            "color": undefined,
-            "fontFamily": "IcoMoon",
-            "fontSize": 24,
-            "fontStyle": "normal",
-            "fontWeight": "normal",
-          }
+          [
+            {
+              "color": undefined,
+              "fontSize": 24,
+            },
+            [
+              {
+                "marginRight": 8,
+              },
+              {
+                "color": "#3F434A",
+              },
+              {
+                "color": "#AE3232",
+              },
+            ],
+            {
+              "fontFamily": "IcoMoon",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            {},
+          ]
         }
       >
         

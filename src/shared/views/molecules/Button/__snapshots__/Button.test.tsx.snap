@@ -33,17 +33,57 @@ exports[`Button renders correctly 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    {
-      "transform": [
+    [
+      {
+        "flexDirection": "row",
+      },
+      {
+        "alignItems": "center",
+      },
+      {
+        "justifyContent": "center",
+      },
+      {
+        "borderBottomLeftRadius": 6,
+        "borderBottomRightRadius": 6,
+        "borderTopLeftRadius": 6,
+        "borderTopRightRadius": 6,
+      },
+      {
+        "backgroundColor": "#6C464F",
+      },
+      {
+        "height": 44,
+      },
+      [
         {
-          "scale": undefined,
+          "transform": [
+            {
+              "scale": undefined,
+            },
+          ],
         },
+        undefined,
       ],
-    }
+    ]
   }
   testID=""
 >
-  <Text>
+  <Text
+    style={
+      [
+        {
+          "fontFamily": "SpaceGrotesk-Bold",
+        },
+        {
+          "fontSize": 16,
+        },
+        {
+          "color": "#FFFFFF",
+        },
+      ]
+    }
+  >
     Title
   </Text>
 </View>
@@ -81,10 +121,67 @@ exports[`Button renders disabled correctly 1`] = `
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
-  style={{}}
+  style={
+    [
+      {
+        "flexDirection": "row",
+      },
+      {
+        "alignItems": "center",
+      },
+      {
+        "justifyContent": "center",
+      },
+      {
+        "borderBottomLeftRadius": 6,
+        "borderBottomRightRadius": 6,
+        "borderTopLeftRadius": 6,
+        "borderTopRightRadius": 6,
+      },
+      {
+        "backgroundColor": "#6C464F",
+      },
+      {
+        "height": 44,
+      },
+      {
+        "backgroundColor": "#E1DCDC",
+      },
+      {
+        "borderBottomColor": "#E1DCDC",
+        "borderLeftColor": "#E1DCDC",
+        "borderRightColor": "#E1DCDC",
+        "borderTopColor": "#E1DCDC",
+      },
+      {
+        "borderBottomWidth": 2,
+        "borderLeftWidth": 2,
+        "borderRightWidth": 2,
+        "borderTopWidth": 2,
+      },
+      [
+        {},
+        undefined,
+      ],
+    ]
+  }
   testID=""
 >
-  <Text>
+  <Text
+    style={
+      [
+        {
+          "fontFamily": "SpaceGrotesk-Bold",
+        },
+        {
+          "fontSize": 16,
+        },
+        {
+          "color": "#868383",
+        },
+      ]
+    }
+  >
     Title
   </Text>
 </View>
@@ -124,17 +221,72 @@ exports[`Button renders error correctly 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    {
-      "transform": [
+    [
+      {
+        "flexDirection": "row",
+      },
+      {
+        "alignItems": "center",
+      },
+      {
+        "justifyContent": "center",
+      },
+      {
+        "borderBottomLeftRadius": 6,
+        "borderBottomRightRadius": 6,
+        "borderTopLeftRadius": 6,
+        "borderTopRightRadius": 6,
+      },
+      {
+        "backgroundColor": "#6C464F",
+      },
+      {
+        "height": 44,
+      },
+      {
+        "backgroundColor": "#FFFFFF",
+      },
+      {
+        "borderBottomColor": "#AE3232",
+        "borderLeftColor": "#AE3232",
+        "borderRightColor": "#AE3232",
+        "borderTopColor": "#AE3232",
+      },
+      {
+        "borderBottomWidth": 2,
+        "borderLeftWidth": 2,
+        "borderRightWidth": 2,
+        "borderTopWidth": 2,
+      },
+      [
         {
-          "scale": undefined,
+          "transform": [
+            {
+              "scale": undefined,
+            },
+          ],
         },
+        undefined,
       ],
-    }
+    ]
   }
   testID=""
 >
-  <Text>
+  <Text
+    style={
+      [
+        {
+          "fontFamily": "SpaceGrotesk-Bold",
+        },
+        {
+          "fontSize": 16,
+        },
+        {
+          "color": "#AE3232",
+        },
+      ]
+    }
+  >
     Title
   </Text>
 </View>
@@ -173,13 +325,39 @@ exports[`Button renders icon left correctly 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    {
-      "transform": [
+    [
+      {
+        "flexDirection": "row",
+      },
+      {
+        "alignItems": "center",
+      },
+      {
+        "justifyContent": "center",
+      },
+      {
+        "borderBottomLeftRadius": 6,
+        "borderBottomRightRadius": 6,
+        "borderTopLeftRadius": 6,
+        "borderTopRightRadius": 6,
+      },
+      {
+        "backgroundColor": "#6C464F",
+      },
+      {
+        "height": 44,
+      },
+      [
         {
-          "scale": undefined,
+          "transform": [
+            {
+              "scale": undefined,
+            },
+          ],
         },
+        undefined,
       ],
-    }
+    ]
   }
   testID=""
 >
@@ -187,18 +365,45 @@ exports[`Button renders icon left correctly 1`] = `
     allowFontScaling={false}
     selectable={false}
     style={
-      {
-        "color": undefined,
-        "fontFamily": "IcoMoon",
-        "fontSize": 24,
-        "fontStyle": "normal",
-        "fontWeight": "normal",
-      }
+      [
+        {
+          "color": undefined,
+          "fontSize": 24,
+        },
+        [
+          {
+            "color": "#FFFFFF",
+          },
+          {
+            "marginRight": 8,
+          },
+        ],
+        {
+          "fontFamily": "IcoMoon",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        {},
+      ]
     }
   >
     
   </Text>
-  <Text>
+  <Text
+    style={
+      [
+        {
+          "fontFamily": "SpaceGrotesk-Bold",
+        },
+        {
+          "fontSize": 16,
+        },
+        {
+          "color": "#FFFFFF",
+        },
+      ]
+    }
+  >
     Title
   </Text>
 </View>
@@ -236,25 +441,95 @@ exports[`Button renders icon left disabled correctly 1`] = `
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
-  style={{}}
+  style={
+    [
+      {
+        "flexDirection": "row",
+      },
+      {
+        "alignItems": "center",
+      },
+      {
+        "justifyContent": "center",
+      },
+      {
+        "borderBottomLeftRadius": 6,
+        "borderBottomRightRadius": 6,
+        "borderTopLeftRadius": 6,
+        "borderTopRightRadius": 6,
+      },
+      {
+        "backgroundColor": "#6C464F",
+      },
+      {
+        "height": 44,
+      },
+      {
+        "backgroundColor": "#E1DCDC",
+      },
+      {
+        "borderBottomColor": "#E1DCDC",
+        "borderLeftColor": "#E1DCDC",
+        "borderRightColor": "#E1DCDC",
+        "borderTopColor": "#E1DCDC",
+      },
+      {
+        "borderBottomWidth": 2,
+        "borderLeftWidth": 2,
+        "borderRightWidth": 2,
+        "borderTopWidth": 2,
+      },
+      [
+        {},
+        undefined,
+      ],
+    ]
+  }
   testID=""
 >
   <Text
     allowFontScaling={false}
     selectable={false}
     style={
-      {
-        "color": undefined,
-        "fontFamily": "IcoMoon",
-        "fontSize": 24,
-        "fontStyle": "normal",
-        "fontWeight": "normal",
-      }
+      [
+        {
+          "color": undefined,
+          "fontSize": 24,
+        },
+        [
+          {
+            "color": "#868383",
+          },
+          {
+            "marginRight": 8,
+          },
+        ],
+        {
+          "fontFamily": "IcoMoon",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        {},
+      ]
     }
   >
     
   </Text>
-  <Text>
+  <Text
+    style={
+      [
+        {
+          "fontFamily": "SpaceGrotesk-Bold",
+        },
+        {
+          "fontSize": 16,
+        },
+        {
+          "color": "#868383",
+        },
+      ]
+    }
+  >
     Title
   </Text>
 </View>
@@ -294,13 +569,54 @@ exports[`Button renders icon left error correctly 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    {
-      "transform": [
+    [
+      {
+        "flexDirection": "row",
+      },
+      {
+        "alignItems": "center",
+      },
+      {
+        "justifyContent": "center",
+      },
+      {
+        "borderBottomLeftRadius": 6,
+        "borderBottomRightRadius": 6,
+        "borderTopLeftRadius": 6,
+        "borderTopRightRadius": 6,
+      },
+      {
+        "backgroundColor": "#6C464F",
+      },
+      {
+        "height": 44,
+      },
+      {
+        "backgroundColor": "#FFFFFF",
+      },
+      {
+        "borderBottomColor": "#AE3232",
+        "borderLeftColor": "#AE3232",
+        "borderRightColor": "#AE3232",
+        "borderTopColor": "#AE3232",
+      },
+      {
+        "borderBottomWidth": 2,
+        "borderLeftWidth": 2,
+        "borderRightWidth": 2,
+        "borderTopWidth": 2,
+      },
+      [
         {
-          "scale": undefined,
+          "transform": [
+            {
+              "scale": undefined,
+            },
+          ],
         },
+        undefined,
       ],
-    }
+    ]
   }
   testID=""
 >
@@ -308,18 +624,45 @@ exports[`Button renders icon left error correctly 1`] = `
     allowFontScaling={false}
     selectable={false}
     style={
-      {
-        "color": undefined,
-        "fontFamily": "IcoMoon",
-        "fontSize": 24,
-        "fontStyle": "normal",
-        "fontWeight": "normal",
-      }
+      [
+        {
+          "color": undefined,
+          "fontSize": 24,
+        },
+        [
+          {
+            "color": "#AE3232",
+          },
+          {
+            "marginRight": 8,
+          },
+        ],
+        {
+          "fontFamily": "IcoMoon",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        {},
+      ]
     }
   >
     
   </Text>
-  <Text>
+  <Text
+    style={
+      [
+        {
+          "fontFamily": "SpaceGrotesk-Bold",
+        },
+        {
+          "fontSize": 16,
+        },
+        {
+          "color": "#AE3232",
+        },
+      ]
+    }
+  >
     Title
   </Text>
 </View>
@@ -358,17 +701,57 @@ exports[`Button renders icon right correctly 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    {
-      "transform": [
+    [
+      {
+        "flexDirection": "row",
+      },
+      {
+        "alignItems": "center",
+      },
+      {
+        "justifyContent": "center",
+      },
+      {
+        "borderBottomLeftRadius": 6,
+        "borderBottomRightRadius": 6,
+        "borderTopLeftRadius": 6,
+        "borderTopRightRadius": 6,
+      },
+      {
+        "backgroundColor": "#6C464F",
+      },
+      {
+        "height": 44,
+      },
+      [
         {
-          "scale": undefined,
+          "transform": [
+            {
+              "scale": undefined,
+            },
+          ],
         },
+        undefined,
       ],
-    }
+    ]
   }
   testID=""
 >
-  <Text>
+  <Text
+    style={
+      [
+        {
+          "fontFamily": "SpaceGrotesk-Bold",
+        },
+        {
+          "fontSize": 16,
+        },
+        {
+          "color": "#FFFFFF",
+        },
+      ]
+    }
+  >
     Title
   </Text>
   <Text />
@@ -407,23 +790,93 @@ exports[`Button renders icon right disabled correctly 1`] = `
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
-  style={{}}
+  style={
+    [
+      {
+        "flexDirection": "row",
+      },
+      {
+        "alignItems": "center",
+      },
+      {
+        "justifyContent": "center",
+      },
+      {
+        "borderBottomLeftRadius": 6,
+        "borderBottomRightRadius": 6,
+        "borderTopLeftRadius": 6,
+        "borderTopRightRadius": 6,
+      },
+      {
+        "backgroundColor": "#6C464F",
+      },
+      {
+        "height": 44,
+      },
+      {
+        "backgroundColor": "#E1DCDC",
+      },
+      {
+        "borderBottomColor": "#E1DCDC",
+        "borderLeftColor": "#E1DCDC",
+        "borderRightColor": "#E1DCDC",
+        "borderTopColor": "#E1DCDC",
+      },
+      {
+        "borderBottomWidth": 2,
+        "borderLeftWidth": 2,
+        "borderRightWidth": 2,
+        "borderTopWidth": 2,
+      },
+      [
+        {},
+        undefined,
+      ],
+    ]
+  }
   testID=""
 >
-  <Text>
+  <Text
+    style={
+      [
+        {
+          "fontFamily": "SpaceGrotesk-Bold",
+        },
+        {
+          "fontSize": 16,
+        },
+        {
+          "color": "#868383",
+        },
+      ]
+    }
+  >
     Title
   </Text>
   <Text
     allowFontScaling={false}
     selectable={false}
     style={
-      {
-        "color": undefined,
-        "fontFamily": "IcoMoon",
-        "fontSize": 24,
-        "fontStyle": "normal",
-        "fontWeight": "normal",
-      }
+      [
+        {
+          "color": undefined,
+          "fontSize": 24,
+        },
+        [
+          {
+            "color": "#868383",
+          },
+          {
+            "marginLeft": 8,
+          },
+        ],
+        {
+          "fontFamily": "IcoMoon",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        {},
+      ]
     }
   >
     
@@ -465,30 +918,98 @@ exports[`Button renders icon right error correctly 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    {
-      "transform": [
+    [
+      {
+        "flexDirection": "row",
+      },
+      {
+        "alignItems": "center",
+      },
+      {
+        "justifyContent": "center",
+      },
+      {
+        "borderBottomLeftRadius": 6,
+        "borderBottomRightRadius": 6,
+        "borderTopLeftRadius": 6,
+        "borderTopRightRadius": 6,
+      },
+      {
+        "backgroundColor": "#6C464F",
+      },
+      {
+        "height": 44,
+      },
+      {
+        "backgroundColor": "#FFFFFF",
+      },
+      {
+        "borderBottomColor": "#AE3232",
+        "borderLeftColor": "#AE3232",
+        "borderRightColor": "#AE3232",
+        "borderTopColor": "#AE3232",
+      },
+      {
+        "borderBottomWidth": 2,
+        "borderLeftWidth": 2,
+        "borderRightWidth": 2,
+        "borderTopWidth": 2,
+      },
+      [
         {
-          "scale": undefined,
+          "transform": [
+            {
+              "scale": undefined,
+            },
+          ],
         },
+        undefined,
       ],
-    }
+    ]
   }
   testID=""
 >
-  <Text>
+  <Text
+    style={
+      [
+        {
+          "fontFamily": "SpaceGrotesk-Bold",
+        },
+        {
+          "fontSize": 16,
+        },
+        {
+          "color": "#AE3232",
+        },
+      ]
+    }
+  >
     Title
   </Text>
   <Text
     allowFontScaling={false}
     selectable={false}
     style={
-      {
-        "color": undefined,
-        "fontFamily": "IcoMoon",
-        "fontSize": 24,
-        "fontStyle": "normal",
-        "fontWeight": "normal",
-      }
+      [
+        {
+          "color": undefined,
+          "fontSize": 24,
+        },
+        [
+          {
+            "color": "#AE3232",
+          },
+          {
+            "marginLeft": 8,
+          },
+        ],
+        {
+          "fontFamily": "IcoMoon",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        {},
+      ]
     }
   >
     
@@ -529,13 +1050,39 @@ exports[`Button renders loading correctly 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    {
-      "transform": [
+    [
+      {
+        "flexDirection": "row",
+      },
+      {
+        "alignItems": "center",
+      },
+      {
+        "justifyContent": "center",
+      },
+      {
+        "borderBottomLeftRadius": 6,
+        "borderBottomRightRadius": 6,
+        "borderTopLeftRadius": 6,
+        "borderTopRightRadius": 6,
+      },
+      {
+        "backgroundColor": "#6C464F",
+      },
+      {
+        "height": 44,
+      },
+      [
         {
-          "scale": undefined,
+          "transform": [
+            {
+              "scale": undefined,
+            },
+          ],
         },
+        undefined,
       ],
-    }
+    ]
   }
   testID=""
 >
@@ -578,13 +1125,42 @@ exports[`IconButton renders correctly 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    {
-      "transform": [
+    [
+      {
+        "flexDirection": "row",
+      },
+      {
+        "alignItems": "center",
+      },
+      {
+        "justifyContent": "center",
+      },
+      {
+        "borderBottomLeftRadius": 6,
+        "borderBottomRightRadius": 6,
+        "borderTopLeftRadius": 6,
+        "borderTopRightRadius": 6,
+      },
+      {
+        "backgroundColor": "#6C464F",
+      },
+      {
+        "height": 44,
+      },
+      {
+        "width": 56,
+      },
+      [
         {
-          "scale": undefined,
+          "transform": [
+            {
+              "scale": undefined,
+            },
+          ],
         },
+        undefined,
       ],
-    }
+    ]
   }
   testID=""
 >
@@ -592,13 +1168,23 @@ exports[`IconButton renders correctly 1`] = `
     allowFontScaling={false}
     selectable={false}
     style={
-      {
-        "color": undefined,
-        "fontFamily": "IcoMoon",
-        "fontSize": 24,
-        "fontStyle": "normal",
-        "fontWeight": "normal",
-      }
+      [
+        {
+          "color": undefined,
+          "fontSize": 24,
+        },
+        [
+          {
+            "color": "#FFFFFF",
+          },
+        ],
+        {
+          "fontFamily": "IcoMoon",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        {},
+      ]
     }
   >
     
@@ -638,20 +1224,76 @@ exports[`IconButton renders disabled correctly 1`] = `
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
-  style={{}}
+  style={
+    [
+      {
+        "flexDirection": "row",
+      },
+      {
+        "alignItems": "center",
+      },
+      {
+        "justifyContent": "center",
+      },
+      {
+        "borderBottomLeftRadius": 6,
+        "borderBottomRightRadius": 6,
+        "borderTopLeftRadius": 6,
+        "borderTopRightRadius": 6,
+      },
+      {
+        "backgroundColor": "#6C464F",
+      },
+      {
+        "height": 44,
+      },
+      {
+        "backgroundColor": "#E1DCDC",
+      },
+      {
+        "borderBottomColor": "#E1DCDC",
+        "borderLeftColor": "#E1DCDC",
+        "borderRightColor": "#E1DCDC",
+        "borderTopColor": "#E1DCDC",
+      },
+      {
+        "borderBottomWidth": 2,
+        "borderLeftWidth": 2,
+        "borderRightWidth": 2,
+        "borderTopWidth": 2,
+      },
+      {
+        "width": 56,
+      },
+      [
+        {},
+        undefined,
+      ],
+    ]
+  }
   testID=""
 >
   <Text
     allowFontScaling={false}
     selectable={false}
     style={
-      {
-        "color": undefined,
-        "fontFamily": "IcoMoon",
-        "fontSize": 24,
-        "fontStyle": "normal",
-        "fontWeight": "normal",
-      }
+      [
+        {
+          "color": undefined,
+          "fontSize": 24,
+        },
+        [
+          {
+            "color": "#868383",
+          },
+        ],
+        {
+          "fontFamily": "IcoMoon",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        {},
+      ]
     }
   >
     
@@ -693,13 +1335,57 @@ exports[`IconButton renders error correctly 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    {
-      "transform": [
+    [
+      {
+        "flexDirection": "row",
+      },
+      {
+        "alignItems": "center",
+      },
+      {
+        "justifyContent": "center",
+      },
+      {
+        "borderBottomLeftRadius": 6,
+        "borderBottomRightRadius": 6,
+        "borderTopLeftRadius": 6,
+        "borderTopRightRadius": 6,
+      },
+      {
+        "backgroundColor": "#6C464F",
+      },
+      {
+        "height": 44,
+      },
+      {
+        "backgroundColor": "#FFFFFF",
+      },
+      {
+        "borderBottomColor": "#AE3232",
+        "borderLeftColor": "#AE3232",
+        "borderRightColor": "#AE3232",
+        "borderTopColor": "#AE3232",
+      },
+      {
+        "borderBottomWidth": 2,
+        "borderLeftWidth": 2,
+        "borderRightWidth": 2,
+        "borderTopWidth": 2,
+      },
+      {
+        "width": 56,
+      },
+      [
         {
-          "scale": undefined,
+          "transform": [
+            {
+              "scale": undefined,
+            },
+          ],
         },
+        undefined,
       ],
-    }
+    ]
   }
   testID=""
 >
@@ -707,13 +1393,23 @@ exports[`IconButton renders error correctly 1`] = `
     allowFontScaling={false}
     selectable={false}
     style={
-      {
-        "color": undefined,
-        "fontFamily": "IcoMoon",
-        "fontSize": 24,
-        "fontStyle": "normal",
-        "fontWeight": "normal",
-      }
+      [
+        {
+          "color": undefined,
+          "fontSize": 24,
+        },
+        [
+          {
+            "color": "#AE3232",
+          },
+        ],
+        {
+          "fontFamily": "IcoMoon",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        {},
+      ]
     }
   >
     
@@ -754,13 +1450,42 @@ exports[`IconButton renders loading correctly 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    {
-      "transform": [
+    [
+      {
+        "flexDirection": "row",
+      },
+      {
+        "alignItems": "center",
+      },
+      {
+        "justifyContent": "center",
+      },
+      {
+        "borderBottomLeftRadius": 6,
+        "borderBottomRightRadius": 6,
+        "borderTopLeftRadius": 6,
+        "borderTopRightRadius": 6,
+      },
+      {
+        "backgroundColor": "#6C464F",
+      },
+      {
+        "height": 44,
+      },
+      {
+        "width": 56,
+      },
+      [
         {
-          "scale": undefined,
+          "transform": [
+            {
+              "scale": undefined,
+            },
+          ],
         },
+        undefined,
       ],
-    }
+    ]
   }
   testID=""
 >
@@ -803,9 +1528,14 @@ exports[`PressableIcon renders correctly 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    {
-      "opacity": undefined,
-    }
+    [
+      [
+        {
+          "opacity": undefined,
+        },
+        undefined,
+      ],
+    ]
   }
   testID="test"
 >
@@ -813,13 +1543,23 @@ exports[`PressableIcon renders correctly 1`] = `
     allowFontScaling={false}
     selectable={false}
     style={
-      {
-        "color": undefined,
-        "fontFamily": "IcoMoon",
-        "fontSize": 24,
-        "fontStyle": "normal",
-        "fontWeight": "normal",
-      }
+      [
+        {
+          "color": undefined,
+          "fontSize": 24,
+        },
+        [
+          {
+            "color": "#6C464F",
+          },
+        ],
+        {
+          "fontFamily": "IcoMoon",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        {},
+      ]
     }
   >
     
@@ -861,15 +1601,31 @@ exports[`PressableText renders correctly 1`] = `
   onStartShouldSetResponder={[Function]}
   style={
     [
-      {
-        "opacity": undefined,
-      },
-      undefined,
+      [
+        {
+          "opacity": undefined,
+        },
+        undefined,
+      ],
     ]
   }
   testID="test"
 >
-  <Text>
+  <Text
+    style={
+      [
+        {
+          "fontFamily": "SpaceGrotesk-Regular",
+        },
+        {
+          "fontSize": 14,
+        },
+        {
+          "lineHeight": 18,
+        },
+      ]
+    }
+  >
     text
   </Text>
 </View>

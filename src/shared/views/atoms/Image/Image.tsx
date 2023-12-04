@@ -1,11 +1,13 @@
 import { Image as ExpoImage } from 'expo-image'
+import { styled } from 'nativewind'
 import { memo } from 'react'
 
 import { getImageSource, useRatioImage } from './Image.lib'
 import { IImageProps } from './Image.props'
 
+const StyledImage = styled(ExpoImage)
 const DefaultImage = ({ source, ...props }: IImageProps) => {
-  return <ExpoImage source={getImageSource(source)} {...props} />
+  return <StyledImage source={getImageSource(source)} {...props} />
 }
 
 const RatioImage = memo<IImageProps>(({ source, width, height, style, ...props }) => {

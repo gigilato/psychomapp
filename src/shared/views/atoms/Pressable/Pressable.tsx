@@ -1,10 +1,11 @@
+import { styled } from 'nativewind'
 import { Pressable as PressableDefault } from 'react-native'
 import Animated from 'react-native-reanimated'
 
 import { usePressable } from './Pressable.lib'
 import { IPressableProps } from './Pressable.props'
 
-const AnimatedPressable = Animated.createAnimatedComponent(PressableDefault)
+const AnimatedPressable = Animated.createAnimatedComponent(styled(PressableDefault))
 
 export const Pressable = ({ style, ID, ...props }: IPressableProps) => {
   const { onPressIn, onPressOut, onPress, animatedStyle } = usePressable(props)

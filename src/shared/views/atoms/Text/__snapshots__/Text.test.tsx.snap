@@ -1,19 +1,67 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Text renders correctly 1`] = `
-<Text>
+<Text
+  style={
+    [
+      {
+        "fontFamily": "SpaceGrotesk-Regular",
+      },
+      {
+        "fontSize": 14,
+      },
+      {
+        "lineHeight": 18,
+      },
+    ]
+  }
+>
   1st test
 </Text>
 `;
 
 exports[`Text renders with overrided styles 1`] = `
-<Text>
+<Text
+  style={
+    [
+      {
+        "fontFamily": "SpaceGrotesk-Bold",
+      },
+      {
+        "fontSize": 34,
+      },
+      {
+        "lineHeight": 42,
+      },
+      {
+        "color": "#6C464F",
+      },
+      {
+        "fontSize": 20,
+      },
+    ]
+  }
+>
   3rd test
 </Text>
 `;
 
 exports[`Text renders with variant 1`] = `
-<Text>
+<Text
+  style={
+    [
+      {
+        "fontFamily": "SpaceGrotesk-Bold",
+      },
+      {
+        "fontSize": 34,
+      },
+      {
+        "lineHeight": 42,
+      },
+    ]
+  }
+>
   1nd test
 </Text>
 `;
