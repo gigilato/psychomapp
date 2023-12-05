@@ -8,7 +8,6 @@ jest.useFakeTimers()
 // eslint-disable-next-line
 require('react-native-reanimated/src/reanimated2/jestUtils').setUpTests();
 
-
 jest.mock('react-native/Libraries/Animated/NativeAnimatedHelper')
 
 // jest.mock('react-native-svg')
@@ -21,11 +20,6 @@ jest.mock('react-native-reanimated', () => {
     },
   }
 })
-
-// jest.mock('@gorhom/bottom-sheet', () => ({
-//   __esModule: true,
-//   ...require('@gorhom/bottom-sheet/mock'),
-// }))
 
 jest.mock('$atoms/Image/Image.lib', () => ({
   ...jest.requireActual('$atoms/Image/Image.lib'),
@@ -56,22 +50,42 @@ jest.mock('@react-native-firebase/analytics', () => ({
   }),
 }))
 
-// jest.mock('@shopify/react-native-skia', () => {
-//   const { View } = require('react-native')
-//   return {
-//     Skia: {
-//       Path: {
-//         Make: () => ({
-//           addCircle: jest.fn(),
-//         }),
-//       },
-//     },
-//     vec: () => ({ x: 0, y: 0 }),
-//     Canvas: View,
-//     Path: View,
-//     Group: View,
-//   }
-// })
+jest.mock('@supabase/supabase-js', () => ({
+  createClient: jest.fn(),
+}))
+
+jest.mock('$infra/analytics', () => ({
+  setConsent: jest.fn(),
+  setUser: jest.fn(),
+  setUserProperty: jest.fn(),
+  setCurrentScreen: jest.fn(),
+  clearUser: jest.fn(),
+  logEvent: jest.fn(),
+  logScreen: jest.fn(),
+  useAnalyticsStore: (passedFunction) => {
+    const data = {
+      currentUserId: undefined,
+      currentScreen: '',
+      consents: { ga: true, segment: true },
+    }
+    return passedFunction(data)
+  },
+}))
+
+jest.mock('$infra/auth', () => ({
+  useAuthStore: (passedFunction) => {
+    const data = {
+      hasRestoredSession: true,
+      isAuthenticated: false,
+      userId: 'userId',
+    }
+    return passedFunction(data)
+  },
+  restoreSessionAsync: jest.fn(),
+  signInAsync: jest.fn(),
+  signOutAsync: jest.fn(),
+  resetPasswordAsync: jest.fn(),
+}))
 
 global.console = {
   ...console,

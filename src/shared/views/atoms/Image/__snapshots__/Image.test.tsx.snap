@@ -50,7 +50,7 @@ exports[`Image renders with cover 1`] = `
 />
 `;
 
-exports[`RatioImage renders correctly 1`] = `
+exports[`Image renders with ratio 1`] = `
 <ViewManagerAdapter_ExpoImage
   contentFit="contain"
   contentPosition={

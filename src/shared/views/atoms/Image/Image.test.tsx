@@ -12,10 +12,8 @@ describe('Image', () => {
     const component = render(<Image source="logo" className="h-[150]" contentFit="cover" />)
     expect(component).toMatchSnapshot()
   })
-})
 
-describe('RatioImage', () => {
-  it('renders correctly', async () => {
+  it('renders with ratio', async () => {
     const component = render(<Image source="logo" width={100} />)
     expect(component).toMatchSnapshot()
   })
