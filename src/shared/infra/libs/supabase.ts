@@ -2,6 +2,7 @@ import { createClient } from '@supabase/supabase-js'
 import { MMKV } from 'react-native-mmkv'
 
 import { config } from '$config'
+import { Database } from '$types/database/generated'
 
 const { anon, url } = config.supabase
 
@@ -12,7 +13,7 @@ const storage = {
   removeItem: (key: string) => mmkv.delete(key),
 }
 
-export const supabase = createClient(url, anon, {
+export const supabase = createClient<Database>(url, anon, {
   auth: {
     storage,
     autoRefreshToken: true,

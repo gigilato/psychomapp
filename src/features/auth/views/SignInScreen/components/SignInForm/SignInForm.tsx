@@ -1,14 +1,12 @@
 import { Box } from '$atoms'
-import { ISignInFormProps } from '$features/auth/SignInScreen/components/SignInForm/SignForm.props'
-import {
-  SignInFormType,
-  useSignInForm,
-} from '$features/auth/SignInScreen/components/SignInForm/SignInForm.lib'
 import { FormTextInput } from '$forms'
 import { Button, PressableText } from '$molecules'
 
+import { ISignInFormProps } from './SignForm.props'
+import { SignInFormType, useSignInForm } from './SignInForm.lib'
+
 export const SignInForm = (props: ISignInFormProps) => {
-  const { passwordRef, form, onPressSubmit } = useSignInForm()
+  const { passwordRef, form, onPressSubmit, isPending } = useSignInForm()
   return (
     <Box {...props}>
       <FormTextInput<SignInFormType>
@@ -32,7 +30,13 @@ export const SignInForm = (props: ISignInFormProps) => {
       <PressableText variant="link" ID="forgotPassword/button" className="mt-s self-end">
         Mot de passe oublié ?
       </PressableText>
-      <Button ID="signIn/button" title="Se connecter" onPress={onPressSubmit} className="mt-xl" />
+      <Button
+        ID="signIn/button"
+        title="Se connecter"
+        onPress={onPressSubmit}
+        className="mt-xl"
+        isLoading={isPending}
+      />
     </Box>
   )
 }

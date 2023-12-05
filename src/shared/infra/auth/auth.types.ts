@@ -1,5 +1,7 @@
+import { Practitionner } from '$types/database'
+
 export type AuthState = {
   hasSessionRestored: boolean
   isAuthenticated: boolean
-  userId: string | undefined
+  profile: Practitionner | undefined
 }

@@ -1,4 +1,4 @@
-import { SignInScreen } from '$features/auth'
+import { SignInScreen } from '$features/auth/views'
 
 export default function SignIn() {
   return <SignInScreen />

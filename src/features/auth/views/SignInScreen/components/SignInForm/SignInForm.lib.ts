@@ -4,7 +4,7 @@ import { useForm } from 'react-hook-form'
 import { TextInput } from 'react-native'
 import { z } from 'zod'
 
-import { signInAsync } from '$infra/auth'
+import { useSignIn } from '$features/auth/infra/controllers/useSignIn'
 
 export const SignInFormSchema = z
   .object({
@@ -26,9 +26,11 @@ export const useSignInForm = () => {
     mode: 'onBlur',
   })
 
-  const onPressSubmit = form.handleSubmit(({ email, password }) => {
-    signInAsync(email, password)
+  const { mutateAsync, isPending } = useSignIn()
+
+  const onPressSubmit = form.handleSubmit((formData) => {
+    mutateAsync(formData)
   })
 
-  return { passwordRef, form, onPressSubmit }
+  return { passwordRef, form, onPressSubmit, isPending }
 }
