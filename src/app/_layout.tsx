@@ -1,3 +1,4 @@
+import { Toasts } from '@backpackapp-io/react-native-toast'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { Slot } from 'expo-router'
 import { StatusBar } from 'expo-status-bar'
@@ -10,6 +11,7 @@ export default function RootLayout() {
       <SafeAreaProvider>
         <Slot />
         <StatusBar style="auto" />
+        <Toasts />
       </SafeAreaProvider>
     </QueryClientProvider>
   )

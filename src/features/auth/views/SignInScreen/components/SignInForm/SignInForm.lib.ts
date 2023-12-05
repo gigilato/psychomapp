@@ -5,11 +5,14 @@ import { TextInput } from 'react-native'
 import { z } from 'zod'
 
 import { useSignIn } from '$features/auth/infra/controllers/useSignIn'
+import { emailSchema, stringSchema } from '$forms/libs/form.schemas'
+import { resetPasswordAsync } from '$infra/auth'
+import { showToast } from '$infra/toast'
 
 export const SignInFormSchema = z
   .object({
-    email: z.string().min(1, 'Champs requis').email('Email incorrect'),
-    password: z.string().min(1, 'Champs requis'),
+    email: emailSchema,
+    password: stringSchema,
   })
   .required()
 export type SignInFormType = z.infer<typeof SignInFormSchema>
@@ -32,5 +35,16 @@ export const useSignInForm = () => {
     mutateAsync(formData)
   })
 
-  return { passwordRef, form, onPressSubmit, isPending }
+  const onPressForgotPassword = () => {
+    const { email } = form.getValues()
+    const { success } = emailSchema.safeParse(email)
+    if (!success) {
+      showToast('Veuillez renseigner un email valide.')
+      return
+    }
+    resetPasswordAsync(email)
+    showToast('Un email de réinitialisation vous a été envoyé.')
+  }
+
+  return { passwordRef, form, onPressSubmit, isPending, onPressForgotPassword }
 }
