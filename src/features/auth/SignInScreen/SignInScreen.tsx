@@ -3,7 +3,7 @@ import { TextInput } from 'react-native'
 
 import { HStack, Image, Screen, Text } from '$atoms'
 import { EmailInput, PasswordInput } from '$forms'
-import { signIn } from '$infra/auth'
+import { signInAsync } from '$infra/auth'
 import { Button, PressableText } from '$molecules'
 
 export const SignInScreen = () => {
@@ -42,7 +42,7 @@ export const SignInScreen = () => {
         title="Se connecter"
         className="mt-xl"
         onPress={() => {
-          signIn('loismartinez.7@gmail.com', 'azerty')
+          signInAsync('loismartinez.7@gmail.com', 'azerty')
         }}
       />
     </Screen>

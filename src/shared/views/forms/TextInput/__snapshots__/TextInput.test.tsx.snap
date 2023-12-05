@@ -2083,7 +2083,7 @@ exports[`TextInput renders label correctly 1`] = `
     style={
       [
         {
-          "fontFamily": "SpaceGrotesk-Regular",
+          "fontFamily": "SpaceGrotesk-Medium",
         },
         {
           "fontSize": 14,
