@@ -3,6 +3,7 @@ import { forwardRef, memo, useState } from 'react'
 import { TextInput as RNTextInput } from 'react-native'
 
 import { Box, HStack, Text, textVariants } from '$atoms'
+import { i18n } from '$infra/i18n'
 import { PressableIcon } from '$molecules/Button'
 import { colors } from '$theme'
 
@@ -91,6 +92,9 @@ export const EmailInput = forwardRef<RNTextInput, ITextInputProps>((props, ref) 
   <TextInput
     ref={ref}
     keyboardType="email-address"
+    textContentType="emailAddress"
+    label={i18n.t('forms.email.label')}
+    placeholder={i18n.t('forms.email.placeholder')}
     autoComplete="email"
     iconRight={props.value === '' ? 'envelope' : undefined}
     {...props}
@@ -104,6 +108,8 @@ export const PasswordInput = forwardRef<RNTextInput, ITextInputProps>(
     return (
       <TextInput
         ref={ref}
+        label={i18n.t('forms.password.label')}
+        placeholder={i18n.t('forms.password.placeholder')}
         textContentType="password"
         autoComplete="password"
         secureTextEntry={!isPasswordVisible}

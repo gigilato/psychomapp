@@ -9,7 +9,7 @@ import { IFormTextInputProps } from './FormTextInput.props'
 export const FormTextInput: <FieldValues extends object>(
   props: IFormTextInputProps<FieldValues>
 ) => ReactNode = forwardRef(
-  ({ name, control, type, rules, label, disabled, onBlur: onBlurProp, ...props }, ref) => {
+  ({ name, control, type, rules, disabled, onBlur: onBlurProp, ...props }, ref) => {
     const TextInputComponent = useMemo(() => {
       switch (type) {
         case 'email':
@@ -36,7 +36,6 @@ export const FormTextInput: <FieldValues extends object>(
 
     return (
       <TextInputComponent
-        label={label}
         error={error?.message}
         ref={ref}
         ID={`input/${name}`}

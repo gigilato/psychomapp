@@ -1,6 +1,8 @@
+import 'intl-pluralrules'
+import 'react-native-url-polyfill/auto'
+
 import { Redirect, Slot, SplashScreen } from 'expo-router'
 import { ActivityIndicator, LogBox } from 'react-native'
-import 'react-native-url-polyfill/auto'
 
 import { useAppLoading } from '$app/appLoading'
 import { Screen } from '$atoms'

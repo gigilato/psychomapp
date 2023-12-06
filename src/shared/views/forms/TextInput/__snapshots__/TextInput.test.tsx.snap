@@ -2,6 +2,29 @@
 
 exports[`EmailInput renders correctly 1`] = `
 <View>
+  <Text
+    style={
+      [
+        {
+          "fontFamily": "SpaceGrotesk-Medium",
+        },
+        {
+          "fontSize": 14,
+        },
+        {
+          "lineHeight": 18,
+        },
+        {
+          "marginBottom": 8,
+        },
+        {
+          "color": "#3F434A",
+        },
+      ]
+    }
+  >
+    Email
+  </Text>
   <View
     style={
       [
@@ -65,8 +88,10 @@ exports[`EmailInput renders correctly 1`] = `
         keyboardType="email-address"
         onBlur={[Function]}
         onFocus={[Function]}
+        placeholder="Entrez votre email"
         selectionColor="#6C464F"
         testID="test"
+        textContentType="emailAddress"
       />
     </View>
     <View
@@ -147,6 +172,29 @@ exports[`EmailInput renders correctly 1`] = `
 
 exports[`EmailInput renders correctly with value 1`] = `
 <View>
+  <Text
+    style={
+      [
+        {
+          "fontFamily": "SpaceGrotesk-Medium",
+        },
+        {
+          "fontSize": 14,
+        },
+        {
+          "lineHeight": 18,
+        },
+        {
+          "marginBottom": 8,
+        },
+        {
+          "color": "#3F434A",
+        },
+      ]
+    }
+  >
+    Email
+  </Text>
   <View
     style={
       [
@@ -210,8 +258,10 @@ exports[`EmailInput renders correctly with value 1`] = `
         keyboardType="email-address"
         onBlur={[Function]}
         onFocus={[Function]}
+        placeholder="Entrez votre email"
         selectionColor="#6C464F"
         testID="test"
+        textContentType="emailAddress"
         value="test"
       />
     </View>
@@ -293,6 +343,29 @@ exports[`EmailInput renders correctly with value 1`] = `
 
 exports[`PasswordInput renders correctly 1`] = `
 <View>
+  <Text
+    style={
+      [
+        {
+          "fontFamily": "SpaceGrotesk-Medium",
+        },
+        {
+          "fontSize": 14,
+        },
+        {
+          "lineHeight": 18,
+        },
+        {
+          "marginBottom": 8,
+        },
+        {
+          "color": "#3F434A",
+        },
+      ]
+    }
+  >
+    Mot de passe
+  </Text>
   <View
     style={
       [
@@ -356,6 +429,7 @@ exports[`PasswordInput renders correctly 1`] = `
         keyboardType="default"
         onBlur={[Function]}
         onFocus={[Function]}
+        placeholder="Entrez votre mot de passe"
         secureTextEntry={true}
         selectionColor="#6C464F"
         testID="test"
@@ -440,6 +514,29 @@ exports[`PasswordInput renders correctly 1`] = `
 
 exports[`PasswordInput renders correctly with value 1`] = `
 <View>
+  <Text
+    style={
+      [
+        {
+          "fontFamily": "SpaceGrotesk-Medium",
+        },
+        {
+          "fontSize": 14,
+        },
+        {
+          "lineHeight": 18,
+        },
+        {
+          "marginBottom": 8,
+        },
+        {
+          "color": "#3F434A",
+        },
+      ]
+    }
+  >
+    Mot de passe
+  </Text>
   <View
     style={
       [
@@ -503,6 +600,7 @@ exports[`PasswordInput renders correctly with value 1`] = `
         keyboardType="default"
         onBlur={[Function]}
         onFocus={[Function]}
+        placeholder="Entrez votre mot de passe"
         secureTextEntry={true}
         selectionColor="#6C464F"
         testID="test"
@@ -588,6 +686,29 @@ exports[`PasswordInput renders correctly with value 1`] = `
 
 exports[`PasswordInput shows password on icon press 1`] = `
 <View>
+  <Text
+    style={
+      [
+        {
+          "fontFamily": "SpaceGrotesk-Medium",
+        },
+        {
+          "fontSize": 14,
+        },
+        {
+          "lineHeight": 18,
+        },
+        {
+          "marginBottom": 8,
+        },
+        {
+          "color": "#3F434A",
+        },
+      ]
+    }
+  >
+    Mot de passe
+  </Text>
   <View
     style={
       [
@@ -651,6 +772,7 @@ exports[`PasswordInput shows password on icon press 1`] = `
         keyboardType="default"
         onBlur={[Function]}
         onFocus={[Function]}
+        placeholder="Entrez votre mot de passe"
         secureTextEntry={false}
         selectionColor="#6C464F"
         testID="test"
@@ -736,6 +858,29 @@ exports[`PasswordInput shows password on icon press 1`] = `
 
 exports[`PasswordInput shows password on icon press 2`] = `
 <View>
+  <Text
+    style={
+      [
+        {
+          "fontFamily": "SpaceGrotesk-Medium",
+        },
+        {
+          "fontSize": 14,
+        },
+        {
+          "lineHeight": 18,
+        },
+        {
+          "marginBottom": 8,
+        },
+        {
+          "color": "#3F434A",
+        },
+      ]
+    }
+  >
+    Mot de passe
+  </Text>
   <View
     style={
       [
@@ -799,6 +944,7 @@ exports[`PasswordInput shows password on icon press 2`] = `
         keyboardType="default"
         onBlur={[Function]}
         onFocus={[Function]}
+        placeholder="Entrez votre mot de passe"
         secureTextEntry={true}
         selectionColor="#6C464F"
         testID="test"

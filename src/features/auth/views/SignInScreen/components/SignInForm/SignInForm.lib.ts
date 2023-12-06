@@ -7,6 +7,7 @@ import { z } from 'zod'
 import { useSignIn } from '$features/auth/infra/controllers/useSignIn'
 import { emailSchema, stringSchema } from '$forms/libs/form.schemas'
 import { resetPasswordAsync } from '$infra/auth'
+import { i18n } from '$infra/i18n'
 import { showToast } from '$infra/toast'
 
 export const SignInFormSchema = z
@@ -39,11 +40,11 @@ export const useSignInForm = () => {
     const { email } = form.getValues()
     const { success } = emailSchema.safeParse(email)
     if (!success) {
-      showToast('Veuillez renseigner un email valide.')
+      showToast(i18n.t('signIn.invalidEmail'))
       return
     }
     resetPasswordAsync(email)
-    showToast('Un email de réinitialisation vous a été envoyé.')
+    showToast(i18n.t('signIn.resetPassword'))
   }
 
   return { passwordRef, form, onPressSubmit, isPending, onPressForgotPassword }

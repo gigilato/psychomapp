@@ -1,5 +1,6 @@
 import { Box } from '$atoms'
 import { FormTextInput } from '$forms'
+import { i18n } from '$infra/i18n'
 import { Button, PressableText } from '$molecules'
 
 import { ISignInFormProps } from './SignForm.props'
@@ -13,9 +14,6 @@ export const SignInForm = (props: ISignInFormProps) => {
         name="email"
         control={form.control}
         type="email"
-        label="Email"
-        placeholder="Votre email"
-        textContentType="emailAddress"
         onSubmitEditing={() => passwordRef.current?.focus()}
       />
       <FormTextInput<SignInFormType>
@@ -23,8 +21,6 @@ export const SignInForm = (props: ISignInFormProps) => {
         name="password"
         control={form.control}
         type="password"
-        label="Mot de passe"
-        placeholder="Votre mot de passe"
         ref={passwordRef}
       />
       <PressableText
@@ -34,12 +30,12 @@ export const SignInForm = (props: ISignInFormProps) => {
         className="mt-s self-end"
         onPress={onPressForgotPassword}
       >
-        Mot de passe oublié ?
+        {i18n.t('signIn.forgotPassword')}
       </PressableText>
       <Button
         ID="signIn/button"
         event="clic_sign_in"
-        title="Se connecter"
+        title={i18n.t('common.connexion')}
         onPress={onPressSubmit}
         className="mt-xl"
         isLoading={isPending}

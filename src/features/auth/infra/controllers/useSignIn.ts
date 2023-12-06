@@ -1,6 +1,7 @@
 import { useMutation } from '@tanstack/react-query'
 
 import { signInAsync } from '$infra/auth'
+import { i18n } from '$infra/i18n'
 import { showToast } from '$infra/toast'
 
 type Variables = {
@@ -13,7 +14,7 @@ export const useSignIn = () => {
       return signInAsync(email, password)
     },
     onError: () => {
-      showToast('Connexion impossible, vérifiez vos identifiants.')
+      showToast(i18n.t('signIn.wrongCredentials'))
     },
   })
 
