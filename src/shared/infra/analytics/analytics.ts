@@ -1,12 +1,12 @@
 import { create } from 'zustand'
 
-import { config } from '$config'
+import { getConfig } from '$config'
 
 import { AnalyticsConsents, AnalyticsProperties, AnalyticsState } from './analytics.types'
 import * as ga from '../libs/ga'
 import * as sentry from '../libs/sentry'
 
-const { enableAnalytics } = config
+const enableAnalytics = getConfig('enableAnalytics')
 
 export const useAnalyticsStore = create<AnalyticsState>((set, get) => ({
   currentUserId: undefined,

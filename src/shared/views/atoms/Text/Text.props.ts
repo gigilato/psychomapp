@@ -10,6 +10,8 @@ export type TextVariant =
   // action
   | 'button'
   | 'link'
+  // input
+  | 'inputError'
 
 export interface ITextProps extends Omit<TextProps, 'textTransform'> {
   textTransform?: TextTransform

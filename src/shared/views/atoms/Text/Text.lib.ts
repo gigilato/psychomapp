@@ -13,6 +13,8 @@ export const textVariants: Record<TextVariant, string> = {
   // action
   button: 'font-[SpaceGrotesk-Bold] text-[16px] classic',
   link: 'font-[SpaceGrotesk-Medium] text-[14px] text-grey-classic underline',
+  // input
+  inputError: 'font-[SpaceGrotesk-Light] text-[12px]',
 }
 
 export const getContent = (children: ReactNode, textTransform?: TextTransform) => {

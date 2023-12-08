@@ -1,7 +1,11 @@
+import { get } from 'lodash'
+
+import { DeepKey, DeepValue } from '$types/common'
+
 export type EnvName = 'dev' | 'staging' | 'production'
 
 const env = process.env.EXPO_PUBLIC_ENV as EnvName
-export const config = {
+const config = {
   env,
   enableAnalytics: env !== 'dev',
   sentry: {
@@ -12,4 +16,12 @@ export const config = {
     anon: process.env.EXPO_PUBLIC_SUPABASE_ANON!,
     serviceRole: process.env.EXPO_PUBLIC_SUPABASE_SERVICE!,
   },
+}
+
+type Config = typeof config
+
+export const getConfig = <Selector extends DeepKey<Config>>(
+  selector: Selector
+): DeepValue<Config, Selector> => {
+  return get(config, selector) as DeepValue<Config, Selector>
 }

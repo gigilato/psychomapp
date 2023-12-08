@@ -3,29 +3,45 @@
 exports[`SignInForm should render the form correctly 1`] = `
 <View>
   <View>
-    <Text
+    <View
       style={
         [
           {
-            "fontFamily": "SpaceGrotesk-Medium",
-          },
-          {
-            "fontSize": 14,
-          },
-          {
-            "lineHeight": 18,
+            "flexDirection": "row",
           },
           {
             "marginBottom": 8,
           },
           {
-            "color": "#3F434A",
+            "alignItems": "center",
+          },
+          {
+            "justifyContent": "space-between",
           },
         ]
       }
     >
-      Email
-    </Text>
+      <Text
+        style={
+          [
+            {
+              "fontFamily": "SpaceGrotesk-Medium",
+            },
+            {
+              "fontSize": 14,
+            },
+            {
+              "lineHeight": 18,
+            },
+            {
+              "color": "#3F434A",
+            },
+          ]
+        }
+      >
+        Email
+      </Text>
+    </View>
     <View
       style={
         [
@@ -154,29 +170,45 @@ exports[`SignInForm should render the form correctly 1`] = `
       ]
     }
   >
-    <Text
+    <View
       style={
         [
           {
-            "fontFamily": "SpaceGrotesk-Medium",
-          },
-          {
-            "fontSize": 14,
-          },
-          {
-            "lineHeight": 18,
+            "flexDirection": "row",
           },
           {
             "marginBottom": 8,
           },
           {
-            "color": "#3F434A",
+            "alignItems": "center",
+          },
+          {
+            "justifyContent": "space-between",
           },
         ]
       }
     >
-      Mot de passe
-    </Text>
+      <Text
+        style={
+          [
+            {
+              "fontFamily": "SpaceGrotesk-Medium",
+            },
+            {
+              "fontSize": 14,
+            },
+            {
+              "lineHeight": 18,
+            },
+            {
+              "color": "#3F434A",
+            },
+          ]
+        }
+      >
+        Mot de passe
+      </Text>
+    </View>
     <View
       style={
         [
@@ -463,29 +495,45 @@ exports[`SignInForm should render the form correctly 1`] = `
 exports[`SignInForm should render the form loading 1`] = `
 <View>
   <View>
-    <Text
+    <View
       style={
         [
           {
-            "fontFamily": "SpaceGrotesk-Medium",
-          },
-          {
-            "fontSize": 14,
-          },
-          {
-            "lineHeight": 18,
+            "flexDirection": "row",
           },
           {
             "marginBottom": 8,
           },
           {
-            "color": "#3F434A",
+            "alignItems": "center",
+          },
+          {
+            "justifyContent": "space-between",
           },
         ]
       }
     >
-      Email
-    </Text>
+      <Text
+        style={
+          [
+            {
+              "fontFamily": "SpaceGrotesk-Medium",
+            },
+            {
+              "fontSize": 14,
+            },
+            {
+              "lineHeight": 18,
+            },
+            {
+              "color": "#3F434A",
+            },
+          ]
+        }
+      >
+        Email
+      </Text>
+    </View>
     <View
       style={
         [
@@ -641,29 +689,45 @@ exports[`SignInForm should render the form loading 1`] = `
       ]
     }
   >
-    <Text
+    <View
       style={
         [
           {
-            "fontFamily": "SpaceGrotesk-Medium",
-          },
-          {
-            "fontSize": 14,
-          },
-          {
-            "lineHeight": 18,
+            "flexDirection": "row",
           },
           {
             "marginBottom": 8,
           },
           {
-            "color": "#3F434A",
+            "alignItems": "center",
+          },
+          {
+            "justifyContent": "space-between",
           },
         ]
       }
     >
-      Mot de passe
-    </Text>
+      <Text
+        style={
+          [
+            {
+              "fontFamily": "SpaceGrotesk-Medium",
+            },
+            {
+              "fontSize": 14,
+            },
+            {
+              "lineHeight": 18,
+            },
+            {
+              "color": "#3F434A",
+            },
+          ]
+        }
+      >
+        Mot de passe
+      </Text>
+    </View>
     <View
       style={
         [

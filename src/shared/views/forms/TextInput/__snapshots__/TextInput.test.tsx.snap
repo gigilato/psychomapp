@@ -2,29 +2,45 @@
 
 exports[`EmailInput renders correctly 1`] = `
 <View>
-  <Text
+  <View
     style={
       [
         {
-          "fontFamily": "SpaceGrotesk-Medium",
-        },
-        {
-          "fontSize": 14,
-        },
-        {
-          "lineHeight": 18,
+          "flexDirection": "row",
         },
         {
           "marginBottom": 8,
         },
         {
-          "color": "#3F434A",
+          "alignItems": "center",
+        },
+        {
+          "justifyContent": "space-between",
         },
       ]
     }
   >
-    Email
-  </Text>
+    <Text
+      style={
+        [
+          {
+            "fontFamily": "SpaceGrotesk-Medium",
+          },
+          {
+            "fontSize": 14,
+          },
+          {
+            "lineHeight": 18,
+          },
+          {
+            "color": "#3F434A",
+          },
+        ]
+      }
+    >
+      Email
+    </Text>
+  </View>
   <View
     style={
       [
@@ -172,29 +188,45 @@ exports[`EmailInput renders correctly 1`] = `
 
 exports[`EmailInput renders correctly with value 1`] = `
 <View>
-  <Text
+  <View
     style={
       [
         {
-          "fontFamily": "SpaceGrotesk-Medium",
-        },
-        {
-          "fontSize": 14,
-        },
-        {
-          "lineHeight": 18,
+          "flexDirection": "row",
         },
         {
           "marginBottom": 8,
         },
         {
-          "color": "#3F434A",
+          "alignItems": "center",
+        },
+        {
+          "justifyContent": "space-between",
         },
       ]
     }
   >
-    Email
-  </Text>
+    <Text
+      style={
+        [
+          {
+            "fontFamily": "SpaceGrotesk-Medium",
+          },
+          {
+            "fontSize": 14,
+          },
+          {
+            "lineHeight": 18,
+          },
+          {
+            "color": "#3F434A",
+          },
+        ]
+      }
+    >
+      Email
+    </Text>
+  </View>
   <View
     style={
       [
@@ -343,29 +375,45 @@ exports[`EmailInput renders correctly with value 1`] = `
 
 exports[`PasswordInput renders correctly 1`] = `
 <View>
-  <Text
+  <View
     style={
       [
         {
-          "fontFamily": "SpaceGrotesk-Medium",
-        },
-        {
-          "fontSize": 14,
-        },
-        {
-          "lineHeight": 18,
+          "flexDirection": "row",
         },
         {
           "marginBottom": 8,
         },
         {
-          "color": "#3F434A",
+          "alignItems": "center",
+        },
+        {
+          "justifyContent": "space-between",
         },
       ]
     }
   >
-    Mot de passe
-  </Text>
+    <Text
+      style={
+        [
+          {
+            "fontFamily": "SpaceGrotesk-Medium",
+          },
+          {
+            "fontSize": 14,
+          },
+          {
+            "lineHeight": 18,
+          },
+          {
+            "color": "#3F434A",
+          },
+        ]
+      }
+    >
+      Mot de passe
+    </Text>
+  </View>
   <View
     style={
       [
@@ -514,29 +562,45 @@ exports[`PasswordInput renders correctly 1`] = `
 
 exports[`PasswordInput renders correctly with value 1`] = `
 <View>
-  <Text
+  <View
     style={
       [
         {
-          "fontFamily": "SpaceGrotesk-Medium",
-        },
-        {
-          "fontSize": 14,
-        },
-        {
-          "lineHeight": 18,
+          "flexDirection": "row",
         },
         {
           "marginBottom": 8,
         },
         {
-          "color": "#3F434A",
+          "alignItems": "center",
+        },
+        {
+          "justifyContent": "space-between",
         },
       ]
     }
   >
-    Mot de passe
-  </Text>
+    <Text
+      style={
+        [
+          {
+            "fontFamily": "SpaceGrotesk-Medium",
+          },
+          {
+            "fontSize": 14,
+          },
+          {
+            "lineHeight": 18,
+          },
+          {
+            "color": "#3F434A",
+          },
+        ]
+      }
+    >
+      Mot de passe
+    </Text>
+  </View>
   <View
     style={
       [
@@ -686,29 +750,45 @@ exports[`PasswordInput renders correctly with value 1`] = `
 
 exports[`PasswordInput shows password on icon press 1`] = `
 <View>
-  <Text
+  <View
     style={
       [
         {
-          "fontFamily": "SpaceGrotesk-Medium",
-        },
-        {
-          "fontSize": 14,
-        },
-        {
-          "lineHeight": 18,
+          "flexDirection": "row",
         },
         {
           "marginBottom": 8,
         },
         {
-          "color": "#3F434A",
+          "alignItems": "center",
+        },
+        {
+          "justifyContent": "space-between",
         },
       ]
     }
   >
-    Mot de passe
-  </Text>
+    <Text
+      style={
+        [
+          {
+            "fontFamily": "SpaceGrotesk-Medium",
+          },
+          {
+            "fontSize": 14,
+          },
+          {
+            "lineHeight": 18,
+          },
+          {
+            "color": "#3F434A",
+          },
+        ]
+      }
+    >
+      Mot de passe
+    </Text>
+  </View>
   <View
     style={
       [
@@ -858,29 +938,45 @@ exports[`PasswordInput shows password on icon press 1`] = `
 
 exports[`PasswordInput shows password on icon press 2`] = `
 <View>
-  <Text
+  <View
     style={
       [
         {
-          "fontFamily": "SpaceGrotesk-Medium",
-        },
-        {
-          "fontSize": 14,
-        },
-        {
-          "lineHeight": 18,
+          "flexDirection": "row",
         },
         {
           "marginBottom": 8,
         },
         {
-          "color": "#3F434A",
+          "alignItems": "center",
+        },
+        {
+          "justifyContent": "space-between",
         },
       ]
     }
   >
-    Mot de passe
-  </Text>
+    <Text
+      style={
+        [
+          {
+            "fontFamily": "SpaceGrotesk-Medium",
+          },
+          {
+            "fontSize": 14,
+          },
+          {
+            "lineHeight": 18,
+          },
+          {
+            "color": "#3F434A",
+          },
+        ]
+      }
+    >
+      Mot de passe
+    </Text>
+  </View>
   <View
     style={
       [
@@ -1299,6 +1395,42 @@ exports[`TextInput renders error correctly 1`] = `
           "flexDirection": "row",
         },
         {
+          "marginBottom": 8,
+        },
+        {
+          "alignItems": "center",
+        },
+        {
+          "justifyContent": "space-between",
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "fontFamily": "SpaceGrotesk-Light",
+          },
+          {
+            "fontSize": 12,
+          },
+          {
+            "color": "#AE3232",
+          },
+        ]
+      }
+    >
+      *error
+    </Text>
+  </View>
+  <View
+    style={
+      [
+        {
+          "flexDirection": "row",
+        },
+        {
           "alignItems": "center",
         },
         {
@@ -1431,29 +1563,6 @@ exports[`TextInput renders error correctly 1`] = `
       </Text>
     </View>
   </View>
-  <Text
-    style={
-      [
-        {
-          "fontFamily": "SpaceGrotesk-Regular",
-        },
-        {
-          "fontSize": 14,
-        },
-        {
-          "lineHeight": 18,
-        },
-        {
-          "marginTop": 8,
-        },
-        {
-          "color": "#AE3232",
-        },
-      ]
-    }
-  >
-    error
-  </Text>
 </View>
 `;
 
@@ -1682,6 +1791,42 @@ exports[`TextInput renders icon left error correctly 1`] = `
           "flexDirection": "row",
         },
         {
+          "marginBottom": 8,
+        },
+        {
+          "alignItems": "center",
+        },
+        {
+          "justifyContent": "space-between",
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "fontFamily": "SpaceGrotesk-Light",
+          },
+          {
+            "fontSize": 12,
+          },
+          {
+            "color": "#AE3232",
+          },
+        ]
+      }
+    >
+      *error
+    </Text>
+  </View>
+  <View
+    style={
+      [
+        {
+          "flexDirection": "row",
+        },
+        {
           "alignItems": "center",
         },
         {
@@ -1886,29 +2031,6 @@ exports[`TextInput renders icon left error correctly 1`] = `
       </Text>
     </View>
   </View>
-  <Text
-    style={
-      [
-        {
-          "fontFamily": "SpaceGrotesk-Regular",
-        },
-        {
-          "fontSize": 14,
-        },
-        {
-          "lineHeight": 18,
-        },
-        {
-          "marginTop": 8,
-        },
-        {
-          "color": "#AE3232",
-        },
-      ]
-    }
-  >
-    error
-  </Text>
 </View>
 `;
 
@@ -2065,6 +2187,42 @@ exports[`TextInput renders icon right error correctly 1`] = `
           "flexDirection": "row",
         },
         {
+          "marginBottom": 8,
+        },
+        {
+          "alignItems": "center",
+        },
+        {
+          "justifyContent": "space-between",
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "fontFamily": "SpaceGrotesk-Light",
+          },
+          {
+            "fontSize": 12,
+          },
+          {
+            "color": "#AE3232",
+          },
+        ]
+      }
+    >
+      *error
+    </Text>
+  </View>
+  <View
+    style={
+      [
+        {
+          "flexDirection": "row",
+        },
+        {
           "alignItems": "center",
         },
         {
@@ -2197,57 +2355,50 @@ exports[`TextInput renders icon right error correctly 1`] = `
       </Text>
     </View>
   </View>
-  <Text
-    style={
-      [
-        {
-          "fontFamily": "SpaceGrotesk-Regular",
-        },
-        {
-          "fontSize": 14,
-        },
-        {
-          "lineHeight": 18,
-        },
-        {
-          "marginTop": 8,
-        },
-        {
-          "color": "#AE3232",
-        },
-      ]
-    }
-  >
-    error
-  </Text>
 </View>
 `;
 
 exports[`TextInput renders label correctly 1`] = `
 <View>
-  <Text
+  <View
     style={
       [
         {
-          "fontFamily": "SpaceGrotesk-Medium",
-        },
-        {
-          "fontSize": 14,
-        },
-        {
-          "lineHeight": 18,
+          "flexDirection": "row",
         },
         {
           "marginBottom": 8,
         },
         {
-          "color": "#3F434A",
+          "alignItems": "center",
+        },
+        {
+          "justifyContent": "space-between",
         },
       ]
     }
   >
-    label
-  </Text>
+    <Text
+      style={
+        [
+          {
+            "fontFamily": "SpaceGrotesk-Medium",
+          },
+          {
+            "fontSize": 14,
+          },
+          {
+            "lineHeight": 18,
+          },
+          {
+            "color": "#3F434A",
+          },
+        ]
+      }
+    >
+      label
+    </Text>
+  </View>
   <View
     style={
       [

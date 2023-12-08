@@ -20,7 +20,7 @@ export const fr = {
         placeholder: 'Entrez votre mot de passe',
       },
       common: {
-        required: 'Champs requis',
+        required: 'Requis',
       },
     },
   },

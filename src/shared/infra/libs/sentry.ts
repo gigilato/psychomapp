@@ -1,9 +1,10 @@
 import { Platform } from 'react-native'
 import * as Sentry from 'sentry-expo'
 
-import { config } from '$config'
+import { getConfig } from '$config'
 
-const { sentry, env } = config
+const env = getConfig('env')
+const sentry = getConfig('sentry')
 
 export const init = () =>
   Sentry.init({

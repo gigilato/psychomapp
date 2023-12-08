@@ -18,6 +18,7 @@ jest.mock('react-native-reanimated', () => {
     Layout: {
       easing: jest.fn(),
     },
+    useAnimatedKeyboard: () => ({ height: { value: 0 }, state: { value: 0 } }),
   }
 })
 
@@ -53,6 +54,10 @@ jest.mock('@react-native-firebase/analytics', () => ({
 jest.mock('@supabase/supabase-js', () => ({
   createClient: jest.fn(),
 }))
+
+jest.mock('react-native-keyboard-controller', () =>
+  require('react-native-keyboard-controller/jest')
+)
 
 jest.mock('$infra/analytics', () => ({
   setConsent: jest.fn(),

@@ -40,10 +40,20 @@ export const TextInput = memo<ITextInputProps>(
 
       return (
         <Box className={className}>
-          {label ? (
-            <Text variant="boldBody" className={clsx('mb-xs', textColor)}>
-              {label}
-            </Text>
+          {label || error ? (
+            <HStack className="mb-xs items-center justify-between">
+              {label ? (
+                <Text variant="boldBody" className={textColor}>
+                  {label}
+                </Text>
+              ) : null}
+              {error ? (
+                <Text
+                  variant="inputError"
+                  className={clsx(label ? 'ml-xs' : '', textColor)}
+                >{`*${error}`}</Text>
+              ) : null}
+            </HStack>
           ) : null}
           <HStack
             className={clsx(
@@ -81,7 +91,6 @@ export const TextInput = memo<ITextInputProps>(
               />
             )}
           </HStack>
-          {error ? <Text className={clsx('mt-xs', textColor)}>{error}</Text> : null}
         </Box>
       )
     }

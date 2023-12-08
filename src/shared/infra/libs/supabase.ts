@@ -1,10 +1,10 @@
 import { createClient } from '@supabase/supabase-js'
 import { MMKV } from 'react-native-mmkv'
 
-import { config } from '$config'
+import { getConfig } from '$config'
 import { Database } from '$types/database/generated'
 
-const { anon, url } = config.supabase
+const { anon, url } = getConfig('supabase')
 
 const mmkv = new MMKV({ id: 'storage' })
 const storage = {
