@@ -60,6 +60,7 @@ export type IconName =
   | 'warning'
   | 'icon_immo'
   | 'whatsapp'
+  | 'users'
 
 export interface IIconProps extends TextProps {
   size?: number

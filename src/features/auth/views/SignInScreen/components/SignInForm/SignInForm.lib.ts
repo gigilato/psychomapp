@@ -30,10 +30,10 @@ export const useSignInForm = () => {
     mode: 'onBlur',
   })
 
-  const { mutateAsync, isPending } = useSignIn()
+  const { mutate, isPending } = useSignIn()
 
   const onPressSubmit = form.handleSubmit((formData) => {
-    mutateAsync(formData)
+    mutate(formData)
   })
 
   const onPressForgotPassword = () => {

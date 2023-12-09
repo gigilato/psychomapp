@@ -1,0 +1,262 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TabBar renders correctly 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "#FFFFFF",
+      },
+      {
+        "shadowColor": "rgba(0, 0, 0, 0.1)",
+        "shadowOffset": {
+          "height": 2,
+          "width": 0,
+        },
+        "shadowOpacity": 1,
+        "shadowRadius": 6,
+      },
+      {
+        "shadowColor": "#dcdce1",
+      },
+      {
+        "flexDirection": "row",
+      },
+      {
+        "position": "absolute",
+      },
+      {
+        "alignSelf": "center",
+      },
+      {
+        "paddingBottom": 12,
+        "paddingTop": 12,
+      },
+      {
+        "paddingLeft": 8,
+        "paddingRight": 8,
+      },
+      {
+        "borderBottomLeftRadius": 24,
+        "borderBottomRightRadius": 24,
+        "borderTopLeftRadius": 24,
+        "borderTopRightRadius": 24,
+      },
+      {
+        "justifyContent": "space-around",
+      },
+      [
+        undefined,
+        {
+          "bottom": 16,
+        },
+      ],
+    ]
+  }
+>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      [
+        {
+          "alignItems": "center",
+        },
+        {
+          "width": 90,
+        },
+        [
+          {
+            "opacity": undefined,
+          },
+          undefined,
+        ],
+      ]
+    }
+    testID="TabBarIcon/Agenda"
+  >
+    <Text />
+    <Text
+      style={
+        [
+          {
+            "fontFamily": "SpaceGrotesk-Regular",
+          },
+          {
+            "fontSize": 14,
+          },
+          {
+            "lineHeight": 18,
+          },
+          {
+            "color": "#FFB300",
+          },
+        ]
+      }
+    >
+      Agenda
+    </Text>
+  </View>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      [
+        {
+          "alignItems": "center",
+        },
+        {
+          "width": 90,
+        },
+        [
+          {
+            "opacity": undefined,
+          },
+          undefined,
+        ],
+      ]
+    }
+    testID="TabBarIcon/Patients"
+  >
+    <Text />
+    <Text
+      style={
+        [
+          {
+            "fontFamily": "SpaceGrotesk-Regular",
+          },
+          {
+            "fontSize": 14,
+          },
+          {
+            "lineHeight": 18,
+          },
+        ]
+      }
+    >
+      Patients
+    </Text>
+  </View>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      [
+        {
+          "alignItems": "center",
+        },
+        {
+          "width": 90,
+        },
+        [
+          {
+            "opacity": undefined,
+          },
+          undefined,
+        ],
+      ]
+    }
+    testID="TabBarIcon/Menu"
+  >
+    <Text />
+    <Text
+      style={
+        [
+          {
+            "fontFamily": "SpaceGrotesk-Regular",
+          },
+          {
+            "fontSize": 14,
+          },
+          {
+            "lineHeight": 18,
+          },
+        ]
+      }
+    >
+      Menu
+    </Text>
+  </View>
+</View>
+`;

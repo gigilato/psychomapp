@@ -9,6 +9,11 @@ export const fr = {
       wrongCredentials: 'Connexion impossible, vérifiez vos identifiants.',
       resetPassword: 'Un email de réinitialisation vous a été envoyé.',
     },
+    navigation: {
+      calendar: 'Agenda',
+      settings: 'Menu',
+      patients: 'Patients',
+    },
     forms: {
       email: {
         label: 'Email',
