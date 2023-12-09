@@ -1,8 +1,26 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`SignInForm should render the form correctly 1`] = `
-<View>
-  <View>
+<View
+  style={
+    [
+      [
+        undefined,
+        undefined,
+      ],
+    ]
+  }
+>
+  <View
+    style={
+      [
+        [
+          undefined,
+          undefined,
+        ],
+      ]
+    }
+  >
     <View
       style={
         [
@@ -18,6 +36,10 @@ exports[`SignInForm should render the form correctly 1`] = `
           {
             "justifyContent": "space-between",
           },
+          [
+            undefined,
+            undefined,
+          ],
         ]
       }
     >
@@ -79,6 +101,10 @@ exports[`SignInForm should render the form correctly 1`] = `
             "borderRightColor": "#3F434A",
             "borderTopColor": "#3F434A",
           },
+          [
+            undefined,
+            undefined,
+          ],
         ]
       }
     >
@@ -94,6 +120,10 @@ exports[`SignInForm should render the form correctly 1`] = `
               "paddingLeft": 12,
               "paddingRight": 12,
             },
+            [
+              undefined,
+              undefined,
+            ],
           ]
         }
       >
@@ -101,14 +131,14 @@ exports[`SignInForm should render the form correctly 1`] = `
           autoCapitalize="none"
           autoComplete="email"
           className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
-          cursorColor="#6C464F"
+          cursorColor="#FFB300"
           keyboardType="email-address"
           onBlur={[Function]}
           onChangeText={[Function]}
           onFocus={[Function]}
           onSubmitEditing={[Function]}
           placeholder="Entrez votre email"
-          selectionColor="#6C464F"
+          selectionColor="#FFB300"
           testID="input/email"
           textContentType="emailAddress"
           value=""
@@ -167,6 +197,10 @@ exports[`SignInForm should render the form correctly 1`] = `
         {
           "marginTop": 12,
         },
+        [
+          undefined,
+          undefined,
+        ],
       ]
     }
   >
@@ -185,6 +219,10 @@ exports[`SignInForm should render the form correctly 1`] = `
           {
             "justifyContent": "space-between",
           },
+          [
+            undefined,
+            undefined,
+          ],
         ]
       }
     >
@@ -246,6 +284,10 @@ exports[`SignInForm should render the form correctly 1`] = `
             "borderRightColor": "#3F434A",
             "borderTopColor": "#3F434A",
           },
+          [
+            undefined,
+            undefined,
+          ],
         ]
       }
     >
@@ -261,6 +303,10 @@ exports[`SignInForm should render the form correctly 1`] = `
               "paddingLeft": 12,
               "paddingRight": 12,
             },
+            [
+              undefined,
+              undefined,
+            ],
           ]
         }
       >
@@ -268,14 +314,14 @@ exports[`SignInForm should render the form correctly 1`] = `
           autoCapitalize="none"
           autoComplete="password"
           className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
-          cursorColor="#6C464F"
+          cursorColor="#FFB300"
           keyboardType="default"
           onBlur={[Function]}
           onChangeText={[Function]}
           onFocus={[Function]}
           placeholder="Entrez votre mot de passe"
           secureTextEntry={true}
-          selectionColor="#6C464F"
+          selectionColor="#FFB300"
           testID="input/password"
           textContentType="password"
           value=""
@@ -493,8 +539,26 @@ exports[`SignInForm should render the form correctly 1`] = `
 `;
 
 exports[`SignInForm should render the form loading 1`] = `
-<View>
-  <View>
+<View
+  style={
+    [
+      [
+        undefined,
+        undefined,
+      ],
+    ]
+  }
+>
+  <View
+    style={
+      [
+        [
+          undefined,
+          undefined,
+        ],
+      ]
+    }
+  >
     <View
       style={
         [
@@ -510,6 +574,10 @@ exports[`SignInForm should render the form loading 1`] = `
           {
             "justifyContent": "space-between",
           },
+          [
+            undefined,
+            undefined,
+          ],
         ]
       }
     >
@@ -571,6 +639,10 @@ exports[`SignInForm should render the form loading 1`] = `
             "borderRightColor": "#3F434A",
             "borderTopColor": "#3F434A",
           },
+          [
+            undefined,
+            undefined,
+          ],
         ]
       }
     >
@@ -586,6 +658,10 @@ exports[`SignInForm should render the form loading 1`] = `
               "paddingLeft": 12,
               "paddingRight": 12,
             },
+            [
+              undefined,
+              undefined,
+            ],
           ]
         }
       >
@@ -593,14 +669,14 @@ exports[`SignInForm should render the form loading 1`] = `
           autoCapitalize="none"
           autoComplete="email"
           className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
-          cursorColor="#6C464F"
+          cursorColor="#FFB300"
           keyboardType="email-address"
           onBlur={[Function]}
           onChangeText={[Function]}
           onFocus={[Function]}
           onSubmitEditing={[Function]}
           placeholder="Entrez votre email"
-          selectionColor="#6C464F"
+          selectionColor="#FFB300"
           testID="input/email"
           textContentType="emailAddress"
           value=""
@@ -686,6 +762,10 @@ exports[`SignInForm should render the form loading 1`] = `
         {
           "marginTop": 12,
         },
+        [
+          undefined,
+          undefined,
+        ],
       ]
     }
   >
@@ -704,6 +784,10 @@ exports[`SignInForm should render the form loading 1`] = `
           {
             "justifyContent": "space-between",
           },
+          [
+            undefined,
+            undefined,
+          ],
         ]
       }
     >
@@ -765,6 +849,10 @@ exports[`SignInForm should render the form loading 1`] = `
             "borderRightColor": "#3F434A",
             "borderTopColor": "#3F434A",
           },
+          [
+            undefined,
+            undefined,
+          ],
         ]
       }
     >
@@ -780,6 +868,10 @@ exports[`SignInForm should render the form loading 1`] = `
               "paddingLeft": 12,
               "paddingRight": 12,
             },
+            [
+              undefined,
+              undefined,
+            ],
           ]
         }
       >
@@ -787,14 +879,14 @@ exports[`SignInForm should render the form loading 1`] = `
           autoCapitalize="none"
           autoComplete="password"
           className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
-          cursorColor="#6C464F"
+          cursorColor="#FFB300"
           keyboardType="default"
           onBlur={[Function]}
           onChangeText={[Function]}
           onFocus={[Function]}
           placeholder="Entrez votre mot de passe"
           secureTextEntry={true}
-          selectionColor="#6C464F"
+          selectionColor="#FFB300"
           testID="input/password"
           textContentType="password"
           value=""

@@ -14,12 +14,13 @@ export const colors = {
     weak: '#F2F2F2',
   },
   primary: {
-    strong: '#9E768F',
-    classic: '#6C464F',
+    classic: '#FFB300',
   },
   secondary: {
-    electric: '#9FA4C4',
-    classic: '#B3CDD1',
+    classic: '#BB99DD',
+  },
+  ternary: {
+    classic: '#5A93D3',
   },
   shadowColor: '#dcdce1',
 }

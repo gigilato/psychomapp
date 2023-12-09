@@ -5,12 +5,9 @@ fetchMock.enableMocks()
 
 jest.useFakeTimers()
 
-// eslint-disable-next-line
-require('react-native-reanimated/src/reanimated2/jestUtils').setUpTests();
+require('react-native-reanimated/src/reanimated2/jestUtils').setUpTests()
 
 jest.mock('react-native/Libraries/Animated/NativeAnimatedHelper')
-
-// jest.mock('react-native-svg')
 
 jest.mock('react-native-reanimated', () => {
   return {
@@ -58,6 +55,25 @@ jest.mock('@supabase/supabase-js', () => ({
 jest.mock('react-native-keyboard-controller', () =>
   require('react-native-keyboard-controller/jest')
 )
+
+jest.mock('@shopify/react-native-skia', () => {
+  const { View } = require('react-native')
+  return {
+    Skia: {
+      Path: {
+        Make: () => ({
+          moveTo: jest.fn(),
+          lineTo: jest.fn(),
+          cubicTo: jest.fn(),
+          close: jest.fn(),
+          addCircle: jest.fn(),
+        }),
+      },
+    },
+    Canvas: View,
+    Path: View,
+  }
+})
 
 jest.mock('$infra/analytics', () => ({
   setConsent: jest.fn(),

@@ -1,5 +1,8 @@
 import { ViewProps } from 'react-native'
 import { AnimateProps } from 'react-native-reanimated'
 
-export type IBoxProps = ViewProps
+export interface IBoxProps extends ViewProps {
+  shadow?: boolean
+  absoluteFill?: boolean
+}
 export type IAnimatedBoxProps = AnimateProps<IBoxProps>

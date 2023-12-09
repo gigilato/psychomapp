@@ -12,6 +12,10 @@ exports[`Box renders correctly 1`] = `
       {
         "justifyContent": "center",
       },
+      [
+        undefined,
+        undefined,
+      ],
     ]
   }
 >
@@ -24,6 +28,10 @@ exports[`Box renders correctly 1`] = `
         {
           "backgroundColor": "#3F434A",
         },
+        [
+          undefined,
+          undefined,
+        ],
       ]
     }
   >
@@ -36,6 +44,10 @@ exports[`Box renders correctly 1`] = `
           {
             "width": 80,
           },
+          [
+            undefined,
+            undefined,
+          ],
         ]
       }
     />
@@ -52,6 +64,10 @@ exports[`Box renders correctly 1`] = `
             "marginLeft": 12,
             "marginRight": 12,
           },
+          [
+            undefined,
+            undefined,
+          ],
         ]
       }
     />
@@ -64,6 +80,10 @@ exports[`Box renders correctly 1`] = `
           {
             "width": 64,
           },
+          [
+            undefined,
+            undefined,
+          ],
         ]
       }
     />
@@ -81,6 +101,10 @@ exports[`Center renders correctly 1`] = `
       {
         "alignItems": "center",
       },
+      [
+        undefined,
+        undefined,
+      ],
     ]
   }
 />
@@ -98,6 +122,10 @@ exports[`Screen renders correctly 1`] = `
       {
         "backgroundColor": "#FFFCF9",
       },
+      [
+        undefined,
+        undefined,
+      ],
     ]
   }
 />

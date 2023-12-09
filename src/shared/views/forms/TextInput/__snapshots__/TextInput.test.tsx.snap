@@ -1,7 +1,16 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`EmailInput renders correctly 1`] = `
-<View>
+<View
+  style={
+    [
+      [
+        undefined,
+        undefined,
+      ],
+    ]
+  }
+>
   <View
     style={
       [
@@ -17,6 +26,10 @@ exports[`EmailInput renders correctly 1`] = `
         {
           "justifyContent": "space-between",
         },
+        [
+          undefined,
+          undefined,
+        ],
       ]
     }
   >
@@ -78,6 +91,10 @@ exports[`EmailInput renders correctly 1`] = `
           "borderRightColor": "#3F434A",
           "borderTopColor": "#3F434A",
         },
+        [
+          undefined,
+          undefined,
+        ],
       ]
     }
   >
@@ -93,6 +110,10 @@ exports[`EmailInput renders correctly 1`] = `
             "paddingLeft": 12,
             "paddingRight": 12,
           },
+          [
+            undefined,
+            undefined,
+          ],
         ]
       }
     >
@@ -100,12 +121,12 @@ exports[`EmailInput renders correctly 1`] = `
         autoCapitalize="none"
         autoComplete="email"
         className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
-        cursorColor="#6C464F"
+        cursorColor="#FFB300"
         keyboardType="email-address"
         onBlur={[Function]}
         onFocus={[Function]}
         placeholder="Entrez votre email"
-        selectionColor="#6C464F"
+        selectionColor="#FFB300"
         testID="test"
         textContentType="emailAddress"
       />
@@ -187,7 +208,16 @@ exports[`EmailInput renders correctly 1`] = `
 `;
 
 exports[`EmailInput renders correctly with value 1`] = `
-<View>
+<View
+  style={
+    [
+      [
+        undefined,
+        undefined,
+      ],
+    ]
+  }
+>
   <View
     style={
       [
@@ -203,6 +233,10 @@ exports[`EmailInput renders correctly with value 1`] = `
         {
           "justifyContent": "space-between",
         },
+        [
+          undefined,
+          undefined,
+        ],
       ]
     }
   >
@@ -264,6 +298,10 @@ exports[`EmailInput renders correctly with value 1`] = `
           "borderRightColor": "#3F434A",
           "borderTopColor": "#3F434A",
         },
+        [
+          undefined,
+          undefined,
+        ],
       ]
     }
   >
@@ -279,6 +317,10 @@ exports[`EmailInput renders correctly with value 1`] = `
             "paddingLeft": 12,
             "paddingRight": 12,
           },
+          [
+            undefined,
+            undefined,
+          ],
         ]
       }
     >
@@ -286,12 +328,12 @@ exports[`EmailInput renders correctly with value 1`] = `
         autoCapitalize="none"
         autoComplete="email"
         className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
-        cursorColor="#6C464F"
+        cursorColor="#FFB300"
         keyboardType="email-address"
         onBlur={[Function]}
         onFocus={[Function]}
         placeholder="Entrez votre email"
-        selectionColor="#6C464F"
+        selectionColor="#FFB300"
         testID="test"
         textContentType="emailAddress"
         value="test"
@@ -374,7 +416,16 @@ exports[`EmailInput renders correctly with value 1`] = `
 `;
 
 exports[`PasswordInput renders correctly 1`] = `
-<View>
+<View
+  style={
+    [
+      [
+        undefined,
+        undefined,
+      ],
+    ]
+  }
+>
   <View
     style={
       [
@@ -390,6 +441,10 @@ exports[`PasswordInput renders correctly 1`] = `
         {
           "justifyContent": "space-between",
         },
+        [
+          undefined,
+          undefined,
+        ],
       ]
     }
   >
@@ -451,6 +506,10 @@ exports[`PasswordInput renders correctly 1`] = `
           "borderRightColor": "#3F434A",
           "borderTopColor": "#3F434A",
         },
+        [
+          undefined,
+          undefined,
+        ],
       ]
     }
   >
@@ -466,6 +525,10 @@ exports[`PasswordInput renders correctly 1`] = `
             "paddingLeft": 12,
             "paddingRight": 12,
           },
+          [
+            undefined,
+            undefined,
+          ],
         ]
       }
     >
@@ -473,13 +536,13 @@ exports[`PasswordInput renders correctly 1`] = `
         autoCapitalize="none"
         autoComplete="password"
         className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
-        cursorColor="#6C464F"
+        cursorColor="#FFB300"
         keyboardType="default"
         onBlur={[Function]}
         onFocus={[Function]}
         placeholder="Entrez votre mot de passe"
         secureTextEntry={true}
-        selectionColor="#6C464F"
+        selectionColor="#FFB300"
         testID="test"
         textContentType="password"
       />
@@ -561,7 +624,16 @@ exports[`PasswordInput renders correctly 1`] = `
 `;
 
 exports[`PasswordInput renders correctly with value 1`] = `
-<View>
+<View
+  style={
+    [
+      [
+        undefined,
+        undefined,
+      ],
+    ]
+  }
+>
   <View
     style={
       [
@@ -577,6 +649,10 @@ exports[`PasswordInput renders correctly with value 1`] = `
         {
           "justifyContent": "space-between",
         },
+        [
+          undefined,
+          undefined,
+        ],
       ]
     }
   >
@@ -638,6 +714,10 @@ exports[`PasswordInput renders correctly with value 1`] = `
           "borderRightColor": "#3F434A",
           "borderTopColor": "#3F434A",
         },
+        [
+          undefined,
+          undefined,
+        ],
       ]
     }
   >
@@ -653,6 +733,10 @@ exports[`PasswordInput renders correctly with value 1`] = `
             "paddingLeft": 12,
             "paddingRight": 12,
           },
+          [
+            undefined,
+            undefined,
+          ],
         ]
       }
     >
@@ -660,13 +744,13 @@ exports[`PasswordInput renders correctly with value 1`] = `
         autoCapitalize="none"
         autoComplete="password"
         className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
-        cursorColor="#6C464F"
+        cursorColor="#FFB300"
         keyboardType="default"
         onBlur={[Function]}
         onFocus={[Function]}
         placeholder="Entrez votre mot de passe"
         secureTextEntry={true}
-        selectionColor="#6C464F"
+        selectionColor="#FFB300"
         testID="test"
         textContentType="password"
         value="test"
@@ -749,7 +833,16 @@ exports[`PasswordInput renders correctly with value 1`] = `
 `;
 
 exports[`PasswordInput shows password on icon press 1`] = `
-<View>
+<View
+  style={
+    [
+      [
+        undefined,
+        undefined,
+      ],
+    ]
+  }
+>
   <View
     style={
       [
@@ -765,6 +858,10 @@ exports[`PasswordInput shows password on icon press 1`] = `
         {
           "justifyContent": "space-between",
         },
+        [
+          undefined,
+          undefined,
+        ],
       ]
     }
   >
@@ -826,6 +923,10 @@ exports[`PasswordInput shows password on icon press 1`] = `
           "borderRightColor": "#3F434A",
           "borderTopColor": "#3F434A",
         },
+        [
+          undefined,
+          undefined,
+        ],
       ]
     }
   >
@@ -841,6 +942,10 @@ exports[`PasswordInput shows password on icon press 1`] = `
             "paddingLeft": 12,
             "paddingRight": 12,
           },
+          [
+            undefined,
+            undefined,
+          ],
         ]
       }
     >
@@ -848,13 +953,13 @@ exports[`PasswordInput shows password on icon press 1`] = `
         autoCapitalize="none"
         autoComplete="password"
         className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
-        cursorColor="#6C464F"
+        cursorColor="#FFB300"
         keyboardType="default"
         onBlur={[Function]}
         onFocus={[Function]}
         placeholder="Entrez votre mot de passe"
         secureTextEntry={false}
-        selectionColor="#6C464F"
+        selectionColor="#FFB300"
         testID="test"
         textContentType="password"
         value="test"
@@ -937,7 +1042,16 @@ exports[`PasswordInput shows password on icon press 1`] = `
 `;
 
 exports[`PasswordInput shows password on icon press 2`] = `
-<View>
+<View
+  style={
+    [
+      [
+        undefined,
+        undefined,
+      ],
+    ]
+  }
+>
   <View
     style={
       [
@@ -953,6 +1067,10 @@ exports[`PasswordInput shows password on icon press 2`] = `
         {
           "justifyContent": "space-between",
         },
+        [
+          undefined,
+          undefined,
+        ],
       ]
     }
   >
@@ -1014,6 +1132,10 @@ exports[`PasswordInput shows password on icon press 2`] = `
           "borderRightColor": "#3F434A",
           "borderTopColor": "#3F434A",
         },
+        [
+          undefined,
+          undefined,
+        ],
       ]
     }
   >
@@ -1029,6 +1151,10 @@ exports[`PasswordInput shows password on icon press 2`] = `
             "paddingLeft": 12,
             "paddingRight": 12,
           },
+          [
+            undefined,
+            undefined,
+          ],
         ]
       }
     >
@@ -1036,13 +1162,13 @@ exports[`PasswordInput shows password on icon press 2`] = `
         autoCapitalize="none"
         autoComplete="password"
         className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
-        cursorColor="#6C464F"
+        cursorColor="#FFB300"
         keyboardType="default"
         onBlur={[Function]}
         onFocus={[Function]}
         placeholder="Entrez votre mot de passe"
         secureTextEntry={true}
-        selectionColor="#6C464F"
+        selectionColor="#FFB300"
         testID="test"
         textContentType="password"
         value="test"
@@ -1125,7 +1251,16 @@ exports[`PasswordInput shows password on icon press 2`] = `
 `;
 
 exports[`TextInput renders correctly 1`] = `
-<View>
+<View
+  style={
+    [
+      [
+        undefined,
+        undefined,
+      ],
+    ]
+  }
+>
   <View
     style={
       [
@@ -1163,6 +1298,10 @@ exports[`TextInput renders correctly 1`] = `
           "borderRightColor": "#3F434A",
           "borderTopColor": "#3F434A",
         },
+        [
+          undefined,
+          undefined,
+        ],
       ]
     }
   >
@@ -1178,17 +1317,21 @@ exports[`TextInput renders correctly 1`] = `
             "paddingLeft": 12,
             "paddingRight": 12,
           },
+          [
+            undefined,
+            undefined,
+          ],
         ]
       }
     >
       <TextInput
         autoCapitalize="none"
         className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
-        cursorColor="#6C464F"
+        cursorColor="#FFB300"
         keyboardType="default"
         onBlur={[Function]}
         onFocus={[Function]}
-        selectionColor="#6C464F"
+        selectionColor="#FFB300"
         testID="test"
       />
     </View>
@@ -1242,7 +1385,16 @@ exports[`TextInput renders correctly 1`] = `
 `;
 
 exports[`TextInput renders correctly with value 1`] = `
-<View>
+<View
+  style={
+    [
+      [
+        undefined,
+        undefined,
+      ],
+    ]
+  }
+>
   <View
     style={
       [
@@ -1280,6 +1432,10 @@ exports[`TextInput renders correctly with value 1`] = `
           "borderRightColor": "#3F434A",
           "borderTopColor": "#3F434A",
         },
+        [
+          undefined,
+          undefined,
+        ],
       ]
     }
   >
@@ -1295,17 +1451,21 @@ exports[`TextInput renders correctly with value 1`] = `
             "paddingLeft": 12,
             "paddingRight": 12,
           },
+          [
+            undefined,
+            undefined,
+          ],
         ]
       }
     >
       <TextInput
         autoCapitalize="none"
         className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
-        cursorColor="#6C464F"
+        cursorColor="#FFB300"
         keyboardType="default"
         onBlur={[Function]}
         onFocus={[Function]}
-        selectionColor="#6C464F"
+        selectionColor="#FFB300"
         testID="test"
         value="test"
       />
@@ -1387,7 +1547,16 @@ exports[`TextInput renders correctly with value 1`] = `
 `;
 
 exports[`TextInput renders error correctly 1`] = `
-<View>
+<View
+  style={
+    [
+      [
+        undefined,
+        undefined,
+      ],
+    ]
+  }
+>
   <View
     style={
       [
@@ -1403,6 +1572,10 @@ exports[`TextInput renders error correctly 1`] = `
         {
           "justifyContent": "space-between",
         },
+        [
+          undefined,
+          undefined,
+        ],
       ]
     }
   >
@@ -1461,6 +1634,10 @@ exports[`TextInput renders error correctly 1`] = `
           "borderRightColor": "#AE3232",
           "borderTopColor": "#AE3232",
         },
+        [
+          undefined,
+          undefined,
+        ],
       ]
     }
   >
@@ -1476,17 +1653,21 @@ exports[`TextInput renders error correctly 1`] = `
             "paddingLeft": 12,
             "paddingRight": 12,
           },
+          [
+            undefined,
+            undefined,
+          ],
         ]
       }
     >
       <TextInput
         autoCapitalize="none"
         className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
-        cursorColor="#6C464F"
+        cursorColor="#FFB300"
         keyboardType="default"
         onBlur={[Function]}
         onFocus={[Function]}
-        selectionColor="#6C464F"
+        selectionColor="#FFB300"
         testID="test"
       />
     </View>
@@ -1567,7 +1748,16 @@ exports[`TextInput renders error correctly 1`] = `
 `;
 
 exports[`TextInput renders icon left correctly 1`] = `
-<View>
+<View
+  style={
+    [
+      [
+        undefined,
+        undefined,
+      ],
+    ]
+  }
+>
   <View
     style={
       [
@@ -1605,6 +1795,10 @@ exports[`TextInput renders icon left correctly 1`] = `
           "borderRightColor": "#3F434A",
           "borderTopColor": "#3F434A",
         },
+        [
+          undefined,
+          undefined,
+        ],
       ]
     }
   >
@@ -1692,17 +1886,21 @@ exports[`TextInput renders icon left correctly 1`] = `
             "paddingLeft": 12,
             "paddingRight": 12,
           },
+          [
+            undefined,
+            undefined,
+          ],
         ]
       }
     >
       <TextInput
         autoCapitalize="none"
         className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
-        cursorColor="#6C464F"
+        cursorColor="#FFB300"
         keyboardType="default"
         onBlur={[Function]}
         onFocus={[Function]}
-        selectionColor="#6C464F"
+        selectionColor="#FFB300"
         testID="test"
       />
     </View>
@@ -1783,7 +1981,16 @@ exports[`TextInput renders icon left correctly 1`] = `
 `;
 
 exports[`TextInput renders icon left error correctly 1`] = `
-<View>
+<View
+  style={
+    [
+      [
+        undefined,
+        undefined,
+      ],
+    ]
+  }
+>
   <View
     style={
       [
@@ -1799,6 +2006,10 @@ exports[`TextInput renders icon left error correctly 1`] = `
         {
           "justifyContent": "space-between",
         },
+        [
+          undefined,
+          undefined,
+        ],
       ]
     }
   >
@@ -1857,6 +2068,10 @@ exports[`TextInput renders icon left error correctly 1`] = `
           "borderRightColor": "#AE3232",
           "borderTopColor": "#AE3232",
         },
+        [
+          undefined,
+          undefined,
+        ],
       ]
     }
   >
@@ -1944,17 +2159,21 @@ exports[`TextInput renders icon left error correctly 1`] = `
             "paddingLeft": 12,
             "paddingRight": 12,
           },
+          [
+            undefined,
+            undefined,
+          ],
         ]
       }
     >
       <TextInput
         autoCapitalize="none"
         className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
-        cursorColor="#6C464F"
+        cursorColor="#FFB300"
         keyboardType="default"
         onBlur={[Function]}
         onFocus={[Function]}
-        selectionColor="#6C464F"
+        selectionColor="#FFB300"
         testID="test"
       />
     </View>
@@ -2035,7 +2254,16 @@ exports[`TextInput renders icon left error correctly 1`] = `
 `;
 
 exports[`TextInput renders icon right correctly 1`] = `
-<View>
+<View
+  style={
+    [
+      [
+        undefined,
+        undefined,
+      ],
+    ]
+  }
+>
   <View
     style={
       [
@@ -2073,6 +2301,10 @@ exports[`TextInput renders icon right correctly 1`] = `
           "borderRightColor": "#3F434A",
           "borderTopColor": "#3F434A",
         },
+        [
+          undefined,
+          undefined,
+        ],
       ]
     }
   >
@@ -2088,17 +2320,21 @@ exports[`TextInput renders icon right correctly 1`] = `
             "paddingLeft": 12,
             "paddingRight": 12,
           },
+          [
+            undefined,
+            undefined,
+          ],
         ]
       }
     >
       <TextInput
         autoCapitalize="none"
         className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
-        cursorColor="#6C464F"
+        cursorColor="#FFB300"
         keyboardType="default"
         onBlur={[Function]}
         onFocus={[Function]}
-        selectionColor="#6C464F"
+        selectionColor="#FFB300"
         testID="test"
       />
     </View>
@@ -2179,7 +2415,16 @@ exports[`TextInput renders icon right correctly 1`] = `
 `;
 
 exports[`TextInput renders icon right error correctly 1`] = `
-<View>
+<View
+  style={
+    [
+      [
+        undefined,
+        undefined,
+      ],
+    ]
+  }
+>
   <View
     style={
       [
@@ -2195,6 +2440,10 @@ exports[`TextInput renders icon right error correctly 1`] = `
         {
           "justifyContent": "space-between",
         },
+        [
+          undefined,
+          undefined,
+        ],
       ]
     }
   >
@@ -2253,6 +2502,10 @@ exports[`TextInput renders icon right error correctly 1`] = `
           "borderRightColor": "#AE3232",
           "borderTopColor": "#AE3232",
         },
+        [
+          undefined,
+          undefined,
+        ],
       ]
     }
   >
@@ -2268,17 +2521,21 @@ exports[`TextInput renders icon right error correctly 1`] = `
             "paddingLeft": 12,
             "paddingRight": 12,
           },
+          [
+            undefined,
+            undefined,
+          ],
         ]
       }
     >
       <TextInput
         autoCapitalize="none"
         className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
-        cursorColor="#6C464F"
+        cursorColor="#FFB300"
         keyboardType="default"
         onBlur={[Function]}
         onFocus={[Function]}
-        selectionColor="#6C464F"
+        selectionColor="#FFB300"
         testID="test"
       />
     </View>
@@ -2359,7 +2616,16 @@ exports[`TextInput renders icon right error correctly 1`] = `
 `;
 
 exports[`TextInput renders label correctly 1`] = `
-<View>
+<View
+  style={
+    [
+      [
+        undefined,
+        undefined,
+      ],
+    ]
+  }
+>
   <View
     style={
       [
@@ -2375,6 +2641,10 @@ exports[`TextInput renders label correctly 1`] = `
         {
           "justifyContent": "space-between",
         },
+        [
+          undefined,
+          undefined,
+        ],
       ]
     }
   >
@@ -2436,6 +2706,10 @@ exports[`TextInput renders label correctly 1`] = `
           "borderRightColor": "#3F434A",
           "borderTopColor": "#3F434A",
         },
+        [
+          undefined,
+          undefined,
+        ],
       ]
     }
   >
@@ -2451,17 +2725,21 @@ exports[`TextInput renders label correctly 1`] = `
             "paddingLeft": 12,
             "paddingRight": 12,
           },
+          [
+            undefined,
+            undefined,
+          ],
         ]
       }
     >
       <TextInput
         autoCapitalize="none"
         className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
-        cursorColor="#6C464F"
+        cursorColor="#FFB300"
         keyboardType="default"
         onBlur={[Function]}
         onFocus={[Function]}
-        selectionColor="#6C464F"
+        selectionColor="#FFB300"
         testID="test"
       />
     </View>
@@ -2542,7 +2820,16 @@ exports[`TextInput renders label correctly 1`] = `
 `;
 
 exports[`TextInput should clear text on icon right press 1`] = `
-<View>
+<View
+  style={
+    [
+      [
+        undefined,
+        undefined,
+      ],
+    ]
+  }
+>
   <View
     style={
       [
@@ -2580,6 +2867,10 @@ exports[`TextInput should clear text on icon right press 1`] = `
           "borderRightColor": "#3F434A",
           "borderTopColor": "#3F434A",
         },
+        [
+          undefined,
+          undefined,
+        ],
       ]
     }
   >
@@ -2595,17 +2886,21 @@ exports[`TextInput should clear text on icon right press 1`] = `
             "paddingLeft": 12,
             "paddingRight": 12,
           },
+          [
+            undefined,
+            undefined,
+          ],
         ]
       }
     >
       <TextInput
         autoCapitalize="none"
         className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
-        cursorColor="#6C464F"
+        cursorColor="#FFB300"
         keyboardType="default"
         onBlur={[Function]}
         onFocus={[Function]}
-        selectionColor="#6C464F"
+        selectionColor="#FFB300"
         testID="test"
         value="test"
       />

@@ -1,13 +1,26 @@
 import clsx from 'clsx'
 import { styled } from 'nativewind'
 import { Component } from 'react'
-import { View } from 'react-native'
+import { StyleSheet, View } from 'react-native'
 import Animated from 'react-native-reanimated'
 
 import { IBoxProps } from '$views/atoms/Box/Box.props'
 
-export const Box = styled(View)
-export const AnimatedBox = Animated.createAnimatedComponent(Box)
+const StyledView = styled(View)
+
+export const Box = ({ className, style, shadow, absoluteFill, ...props }: IBoxProps) => (
+  <StyledView
+    style={[absoluteFill && StyleSheet.absoluteFill, style]}
+    className={clsx(shadow ? 'bg-white shadow shadow-shadowColor' : '', className)}
+    {...props}
+  />
+)
+class BoxComponent extends Component<IBoxProps> {
+  render() {
+    return <Box {...this.props} />
+  }
+}
+export const AnimatedBox = Animated.createAnimatedComponent(BoxComponent)
 
 export const HStack = ({ className, ...props }: IBoxProps) => (
   <Box className={clsx('flex-row', className)} {...props} />
