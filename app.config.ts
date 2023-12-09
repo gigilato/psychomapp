@@ -61,6 +61,7 @@ export default ({ config }: ConfigContext): ExpoConfig => {
       ['expo-build-properties', { ios: { useFrameworks: 'static', deploymentTarget: '13.0' } }],
       '@react-native-firebase/app',
       'expo-router',
+      ['expo-screen-orientation', { initialOrientation: 'DEFAULT' }],
     ],
   }
 }

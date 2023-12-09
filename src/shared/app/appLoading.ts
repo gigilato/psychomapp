@@ -1,4 +1,6 @@
+import { DeviceType, deviceType } from 'expo-device'
 import { SplashScreen } from 'expo-router'
+import { OrientationLock, lockAsync, unlockAsync } from 'expo-screen-orientation'
 import { useCallback, useEffect } from 'react'
 import { create } from 'zustand'
 
@@ -25,6 +27,8 @@ export const useAppLoading = () => {
       await loadIconsAsync()
       crashlytics.init()
       await remoteConfig.init()
+      if (deviceType === DeviceType.PHONE) lockAsync(OrientationLock.PORTRAIT_UP)
+      else unlockAsync()
     } catch (e) {
       console.warn(e)
     } finally {
