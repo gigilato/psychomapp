@@ -57,7 +57,7 @@ export const TextInput = memo<ITextInputProps>(
           ) : null}
           <HStack
             className={clsx(
-              'items-center rounded-s py-s border-[1px] bg-white overflow-hidden',
+              'items-center rounded-s py-s border-[1px] bg-white-light overflow-hidden',
               borderColor
             )}
           >

@@ -20,8 +20,8 @@ export const useButton = ({
     'flex-row items-center justify-center rounded-s bg-primary-classic',
     variant === 'primary' ? 'h-[44]' : 'h-[40]',
     disabled && 'bg-disabled border-disabled border-[2px]',
-    outlined && 'bg-white border-primary-classic border-[1px]',
-    error && 'bg-white border-danger border-[2px]',
+    outlined && 'bg-white-light border-primary-classic border-[1px]',
+    error && 'bg-white-light border-danger border-[2px]',
     className
   )
 
@@ -36,7 +36,7 @@ const getTextColor = ({
   if (disabled) return 'text-grey-strong'
   if (error) return 'text-danger'
   if (outlined) return 'text-primary-classic'
-  return 'text-white'
+  return 'text-white-light'
 }
 export const useTextButton = (props: Pick<IButtonProps, 'disabled' | 'error' | 'outlined'>) => {
   return getTextColor(props)

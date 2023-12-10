@@ -5,7 +5,7 @@ exports[`TabBar renders correctly 1`] = `
   style={
     [
       {
-        "backgroundColor": "#FFFFFF",
+        "backgroundColor": "#FFFCF9",
       },
       {
         "shadowColor": "rgba(0, 0, 0, 0.1)",
@@ -17,7 +17,7 @@ exports[`TabBar renders correctly 1`] = `
         "shadowRadius": 6,
       },
       {
-        "shadowColor": "#dcdce1",
+        "shadowColor": "#D3D3D3",
       },
       {
         "flexDirection": "row",

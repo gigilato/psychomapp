@@ -50,7 +50,7 @@ exports[`Button renders correctly 1`] = `
         "borderTopRightRadius": 6,
       },
       {
-        "backgroundColor": "#6C464F",
+        "backgroundColor": "#FFB300",
       },
       {
         "height": 44,
@@ -139,7 +139,7 @@ exports[`Button renders disabled correctly 1`] = `
         "borderTopRightRadius": 6,
       },
       {
-        "backgroundColor": "#6C464F",
+        "backgroundColor": "#FFB300",
       },
       {
         "height": 44,
@@ -177,7 +177,7 @@ exports[`Button renders disabled correctly 1`] = `
           "fontSize": 16,
         },
         {
-          "color": "#868383",
+          "color": "#505050",
         },
       ]
     }
@@ -238,7 +238,7 @@ exports[`Button renders error correctly 1`] = `
         "borderTopRightRadius": 6,
       },
       {
-        "backgroundColor": "#6C464F",
+        "backgroundColor": "#FFB300",
       },
       {
         "height": 44,
@@ -342,7 +342,7 @@ exports[`Button renders icon left correctly 1`] = `
         "borderTopRightRadius": 6,
       },
       {
-        "backgroundColor": "#6C464F",
+        "backgroundColor": "#FFB300",
       },
       {
         "height": 44,
@@ -459,7 +459,7 @@ exports[`Button renders icon left disabled correctly 1`] = `
         "borderTopRightRadius": 6,
       },
       {
-        "backgroundColor": "#6C464F",
+        "backgroundColor": "#FFB300",
       },
       {
         "height": 44,
@@ -498,7 +498,7 @@ exports[`Button renders icon left disabled correctly 1`] = `
         },
         [
           {
-            "color": "#868383",
+            "color": "#505050",
           },
           {
             "marginRight": 8,
@@ -525,7 +525,7 @@ exports[`Button renders icon left disabled correctly 1`] = `
           "fontSize": 16,
         },
         {
-          "color": "#868383",
+          "color": "#505050",
         },
       ]
     }
@@ -586,7 +586,7 @@ exports[`Button renders icon left error correctly 1`] = `
         "borderTopRightRadius": 6,
       },
       {
-        "backgroundColor": "#6C464F",
+        "backgroundColor": "#FFB300",
       },
       {
         "height": 44,
@@ -718,7 +718,7 @@ exports[`Button renders icon right correctly 1`] = `
         "borderTopRightRadius": 6,
       },
       {
-        "backgroundColor": "#6C464F",
+        "backgroundColor": "#FFB300",
       },
       {
         "height": 44,
@@ -808,7 +808,7 @@ exports[`Button renders icon right disabled correctly 1`] = `
         "borderTopRightRadius": 6,
       },
       {
-        "backgroundColor": "#6C464F",
+        "backgroundColor": "#FFB300",
       },
       {
         "height": 44,
@@ -846,7 +846,7 @@ exports[`Button renders icon right disabled correctly 1`] = `
           "fontSize": 16,
         },
         {
-          "color": "#868383",
+          "color": "#505050",
         },
       ]
     }
@@ -864,7 +864,7 @@ exports[`Button renders icon right disabled correctly 1`] = `
         },
         [
           {
-            "color": "#868383",
+            "color": "#505050",
           },
           {
             "marginLeft": 8,
@@ -935,7 +935,7 @@ exports[`Button renders icon right error correctly 1`] = `
         "borderTopRightRadius": 6,
       },
       {
-        "backgroundColor": "#6C464F",
+        "backgroundColor": "#FFB300",
       },
       {
         "height": 44,
@@ -1067,7 +1067,7 @@ exports[`Button renders loading correctly 1`] = `
         "borderTopRightRadius": 6,
       },
       {
-        "backgroundColor": "#6C464F",
+        "backgroundColor": "#FFB300",
       },
       {
         "height": 44,
@@ -1142,7 +1142,7 @@ exports[`IconButton renders correctly 1`] = `
         "borderTopRightRadius": 6,
       },
       {
-        "backgroundColor": "#6C464F",
+        "backgroundColor": "#FFB300",
       },
       {
         "height": 44,
@@ -1242,7 +1242,7 @@ exports[`IconButton renders disabled correctly 1`] = `
         "borderTopRightRadius": 6,
       },
       {
-        "backgroundColor": "#6C464F",
+        "backgroundColor": "#FFB300",
       },
       {
         "height": 44,
@@ -1284,7 +1284,7 @@ exports[`IconButton renders disabled correctly 1`] = `
         },
         [
           {
-            "color": "#868383",
+            "color": "#505050",
           },
         ],
         {
@@ -1352,7 +1352,7 @@ exports[`IconButton renders error correctly 1`] = `
         "borderTopRightRadius": 6,
       },
       {
-        "backgroundColor": "#6C464F",
+        "backgroundColor": "#FFB300",
       },
       {
         "height": 44,
@@ -1467,7 +1467,7 @@ exports[`IconButton renders loading correctly 1`] = `
         "borderTopRightRadius": 6,
       },
       {
-        "backgroundColor": "#6C464F",
+        "backgroundColor": "#FFB300",
       },
       {
         "height": 44,
@@ -1550,7 +1550,7 @@ exports[`PressableIcon renders correctly 1`] = `
         },
         [
           {
-            "color": "#6C464F",
+            "color": "#FFB300",
           },
         ],
         {

@@ -1,7 +1,9 @@
 export const fr = {
   translation: {
     common: {
-      connexion: 'Se connecter',
+      appName: "Psychom'App",
+      signIn: 'Se connecter',
+      signOut: 'Déconnexion',
     },
     signIn: {
       forgotPassword: 'Mot de passe oublié ?',

@@ -35,7 +35,7 @@ export const SignInForm = (props: ISignInFormProps) => {
       <Button
         ID="signIn/button"
         event="clic_sign_in"
-        title={i18n.t('common.connexion')}
+        title={i18n.t('common.signIn')}
         onPress={onPressSubmit}
         className="mt-xl"
         isLoading={isPending}

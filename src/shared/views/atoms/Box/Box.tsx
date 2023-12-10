@@ -11,7 +11,7 @@ const StyledView = styled(View)
 export const Box = ({ className, style, shadow, absoluteFill, ...props }: IBoxProps) => (
   <StyledView
     style={[absoluteFill && StyleSheet.absoluteFill, style]}
-    className={clsx(shadow ? 'bg-white shadow shadow-shadowColor' : '', className)}
+    className={clsx(shadow ? 'bg-white-classic shadow shadow-grey-light' : '', className)}
     {...props}
   />
 )
@@ -43,5 +43,5 @@ class CenterComponent extends Component<IBoxProps> {
 export const AnimatedCenter = Animated.createAnimatedComponent(CenterComponent)
 
 export const Screen = ({ className, ...props }: IBoxProps) => (
-  <Box className={clsx('flex-1 bg-light', className)} {...props} />
+  <Box className={clsx('flex-1 bg-white-classic', className)} {...props} />
 )

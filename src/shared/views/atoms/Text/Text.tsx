@@ -20,7 +20,7 @@ export const Text = ({
 }: ITextProps) => {
   return (
     <StyledText
-      className={clsx(textVariants[variant], reversed && 'text-white', className)}
+      className={clsx(textVariants[variant], reversed && 'text-white-light', className)}
       {...props}
     >
       {getContent(children, textTransform)}

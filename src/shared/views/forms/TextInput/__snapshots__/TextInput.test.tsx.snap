@@ -46,7 +46,7 @@ exports[`EmailInput renders correctly 1`] = `
             "lineHeight": 18,
           },
           {
-            "color": "#3F434A",
+            "color": "#505050",
           },
         ]
       }
@@ -86,10 +86,10 @@ exports[`EmailInput renders correctly 1`] = `
           "overflow": "hidden",
         },
         {
-          "borderBottomColor": "#3F434A",
-          "borderLeftColor": "#3F434A",
-          "borderRightColor": "#3F434A",
-          "borderTopColor": "#3F434A",
+          "borderBottomColor": "#505050",
+          "borderLeftColor": "#505050",
+          "borderRightColor": "#505050",
+          "borderTopColor": "#505050",
         },
         [
           undefined,
@@ -188,7 +188,7 @@ exports[`EmailInput renders correctly 1`] = `
                 "marginRight": 8,
               },
               {
-                "color": "#3F434A",
+                "color": "#505050",
               },
             ],
             {
@@ -253,7 +253,7 @@ exports[`EmailInput renders correctly with value 1`] = `
             "lineHeight": 18,
           },
           {
-            "color": "#3F434A",
+            "color": "#505050",
           },
         ]
       }
@@ -293,10 +293,10 @@ exports[`EmailInput renders correctly with value 1`] = `
           "overflow": "hidden",
         },
         {
-          "borderBottomColor": "#3F434A",
-          "borderLeftColor": "#3F434A",
-          "borderRightColor": "#3F434A",
-          "borderTopColor": "#3F434A",
+          "borderBottomColor": "#505050",
+          "borderLeftColor": "#505050",
+          "borderRightColor": "#505050",
+          "borderTopColor": "#505050",
         },
         [
           undefined,
@@ -396,7 +396,7 @@ exports[`EmailInput renders correctly with value 1`] = `
                 "marginRight": 8,
               },
               {
-                "color": "#3F434A",
+                "color": "#505050",
               },
             ],
             {
@@ -461,7 +461,7 @@ exports[`PasswordInput renders correctly 1`] = `
             "lineHeight": 18,
           },
           {
-            "color": "#3F434A",
+            "color": "#505050",
           },
         ]
       }
@@ -501,10 +501,10 @@ exports[`PasswordInput renders correctly 1`] = `
           "overflow": "hidden",
         },
         {
-          "borderBottomColor": "#3F434A",
-          "borderLeftColor": "#3F434A",
-          "borderRightColor": "#3F434A",
-          "borderTopColor": "#3F434A",
+          "borderBottomColor": "#505050",
+          "borderLeftColor": "#505050",
+          "borderRightColor": "#505050",
+          "borderTopColor": "#505050",
         },
         [
           undefined,
@@ -604,7 +604,7 @@ exports[`PasswordInput renders correctly 1`] = `
                 "marginRight": 8,
               },
               {
-                "color": "#3F434A",
+                "color": "#505050",
               },
             ],
             {
@@ -669,7 +669,7 @@ exports[`PasswordInput renders correctly with value 1`] = `
             "lineHeight": 18,
           },
           {
-            "color": "#3F434A",
+            "color": "#505050",
           },
         ]
       }
@@ -709,10 +709,10 @@ exports[`PasswordInput renders correctly with value 1`] = `
           "overflow": "hidden",
         },
         {
-          "borderBottomColor": "#3F434A",
-          "borderLeftColor": "#3F434A",
-          "borderRightColor": "#3F434A",
-          "borderTopColor": "#3F434A",
+          "borderBottomColor": "#505050",
+          "borderLeftColor": "#505050",
+          "borderRightColor": "#505050",
+          "borderTopColor": "#505050",
         },
         [
           undefined,
@@ -813,7 +813,7 @@ exports[`PasswordInput renders correctly with value 1`] = `
                 "marginRight": 8,
               },
               {
-                "color": "#3F434A",
+                "color": "#505050",
               },
             ],
             {
@@ -878,7 +878,7 @@ exports[`PasswordInput shows password on icon press 1`] = `
             "lineHeight": 18,
           },
           {
-            "color": "#3F434A",
+            "color": "#505050",
           },
         ]
       }
@@ -918,10 +918,10 @@ exports[`PasswordInput shows password on icon press 1`] = `
           "overflow": "hidden",
         },
         {
-          "borderBottomColor": "#3F434A",
-          "borderLeftColor": "#3F434A",
-          "borderRightColor": "#3F434A",
-          "borderTopColor": "#3F434A",
+          "borderBottomColor": "#505050",
+          "borderLeftColor": "#505050",
+          "borderRightColor": "#505050",
+          "borderTopColor": "#505050",
         },
         [
           undefined,
@@ -1022,7 +1022,7 @@ exports[`PasswordInput shows password on icon press 1`] = `
                 "marginRight": 8,
               },
               {
-                "color": "#3F434A",
+                "color": "#505050",
               },
             ],
             {
@@ -1087,7 +1087,7 @@ exports[`PasswordInput shows password on icon press 2`] = `
             "lineHeight": 18,
           },
           {
-            "color": "#3F434A",
+            "color": "#505050",
           },
         ]
       }
@@ -1127,10 +1127,10 @@ exports[`PasswordInput shows password on icon press 2`] = `
           "overflow": "hidden",
         },
         {
-          "borderBottomColor": "#3F434A",
-          "borderLeftColor": "#3F434A",
-          "borderRightColor": "#3F434A",
-          "borderTopColor": "#3F434A",
+          "borderBottomColor": "#505050",
+          "borderLeftColor": "#505050",
+          "borderRightColor": "#505050",
+          "borderTopColor": "#505050",
         },
         [
           undefined,
@@ -1231,7 +1231,7 @@ exports[`PasswordInput shows password on icon press 2`] = `
                 "marginRight": 8,
               },
               {
-                "color": "#3F434A",
+                "color": "#505050",
               },
             ],
             {
@@ -1293,10 +1293,10 @@ exports[`TextInput renders correctly 1`] = `
           "overflow": "hidden",
         },
         {
-          "borderBottomColor": "#3F434A",
-          "borderLeftColor": "#3F434A",
-          "borderRightColor": "#3F434A",
-          "borderTopColor": "#3F434A",
+          "borderBottomColor": "#505050",
+          "borderLeftColor": "#505050",
+          "borderRightColor": "#505050",
+          "borderTopColor": "#505050",
         },
         [
           undefined,
@@ -1427,10 +1427,10 @@ exports[`TextInput renders correctly with value 1`] = `
           "overflow": "hidden",
         },
         {
-          "borderBottomColor": "#3F434A",
-          "borderLeftColor": "#3F434A",
-          "borderRightColor": "#3F434A",
-          "borderTopColor": "#3F434A",
+          "borderBottomColor": "#505050",
+          "borderLeftColor": "#505050",
+          "borderRightColor": "#505050",
+          "borderTopColor": "#505050",
         },
         [
           undefined,
@@ -1527,7 +1527,7 @@ exports[`TextInput renders correctly with value 1`] = `
                 "marginRight": 8,
               },
               {
-                "color": "#3F434A",
+                "color": "#505050",
               },
             ],
             {
@@ -1790,10 +1790,10 @@ exports[`TextInput renders icon left correctly 1`] = `
           "overflow": "hidden",
         },
         {
-          "borderBottomColor": "#3F434A",
-          "borderLeftColor": "#3F434A",
-          "borderRightColor": "#3F434A",
-          "borderTopColor": "#3F434A",
+          "borderBottomColor": "#505050",
+          "borderLeftColor": "#505050",
+          "borderRightColor": "#505050",
+          "borderTopColor": "#505050",
         },
         [
           undefined,
@@ -1859,7 +1859,7 @@ exports[`TextInput renders icon left correctly 1`] = `
                 "marginLeft": 8,
               },
               {
-                "color": "#3F434A",
+                "color": "#505050",
               },
             ],
             {
@@ -1961,7 +1961,7 @@ exports[`TextInput renders icon left correctly 1`] = `
                 "marginRight": 8,
               },
               {
-                "color": "#3F434A",
+                "color": "#505050",
               },
             ],
             {
@@ -2296,10 +2296,10 @@ exports[`TextInput renders icon right correctly 1`] = `
           "overflow": "hidden",
         },
         {
-          "borderBottomColor": "#3F434A",
-          "borderLeftColor": "#3F434A",
-          "borderRightColor": "#3F434A",
-          "borderTopColor": "#3F434A",
+          "borderBottomColor": "#505050",
+          "borderLeftColor": "#505050",
+          "borderRightColor": "#505050",
+          "borderTopColor": "#505050",
         },
         [
           undefined,
@@ -2395,7 +2395,7 @@ exports[`TextInput renders icon right correctly 1`] = `
                 "marginRight": 8,
               },
               {
-                "color": "#3F434A",
+                "color": "#505050",
               },
             ],
             {
@@ -2661,7 +2661,7 @@ exports[`TextInput renders label correctly 1`] = `
             "lineHeight": 18,
           },
           {
-            "color": "#3F434A",
+            "color": "#505050",
           },
         ]
       }
@@ -2701,10 +2701,10 @@ exports[`TextInput renders label correctly 1`] = `
           "overflow": "hidden",
         },
         {
-          "borderBottomColor": "#3F434A",
-          "borderLeftColor": "#3F434A",
-          "borderRightColor": "#3F434A",
-          "borderTopColor": "#3F434A",
+          "borderBottomColor": "#505050",
+          "borderLeftColor": "#505050",
+          "borderRightColor": "#505050",
+          "borderTopColor": "#505050",
         },
         [
           undefined,
@@ -2800,7 +2800,7 @@ exports[`TextInput renders label correctly 1`] = `
                 "marginRight": 8,
               },
               {
-                "color": "#3F434A",
+                "color": "#505050",
               },
             ],
             {
@@ -2862,10 +2862,10 @@ exports[`TextInput should clear text on icon right press 1`] = `
           "overflow": "hidden",
         },
         {
-          "borderBottomColor": "#3F434A",
-          "borderLeftColor": "#3F434A",
-          "borderRightColor": "#3F434A",
-          "borderTopColor": "#3F434A",
+          "borderBottomColor": "#505050",
+          "borderLeftColor": "#505050",
+          "borderRightColor": "#505050",
+          "borderTopColor": "#505050",
         },
         [
           undefined,
@@ -2962,7 +2962,7 @@ exports[`TextInput should clear text on icon right press 1`] = `
                 "marginRight": 8,
               },
               {
-                "color": "#3F434A",
+                "color": "#505050",
               },
             ],
             {

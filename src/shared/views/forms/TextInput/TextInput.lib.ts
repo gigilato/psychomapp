@@ -37,12 +37,12 @@ export const useTextInput = (
     onClear?.()
   }
 
-  const textColor = error ? 'text-danger' : isFocused ? 'text-primary-classic' : 'text-grey-classic'
+  const textColor = error ? 'text-danger' : isFocused ? 'text-primary-classic' : 'text-grey-strong'
   const borderColor = error
     ? 'border-danger'
     : isFocused
       ? 'border-primary-classic'
-      : 'border-grey-classic'
+      : 'border-grey-strong'
 
   return {
     innerRef,

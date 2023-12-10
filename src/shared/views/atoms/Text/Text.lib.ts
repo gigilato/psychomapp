@@ -12,7 +12,7 @@ export const textVariants: Record<TextVariant, string> = {
   boldBody: 'font-[SpaceGrotesk-Medium] text-[14px] leading-[18px]',
   // action
   button: 'font-[SpaceGrotesk-Bold] text-[16px] classic',
-  link: 'font-[SpaceGrotesk-Medium] text-[14px] text-grey-classic underline',
+  link: 'font-[SpaceGrotesk-Medium] text-[14px] text-grey-strong underline',
   // input
   inputError: 'font-[SpaceGrotesk-Light] text-[12px]',
 }
