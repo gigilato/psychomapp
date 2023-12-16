@@ -4,7 +4,7 @@ import { Component } from 'react'
 import { StyleSheet, View } from 'react-native'
 import Animated from 'react-native-reanimated'
 
-import { IBoxProps } from '$views/atoms/Box/Box.props'
+import { IBoxProps, ISeparatorProps } from '$views/atoms/Box/Box.props'
 
 const StyledView = styled(View)
 
@@ -44,4 +44,15 @@ export const AnimatedCenter = Animated.createAnimatedComponent(CenterComponent)
 
 export const Screen = ({ className, ...props }: IBoxProps) => (
   <Box className={clsx('flex-1 bg-white-classic', className)} {...props} />
+)
+
+export const Separator = ({ className, vertical, style, ...props }: ISeparatorProps) => (
+  <Box
+    className={clsx('bg-grey-light', className)}
+    style={[
+      vertical ? { width: StyleSheet.hairlineWidth } : { height: StyleSheet.hairlineWidth },
+      style,
+    ]}
+    {...props}
+  />
 )

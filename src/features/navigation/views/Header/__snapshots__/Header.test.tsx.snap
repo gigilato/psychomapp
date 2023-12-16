@@ -4,6 +4,9 @@ exports[`Header should renders correctly 1`] = `
 <View
   style={
     [
+      {
+        "backgroundColor": "#FFFCF9",
+      },
       [
         undefined,
         {
@@ -121,6 +124,9 @@ exports[`Header should renders with children 1`] = `
 <View
   style={
     [
+      {
+        "backgroundColor": "#FFFCF9",
+      },
       [
         undefined,
         {
@@ -259,7 +265,7 @@ exports[`Header should renders with children 1`] = `
               "fontFamily": "SpaceGrotesk-Regular",
             },
             {
-              "fontSize": 14,
+              "fontSize": 16,
             },
             {
               "lineHeight": 18,

@@ -110,7 +110,7 @@ exports[`TabBar renders correctly 1`] = `
             "fontFamily": "SpaceGrotesk-Regular",
           },
           {
-            "fontSize": 14,
+            "fontSize": 16,
           },
           {
             "lineHeight": 18,
@@ -180,7 +180,7 @@ exports[`TabBar renders correctly 1`] = `
             "fontFamily": "SpaceGrotesk-Regular",
           },
           {
-            "fontSize": 14,
+            "fontSize": 16,
           },
           {
             "lineHeight": 18,
@@ -247,7 +247,7 @@ exports[`TabBar renders correctly 1`] = `
             "fontFamily": "SpaceGrotesk-Regular",
           },
           {
-            "fontSize": 14,
+            "fontSize": 16,
           },
           {
             "lineHeight": 18,

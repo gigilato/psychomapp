@@ -1,3 +1,4 @@
+import { styled } from 'nativewind'
 import { ScrollView, useWindowDimensions } from 'react-native'
 import { useReanimatedFocusedInput } from 'react-native-keyboard-controller'
 import Animated, {
@@ -11,9 +12,12 @@ import Animated, {
   KeyboardState,
 } from 'react-native-reanimated'
 
+import { AnimatedBox } from '$atoms/Box'
 import { IKeyboardAvoidingViewProps } from '$atoms/KeyboardAvoidingView/KeyboardAvoidingView.props'
+import { colors } from '$theme'
 
-const AnimatedScrollView = Animated.createAnimatedComponent(ScrollView)
+const StyledScrollView = styled(ScrollView)
+const AnimatedScrollView = Animated.createAnimatedComponent(StyledScrollView)
 const PADDING = 50
 
 export const KeyboardAvoidingView = ({
@@ -30,6 +34,10 @@ export const KeyboardAvoidingView = ({
   const scrollHandler = useAnimatedScrollHandler((event) => {
     scrollY.value = event.contentOffset.y
     onScroll?.(event)
+  })
+
+  const fillStyle = useAnimatedStyle(() => {
+    return { height: Math.max(0, -scrollY.value) }
   })
 
   const translationY = useSharedValue(0)
@@ -85,13 +93,19 @@ export const KeyboardAvoidingView = ({
   )
 
   return (
-    <AnimatedScrollView
-      style={[aStyle]}
-      contentContainerStyle={[variant === 'screen' ? { flexGrow: 1 } : null, contentContainerStyle]}
-      scrollEventThrottle={16}
-      onScroll={scrollHandler}
-      scrollEnabled={variant !== 'screen'}
-      {...props}
-    />
+    <>
+      <AnimatedScrollView
+        style={[aStyle, { backgroundColor: colors.white.classic }, style]}
+        contentContainerStyle={[{ flexGrow: 1 }, contentContainerStyle]}
+        scrollEventThrottle={16}
+        onScroll={scrollHandler}
+        scrollEnabled={variant !== 'screen'}
+        {...props}
+      />
+      <AnimatedBox
+        style={fillStyle}
+        className="bg-secondary-classic absolute top-[0] left-[0] right-[0]"
+      />
+    </>
   )
 }

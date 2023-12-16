@@ -458,7 +458,9 @@ export interface Database {
           createdAt: string
           email: string
           firstname: string
+          gender: string
           id: string
+          job: string
           lastname: string
           updatedAt: string
         }
@@ -466,7 +468,9 @@ export interface Database {
           createdAt?: string
           email: string
           firstname?: string
+          gender?: string
           id: string
+          job?: string
           lastname?: string
           updatedAt?: string
         }
@@ -474,7 +478,9 @@ export interface Database {
           createdAt?: string
           email?: string
           firstname?: string
+          gender?: string
           id?: string
+          job?: string
           lastname?: string
           updatedAt?: string
         }

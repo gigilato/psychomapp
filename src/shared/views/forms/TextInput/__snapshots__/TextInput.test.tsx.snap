@@ -40,7 +40,7 @@ exports[`EmailInput renders correctly 1`] = `
             "fontFamily": "SpaceGrotesk-Medium",
           },
           {
-            "fontSize": 14,
+            "fontSize": 16,
           },
           {
             "lineHeight": 18,
@@ -120,7 +120,7 @@ exports[`EmailInput renders correctly 1`] = `
       <TextInput
         autoCapitalize="none"
         autoComplete="email"
-        className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
+        className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[16px] leading-[18px]"
         cursorColor="#FFB300"
         keyboardType="email-address"
         onBlur={[Function]}
@@ -247,7 +247,7 @@ exports[`EmailInput renders correctly with value 1`] = `
             "fontFamily": "SpaceGrotesk-Medium",
           },
           {
-            "fontSize": 14,
+            "fontSize": 16,
           },
           {
             "lineHeight": 18,
@@ -327,7 +327,7 @@ exports[`EmailInput renders correctly with value 1`] = `
       <TextInput
         autoCapitalize="none"
         autoComplete="email"
-        className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
+        className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[16px] leading-[18px]"
         cursorColor="#FFB300"
         keyboardType="email-address"
         onBlur={[Function]}
@@ -455,7 +455,7 @@ exports[`PasswordInput renders correctly 1`] = `
             "fontFamily": "SpaceGrotesk-Medium",
           },
           {
-            "fontSize": 14,
+            "fontSize": 16,
           },
           {
             "lineHeight": 18,
@@ -535,7 +535,7 @@ exports[`PasswordInput renders correctly 1`] = `
       <TextInput
         autoCapitalize="none"
         autoComplete="password"
-        className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
+        className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[16px] leading-[18px]"
         cursorColor="#FFB300"
         keyboardType="default"
         onBlur={[Function]}
@@ -663,7 +663,7 @@ exports[`PasswordInput renders correctly with value 1`] = `
             "fontFamily": "SpaceGrotesk-Medium",
           },
           {
-            "fontSize": 14,
+            "fontSize": 16,
           },
           {
             "lineHeight": 18,
@@ -743,7 +743,7 @@ exports[`PasswordInput renders correctly with value 1`] = `
       <TextInput
         autoCapitalize="none"
         autoComplete="password"
-        className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
+        className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[16px] leading-[18px]"
         cursorColor="#FFB300"
         keyboardType="default"
         onBlur={[Function]}
@@ -872,7 +872,7 @@ exports[`PasswordInput shows password on icon press 1`] = `
             "fontFamily": "SpaceGrotesk-Medium",
           },
           {
-            "fontSize": 14,
+            "fontSize": 16,
           },
           {
             "lineHeight": 18,
@@ -952,7 +952,7 @@ exports[`PasswordInput shows password on icon press 1`] = `
       <TextInput
         autoCapitalize="none"
         autoComplete="password"
-        className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
+        className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[16px] leading-[18px]"
         cursorColor="#FFB300"
         keyboardType="default"
         onBlur={[Function]}
@@ -1081,7 +1081,7 @@ exports[`PasswordInput shows password on icon press 2`] = `
             "fontFamily": "SpaceGrotesk-Medium",
           },
           {
-            "fontSize": 14,
+            "fontSize": 16,
           },
           {
             "lineHeight": 18,
@@ -1161,7 +1161,7 @@ exports[`PasswordInput shows password on icon press 2`] = `
       <TextInput
         autoCapitalize="none"
         autoComplete="password"
-        className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
+        className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[16px] leading-[18px]"
         cursorColor="#FFB300"
         keyboardType="default"
         onBlur={[Function]}
@@ -1326,7 +1326,7 @@ exports[`TextInput renders correctly 1`] = `
     >
       <TextInput
         autoCapitalize="none"
-        className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
+        className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[16px] leading-[18px]"
         cursorColor="#FFB300"
         keyboardType="default"
         onBlur={[Function]}
@@ -1460,7 +1460,7 @@ exports[`TextInput renders correctly with value 1`] = `
     >
       <TextInput
         autoCapitalize="none"
-        className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
+        className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[16px] leading-[18px]"
         cursorColor="#FFB300"
         keyboardType="default"
         onBlur={[Function]}
@@ -1662,7 +1662,7 @@ exports[`TextInput renders error correctly 1`] = `
     >
       <TextInput
         autoCapitalize="none"
-        className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
+        className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[16px] leading-[18px]"
         cursorColor="#FFB300"
         keyboardType="default"
         onBlur={[Function]}
@@ -1895,7 +1895,7 @@ exports[`TextInput renders icon left correctly 1`] = `
     >
       <TextInput
         autoCapitalize="none"
-        className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
+        className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[16px] leading-[18px]"
         cursorColor="#FFB300"
         keyboardType="default"
         onBlur={[Function]}
@@ -2168,7 +2168,7 @@ exports[`TextInput renders icon left error correctly 1`] = `
     >
       <TextInput
         autoCapitalize="none"
-        className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
+        className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[16px] leading-[18px]"
         cursorColor="#FFB300"
         keyboardType="default"
         onBlur={[Function]}
@@ -2329,7 +2329,7 @@ exports[`TextInput renders icon right correctly 1`] = `
     >
       <TextInput
         autoCapitalize="none"
-        className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
+        className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[16px] leading-[18px]"
         cursorColor="#FFB300"
         keyboardType="default"
         onBlur={[Function]}
@@ -2530,7 +2530,7 @@ exports[`TextInput renders icon right error correctly 1`] = `
     >
       <TextInput
         autoCapitalize="none"
-        className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
+        className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[16px] leading-[18px]"
         cursorColor="#FFB300"
         keyboardType="default"
         onBlur={[Function]}
@@ -2655,7 +2655,7 @@ exports[`TextInput renders label correctly 1`] = `
             "fontFamily": "SpaceGrotesk-Medium",
           },
           {
-            "fontSize": 14,
+            "fontSize": 16,
           },
           {
             "lineHeight": 18,
@@ -2734,7 +2734,7 @@ exports[`TextInput renders label correctly 1`] = `
     >
       <TextInput
         autoCapitalize="none"
-        className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
+        className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[16px] leading-[18px]"
         cursorColor="#FFB300"
         keyboardType="default"
         onBlur={[Function]}
@@ -2895,7 +2895,7 @@ exports[`TextInput should clear text on icon right press 1`] = `
     >
       <TextInput
         autoCapitalize="none"
-        className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]"
+        className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[16px] leading-[18px]"
         cursorColor="#FFB300"
         keyboardType="default"
         onBlur={[Function]}

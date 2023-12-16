@@ -153,6 +153,9 @@ exports[`Pressable renders with styles 1`] = `
         "paddingTop": 12,
       },
       {
+        "backgroundColor": "#FFD700",
+      },
+      {
         "borderBottomLeftRadius": 6,
         "borderBottomRightRadius": 6,
         "borderTopLeftRadius": 6,

@@ -57,7 +57,7 @@ exports[`TabBarIcon should render selected 1`] = `
           "fontFamily": "SpaceGrotesk-Regular",
         },
         {
-          "fontSize": 14,
+          "fontSize": 16,
         },
         {
           "lineHeight": 18,
@@ -150,7 +150,7 @@ exports[`TabBarIcon should render selected 2`] = `
           "fontFamily": "SpaceGrotesk-Regular",
         },
         {
-          "fontSize": 14,
+          "fontSize": 16,
         },
         {
           "lineHeight": 18,

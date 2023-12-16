@@ -1,6 +1,8 @@
 import { ReactNode } from 'react'
 
-export interface IHeaderProps {
+import { IBoxProps } from '$atoms'
+
+export interface IHeaderProps extends IBoxProps {
   height?: number
   children?: ReactNode
 }

@@ -1,6 +1,6 @@
 import { render } from '@testing-library/react-native'
 
-import { Box, HStack, Center, Screen } from './Box'
+import { Box, HStack, Center, Screen, Separator } from './Box'
 
 const Component = () => (
   <Box className="flex-1 bg-orange justify-center">
@@ -29,6 +29,18 @@ describe('Center', () => {
 describe('Screen', () => {
   it('renders correctly', async () => {
     const component = render(<Screen />)
+    expect(component).toMatchSnapshot()
+  })
+})
+
+describe('Separator', () => {
+  it('renders horizontal correctly', async () => {
+    const component = render(<Separator />)
+    expect(component).toMatchSnapshot()
+  })
+
+  it('renders vertical correctly', async () => {
+    const component = render(<Separator vertical />)
     expect(component).toMatchSnapshot()
   })
 })

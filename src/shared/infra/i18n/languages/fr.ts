@@ -11,10 +11,23 @@ export const fr = {
       wrongCredentials: 'Connexion impossible, vérifiez vos identifiants.',
       resetPassword: 'Un email de réinitialisation vous a été envoyé.',
     },
+    profile: {
+      jobs: {
+        psychomotor_male: 'psychomotricien',
+        psychomotor_female: 'psychomotricienne',
+      },
+    },
     navigation: {
       calendar: 'Agenda',
       settings: 'Menu',
       patients: 'Patients',
+    },
+    settings: {
+      updatePassword: 'Changer le mot de passe',
+      cgu: "Conditions générales d'utilisation",
+      tests: 'Mon classeur de tests',
+      equipment: 'Mon matériel',
+      billing: 'Ma facturation',
     },
     forms: {
       email: {

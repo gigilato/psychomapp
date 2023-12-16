@@ -108,6 +108,27 @@ jest.mock('$infra/auth', () => ({
   resetPasswordAsync: jest.fn(),
 }))
 
+jest.mock('$infra/auth', () => ({
+  useAuthStore: (passedFunction) => {
+    const data = {
+      profile: {
+        firstname: 'firstname',
+        lastname: 'lastname',
+        job: 'job',
+        gender: 'male',
+        email: 'email@email.com',
+      },
+      isAuthenticated: false,
+      userId: 'userId',
+    }
+    return passedFunction(data)
+  },
+  restoreSessionAsync: jest.fn(),
+  signInAsync: jest.fn(),
+  signOutAsync: jest.fn(),
+  resetPasswordAsync: jest.fn(),
+}))
+
 global.console = {
   ...console,
   // uncomment to ignore a specific log level

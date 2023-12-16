@@ -1,0 +1,501 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProfileSetting should renders correctly 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  animation="none"
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    [
+      {
+        "flexDirection": "row",
+      },
+      {
+        "alignItems": "center",
+      },
+      {
+        "paddingBottom": 8,
+        "paddingTop": 8,
+      },
+      [
+        {},
+        undefined,
+      ],
+    ]
+  }
+  testID=""
+>
+  <Text
+    style={
+      [
+        {
+          "fontFamily": "SpaceGrotesk-Regular",
+        },
+        {
+          "fontSize": 16,
+        },
+        {
+          "lineHeight": 18,
+        },
+        {
+          "flexBasis": "0%",
+          "flexGrow": 1,
+          "flexShrink": 1,
+        },
+      ]
+    }
+  >
+    content
+  </Text>
+</View>
+`;
+
+exports[`ProfileSetting should renders with icon 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  animation="none"
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    [
+      {
+        "flexDirection": "row",
+      },
+      {
+        "alignItems": "center",
+      },
+      {
+        "paddingBottom": 8,
+        "paddingTop": 8,
+      },
+      [
+        {},
+        undefined,
+      ],
+    ]
+  }
+  testID=""
+>
+  <View
+    style={
+      [
+        {
+          "backgroundColor": "#FFFACD",
+        },
+        {
+          "paddingBottom": 4,
+          "paddingLeft": 4,
+          "paddingRight": 4,
+          "paddingTop": 4,
+        },
+        {
+          "marginRight": 12,
+        },
+        {
+          "borderBottomLeftRadius": 6,
+          "borderBottomRightRadius": 6,
+          "borderTopLeftRadius": 6,
+          "borderTopRightRadius": 6,
+        },
+        [
+          undefined,
+          {
+            "backgroundColor": "#FFFFDD",
+          },
+        ],
+      ]
+    }
+  >
+    <Text />
+  </View>
+  <Text
+    style={
+      [
+        {
+          "fontFamily": "SpaceGrotesk-Regular",
+        },
+        {
+          "fontSize": 16,
+        },
+        {
+          "lineHeight": 18,
+        },
+        {
+          "flexBasis": "0%",
+          "flexGrow": 1,
+          "flexShrink": 1,
+        },
+      ]
+    }
+  >
+    content
+  </Text>
+</View>
+`;
+
+exports[`ProfileSetting should renders with link 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  animation="none"
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    [
+      {
+        "flexDirection": "row",
+      },
+      {
+        "alignItems": "center",
+      },
+      {
+        "paddingBottom": 8,
+        "paddingTop": 8,
+      },
+      [
+        {},
+        undefined,
+      ],
+    ]
+  }
+  testID=""
+>
+  <View
+    style={
+      [
+        {
+          "backgroundColor": "#FFFACD",
+        },
+        {
+          "paddingBottom": 4,
+          "paddingLeft": 4,
+          "paddingRight": 4,
+          "paddingTop": 4,
+        },
+        {
+          "marginRight": 12,
+        },
+        {
+          "borderBottomLeftRadius": 6,
+          "borderBottomRightRadius": 6,
+          "borderTopLeftRadius": 6,
+          "borderTopRightRadius": 6,
+        },
+        [
+          undefined,
+          {
+            "backgroundColor": "#FFFFDD",
+          },
+        ],
+      ]
+    }
+  >
+    <Text
+      allowFontScaling={false}
+      selectable={false}
+      style={
+        [
+          {
+            "color": undefined,
+            "fontSize": 20,
+          },
+          [
+            {
+              "color": "#FFA500",
+            },
+            {
+              "color": "#FFA500",
+            },
+          ],
+          {
+            "fontFamily": "IcoMoon",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          {},
+        ]
+      }
+    >
+      ?
+    </Text>
+  </View>
+  <Text
+    style={
+      [
+        {
+          "fontFamily": "SpaceGrotesk-Regular",
+        },
+        {
+          "fontSize": 16,
+        },
+        {
+          "lineHeight": 18,
+        },
+        {
+          "flexBasis": "0%",
+          "flexGrow": 1,
+          "flexShrink": 1,
+        },
+      ]
+    }
+  >
+    content
+  </Text>
+  <Text
+    allowFontScaling={false}
+    selectable={false}
+    style={
+      [
+        {
+          "color": undefined,
+          "fontSize": 20,
+        },
+        undefined,
+        {
+          "fontFamily": "IcoMoon",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        {},
+      ]
+    }
+  >
+    
+  </Text>
+</View>
+`;
+
+exports[`ProfileSetting should renders with navigation 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  animation="none"
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    [
+      {
+        "flexDirection": "row",
+      },
+      {
+        "alignItems": "center",
+      },
+      {
+        "paddingBottom": 8,
+        "paddingTop": 8,
+      },
+      [
+        {},
+        undefined,
+      ],
+    ]
+  }
+  testID=""
+>
+  <View
+    style={
+      [
+        {
+          "backgroundColor": "#FFFACD",
+        },
+        {
+          "paddingBottom": 4,
+          "paddingLeft": 4,
+          "paddingRight": 4,
+          "paddingTop": 4,
+        },
+        {
+          "marginRight": 12,
+        },
+        {
+          "borderBottomLeftRadius": 6,
+          "borderBottomRightRadius": 6,
+          "borderTopLeftRadius": 6,
+          "borderTopRightRadius": 6,
+        },
+        [
+          undefined,
+          {
+            "backgroundColor": "#FFFFDD",
+          },
+        ],
+      ]
+    }
+  >
+    <Text
+      allowFontScaling={false}
+      selectable={false}
+      style={
+        [
+          {
+            "color": undefined,
+            "fontSize": 20,
+          },
+          [
+            {
+              "color": "#FFA500",
+            },
+            {
+              "color": "#FFA500",
+            },
+          ],
+          {
+            "fontFamily": "IcoMoon",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          {},
+        ]
+      }
+    >
+      ?
+    </Text>
+  </View>
+  <Text
+    style={
+      [
+        {
+          "fontFamily": "SpaceGrotesk-Regular",
+        },
+        {
+          "fontSize": 16,
+        },
+        {
+          "lineHeight": 18,
+        },
+        {
+          "flexBasis": "0%",
+          "flexGrow": 1,
+          "flexShrink": 1,
+        },
+      ]
+    }
+  >
+    content
+  </Text>
+  <Text
+    allowFontScaling={false}
+    selectable={false}
+    style={
+      [
+        {
+          "color": undefined,
+          "fontSize": 35,
+        },
+        undefined,
+        {
+          "fontFamily": "IcoMoon",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        {},
+      ]
+    }
+  >
+    
+  </Text>
+</View>
+`;

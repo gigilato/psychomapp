@@ -8,8 +8,8 @@ export const textVariants: Record<TextVariant, string> = {
   title: 'font-[SpaceGrotesk-Bold] text-[34px] leading-[42px]',
   subtitle: 'font-[SpaceGrotesk-Bold] text-[20px] leading-[28px]',
   // Body
-  body: 'font-[SpaceGrotesk-Regular] text-[14px] leading-[18px]',
-  boldBody: 'font-[SpaceGrotesk-Medium] text-[14px] leading-[18px]',
+  body: 'font-[SpaceGrotesk-Regular] text-[16px] leading-[18px]',
+  boldBody: 'font-[SpaceGrotesk-Medium] text-[16px] leading-[18px]',
   // action
   button: 'font-[SpaceGrotesk-Bold] text-[16px] classic',
   link: 'font-[SpaceGrotesk-Medium] text-[14px] text-grey-strong underline',

@@ -5,7 +5,7 @@ import { Box } from '$atoms'
 import { IHeaderProps } from '$features/navigation/views/Header/Header.props'
 import { colors } from '$theme'
 
-export const Header = ({ height = 200, children }: IHeaderProps) => {
+export const Header = ({ height = 200, children, ...props }: IHeaderProps) => {
   const { width } = useWindowDimensions()
   const style = { width, height }
 
@@ -17,11 +17,13 @@ export const Header = ({ height = 200, children }: IHeaderProps) => {
   path.close()
 
   return (
-    <Box style={style}>
+    <Box style={style} className="bg-white-classic">
       <Canvas style={style}>
         <Path path={path} strokeWidth={2} style="fill" color={colors.secondary.classic} />
       </Canvas>
-      <Box absoluteFill>{children}</Box>
+      <Box absoluteFill {...props}>
+        {children}
+      </Box>
     </Box>
   )
 }

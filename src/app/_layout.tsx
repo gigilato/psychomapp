@@ -32,7 +32,7 @@ export default function AppLayout() {
       <SafeAreaProvider>
         <KeyboardProvider>
           <Stack screenOptions={{ headerShown: false }} />
-          <StatusBar style="auto" />
+          <StatusBar style="light" />
           <Toasts />
         </KeyboardProvider>
       </SafeAreaProvider>

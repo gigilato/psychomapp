@@ -6,3 +6,7 @@ export interface IBoxProps extends ViewProps {
   absoluteFill?: boolean
 }
 export type IAnimatedBoxProps = AnimateProps<IBoxProps>
+
+export interface ISeparatorProps extends IBoxProps {
+  vertical?: boolean
+}
