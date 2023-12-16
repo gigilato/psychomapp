@@ -27,6 +27,12 @@
       "$forms/*": [
         "./src/shared/views/forms/*"
       ],
+      "$navigation": [
+        "./src/shared/views/navigation"
+      ],
+      "$navigation/*": [
+        "./src/shared/views/navigation/*"
+      ],
       "$libs/*": [
         "./src/shared/libs/*"
       ],

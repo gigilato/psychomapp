@@ -1,7 +1,7 @@
 import { Redirect, Stack, Tabs } from 'expo-router'
 
-import { TabBar } from '$features/navigation/views'
 import { useAuthStore } from '$infra/auth'
+import { TabBar } from '$views/navigation'
 
 export default function DashboardLayout() {
   const isAuthenticated = useAuthStore((state) => state.isAuthenticated)

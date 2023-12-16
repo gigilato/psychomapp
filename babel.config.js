@@ -13,6 +13,7 @@ module.exports = function (api) {
             $molecules: './src/shared/views/molecules',
             $organisms: './src/shared/views/organisms',
             $forms: './src/shared/views/forms',
+            $navigation: './src/shared/views/navigation',
             $libs: './src/shared/libs/',
             $infra: './src/shared/infra',
             $constants: './src/shared/constants',

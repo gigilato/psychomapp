@@ -1,6 +1,6 @@
 import { Center, Image, KeyboardAvoidingView, Screen, Text } from '$atoms'
-import { Header } from '$features/navigation/views'
 import { i18n } from '$infra/i18n'
+import { Header } from '$views/navigation'
 
 import { SignInForm } from './components'
 

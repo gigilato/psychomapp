@@ -3,10 +3,11 @@ import { useSegments } from 'expo-router'
 import { useAnimatedStyle } from 'react-native-reanimated'
 
 import { AnimatedHStack } from '$atoms'
-import { TabBarIcon } from '$features/navigation/views/TabBar/components'
 import { i18n } from '$infra/i18n'
 import { useTransition, mix } from '$views/libs/animations'
 import { useSafeAreaInsets } from '$views/libs/safeAreaInsets'
+
+import { TabBarIcon } from './components'
 
 export const TabBar = ({ state: { index } }: BottomTabBarProps) => {
   const { bottom } = useSafeAreaInsets()

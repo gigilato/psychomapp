@@ -1,9 +1,9 @@
 import { router } from 'expo-router'
 
 import { Box, KeyboardAvoidingView, Separator, Text } from '$atoms'
-import { Header } from '$features/navigation/views'
 import { signOutAsync, useAuthStore } from '$infra/auth'
 import { i18n } from '$infra/i18n'
+import { Header } from '$views/navigation'
 
 import { ProfileSetting } from './components'
 

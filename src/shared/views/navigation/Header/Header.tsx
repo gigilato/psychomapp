@@ -2,8 +2,9 @@ import { Canvas, Skia, Path } from '@shopify/react-native-skia'
 import { useWindowDimensions } from 'react-native'
 
 import { Box } from '$atoms'
-import { IHeaderProps } from '$features/navigation/views/Header/Header.props'
 import { colors } from '$theme'
+
+import { IHeaderProps } from './Header.props'
 
 export const Header = ({ height = 200, children, ...props }: IHeaderProps) => {
   const { width } = useWindowDimensions()
