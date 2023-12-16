@@ -39,7 +39,7 @@ export const TabBar = ({ state: { index } }: BottomTabBarProps) => {
       />
       <TabBarIcon
         route="/dashboard/profile/"
-        icon="sliders-horizontal"
+        icon="settings"
         isSelected={index === 1}
         name={i18n.t('navigation.settings')}
       />

@@ -743,7 +743,7 @@ exports[`SignInForm should render the form loading 1`] = `
                 },
               ],
               {
-                "fontFamily": "IcoMoon",
+                "fontFamily": "feather",
                 "fontStyle": "normal",
                 "fontWeight": "normal",
               },
@@ -751,7 +751,7 @@ exports[`SignInForm should render the form loading 1`] = `
             ]
           }
         >
-          
+          
         </Text>
       </View>
     </View>
@@ -953,7 +953,7 @@ exports[`SignInForm should render the form loading 1`] = `
                 },
               ],
               {
-                "fontFamily": "IcoMoon",
+                "fontFamily": "feather",
                 "fontStyle": "normal",
                 "fontWeight": "normal",
               },
@@ -961,7 +961,7 @@ exports[`SignInForm should render the form loading 1`] = `
             ]
           }
         >
-          
+          
         </Text>
       </View>
     </View>

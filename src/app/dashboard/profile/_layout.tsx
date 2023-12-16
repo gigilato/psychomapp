@@ -9,13 +9,7 @@ export default function ProfileLayout() {
       screenOptions={{
         headerLeft(props) {
           return (
-            <PressableIcon
-              ID="goback"
-              icon="chevron-right"
-              iconSize={40}
-              style={{ transform: [{ rotate: '180deg' }] }}
-              onPress={router.back}
-            />
+            <PressableIcon ID="goback" icon="chevron-left" iconSize={30} onPress={router.back} />
           )
         },
         headerTitle(props) {

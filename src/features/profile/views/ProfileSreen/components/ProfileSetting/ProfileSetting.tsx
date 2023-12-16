@@ -16,19 +16,19 @@ export const ProfileSetting = ({
   return (
     <Pressable
       animation={type === 'info' ? 'none' : 'opacity'}
-      className={clsx('flex-row items-center py-xs', className)}
+      className={clsx('flex-row items-center py-s', className)}
       {...props}
     >
       {icon ? (
         <Box
-          className={clsx('bg-primary-light p-xxs mr-s rounded-s')}
+          className={clsx('bg-primary-light p-xs mr-s rounded-s')}
           style={{ backgroundColor: tagColors[color].light }}
         >
           <Icon
             name={icon}
             className={clsx('text-primary-strong')}
             style={{ color: tagColors[color].strong }}
-            size={20}
+            size={15}
           />
         </Box>
       ) : null}
@@ -36,7 +36,7 @@ export const ProfileSetting = ({
         {content}
       </Text>
       {type === 'info' ? null : (
-        <Icon name={type === 'link' ? 'share' : 'chevron-right'} size={type === 'link' ? 20 : 35} />
+        <Icon name={type === 'link' ? 'log-in' : 'chevron-right'} size={20} />
       )}
     </Pressable>
   )

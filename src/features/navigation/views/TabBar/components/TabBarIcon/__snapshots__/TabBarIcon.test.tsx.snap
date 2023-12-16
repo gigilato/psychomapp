@@ -129,11 +129,15 @@ exports[`TabBarIcon should render selected 2`] = `
       [
         {
           "color": undefined,
-          "fontSize": 30,
+          "fontSize": 20,
         },
-        undefined,
+        [
+          {
+            "marginBottom": 4,
+          },
+        ],
         {
-          "fontFamily": "IcoMoon",
+          "fontFamily": "feather",
           "fontStyle": "normal",
           "fontWeight": "normal",
         },
@@ -141,7 +145,7 @@ exports[`TabBarIcon should render selected 2`] = `
       ]
     }
   >
-    ?
+    
   </Text>
   <Text
     style={

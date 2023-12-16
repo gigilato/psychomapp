@@ -192,7 +192,7 @@ exports[`EmailInput renders correctly 1`] = `
               },
             ],
             {
-              "fontFamily": "IcoMoon",
+              "fontFamily": "feather",
               "fontStyle": "normal",
               "fontWeight": "normal",
             },
@@ -200,7 +200,7 @@ exports[`EmailInput renders correctly 1`] = `
           ]
         }
       >
-        
+        
       </Text>
     </View>
   </View>
@@ -400,7 +400,7 @@ exports[`EmailInput renders correctly with value 1`] = `
               },
             ],
             {
-              "fontFamily": "IcoMoon",
+              "fontFamily": "feather",
               "fontStyle": "normal",
               "fontWeight": "normal",
             },
@@ -408,7 +408,7 @@ exports[`EmailInput renders correctly with value 1`] = `
           ]
         }
       >
-        
+        
       </Text>
     </View>
   </View>
@@ -608,7 +608,7 @@ exports[`PasswordInput renders correctly 1`] = `
               },
             ],
             {
-              "fontFamily": "IcoMoon",
+              "fontFamily": "feather",
               "fontStyle": "normal",
               "fontWeight": "normal",
             },
@@ -616,7 +616,7 @@ exports[`PasswordInput renders correctly 1`] = `
           ]
         }
       >
-        
+        
       </Text>
     </View>
   </View>
@@ -817,7 +817,7 @@ exports[`PasswordInput renders correctly with value 1`] = `
               },
             ],
             {
-              "fontFamily": "IcoMoon",
+              "fontFamily": "feather",
               "fontStyle": "normal",
               "fontWeight": "normal",
             },
@@ -825,7 +825,7 @@ exports[`PasswordInput renders correctly with value 1`] = `
           ]
         }
       >
-        
+        
       </Text>
     </View>
   </View>
@@ -1026,7 +1026,7 @@ exports[`PasswordInput shows password on icon press 1`] = `
               },
             ],
             {
-              "fontFamily": "IcoMoon",
+              "fontFamily": "feather",
               "fontStyle": "normal",
               "fontWeight": "normal",
             },
@@ -1034,7 +1034,7 @@ exports[`PasswordInput shows password on icon press 1`] = `
           ]
         }
       >
-        
+        
       </Text>
     </View>
   </View>
@@ -1235,7 +1235,7 @@ exports[`PasswordInput shows password on icon press 2`] = `
               },
             ],
             {
-              "fontFamily": "IcoMoon",
+              "fontFamily": "feather",
               "fontStyle": "normal",
               "fontWeight": "normal",
             },
@@ -1243,7 +1243,7 @@ exports[`PasswordInput shows password on icon press 2`] = `
           ]
         }
       >
-        
+        
       </Text>
     </View>
   </View>
@@ -1531,7 +1531,7 @@ exports[`TextInput renders correctly with value 1`] = `
               },
             ],
             {
-              "fontFamily": "IcoMoon",
+              "fontFamily": "feather",
               "fontStyle": "normal",
               "fontWeight": "normal",
             },
@@ -1539,7 +1539,7 @@ exports[`TextInput renders correctly with value 1`] = `
           ]
         }
       >
-        
+        
       </Text>
     </View>
   </View>
@@ -1732,7 +1732,7 @@ exports[`TextInput renders error correctly 1`] = `
               },
             ],
             {
-              "fontFamily": "IcoMoon",
+              "fontFamily": "feather",
               "fontStyle": "normal",
               "fontWeight": "normal",
             },
@@ -1740,7 +1740,7 @@ exports[`TextInput renders error correctly 1`] = `
           ]
         }
       >
-        
+        
       </Text>
     </View>
   </View>
@@ -1863,7 +1863,7 @@ exports[`TextInput renders icon left correctly 1`] = `
               },
             ],
             {
-              "fontFamily": "IcoMoon",
+              "fontFamily": "feather",
               "fontStyle": "normal",
               "fontWeight": "normal",
             },
@@ -1871,7 +1871,7 @@ exports[`TextInput renders icon left correctly 1`] = `
           ]
         }
       >
-        
+        
       </Text>
     </View>
     <View
@@ -1965,7 +1965,7 @@ exports[`TextInput renders icon left correctly 1`] = `
               },
             ],
             {
-              "fontFamily": "IcoMoon",
+              "fontFamily": "feather",
               "fontStyle": "normal",
               "fontWeight": "normal",
             },
@@ -1973,7 +1973,7 @@ exports[`TextInput renders icon left correctly 1`] = `
           ]
         }
       >
-        
+        
       </Text>
     </View>
   </View>
@@ -2136,7 +2136,7 @@ exports[`TextInput renders icon left error correctly 1`] = `
               },
             ],
             {
-              "fontFamily": "IcoMoon",
+              "fontFamily": "feather",
               "fontStyle": "normal",
               "fontWeight": "normal",
             },
@@ -2144,7 +2144,7 @@ exports[`TextInput renders icon left error correctly 1`] = `
           ]
         }
       >
-        
+        
       </Text>
     </View>
     <View
@@ -2238,7 +2238,7 @@ exports[`TextInput renders icon left error correctly 1`] = `
               },
             ],
             {
-              "fontFamily": "IcoMoon",
+              "fontFamily": "feather",
               "fontStyle": "normal",
               "fontWeight": "normal",
             },
@@ -2246,7 +2246,7 @@ exports[`TextInput renders icon left error correctly 1`] = `
           ]
         }
       >
-        
+        
       </Text>
     </View>
   </View>
@@ -2399,7 +2399,7 @@ exports[`TextInput renders icon right correctly 1`] = `
               },
             ],
             {
-              "fontFamily": "IcoMoon",
+              "fontFamily": "feather",
               "fontStyle": "normal",
               "fontWeight": "normal",
             },
@@ -2407,7 +2407,7 @@ exports[`TextInput renders icon right correctly 1`] = `
           ]
         }
       >
-        
+        
       </Text>
     </View>
   </View>
@@ -2600,7 +2600,7 @@ exports[`TextInput renders icon right error correctly 1`] = `
               },
             ],
             {
-              "fontFamily": "IcoMoon",
+              "fontFamily": "feather",
               "fontStyle": "normal",
               "fontWeight": "normal",
             },
@@ -2608,7 +2608,7 @@ exports[`TextInput renders icon right error correctly 1`] = `
           ]
         }
       >
-        
+        
       </Text>
     </View>
   </View>
@@ -2804,7 +2804,7 @@ exports[`TextInput renders label correctly 1`] = `
               },
             ],
             {
-              "fontFamily": "IcoMoon",
+              "fontFamily": "feather",
               "fontStyle": "normal",
               "fontWeight": "normal",
             },
@@ -2812,7 +2812,7 @@ exports[`TextInput renders label correctly 1`] = `
           ]
         }
       >
-        
+        
       </Text>
     </View>
   </View>
@@ -2966,7 +2966,7 @@ exports[`TextInput should clear text on icon right press 1`] = `
               },
             ],
             {
-              "fontFamily": "IcoMoon",
+              "fontFamily": "feather",
               "fontStyle": "normal",
               "fontWeight": "normal",
             },
@@ -2974,7 +2974,7 @@ exports[`TextInput should clear text on icon right press 1`] = `
           ]
         }
       >
-        
+        
       </Text>
     </View>
   </View>

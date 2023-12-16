@@ -251,8 +251,8 @@ exports[`TabBar should renders correctly 1`] = `
                 "alignItems": "center",
               },
               {
-                "paddingBottom": 8,
-                "paddingTop": 8,
+                "paddingBottom": 12,
+                "paddingTop": 12,
               },
               [
                 {},
@@ -269,10 +269,10 @@ exports[`TabBar should renders correctly 1`] = `
                   "backgroundColor": "#FFFACD",
                 },
                 {
-                  "paddingBottom": 4,
-                  "paddingLeft": 4,
-                  "paddingRight": 4,
-                  "paddingTop": 4,
+                  "paddingBottom": 8,
+                  "paddingLeft": 8,
+                  "paddingRight": 8,
+                  "paddingTop": 8,
                 },
                 {
                   "marginRight": 12,
@@ -357,8 +357,8 @@ exports[`TabBar should renders correctly 1`] = `
                 "alignItems": "center",
               },
               {
-                "paddingBottom": 8,
-                "paddingTop": 8,
+                "paddingBottom": 12,
+                "paddingTop": 12,
               },
               [
                 {
@@ -377,10 +377,10 @@ exports[`TabBar should renders correctly 1`] = `
                   "backgroundColor": "#FFFACD",
                 },
                 {
-                  "paddingBottom": 4,
-                  "paddingLeft": 4,
-                  "paddingRight": 4,
-                  "paddingTop": 4,
+                  "paddingBottom": 8,
+                  "paddingLeft": 8,
+                  "paddingRight": 8,
+                  "paddingTop": 8,
                 },
                 {
                   "marginRight": 12,
@@ -503,8 +503,8 @@ exports[`TabBar should renders correctly 1`] = `
                 "alignItems": "center",
               },
               {
-                "paddingBottom": 8,
-                "paddingTop": 8,
+                "paddingBottom": 12,
+                "paddingTop": 12,
               },
               [
                 {
@@ -580,8 +580,8 @@ exports[`TabBar should renders correctly 1`] = `
                 "alignItems": "center",
               },
               {
-                "paddingBottom": 8,
-                "paddingTop": 8,
+                "paddingBottom": 12,
+                "paddingTop": 12,
               },
               [
                 {
@@ -657,8 +657,8 @@ exports[`TabBar should renders correctly 1`] = `
                 "alignItems": "center",
               },
               {
-                "paddingBottom": 8,
-                "paddingTop": 8,
+                "paddingBottom": 12,
+                "paddingTop": 12,
               },
               [
                 {
@@ -757,8 +757,8 @@ exports[`TabBar should renders correctly 1`] = `
               "alignItems": "center",
             },
             {
-              "paddingBottom": 8,
-              "paddingTop": 8,
+              "paddingBottom": 12,
+              "paddingTop": 12,
             },
             {
               "paddingLeft": 24,
@@ -860,8 +860,8 @@ exports[`TabBar should renders correctly 1`] = `
               "alignItems": "center",
             },
             {
-              "paddingBottom": 8,
-              "paddingTop": 8,
+              "paddingBottom": 12,
+              "paddingTop": 12,
             },
             {
               "paddingLeft": 24,
@@ -882,10 +882,10 @@ exports[`TabBar should renders correctly 1`] = `
                 "backgroundColor": "#FFFACD",
               },
               {
-                "paddingBottom": 4,
-                "paddingLeft": 4,
-                "paddingRight": 4,
-                "paddingTop": 4,
+                "paddingBottom": 8,
+                "paddingLeft": 8,
+                "paddingRight": 8,
+                "paddingTop": 8,
               },
               {
                 "marginRight": 12,

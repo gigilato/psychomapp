@@ -10,18 +10,20 @@ describe('ProfileSetting', () => {
   })
 
   it('should renders with icon', () => {
-    const { toJSON } = render(<ProfileSetting ID="" content="content" icon="bank" />)
+    const { toJSON } = render(<ProfileSetting ID="" content="content" icon="activity" />)
     expect(toJSON()).toMatchSnapshot()
   })
 
   it('should renders with link', () => {
-    const { toJSON } = render(<ProfileSetting ID="" content="content" icon="bank" type="link" />)
+    const { toJSON } = render(
+      <ProfileSetting ID="" content="content" icon="activity" type="link" />
+    )
     expect(toJSON()).toMatchSnapshot()
   })
 
   it('should renders with navigation', () => {
     const { toJSON } = render(
-      <ProfileSetting ID="" content="content" icon="bank" type="navigation" />
+      <ProfileSetting ID="" content="content" icon="activity" type="navigation" />
     )
     expect(toJSON()).toMatchSnapshot()
   })

@@ -83,7 +83,7 @@ describe('PressableIcon', () => {
       <PressableIcon
         ID="test"
         className="bg-error"
-        icon="cross"
+        icon="anchor"
         iconClassName="text-primary-classic"
         onPress={jest.fn()}
       />

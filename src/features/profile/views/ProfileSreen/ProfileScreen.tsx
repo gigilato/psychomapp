@@ -20,7 +20,7 @@ export const ProfileScreen = () => {
         </Text>
       </Header>
       <Box className="px-l">
-        <ProfileSetting ID="profile/email" content={email} icon="envelope" />
+        <ProfileSetting ID="profile/email" content={email} icon="mail" />
         <ProfileSetting
           ID="profile/password"
           content={i18n.t('settings.updatePassword')}

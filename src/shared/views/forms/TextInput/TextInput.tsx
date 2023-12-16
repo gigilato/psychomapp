@@ -86,7 +86,7 @@ export const TextInput = memo<ITextInputProps>(
               <PressableIcon
                 ID={`${ID}/RightIcon`}
                 onPress={onPressIconRight ? onPressIconRight : clearInput}
-                icon={iconRight ?? 'cross'}
+                icon={iconRight ?? 'x'}
                 iconClassName={clsx('mr-xs', textColor, iconRightClassName)}
               />
             )}
@@ -105,7 +105,7 @@ export const EmailInput = forwardRef<RNTextInput, ITextInputProps>((props, ref) 
     label={i18n.t('forms.email.label')}
     placeholder={i18n.t('forms.email.placeholder')}
     autoComplete="email"
-    iconRight={props.value === '' ? 'envelope' : undefined}
+    iconRight={props.value === '' ? 'mail' : undefined}
     {...props}
   />
 ))
@@ -122,7 +122,7 @@ export const PasswordInput = forwardRef<RNTextInput, ITextInputProps>(
         textContentType="password"
         autoComplete="password"
         secureTextEntry={!isPasswordVisible}
-        iconRight={props.value === '' ? 'lock' : isPasswordVisible ? 'eye-barred' : 'eye'}
+        iconRight={props.value === '' ? 'lock' : isPasswordVisible ? 'eye-off' : 'eye'}
         onPressIconRight={() => setIsPasswordVisible(!isPasswordVisible)}
         {...props}
       />

@@ -41,8 +41,8 @@ exports[`ProfileSetting should renders correctly 1`] = `
         "alignItems": "center",
       },
       {
-        "paddingBottom": 8,
-        "paddingTop": 8,
+        "paddingBottom": 12,
+        "paddingTop": 12,
       },
       [
         {},
@@ -118,8 +118,8 @@ exports[`ProfileSetting should renders with icon 1`] = `
         "alignItems": "center",
       },
       {
-        "paddingBottom": 8,
-        "paddingTop": 8,
+        "paddingBottom": 12,
+        "paddingTop": 12,
       },
       [
         {},
@@ -136,10 +136,10 @@ exports[`ProfileSetting should renders with icon 1`] = `
           "backgroundColor": "#FFFACD",
         },
         {
-          "paddingBottom": 4,
-          "paddingLeft": 4,
-          "paddingRight": 4,
-          "paddingTop": 4,
+          "paddingBottom": 8,
+          "paddingLeft": 8,
+          "paddingRight": 8,
+          "paddingTop": 8,
         },
         {
           "marginRight": 12,
@@ -227,8 +227,8 @@ exports[`ProfileSetting should renders with link 1`] = `
         "alignItems": "center",
       },
       {
-        "paddingBottom": 8,
-        "paddingTop": 8,
+        "paddingBottom": 12,
+        "paddingTop": 12,
       },
       [
         {
@@ -247,10 +247,10 @@ exports[`ProfileSetting should renders with link 1`] = `
           "backgroundColor": "#FFFACD",
         },
         {
-          "paddingBottom": 4,
-          "paddingLeft": 4,
-          "paddingRight": 4,
-          "paddingTop": 4,
+          "paddingBottom": 8,
+          "paddingLeft": 8,
+          "paddingRight": 8,
+          "paddingTop": 8,
         },
         {
           "marginRight": 12,
@@ -277,7 +277,7 @@ exports[`ProfileSetting should renders with link 1`] = `
         [
           {
             "color": undefined,
-            "fontSize": 20,
+            "fontSize": 15,
           },
           [
             {
@@ -288,7 +288,7 @@ exports[`ProfileSetting should renders with link 1`] = `
             },
           ],
           {
-            "fontFamily": "IcoMoon",
+            "fontFamily": "feather",
             "fontStyle": "normal",
             "fontWeight": "normal",
           },
@@ -296,7 +296,7 @@ exports[`ProfileSetting should renders with link 1`] = `
         ]
       }
     >
-      ?
+      
     </Text>
   </View>
   <Text
@@ -332,7 +332,7 @@ exports[`ProfileSetting should renders with link 1`] = `
         },
         undefined,
         {
-          "fontFamily": "IcoMoon",
+          "fontFamily": "feather",
           "fontStyle": "normal",
           "fontWeight": "normal",
         },
@@ -340,7 +340,7 @@ exports[`ProfileSetting should renders with link 1`] = `
       ]
     }
   >
-    
+    
   </Text>
 </View>
 `;
@@ -386,8 +386,8 @@ exports[`ProfileSetting should renders with navigation 1`] = `
         "alignItems": "center",
       },
       {
-        "paddingBottom": 8,
-        "paddingTop": 8,
+        "paddingBottom": 12,
+        "paddingTop": 12,
       },
       [
         {
@@ -406,10 +406,10 @@ exports[`ProfileSetting should renders with navigation 1`] = `
           "backgroundColor": "#FFFACD",
         },
         {
-          "paddingBottom": 4,
-          "paddingLeft": 4,
-          "paddingRight": 4,
-          "paddingTop": 4,
+          "paddingBottom": 8,
+          "paddingLeft": 8,
+          "paddingRight": 8,
+          "paddingTop": 8,
         },
         {
           "marginRight": 12,
@@ -436,7 +436,7 @@ exports[`ProfileSetting should renders with navigation 1`] = `
         [
           {
             "color": undefined,
-            "fontSize": 20,
+            "fontSize": 15,
           },
           [
             {
@@ -447,7 +447,7 @@ exports[`ProfileSetting should renders with navigation 1`] = `
             },
           ],
           {
-            "fontFamily": "IcoMoon",
+            "fontFamily": "feather",
             "fontStyle": "normal",
             "fontWeight": "normal",
           },
@@ -455,7 +455,7 @@ exports[`ProfileSetting should renders with navigation 1`] = `
         ]
       }
     >
-      ?
+      
     </Text>
   </View>
   <Text
@@ -487,11 +487,11 @@ exports[`ProfileSetting should renders with navigation 1`] = `
       [
         {
           "color": undefined,
-          "fontSize": 35,
+          "fontSize": 20,
         },
         undefined,
         {
-          "fontFamily": "IcoMoon",
+          "fontFamily": "feather",
           "fontStyle": "normal",
           "fontWeight": "normal",
         },
@@ -499,7 +499,7 @@ exports[`ProfileSetting should renders with navigation 1`] = `
       ]
     }
   >
-    
+    
   </Text>
 </View>
 `;

@@ -39,7 +39,7 @@ describe('TextInput', () => {
   it('should clear text on icon right press', async () => {
     const component = render(<TextInput ID="test" value="test" />)
     const iconButton = component.getByTestId('test/RightIcon')
-    expect(iconButton.children[0].props.name).toBe('cross')
+    expect(iconButton.children[0].props.name).toBe('x')
     await fireEvent.press(iconButton)
     expect(component).toMatchSnapshot()
     // const textInput = await component.getByTestId('text-input')

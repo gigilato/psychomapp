@@ -17,7 +17,7 @@ export const TabBarIcon = ({ route, icon, isSelected, name }: ITabBarIconProps) 
         router.push(route)
       }}
     >
-      <Icon name={icon} size={30} className={clsx(color)} />
+      <Icon name={icon} size={20} className={clsx('mb-xxs', color)} />
       <Text className={clsx(color)}>{name}</Text>
     </Pressable>
   )
