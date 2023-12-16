@@ -15,7 +15,7 @@ export const ProfileSetting = ({
 }: IProfileSettingProps) => {
   return (
     <Pressable
-      animation="none"
+      animation={type === 'info' ? 'none' : 'opacity'}
       className={clsx('flex-row items-center py-xs', className)}
       {...props}
     >

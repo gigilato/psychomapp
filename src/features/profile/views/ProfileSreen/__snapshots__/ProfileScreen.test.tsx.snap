@@ -354,7 +354,7 @@ exports[`TabBar should renders correctly 1`] = `
               }
             }
             accessible={true}
-            animation="none"
+            animation="opacity"
             collapsable={false}
             focusable={true}
             onBlur={[Function]}
@@ -379,7 +379,9 @@ exports[`TabBar should renders correctly 1`] = `
                   "paddingTop": 8,
                 },
                 [
-                  {},
+                  {
+                    "opacity": undefined,
+                  },
                   undefined,
                 ],
               ]
@@ -498,7 +500,7 @@ exports[`TabBar should renders correctly 1`] = `
               }
             }
             accessible={true}
-            animation="none"
+            animation="opacity"
             collapsable={false}
             focusable={true}
             onBlur={[Function]}
@@ -523,7 +525,9 @@ exports[`TabBar should renders correctly 1`] = `
                   "paddingTop": 8,
                 },
                 [
-                  {},
+                  {
+                    "opacity": undefined,
+                  },
                   undefined,
                 ],
               ]
@@ -573,7 +577,7 @@ exports[`TabBar should renders correctly 1`] = `
               }
             }
             accessible={true}
-            animation="none"
+            animation="opacity"
             collapsable={false}
             focusable={true}
             onBlur={[Function]}
@@ -598,7 +602,9 @@ exports[`TabBar should renders correctly 1`] = `
                   "paddingTop": 8,
                 },
                 [
-                  {},
+                  {
+                    "opacity": undefined,
+                  },
                   undefined,
                 ],
               ]
@@ -648,7 +654,7 @@ exports[`TabBar should renders correctly 1`] = `
               }
             }
             accessible={true}
-            animation="none"
+            animation="opacity"
             collapsable={false}
             focusable={true}
             onBlur={[Function]}
@@ -673,7 +679,9 @@ exports[`TabBar should renders correctly 1`] = `
                   "paddingTop": 8,
                 },
                 [
-                  {},
+                  {
+                    "opacity": undefined,
+                  },
                   undefined,
                 ],
               ]
@@ -746,7 +754,7 @@ exports[`TabBar should renders correctly 1`] = `
             }
           }
           accessible={true}
-          animation="none"
+          animation="opacity"
           collapsable={false}
           focusable={true}
           onBlur={[Function]}
@@ -775,7 +783,9 @@ exports[`TabBar should renders correctly 1`] = `
                 "paddingRight": 24,
               },
               [
-                {},
+                {
+                  "opacity": undefined,
+                },
                 undefined,
               ],
             ]

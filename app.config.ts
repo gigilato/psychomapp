@@ -63,5 +63,6 @@ export default ({ config }: ConfigContext): ExpoConfig => {
       'expo-router',
       ['expo-screen-orientation', { initialOrientation: 'DEFAULT' }],
     ],
+    experiments: { typedRoutes: true },
   }
 }

@@ -14,19 +14,19 @@ export const TabBar = ({ state: { index } }: BottomTabBarProps) => {
       style={{ bottom }}
     >
       <TabBarIcon
-        route="dashboard"
+        route="/dashboard/"
         icon="calendar"
         isSelected={index === 0}
         name={i18n.t('navigation.calendar')}
       />
       <TabBarIcon
-        route="dashboard/patients"
+        route="/dashboard/patients/"
         icon="users"
         isSelected={index === 2}
         name={i18n.t('navigation.patients')}
       />
       <TabBarIcon
-        route="dashboard/profile"
+        route="/dashboard/profile/"
         icon="sliders-horizontal"
         isSelected={index === 1}
         name={i18n.t('navigation.settings')}

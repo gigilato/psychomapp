@@ -206,7 +206,7 @@ exports[`ProfileSetting should renders with link 1`] = `
     }
   }
   accessible={true}
-  animation="none"
+  animation="opacity"
   collapsable={false}
   focusable={true}
   onBlur={[Function]}
@@ -231,7 +231,9 @@ exports[`ProfileSetting should renders with link 1`] = `
         "paddingTop": 8,
       },
       [
-        {},
+        {
+          "opacity": undefined,
+        },
         undefined,
       ],
     ]
@@ -363,7 +365,7 @@ exports[`ProfileSetting should renders with navigation 1`] = `
     }
   }
   accessible={true}
-  animation="none"
+  animation="opacity"
   collapsable={false}
   focusable={true}
   onBlur={[Function]}
@@ -388,7 +390,9 @@ exports[`ProfileSetting should renders with navigation 1`] = `
         "paddingTop": 8,
       },
       [
-        {},
+        {
+          "opacity": undefined,
+        },
         undefined,
       ],
     ]

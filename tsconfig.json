@@ -3,25 +3,69 @@
   "compilerOptions": {
     "strict": true,
     "paths": {
-      "$atoms": ["./src/shared/views/atoms"],
-      "$atoms/*": ["./src/shared/views/atoms/*"],
-      "$molecules": ["./src/shared/views/molecules"],
-      "$molecules/*": ["./src/shared/views/molecules/*"],
-      "$organisms": ["./src/shared/views/organisms"],
-      "$organisms/*": ["./src/shared/views/organisms/*"],
-      "$forms": ["./src/shared/views/forms"],
-      "$forms/*": ["./src/shared/views/forms/*"],
-      "$libs/*": ["./src/shared/libs/*"],
-      "$infra/*": ["./src/shared/infra/*"],
-      "$app/*": ["./src/shared/app/*"],
-      "$constants/*": ["./src/shared/constants/*"],
-      "$config": ["./src/shared/config"],
-      "$assets/*": ["./src/shared/assets/*"],
-      "$theme": ["./src/shared/theme"],
-      "$views/*": ["./src/shared/views/*"],
-      "$types/*": ["./src/shared/types/*"],
-      "$features/*": ["./src/features/*"],
-      "$shared/*": ["./src/shared/*"],
+      "$atoms": [
+        "./src/shared/views/atoms"
+      ],
+      "$atoms/*": [
+        "./src/shared/views/atoms/*"
+      ],
+      "$molecules": [
+        "./src/shared/views/molecules"
+      ],
+      "$molecules/*": [
+        "./src/shared/views/molecules/*"
+      ],
+      "$organisms": [
+        "./src/shared/views/organisms"
+      ],
+      "$organisms/*": [
+        "./src/shared/views/organisms/*"
+      ],
+      "$forms": [
+        "./src/shared/views/forms"
+      ],
+      "$forms/*": [
+        "./src/shared/views/forms/*"
+      ],
+      "$libs/*": [
+        "./src/shared/libs/*"
+      ],
+      "$infra/*": [
+        "./src/shared/infra/*"
+      ],
+      "$app/*": [
+        "./src/shared/app/*"
+      ],
+      "$constants/*": [
+        "./src/shared/constants/*"
+      ],
+      "$config": [
+        "./src/shared/config"
+      ],
+      "$assets/*": [
+        "./src/shared/assets/*"
+      ],
+      "$theme": [
+        "./src/shared/theme"
+      ],
+      "$views/*": [
+        "./src/shared/views/*"
+      ],
+      "$types/*": [
+        "./src/shared/types/*"
+      ],
+      "$features/*": [
+        "./src/features/*"
+      ],
+      "$shared/*": [
+        "./src/shared/*"
+      ]
     }
-  }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts"
+  ]
 }
