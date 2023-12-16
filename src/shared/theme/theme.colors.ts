@@ -105,14 +105,16 @@ export const colors = {
 }
 
 export const tagColors = {
-  yellow: { strong: '#FFA500', light: '#FFFFDD' },
+  yellow: { strong: '#f1c258', light: '#f9fedd' },
   blue: { strong: '#1E90FF', light: '#BFEFFF' },
   purple: { strong: '#8A2BE2', light: '#E6E6FA' },
   red: { strong: '#FF0000', light: '#FFB6C1' },
   orange: { strong: '#FFA500', light: '#FFDAB9' },
+  green: { strong: '#739372', light: '#ebfedd' },
   lightGreen: { strong: '#008000', light: '#E6FFE6' },
   darkGreen: { strong: '#00FF7F', light: '#E6FFE6' },
   pink: { strong: '#FF69B4', light: '#FFC0CB' },
+  black: { strong: '#000000', light: '#f5f7fa' },
   gray: { strong: '#808080', light: '#D3D3D3' },
   darkBlue: { strong: '#001F3F', light: '#B0C4DE' },
   darkRed: { strong: '#800000', light: '#F4E9E9' },
@@ -127,7 +129,6 @@ export const tagColors = {
   lightYellow: { strong: '#FFFF00', light: '#FFFFE0' },
   lightSkyBlue: { strong: '#87CEFA', light: '#B0E2FF' },
   lightBrown: { strong: '#CD853F', light: '#F9EBD4' },
-  lightMintGreen: { strong: '#00FA9A', light: '#ECF9EC' },
   intenseRed: { strong: '#B22222', light: '#FF9999' },
 } as const
 export type TagColor = keyof typeof tagColors

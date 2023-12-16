@@ -27,7 +27,7 @@ export const HStack = ({ className, ...props }: IBoxProps) => (
 )
 class HStackComponent extends Component<IBoxProps> {
   render() {
-    return <Center {...this.props} />
+    return <HStack {...this.props} />
   }
 }
 export const AnimatedHStack = Animated.createAnimatedComponent(HStackComponent)

@@ -1,5 +1,12 @@
+import { Stack } from 'expo-router'
+
 import { ProfileScreen } from '$features/profile/views'
 
-export default function Profile() {
-  return <ProfileScreen />
+export default function ProfileRoute() {
+  return (
+    <>
+      <Stack.Screen options={{ headerShown: false }} />
+      <ProfileScreen />
+    </>
+  )
 }

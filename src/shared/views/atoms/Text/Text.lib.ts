@@ -7,6 +7,7 @@ export const textVariants: Record<TextVariant, string> = {
   // Title
   title: 'font-[SpaceGrotesk-Bold] text-[34px] leading-[42px]',
   subtitle: 'font-[SpaceGrotesk-Bold] text-[20px] leading-[28px]',
+  navigation: 'font-[SpaceGrotesk-Medium] text-[18px]',
   // Body
   body: 'font-[SpaceGrotesk-Regular] text-[16px] leading-[18px]',
   boldBody: 'font-[SpaceGrotesk-Medium] text-[16px] leading-[18px]',

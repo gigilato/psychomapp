@@ -4,6 +4,7 @@ export type TextTransform = 'uppercase' | 'lowercase' | 'upper-first' | 'capital
 export type TextVariant =
   | 'title'
   | 'subtitle'
+  | 'navigation'
   // Body
   | 'body'
   | 'boldBody'

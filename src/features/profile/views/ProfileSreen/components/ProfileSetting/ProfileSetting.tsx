@@ -8,7 +8,7 @@ import { IProfileSettingProps } from './ProfileSettings.props'
 export const ProfileSetting = ({
   content,
   type = 'info',
-  color = 'yellow',
+  color = 'black',
   icon,
   className,
   ...props

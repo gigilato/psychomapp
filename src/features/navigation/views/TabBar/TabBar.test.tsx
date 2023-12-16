@@ -4,6 +4,10 @@ import React from 'react'
 
 import { TabBar } from './TabBar'
 
+jest.mock('expo-router', () => ({
+  useSegments: () => [],
+}))
+
 const mockProps: BottomTabBarProps = {
   descriptors: {},
   state: {

@@ -1,6 +1,6 @@
 import { Center, Text } from '$atoms'
 
-export default function Patients() {
+export default function PatientsRoute() {
   return (
     <Center className="flex-1">
       <Text>patients</Text>

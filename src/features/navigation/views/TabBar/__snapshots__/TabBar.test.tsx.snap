@@ -48,7 +48,8 @@ exports[`TabBar renders correctly 1`] = `
       [
         undefined,
         {
-          "bottom": 16,
+          "bottom": undefined,
+          "opacity": undefined,
         },
       ],
     ]
