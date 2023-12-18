@@ -1,0 +1,795 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextInput renders correctly 1`] = `
+<View
+  style={
+    [
+      {
+        "flexDirection": "row",
+      },
+      {
+        "alignItems": "center",
+      },
+      {
+        "borderBottomLeftRadius": 6,
+        "borderBottomRightRadius": 6,
+        "borderTopLeftRadius": 6,
+        "borderTopRightRadius": 6,
+      },
+      {
+        "paddingBottom": 12,
+        "paddingTop": 12,
+      },
+      {
+        "borderBottomWidth": 1,
+        "borderLeftWidth": 1,
+        "borderRightWidth": 1,
+        "borderTopWidth": 1,
+      },
+      {
+        "backgroundColor": "#FFFFFF",
+      },
+      {
+        "overflow": "hidden",
+      },
+      {
+        "borderBottomColor": "#505050",
+        "borderLeftColor": "#505050",
+        "borderRightColor": "#505050",
+        "borderTopColor": "#505050",
+      },
+      [
+        undefined,
+        undefined,
+      ],
+    ]
+  }
+>
+  <View
+    style={
+      [
+        {
+          "flexBasis": "0%",
+          "flexGrow": 1,
+          "flexShrink": 1,
+        },
+        {
+          "paddingLeft": 12,
+          "paddingRight": 12,
+        },
+        [
+          undefined,
+          undefined,
+        ],
+      ]
+    }
+  >
+    <TextInput
+      autoCapitalize="none"
+      className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[16px] leading-[18px]"
+      cursorColor="#FFB300"
+      keyboardType="default"
+      selectionColor="#FFB300"
+      testID="test"
+    />
+  </View>
+</View>
+`;
+
+exports[`TextInput renders correctly with value 1`] = `
+<View
+  style={
+    [
+      {
+        "flexDirection": "row",
+      },
+      {
+        "alignItems": "center",
+      },
+      {
+        "borderBottomLeftRadius": 6,
+        "borderBottomRightRadius": 6,
+        "borderTopLeftRadius": 6,
+        "borderTopRightRadius": 6,
+      },
+      {
+        "paddingBottom": 12,
+        "paddingTop": 12,
+      },
+      {
+        "borderBottomWidth": 1,
+        "borderLeftWidth": 1,
+        "borderRightWidth": 1,
+        "borderTopWidth": 1,
+      },
+      {
+        "backgroundColor": "#FFFFFF",
+      },
+      {
+        "overflow": "hidden",
+      },
+      {
+        "borderBottomColor": "#505050",
+        "borderLeftColor": "#505050",
+        "borderRightColor": "#505050",
+        "borderTopColor": "#505050",
+      },
+      [
+        undefined,
+        undefined,
+      ],
+    ]
+  }
+>
+  <View
+    style={
+      [
+        {
+          "flexBasis": "0%",
+          "flexGrow": 1,
+          "flexShrink": 1,
+        },
+        {
+          "paddingLeft": 12,
+          "paddingRight": 12,
+        },
+        [
+          undefined,
+          undefined,
+        ],
+      ]
+    }
+  >
+    <TextInput
+      autoCapitalize="none"
+      className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[16px] leading-[18px]"
+      cursorColor="#FFB300"
+      keyboardType="default"
+      selectionColor="#FFB300"
+      testID="test"
+      value="test"
+    />
+  </View>
+</View>
+`;
+
+exports[`TextInput renders error correctly 1`] = `
+<View
+  style={
+    [
+      {
+        "flexDirection": "row",
+      },
+      {
+        "alignItems": "center",
+      },
+      {
+        "borderBottomLeftRadius": 6,
+        "borderBottomRightRadius": 6,
+        "borderTopLeftRadius": 6,
+        "borderTopRightRadius": 6,
+      },
+      {
+        "paddingBottom": 12,
+        "paddingTop": 12,
+      },
+      {
+        "borderBottomWidth": 1,
+        "borderLeftWidth": 1,
+        "borderRightWidth": 1,
+        "borderTopWidth": 1,
+      },
+      {
+        "backgroundColor": "#FFFFFF",
+      },
+      {
+        "overflow": "hidden",
+      },
+      {
+        "borderBottomColor": "#AE3232",
+        "borderLeftColor": "#AE3232",
+        "borderRightColor": "#AE3232",
+        "borderTopColor": "#AE3232",
+      },
+      [
+        undefined,
+        undefined,
+      ],
+    ]
+  }
+>
+  <View
+    style={
+      [
+        {
+          "flexBasis": "0%",
+          "flexGrow": 1,
+          "flexShrink": 1,
+        },
+        {
+          "paddingLeft": 12,
+          "paddingRight": 12,
+        },
+        [
+          undefined,
+          undefined,
+        ],
+      ]
+    }
+  >
+    <TextInput
+      autoCapitalize="none"
+      className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[16px] leading-[18px]"
+      cursorColor="#FFB300"
+      keyboardType="default"
+      selectionColor="#FFB300"
+      testID="test"
+    />
+  </View>
+</View>
+`;
+
+exports[`TextInput renders icon left correctly 1`] = `
+<View
+  style={
+    [
+      {
+        "flexDirection": "row",
+      },
+      {
+        "alignItems": "center",
+      },
+      {
+        "borderBottomLeftRadius": 6,
+        "borderBottomRightRadius": 6,
+        "borderTopLeftRadius": 6,
+        "borderTopRightRadius": 6,
+      },
+      {
+        "paddingBottom": 12,
+        "paddingTop": 12,
+      },
+      {
+        "borderBottomWidth": 1,
+        "borderLeftWidth": 1,
+        "borderRightWidth": 1,
+        "borderTopWidth": 1,
+      },
+      {
+        "backgroundColor": "#FFFFFF",
+      },
+      {
+        "overflow": "hidden",
+      },
+      {
+        "borderBottomColor": "#505050",
+        "borderLeftColor": "#505050",
+        "borderRightColor": "#505050",
+        "borderTopColor": "#505050",
+      },
+      [
+        undefined,
+        undefined,
+      ],
+    ]
+  }
+>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    hitSlop={5}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      [
+        [
+          {
+            "opacity": undefined,
+          },
+          undefined,
+        ],
+      ]
+    }
+    testID="test/LeftIcon"
+  >
+    <Text
+      allowFontScaling={false}
+      selectable={false}
+      style={
+        [
+          {
+            "color": undefined,
+            "fontSize": 15,
+          },
+          [
+            {
+              "marginLeft": 8,
+            },
+            {
+              "color": "#505050",
+            },
+          ],
+          {
+            "fontFamily": "feather",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          {},
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    style={
+      [
+        {
+          "flexBasis": "0%",
+          "flexGrow": 1,
+          "flexShrink": 1,
+        },
+        {
+          "paddingLeft": 12,
+          "paddingRight": 12,
+        },
+        [
+          undefined,
+          undefined,
+        ],
+      ]
+    }
+  >
+    <TextInput
+      autoCapitalize="none"
+      className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[16px] leading-[18px]"
+      cursorColor="#FFB300"
+      keyboardType="default"
+      selectionColor="#FFB300"
+      testID="test"
+    />
+  </View>
+</View>
+`;
+
+exports[`TextInput renders icon left error correctly 1`] = `
+<View
+  style={
+    [
+      {
+        "flexDirection": "row",
+      },
+      {
+        "alignItems": "center",
+      },
+      {
+        "borderBottomLeftRadius": 6,
+        "borderBottomRightRadius": 6,
+        "borderTopLeftRadius": 6,
+        "borderTopRightRadius": 6,
+      },
+      {
+        "paddingBottom": 12,
+        "paddingTop": 12,
+      },
+      {
+        "borderBottomWidth": 1,
+        "borderLeftWidth": 1,
+        "borderRightWidth": 1,
+        "borderTopWidth": 1,
+      },
+      {
+        "backgroundColor": "#FFFFFF",
+      },
+      {
+        "overflow": "hidden",
+      },
+      {
+        "borderBottomColor": "#AE3232",
+        "borderLeftColor": "#AE3232",
+        "borderRightColor": "#AE3232",
+        "borderTopColor": "#AE3232",
+      },
+      [
+        undefined,
+        undefined,
+      ],
+    ]
+  }
+>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    hitSlop={5}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      [
+        [
+          {
+            "opacity": undefined,
+          },
+          undefined,
+        ],
+      ]
+    }
+    testID="test/LeftIcon"
+  >
+    <Text
+      allowFontScaling={false}
+      selectable={false}
+      style={
+        [
+          {
+            "color": undefined,
+            "fontSize": 15,
+          },
+          [
+            {
+              "marginLeft": 8,
+            },
+            {
+              "color": "#AE3232",
+            },
+          ],
+          {
+            "fontFamily": "feather",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          {},
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    style={
+      [
+        {
+          "flexBasis": "0%",
+          "flexGrow": 1,
+          "flexShrink": 1,
+        },
+        {
+          "paddingLeft": 12,
+          "paddingRight": 12,
+        },
+        [
+          undefined,
+          undefined,
+        ],
+      ]
+    }
+  >
+    <TextInput
+      autoCapitalize="none"
+      className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[16px] leading-[18px]"
+      cursorColor="#FFB300"
+      keyboardType="default"
+      selectionColor="#FFB300"
+      testID="test"
+    />
+  </View>
+</View>
+`;
+
+exports[`TextInput renders icon right correctly 1`] = `
+<View
+  style={
+    [
+      {
+        "flexDirection": "row",
+      },
+      {
+        "alignItems": "center",
+      },
+      {
+        "borderBottomLeftRadius": 6,
+        "borderBottomRightRadius": 6,
+        "borderTopLeftRadius": 6,
+        "borderTopRightRadius": 6,
+      },
+      {
+        "paddingBottom": 12,
+        "paddingTop": 12,
+      },
+      {
+        "borderBottomWidth": 1,
+        "borderLeftWidth": 1,
+        "borderRightWidth": 1,
+        "borderTopWidth": 1,
+      },
+      {
+        "backgroundColor": "#FFFFFF",
+      },
+      {
+        "overflow": "hidden",
+      },
+      {
+        "borderBottomColor": "#505050",
+        "borderLeftColor": "#505050",
+        "borderRightColor": "#505050",
+        "borderTopColor": "#505050",
+      },
+      [
+        undefined,
+        undefined,
+      ],
+    ]
+  }
+>
+  <View
+    style={
+      [
+        {
+          "flexBasis": "0%",
+          "flexGrow": 1,
+          "flexShrink": 1,
+        },
+        {
+          "paddingLeft": 12,
+          "paddingRight": 12,
+        },
+        [
+          undefined,
+          undefined,
+        ],
+      ]
+    }
+  >
+    <TextInput
+      autoCapitalize="none"
+      className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[16px] leading-[18px]"
+      cursorColor="#FFB300"
+      keyboardType="default"
+      selectionColor="#FFB300"
+      testID="test"
+    />
+  </View>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    hitSlop={5}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      [
+        [
+          {
+            "opacity": undefined,
+          },
+          undefined,
+        ],
+      ]
+    }
+    testID="test/RightIcon"
+  >
+    <Text />
+  </View>
+</View>
+`;
+
+exports[`TextInput renders icon right error correctly 1`] = `
+<View
+  style={
+    [
+      {
+        "flexDirection": "row",
+      },
+      {
+        "alignItems": "center",
+      },
+      {
+        "borderBottomLeftRadius": 6,
+        "borderBottomRightRadius": 6,
+        "borderTopLeftRadius": 6,
+        "borderTopRightRadius": 6,
+      },
+      {
+        "paddingBottom": 12,
+        "paddingTop": 12,
+      },
+      {
+        "borderBottomWidth": 1,
+        "borderLeftWidth": 1,
+        "borderRightWidth": 1,
+        "borderTopWidth": 1,
+      },
+      {
+        "backgroundColor": "#FFFFFF",
+      },
+      {
+        "overflow": "hidden",
+      },
+      {
+        "borderBottomColor": "#AE3232",
+        "borderLeftColor": "#AE3232",
+        "borderRightColor": "#AE3232",
+        "borderTopColor": "#AE3232",
+      },
+      [
+        undefined,
+        undefined,
+      ],
+    ]
+  }
+>
+  <View
+    style={
+      [
+        {
+          "flexBasis": "0%",
+          "flexGrow": 1,
+          "flexShrink": 1,
+        },
+        {
+          "paddingLeft": 12,
+          "paddingRight": 12,
+        },
+        [
+          undefined,
+          undefined,
+        ],
+      ]
+    }
+  >
+    <TextInput
+      autoCapitalize="none"
+      className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[16px] leading-[18px]"
+      cursorColor="#FFB300"
+      keyboardType="default"
+      selectionColor="#FFB300"
+      testID="test"
+    />
+  </View>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    hitSlop={5}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      [
+        [
+          {
+            "opacity": undefined,
+          },
+          undefined,
+        ],
+      ]
+    }
+    testID="test/RightIcon"
+  >
+    <Text
+      allowFontScaling={false}
+      selectable={false}
+      style={
+        [
+          {
+            "color": undefined,
+            "fontSize": 15,
+          },
+          [
+            {
+              "marginRight": 8,
+            },
+            {
+              "color": "#AE3232",
+            },
+          ],
+          {
+            "fontFamily": "feather",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          {},
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+</View>
+`;

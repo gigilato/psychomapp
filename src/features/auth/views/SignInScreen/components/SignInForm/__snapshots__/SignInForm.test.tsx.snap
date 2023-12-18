@@ -58,6 +58,9 @@ exports[`SignInForm should render the form correctly 1`] = `
             {
               "color": "#505050",
             },
+            {
+              "color": "#505050",
+            },
           ]
         }
       >
@@ -237,6 +240,9 @@ exports[`SignInForm should render the form correctly 1`] = `
             },
             {
               "lineHeight": 18,
+            },
+            {
+              "color": "#505050",
             },
             {
               "color": "#505050",
@@ -596,6 +602,9 @@ exports[`SignInForm should render the form loading 1`] = `
             {
               "color": "#505050",
             },
+            {
+              "color": "#505050",
+            },
           ]
         }
       >
@@ -802,6 +811,9 @@ exports[`SignInForm should render the form loading 1`] = `
             },
             {
               "lineHeight": 18,
+            },
+            {
+              "color": "#505050",
             },
             {
               "color": "#505050",

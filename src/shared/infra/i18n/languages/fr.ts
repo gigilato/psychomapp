@@ -6,6 +6,7 @@ export const fr = {
       signOut: 'Déconnexion',
       continue: 'Continuer',
       validate: 'Valider',
+      cancel: 'Annuler',
     },
     signIn: {
       forgotPassword: 'Mot de passe oublié ?',
@@ -53,9 +54,11 @@ export const fr = {
       },
       birthdate: {
         label: 'Date de naissance',
+        placeholder: 'Entrez la date de naissance',
       },
       common: {
         required: 'Requis',
+        chooseDate: 'Choisir une date',
       },
     },
     errors: {

@@ -48,6 +48,9 @@ exports[`EmailInput renders correctly 1`] = `
           {
             "color": "#505050",
           },
+          {
+            "color": "#505050",
+          },
         ]
       }
     >
@@ -251,6 +254,9 @@ exports[`EmailInput renders correctly with value 1`] = `
           },
           {
             "lineHeight": 18,
+          },
+          {
+            "color": "#505050",
           },
           {
             "color": "#505050",
@@ -463,6 +469,9 @@ exports[`PasswordInput renders correctly 1`] = `
           {
             "color": "#505050",
           },
+          {
+            "color": "#505050",
+          },
         ]
       }
     >
@@ -667,6 +676,9 @@ exports[`PasswordInput renders correctly with value 1`] = `
           },
           {
             "lineHeight": 18,
+          },
+          {
+            "color": "#505050",
           },
           {
             "color": "#505050",
@@ -880,6 +892,9 @@ exports[`PasswordInput shows password on icon press 1`] = `
           {
             "color": "#505050",
           },
+          {
+            "color": "#505050",
+          },
         ]
       }
     >
@@ -1085,6 +1100,9 @@ exports[`PasswordInput shows password on icon press 2`] = `
           },
           {
             "lineHeight": 18,
+          },
+          {
+            "color": "#505050",
           },
           {
             "color": "#505050",
@@ -1591,6 +1609,9 @@ exports[`TextInput renders error correctly 1`] = `
           {
             "color": "#AE3232",
           },
+          {
+            "color": "#AE3232",
+          },
         ]
       }
     >
@@ -2021,6 +2042,9 @@ exports[`TextInput renders icon left error correctly 1`] = `
           },
           {
             "fontSize": 12,
+          },
+          {
+            "color": "#AE3232",
           },
           {
             "color": "#AE3232",
@@ -2459,6 +2483,9 @@ exports[`TextInput renders icon right error correctly 1`] = `
           {
             "color": "#AE3232",
           },
+          {
+            "color": "#AE3232",
+          },
         ]
       }
     >
@@ -2659,6 +2686,9 @@ exports[`TextInput renders label correctly 1`] = `
           },
           {
             "lineHeight": 18,
+          },
+          {
+            "color": "#505050",
           },
           {
             "color": "#505050",

@@ -1,12 +1,10 @@
 import { Box } from '$atoms'
-import {
-  PatientFormType,
-  usePatientForm,
-} from '$features/patient/views/PatientForm/PatientForm.lib'
-import { IPatientFormProps } from '$features/patient/views/PatientForm/PatientForm.props'
-import { FormTextInput } from '$forms'
+import { FormDateInput, FormTextInput } from '$forms'
 import { i18n } from '$infra/i18n'
 import { Button } from '$molecules'
+
+import { PatientFormType, usePatientForm } from './PatientForm.lib'
+import { IPatientFormProps } from './PatientForm.props'
 
 export const PatientForm = (props: IPatientFormProps) => {
   const { lastnameRef, form, onPressSubmit, isPending } = usePatientForm()
@@ -29,6 +27,7 @@ export const PatientForm = (props: IPatientFormProps) => {
         type="default"
         ref={lastnameRef}
       />
+      <FormDateInput<PatientFormType> className="mt-s" name="birthdate" control={form.control} />
       <Button
         ID="patientForm/button"
         event="clic_create_patient"
