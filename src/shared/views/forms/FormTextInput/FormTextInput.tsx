@@ -1,26 +1,51 @@
-import { ReactNode, forwardRef, useCallback, useMemo } from 'react'
+import { ReactNode, forwardRef, useCallback, useState } from 'react'
 import { useController } from 'react-hook-form'
-import { NativeSyntheticEvent, TextInputFocusEventData } from 'react-native'
+import {
+  NativeSyntheticEvent,
+  TextInput as RNTextInput,
+  TextInputFocusEventData,
+} from 'react-native'
 
-import { EmailInput, TextInput, PasswordInput } from '$forms/TextInput'
+import { FormInputWrapper } from '$forms/FormInputWrapper'
+import { formTypeMapper } from '$forms/FormTextInput/FormTextInput.lib'
+import { TextInput, ITextInputProps } from '$molecules'
 
 import { IFormTextInputProps } from './FormTextInput.props'
+
+const FormPasswordInput = forwardRef<RNTextInput, ITextInputProps>(
+  ({ iconRight, ...props }, ref) => {
+    const [isPasswordVisible, setIsPasswordVisible] = useState(false)
+
+    return (
+      <TextInput
+        ref={ref}
+        secureTextEntry={!isPasswordVisible}
+        iconLeft="lock"
+        iconRight={isPasswordVisible ? 'eye-off' : 'eye'}
+        onPressIconRight={() => setIsPasswordVisible(!isPasswordVisible)}
+        {...props}
+      />
+    )
+  }
+)
 
 export const FormTextInput: <FieldValues extends object>(
   props: IFormTextInputProps<FieldValues>
 ) => ReactNode = forwardRef(
-  ({ name, control, type, rules, disabled, onBlur: onBlurProp, ...props }, ref) => {
-    const TextInputComponent = useMemo(() => {
-      switch (type) {
-        case 'email':
-          return EmailInput
-        case 'password':
-          return PasswordInput
-        default:
-          return TextInput
-      }
-    }, [type])
-
+  (
+    {
+      name,
+      control,
+      type = 'default',
+      label,
+      rules,
+      disabled,
+      onBlur: onBlurProp,
+      className,
+      ...props
+    },
+    ref
+  ) => {
     const {
       field: { onChange, onBlur: onBlurForm, value },
       fieldState: { error },
@@ -34,16 +59,34 @@ export const FormTextInput: <FieldValues extends object>(
       [onBlurForm, onBlurProp]
     )
 
+    const { input, wrapper } = formTypeMapper[type]
+
     return (
-      <TextInputComponent
-        error={error?.message}
-        ref={ref}
-        ID={`input/${name}`}
-        onChangeText={onChange}
-        onBlur={onBlur}
-        value={value}
-        {...props}
-      />
+      <FormInputWrapper label={label ?? wrapper.label} className={className} error={error?.message}>
+        {type === 'password' ? (
+          <FormPasswordInput
+            ref={ref}
+            ID={`input/${name}`}
+            onChangeText={onChange}
+            onBlur={onBlur}
+            value={value}
+            error={error?.message}
+            {...input}
+            {...props}
+          />
+        ) : (
+          <TextInput
+            error={error?.message}
+            ref={ref}
+            ID={`input/${name}`}
+            onChangeText={onChange}
+            onBlur={onBlur}
+            value={value}
+            {...input}
+            {...props}
+          />
+        )}
+      </FormInputWrapper>
     )
   }
 )

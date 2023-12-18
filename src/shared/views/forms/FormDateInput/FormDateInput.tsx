@@ -4,7 +4,7 @@ import { StyleSheet } from 'react-native'
 import DatePicker from 'react-native-date-picker'
 
 import { Pressable } from '$atoms'
-import { InputWrapper } from '$forms/TextInput'
+import { FormInputWrapper } from '$forms/FormInputWrapper'
 import { i18n } from '$infra/i18n'
 import { parseISO, format } from '$libs/dates'
 import { TextInput } from '$molecules'
@@ -22,7 +22,7 @@ export const FormDateInput: <FieldValues extends object>(
   const [isOpen, setOpen] = useState(false)
 
   return (
-    <InputWrapper
+    <FormInputWrapper
       className={className}
       label={i18n.t('forms.birthdate.label')}
       error={error?.message}
@@ -56,6 +56,6 @@ export const FormDateInput: <FieldValues extends object>(
         locale="fr"
         {...props}
       />
-    </InputWrapper>
+    </FormInputWrapper>
   )
 }

@@ -12,19 +12,15 @@ export const PatientForm = (props: IPatientFormProps) => {
     <Box {...props}>
       <FormTextInput<PatientFormType>
         name="firstname"
-        label={i18n.t('forms.firstname.label')}
-        placeholder={i18n.t('forms.firstname.placeholder')}
+        type="firstname"
         control={form.control}
-        type="default"
         onSubmitEditing={() => lastnameRef.current?.focus()}
       />
       <FormTextInput<PatientFormType>
         className="mt-s"
         name="lastname"
-        label={i18n.t('forms.lastname.label')}
-        placeholder={i18n.t('forms.lastname.placeholder')}
+        type="lastname"
         control={form.control}
-        type="default"
         ref={lastnameRef}
       />
       <FormDateInput<PatientFormType> className="mt-s" name="birthdate" control={form.control} />
