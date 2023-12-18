@@ -80,6 +80,47 @@ export interface Database {
           },
         ]
       }
+      contacts: {
+        Row: {
+          createdAt: string
+          email: string | null
+          firstname: string | null
+          id: number
+          lastname: string | null
+          patientId: string
+          phone: string | null
+          updatedAt: string | null
+        }
+        Insert: {
+          createdAt?: string
+          email?: string | null
+          firstname?: string | null
+          id?: number
+          lastname?: string | null
+          patientId: string
+          phone?: string | null
+          updatedAt?: string | null
+        }
+        Update: {
+          createdAt?: string
+          email?: string | null
+          firstname?: string | null
+          id?: number
+          lastname?: string | null
+          patientId?: string
+          phone?: string | null
+          updatedAt?: string | null
+        }
+        Relationships: [
+          {
+            foreignKeyName: 'contacts_patientId_fkey'
+            columns: ['patientId']
+            isOneToOne: false
+            referencedRelation: 'patients'
+            referencedColumns: ['id']
+          },
+        ]
+      }
       equipments: {
         Row: {
           createdAt: string
@@ -308,6 +349,7 @@ export interface Database {
       }
       objectives: {
         Row: {
+          color: string
           createdAt: string
           id: string
           name: string
@@ -316,6 +358,7 @@ export interface Database {
           updatedAt: string
         }
         Insert: {
+          color: string
           createdAt?: string
           id?: string
           name: string
@@ -324,6 +367,7 @@ export interface Database {
           updatedAt?: string
         }
         Update: {
+          color?: string
           createdAt?: string
           id?: string
           name?: string
@@ -388,6 +432,7 @@ export interface Database {
           id: string
           lastname: string
           practitionnerId: string
+          slug: string
           updatedAt: string
         }
         Insert: {
@@ -397,6 +442,7 @@ export interface Database {
           id?: string
           lastname: string
           practitionnerId: string
+          slug: string
           updatedAt?: string
         }
         Update: {
@@ -406,6 +452,7 @@ export interface Database {
           id?: string
           lastname?: string
           practitionnerId?: string
+          slug?: string
           updatedAt?: string
         }
         Relationships: [
