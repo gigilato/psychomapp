@@ -60,6 +60,11 @@ exports[`FlatList renders correctly 1`] = `
   renderItem={[Function]}
   scrollEventThrottle={50}
   stickyHeaderIndices={[]}
+  style={
+    {
+      "backgroundColor": "#FFFCF9",
+    }
+  }
   viewabilityConfigCallbackPairs={[]}
 >
   <RCTRefreshControl />
@@ -666,6 +671,11 @@ exports[`FlatList renders with Footer 1`] = `
   renderItem={[Function]}
   scrollEventThrottle={50}
   stickyHeaderIndices={[]}
+  style={
+    {
+      "backgroundColor": "#FFFCF9",
+    }
+  }
   viewabilityConfigCallbackPairs={[]}
 >
   <RCTRefreshControl />
@@ -1282,6 +1292,11 @@ exports[`FlatList renders with Header 1`] = `
   renderItem={[Function]}
   scrollEventThrottle={50}
   stickyHeaderIndices={[]}
+  style={
+    {
+      "backgroundColor": "#FFFCF9",
+    }
+  }
   viewabilityConfigCallbackPairs={[]}
 >
   <RCTRefreshControl />
@@ -1906,6 +1921,11 @@ exports[`FlatList renders with error 1`] = `
   renderItem={[Function]}
   scrollEventThrottle={50}
   stickyHeaderIndices={[]}
+  style={
+    {
+      "backgroundColor": "#FFFCF9",
+    }
+  }
   viewabilityConfigCallbackPairs={[]}
 >
   <RCTRefreshControl />
@@ -2512,6 +2532,11 @@ exports[`FlatList renders with loading 1`] = `
   renderItem={[Function]}
   scrollEventThrottle={50}
   stickyHeaderIndices={[]}
+  style={
+    {
+      "backgroundColor": "#FFFCF9",
+    }
+  }
   viewabilityConfigCallbackPairs={[]}
 >
   <RCTRefreshControl />

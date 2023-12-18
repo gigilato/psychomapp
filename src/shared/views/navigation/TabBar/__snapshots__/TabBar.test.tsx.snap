@@ -2,6 +2,7 @@
 
 exports[`TabBar renders correctly 1`] = `
 <View
+  onLayout={[Function]}
   style={
     [
       {

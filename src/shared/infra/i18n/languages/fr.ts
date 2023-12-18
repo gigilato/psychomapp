@@ -21,6 +21,7 @@ export const fr = {
       calendar: 'Agenda',
       settings: 'Menu',
       patients: 'Patients',
+      patientsTitle: 'Mes Patients',
     },
     settings: {
       updatePassword: 'Changer le mot de passe',

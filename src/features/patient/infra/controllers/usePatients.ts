@@ -1,13 +1,13 @@
 import { useQuery } from '@tanstack/react-query'
 
-import { getEquipments } from '../fetchers'
+import { getPatients } from '../fetchers'
 
-export const queryKey = ['equipments']
-export const useEquipments = () => {
+export const queryKey = ['patients']
+export const usePatients = () => {
   const query = useQuery({
     queryKey,
     queryFn: async () => {
-      return getEquipments()
+      return getPatients()
     },
   })
   return query

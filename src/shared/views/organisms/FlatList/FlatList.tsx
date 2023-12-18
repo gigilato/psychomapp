@@ -10,6 +10,7 @@ import { FlatList as RNGHFlatList } from 'react-native-gesture-handler'
 
 import { Box } from '$atoms'
 import { ErrorState } from '$organisms/ErrorState'
+import { colors } from '$theme'
 
 import { IFlatListProps } from './FlatList.props'
 
@@ -49,6 +50,7 @@ export const FlatList: <T>(props: IFlatListProps<T>) => ReactNode = memo(
     return (
       <ListComponent
         data={data ?? loadingData}
+        style={{ backgroundColor: colors.white.classic }}
         horizontal={horizontal}
         renderItem={renderItem}
         contentContainerStyle={[styles.contentContainer, contentContainerStyle]}
