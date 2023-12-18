@@ -1,4 +1,5 @@
 import { zodResolver } from '@hookform/resolvers/zod'
+import { router } from 'expo-router'
 import { useRef } from 'react'
 import { useForm } from 'react-hook-form'
 import { TextInput } from 'react-native'
@@ -30,10 +31,10 @@ export const usePatientForm = () => {
     mode: 'onBlur',
   })
 
-  const { mutate, isPending } = useCreatePatient()
+  const { mutateAsync, isPending } = useCreatePatient()
 
   const onPressSubmit = form.handleSubmit((formData) => {
-    mutate(formData)
+    mutateAsync(formData).then(() => router.back())
   })
 
   return { lastnameRef, form, onPressSubmit, isPending }
