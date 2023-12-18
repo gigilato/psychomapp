@@ -6,7 +6,7 @@ import DatePicker from 'react-native-date-picker'
 import { Pressable } from '$atoms'
 import { FormInputWrapper } from '$forms/FormInputWrapper'
 import { i18n } from '$infra/i18n'
-import { parseISO, format } from '$libs/dates'
+import { parseISO, format, dateFormat } from '$libs/dates'
 import { TextInput } from '$molecules'
 
 import { IFormDateInputProps } from './FormDateInput.props'
@@ -30,7 +30,7 @@ export const FormDateInput: <FieldValues extends object>(
       <TextInput
         ID="dateInput"
         placeholder={i18n.t('forms.birthdate.placeholder')}
-        value={value !== '' ? format(value, 'dd/MM/yyyy') : ''}
+        value={value !== '' ? format(value, dateFormat) : ''}
         editable={false}
       />
       <Pressable

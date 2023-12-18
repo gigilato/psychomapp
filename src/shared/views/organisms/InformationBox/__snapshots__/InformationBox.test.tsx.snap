@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InformationBox renders correctly 1`] = `
+<View
+  style={
+    [
+      [
+        undefined,
+        undefined,
+      ],
+    ]
+  }
+>
+  <Text
+    style={
+      [
+        {
+          "fontFamily": "SpaceGrotesk-Medium",
+        },
+        {
+          "fontSize": 16,
+        },
+        {
+          "lineHeight": 18,
+        },
+      ]
+    }
+  >
+    label
+  </Text>
+  <Text
+    style={
+      [
+        {
+          "fontFamily": "SpaceGrotesk-Regular",
+        },
+        {
+          "fontSize": 16,
+        },
+        {
+          "lineHeight": 18,
+        },
+      ]
+    }
+  >
+    value
+  </Text>
+</View>
+`;

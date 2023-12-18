@@ -6,5 +6,6 @@ export interface IKeyboardAvoidingViewProps
   variant?: 'screen' | 'default'
   style?: StyleProp<ViewStyle>
   contentContainerStyle?: StyleProp<ViewStyle>
+  fill?: 'header' | 'screen'
   onScroll?: (event: NativeScrollEvent) => void
 }

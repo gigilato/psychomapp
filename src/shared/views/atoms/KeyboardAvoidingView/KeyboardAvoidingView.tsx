@@ -1,3 +1,4 @@
+import clsx from 'clsx'
 import { styled } from 'nativewind'
 import { ScrollView, useWindowDimensions } from 'react-native'
 import { useReanimatedFocusedInput } from 'react-native-keyboard-controller'
@@ -25,6 +26,7 @@ export const KeyboardAvoidingView = ({
   style,
   contentContainerStyle,
   onScroll,
+  fill = 'header',
   ...props
 }: IKeyboardAvoidingViewProps) => {
   const { height: windowsHeight } = useWindowDimensions()
@@ -104,7 +106,10 @@ export const KeyboardAvoidingView = ({
       />
       <AnimatedBox
         style={fillStyle}
-        className="bg-secondary-classic absolute top-[0] left-[0] right-[0]"
+        className={clsx(
+          'absolute top-[0] left-[0] right-[0]',
+          fill === 'header' ? 'bg-secondary-classic' : 'bg-white-classic'
+        )}
       />
     </>
   )

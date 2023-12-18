@@ -65,5 +65,9 @@ export const fr = {
       default: "Une erreur s'est produite",
       empty: 'Aucun résultat',
     },
+    patient: {
+      age_one: '{{count}} an',
+      age_other: '{{count}} ans',
+    },
   },
 } as const

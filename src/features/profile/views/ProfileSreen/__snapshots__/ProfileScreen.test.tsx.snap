@@ -859,9 +859,6 @@ exports[`ProfileScreen should renders correctly 1`] = `
     style={
       [
         {
-          "backgroundColor": "#BB99DD",
-        },
-        {
           "position": "absolute",
         },
         {
@@ -872,6 +869,9 @@ exports[`ProfileScreen should renders correctly 1`] = `
         },
         {
           "right": 0,
+        },
+        {
+          "backgroundColor": "#BB99DD",
         },
         [
           undefined,
