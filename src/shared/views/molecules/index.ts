@@ -1,3 +1,3 @@
 export * from './Button'
-export * from './AddButton'
+export * from './ActionButton'
 export * from './TextInput'

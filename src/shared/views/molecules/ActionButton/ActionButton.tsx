@@ -2,11 +2,16 @@ import { GestureResponderEvent } from 'react-native'
 
 import { useLayoutStore } from '$infra/layout'
 import { impactAsync } from '$libs/haptics'
-import { IAddButtonProps } from '$molecules/AddButton/AddButton.props'
+import { IActionButtonProps } from '$molecules/ActionButton/ActionButton.props'
 import { PressableIcon } from '$molecules/Button'
 import { spacing } from '$theme'
 
-export const AddButton = ({ onPress: _onPress, handleTabBar, ...props }: IAddButtonProps) => {
+export const ActionButton = ({
+  onPress: _onPress,
+  handleTabBar,
+  action = 'add',
+  ...props
+}: IActionButtonProps) => {
   const tabBarHeight = useLayoutStore((state) => state.tabBarHeight)
   const onPress = (event: GestureResponderEvent) => {
     impactAsync()
@@ -17,7 +22,7 @@ export const AddButton = ({ onPress: _onPress, handleTabBar, ...props }: IAddBut
     <PressableIcon
       animation="scale"
       shadow
-      icon="plus"
+      icon={action === 'add' ? 'plus' : 'edit'}
       iconSize={24}
       iconClassName="text-white-classic"
       className="absolute right-l rounded-full bg-primary-classic p-m"

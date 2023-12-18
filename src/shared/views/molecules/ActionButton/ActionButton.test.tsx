@@ -1,10 +1,10 @@
 import { render } from '@testing-library/react-native'
 
-import { AddButton } from './AddButton'
+import { ActionButton } from './ActionButton'
 
-describe('AddButton', () => {
+describe('ActionButton', () => {
   it('should render correctly', async () => {
-    const component = render(<AddButton ID="add" />)
+    const component = render(<ActionButton ID="add" />)
     expect(component).toMatchSnapshot()
   })
 })

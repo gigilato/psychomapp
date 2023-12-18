@@ -13,8 +13,8 @@ export const useCreatePatient = () => {
     mutationFn: async (variables: CreatePatientVariables) => {
       const { result, data } = await createPatient(variables)
       if (result.status !== 201) throw new Error('CreatePatientError')
-      const equipment = await getPatient(data.id)
-      return equipment
+      const patient = await getPatient(data.id)
+      return patient
     },
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey })

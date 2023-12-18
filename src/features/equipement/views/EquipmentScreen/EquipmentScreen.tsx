@@ -3,7 +3,7 @@ import { Skeleton } from 'moti/skeleton'
 import { Box, Pressable, Text } from '$atoms'
 import { useCreateEquipment } from '$features/equipement/infra/controllers/useCreateEquipment'
 import { useEquipments } from '$features/equipement/infra/controllers/useEquipments'
-import { AddButton } from '$molecules'
+import { ActionButton } from '$molecules'
 import { FlatList } from '$organisms'
 
 export const EquipmentScreen = () => {
@@ -32,7 +32,7 @@ export const EquipmentScreen = () => {
           )}
         />
       </Skeleton.Group>
-      <AddButton ID="addEquipment" onPress={onPress} />
+      <ActionButton ID="addEquipment" onPress={onPress} />
     </>
   )
 }
