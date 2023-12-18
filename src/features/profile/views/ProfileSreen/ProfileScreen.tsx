@@ -1,5 +1,3 @@
-import { router } from 'expo-router'
-
 import { Box, KeyboardAvoidingView, Separator, Text } from '$atoms'
 import { signOutAsync, useAuthStore } from '$infra/auth'
 import { i18n } from '$infra/i18n'
@@ -31,12 +29,12 @@ export const ProfileScreen = () => {
       <Separator className="my-l" />
       <Box className="px-l">
         <ProfileSetting ID="profile/test" content={i18n.t('settings.tests')} type="navigation" />
-        <ProfileSetting
+        {/* <ProfileSetting
           ID="profile/equipment"
           content={i18n.t('settings.equipment')}
           type="navigation"
           onPress={() => router.push('/dashboard/profile/equipment/')}
-        />
+        /> */}
         <ProfileSetting
           ID="profile/billing"
           content={i18n.t('settings.billing')}

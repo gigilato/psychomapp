@@ -4,14 +4,16 @@ import { Component } from 'react'
 import { StyleSheet, View } from 'react-native'
 import Animated from 'react-native-reanimated'
 
-import { IBoxProps, ISeparatorProps } from '$views/atoms/Box/Box.props'
+import { shadowClassName } from '$views/libs/shadow'
+
+import { IBoxProps, ISeparatorProps } from './Box.props'
 
 const StyledView = styled(View)
 
 export const Box = ({ className, style, shadow, absoluteFill, ...props }: IBoxProps) => (
   <StyledView
     style={[absoluteFill && StyleSheet.absoluteFill, style]}
-    className={clsx(shadow ? 'bg-white-classic shadow shadow-grey-light' : '', className)}
+    className={clsx(shadow ? shadowClassName : '', className)}
     {...props}
   />
 )

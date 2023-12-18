@@ -3,7 +3,7 @@ import React from 'react'
 
 import { ProfileScreen } from './ProfileScreen'
 
-describe('TabBar', () => {
+describe('ProfileScreen', () => {
   it('should renders correctly', () => {
     const { toJSON } = render(<ProfileScreen />)
     expect(toJSON()).toMatchSnapshot()

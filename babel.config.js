@@ -25,6 +25,7 @@ module.exports = function (api) {
             $app: './src/shared/app',
             $features: './src/features',
             $shared: './src/shared',
+            $jest: './jest',
           },
         },
       ],

@@ -43,5 +43,9 @@ export const fr = {
         required: 'Requis',
       },
     },
+    errors: {
+      default: "Une erreur s'est produite",
+      empty: 'Aucun résultat',
+    },
   },
 } as const

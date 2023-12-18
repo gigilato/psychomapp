@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ErrorState should render correctly 1`] = `
+<View
+  style={
+    [
+      {
+        "justifyContent": "center",
+      },
+      {
+        "alignItems": "center",
+      },
+      {
+        "alignSelf": "center",
+      },
+      {
+        "marginTop": 64,
+      },
+      [
+        undefined,
+        undefined,
+      ],
+    ]
+  }
+>
+  <ViewManagerAdapter_ExpoImage
+    contentFit="contain"
+    contentPosition={
+      {
+        "left": "50%",
+        "top": "50%",
+      }
+    }
+    height={100}
+    onError={[Function]}
+    onLoad={[Function]}
+    onLoadStart={[Function]}
+    onProgress={[Function]}
+    placeholder={[]}
+    source={[]}
+    style={
+      {
+        "height": 100,
+        "width": 100,
+      }
+    }
+    transition={null}
+    width={100}
+  />
+  <Text
+    style={
+      [
+        {
+          "fontFamily": "SpaceGrotesk-Regular",
+        },
+        {
+          "fontSize": 16,
+        },
+        {
+          "lineHeight": 18,
+        },
+        {
+          "marginTop": 24,
+        },
+      ]
+    }
+  >
+    Aucun résultat
+  </Text>
+</View>
+`;
+
+exports[`ErrorState should render with custom message 1`] = `
+<View
+  style={
+    [
+      {
+        "justifyContent": "center",
+      },
+      {
+        "alignItems": "center",
+      },
+      {
+        "alignSelf": "center",
+      },
+      {
+        "marginTop": 64,
+      },
+      [
+        undefined,
+        undefined,
+      ],
+    ]
+  }
+>
+  <ViewManagerAdapter_ExpoImage
+    contentFit="contain"
+    contentPosition={
+      {
+        "left": "50%",
+        "top": "50%",
+      }
+    }
+    height={100}
+    onError={[Function]}
+    onLoad={[Function]}
+    onLoadStart={[Function]}
+    onProgress={[Function]}
+    placeholder={[]}
+    source={[]}
+    style={
+      {
+        "height": 100,
+        "width": 100,
+      }
+    }
+    transition={null}
+    width={100}
+  />
+  <Text
+    style={
+      [
+        {
+          "fontFamily": "SpaceGrotesk-Regular",
+        },
+        {
+          "fontSize": 16,
+        },
+        {
+          "lineHeight": 18,
+        },
+        {
+          "marginTop": 24,
+        },
+      ]
+    }
+  >
+    custom message
+  </Text>
+</View>
+`;

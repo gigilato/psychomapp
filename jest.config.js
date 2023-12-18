@@ -20,7 +20,7 @@ module.exports = {
   collectCoverage: false,
   coverageReporters: ['clover', 'json', 'lcov', 'text'],
   transformIgnorePatterns: [
-    'node_modules/(?!((jest-)?react-native|@react-native(-community)?)|expo(nent)?|@expo(nent)?/.*|@expo-google-fonts/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|sentry-expo|native-base|react-native-svg|victory|victory|toggle-switch-react-native|@sentry/react-native|aws-amplify|@shopify/react-native-skia)',
+    'node_modules/(?!((jest-)?react-native|@react-native(-community)?)|expo(nent)?|@expo(nent)?/.*|@expo-google-fonts/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|sentry-expo|native-base|react-native-svg|victory|victory|toggle-switch-react-native|@sentry/react-native|aws-amplify|@shopify/react-native-skia)|moti/skeleton',
   ],
   testEnvironment: 'node',
   coverageThreshold: {

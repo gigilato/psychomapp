@@ -129,6 +129,12 @@ jest.mock('$infra/auth', () => ({
   resetPasswordAsync: jest.fn(),
 }))
 
+function MockSkeleton({ children }) {
+  return <>{children}</>
+}
+MockSkeleton.Group = ({ children }) => <>{children}</>
+jest.mock('moti/skeleton', () => ({ Skeleton: MockSkeleton }))
+
 global.console = {
   ...console,
   // uncomment to ignore a specific log level

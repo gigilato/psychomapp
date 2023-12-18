@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddButton should render correctly 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  animation="scale"
+  collapsable={false}
+  focusable={true}
+  hitSlop={5}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    [
+      {
+        "backgroundColor": "#FFFCF9",
+      },
+      {
+        "shadowColor": "rgba(0, 0, 0, 0.1)",
+        "shadowOffset": {
+          "height": 2,
+          "width": 0,
+        },
+        "shadowOpacity": 1,
+        "shadowRadius": 6,
+      },
+      {
+        "shadowColor": "#D3D3D3",
+      },
+      {
+        "position": "absolute",
+      },
+      {
+        "right": 24,
+      },
+      {
+        "bottom": 32,
+      },
+      {
+        "borderBottomLeftRadius": 9999,
+        "borderBottomRightRadius": 9999,
+        "borderTopLeftRadius": 9999,
+        "borderTopRightRadius": 9999,
+      },
+      {
+        "backgroundColor": "#FFB300",
+      },
+      {
+        "paddingBottom": 16,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "paddingTop": 16,
+      },
+      [
+        {
+          "transform": [
+            {
+              "scale": undefined,
+            },
+          ],
+        },
+        undefined,
+      ],
+    ]
+  }
+  testID="add"
+>
+  <Text />
+</View>
+`;

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`TabBar should renders correctly 1`] = `
+exports[`ProfileScreen should renders correctly 1`] = `
 [
   <RCTScrollView
     contentContainerStyle={
@@ -537,83 +537,6 @@ exports[`TabBar should renders correctly 1`] = `
             }
           >
             Mon classeur de tests
-          </Text>
-          <Text />
-        </View>
-        <View
-          accessibilityState={
-            {
-              "busy": undefined,
-              "checked": undefined,
-              "disabled": undefined,
-              "expanded": undefined,
-              "selected": undefined,
-            }
-          }
-          accessibilityValue={
-            {
-              "max": undefined,
-              "min": undefined,
-              "now": undefined,
-              "text": undefined,
-            }
-          }
-          accessible={true}
-          animation="opacity"
-          collapsable={false}
-          focusable={true}
-          onBlur={[Function]}
-          onClick={[Function]}
-          onFocus={[Function]}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          style={
-            [
-              {
-                "flexDirection": "row",
-              },
-              {
-                "alignItems": "center",
-              },
-              {
-                "paddingBottom": 12,
-                "paddingTop": 12,
-              },
-              [
-                {
-                  "opacity": undefined,
-                },
-                undefined,
-              ],
-            ]
-          }
-          testID="profile/equipment"
-        >
-          <Text
-            style={
-              [
-                {
-                  "fontFamily": "SpaceGrotesk-Regular",
-                },
-                {
-                  "fontSize": 16,
-                },
-                {
-                  "lineHeight": 18,
-                },
-                {
-                  "flexBasis": "0%",
-                  "flexGrow": 1,
-                  "flexShrink": 1,
-                },
-              ]
-            }
-          >
-            Mon matériel
           </Text>
           <Text />
         </View>
