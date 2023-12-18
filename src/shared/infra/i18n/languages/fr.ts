@@ -4,6 +4,8 @@ export const fr = {
       appName: "Psychom'App",
       signIn: 'Se connecter',
       signOut: 'Déconnexion',
+      continue: 'Continuer',
+      validate: 'Valider',
     },
     signIn: {
       forgotPassword: 'Mot de passe oublié ?',
@@ -22,6 +24,7 @@ export const fr = {
       settings: 'Menu',
       patients: 'Patients',
       patientsTitle: 'Mes Patients',
+      createPatientTitle: 'Nouveau patient',
     },
     settings: {
       updatePassword: 'Changer le mot de passe',
@@ -39,6 +42,17 @@ export const fr = {
       password: {
         label: 'Mot de passe',
         placeholder: 'Entrez votre mot de passe',
+      },
+      firstname: {
+        label: 'Prénom',
+        placeholder: 'Entrez le prénom',
+      },
+      lastname: {
+        label: 'Nom',
+        placeholder: 'Entrez le nom de famille',
+      },
+      birthdate: {
+        label: 'Date de naissance',
       },
       common: {
         required: 'Requis',

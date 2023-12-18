@@ -8,7 +8,37 @@ import { PressableIcon } from '$molecules/Button'
 import { colors } from '$theme'
 
 import { useTextInput } from './TextInput.lib'
-import { ITextInputProps } from './TextInput.props'
+import { IInputWrapperProps, ITextInputProps } from './TextInput.props'
+
+export const InputWrapper = ({
+  className,
+  label,
+  error,
+  textClassName,
+  children,
+}: IInputWrapperProps) => {
+  const textColor = clsx(error ? 'text-danger' : 'text-grey-strong', textClassName)
+  return (
+    <Box className={className}>
+      {label || error ? (
+        <HStack className="mb-xs items-center justify-between">
+          {label ? (
+            <Text variant="boldBody" className={textColor}>
+              {label}
+            </Text>
+          ) : null}
+          {error ? (
+            <Text
+              variant="inputError"
+              className={clsx(label ? 'ml-xs' : '', textColor)}
+            >{`*${error}`}</Text>
+          ) : null}
+        </HStack>
+      ) : null}
+      {children}
+    </Box>
+  )
+}
 
 export const TextInput = memo<ITextInputProps>(
   forwardRef<RNTextInput, ITextInputProps>(
@@ -39,22 +69,7 @@ export const TextInput = memo<ITextInputProps>(
       })
 
       return (
-        <Box className={className}>
-          {label || error ? (
-            <HStack className="mb-xs items-center justify-between">
-              {label ? (
-                <Text variant="boldBody" className={textColor}>
-                  {label}
-                </Text>
-              ) : null}
-              {error ? (
-                <Text
-                  variant="inputError"
-                  className={clsx(label ? 'ml-xs' : '', textColor)}
-                >{`*${error}`}</Text>
-              ) : null}
-            </HStack>
-          ) : null}
+        <InputWrapper className={className} label={label} error={error} textClassName={textColor}>
           <HStack
             className={clsx(
               'items-center rounded-s py-s border-[1px] bg-white-light overflow-hidden',
@@ -91,7 +106,7 @@ export const TextInput = memo<ITextInputProps>(
               />
             )}
           </HStack>
-        </Box>
+        </InputWrapper>
       )
     }
   )
