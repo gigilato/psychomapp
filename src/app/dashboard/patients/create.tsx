@@ -1,4 +1,4 @@
-import { Stack } from 'expo-router'
+import { Stack, router } from 'expo-router'
 
 import { KeyboardAvoidingView } from '$atoms'
 import { PatientForm } from '$features/patient/views'
@@ -9,7 +9,7 @@ export default function CreatePatientRoute() {
     <>
       <Stack.Screen options={{ title: i18n.t('navigation.createPatientTitle') }} />
       <KeyboardAvoidingView>
-        <PatientForm className="px-l mt-l" />
+        <PatientForm className="px-l mt-l" onSubmit={router.back} />
       </KeyboardAvoidingView>
     </>
   )

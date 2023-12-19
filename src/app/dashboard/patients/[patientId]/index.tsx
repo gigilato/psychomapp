@@ -51,7 +51,11 @@ export default function PatientRoute() {
           ) : null}
         </KeyboardAvoidingView>
       </Skeleton.Group>
-      <ActionButton ID="editPatient" action="edit" />
+      <ActionButton
+        ID="editPatient"
+        action="edit"
+        onPress={() => router.push(`/dashboard/patients/${patientId}/update`)}
+      />
     </>
   )
 }

@@ -26,6 +26,7 @@ export const fr = {
       patients: 'Patients',
       patientsTitle: 'Mes Patients',
       createPatientTitle: 'Nouveau patient',
+      update: 'Mise à jour',
     },
     settings: {
       updatePassword: 'Changer le mot de passe',

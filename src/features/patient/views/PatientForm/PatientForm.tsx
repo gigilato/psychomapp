@@ -6,8 +6,8 @@ import { Button } from '$molecules'
 import { PatientFormType, usePatientForm } from './PatientForm.lib'
 import { IPatientFormProps } from './PatientForm.props'
 
-export const PatientForm = (props: IPatientFormProps) => {
-  const { lastnameRef, form, onPressSubmit, isPending } = usePatientForm()
+export const PatientForm = ({ patientId, onSubmit, ...props }: IPatientFormProps) => {
+  const { lastnameRef, form, onPressSubmit, isPending } = usePatientForm(onSubmit, patientId)
   return (
     <Box {...props}>
       <FormTextInput<PatientFormType>

@@ -24,7 +24,7 @@ export const PatientList = () => {
             onPress={() => {
               client.setQueryData<Patient>(getQueryKey(item.id), item)
               setTabBarVisibility(false)
-              router.push(`/dashboard/patients/${item.id}`)
+              router.push(`/dashboard/patients/${item.id}/`)
             }}
             shadow
             className="mx-l p-s rounded-s"

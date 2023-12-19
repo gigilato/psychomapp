@@ -30,13 +30,8 @@ export default function PatientsLayout() {
         },
       }}
     >
-      <Stack.Screen
-        name="create"
-        options={{
-          // Set the presentation mode to modal for our modal route.
-          presentation: 'modal',
-        }}
-      />
+      <Stack.Screen name="create" options={{ presentation: 'modal' }} />
+      <Stack.Screen name="[patientId]/update" options={{ presentation: 'modal' }} />
     </Stack>
   )
 }
