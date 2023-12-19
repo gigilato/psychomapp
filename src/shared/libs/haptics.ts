@@ -7,4 +7,4 @@ const feedback: Record<ImpactType, Haptics.ImpactFeedbackStyle> = {
   medium: Haptics.ImpactFeedbackStyle.Medium,
   light: Haptics.ImpactFeedbackStyle.Light,
 }
-export const impactAsync = (type: ImpactType = 'medium') => Haptics.impactAsync(feedback[type])
+export const impactAsync = (type: ImpactType = 'light') => Haptics.impactAsync(feedback[type])

@@ -7,6 +7,7 @@
       "developmentClient": true,
       "distribution": "internal",
       "channel": "default",
+      "env": { "EXPO_PUBLIC_ENV": "dev" },
       "android": { "buildType": "apk" },
       "ios": { "cocoapods": "1.12.0" },
       "cache": { "key": "2" }
@@ -14,12 +15,14 @@
     "preview": {
       "distribution": "internal",
       "channel": "preview",
+      "env": { "EXPO_PUBLIC_ENV": "preview" },
       "android": { "buildType": "apk" },
       "ios": { "cocoapods": "1.12.0" },
       "cache": { "key": "2" }
     },
     "production": {
       "channel": "production",
+      "env": { "EXPO_PUBLIC_ENV": "production" },
       "ios": { "cocoapods": "1.12.0" },
       "cache": { "key": "2" }
     }
