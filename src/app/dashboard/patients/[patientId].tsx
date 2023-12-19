@@ -1,9 +1,11 @@
-import { Stack, useLocalSearchParams } from 'expo-router'
+import { Stack, router, useLocalSearchParams } from 'expo-router'
 import { Skeleton } from 'moti/skeleton'
 
 import { KeyboardAvoidingView, Text } from '$atoms'
+import { useDeletePatient } from '$features/patient/infra/controllers/useDeletePatient'
 import { usePatient } from '$features/patient/infra/controllers/usePatient'
 import { i18n } from '$infra/i18n'
+import { setTabBarVisibility } from '$infra/layout'
 import { dateFormat, format, getAge } from '$libs/dates'
 import { ActionButton, PressableText } from '$molecules'
 import { InformationBox } from '$organisms'
@@ -11,6 +13,7 @@ import { InformationBox } from '$organisms'
 export default function PatientRoute() {
   const { patientId } = useLocalSearchParams()
   const { data, isLoading } = usePatient(patientId as string)
+  const { mutate: deletePatient } = useDeletePatient()
 
   return (
     <>
@@ -32,13 +35,20 @@ export default function PatientRoute() {
                 : ''
             }
           />
-          <PressableText
-            ID="deletePatient"
-            className="mt-l"
-            textClassName="text-danger self-center "
-          >
-            {i18n.t('patient.delete')}
-          </PressableText>
+          {data ? (
+            <PressableText
+              ID="deletePatient"
+              className="mt-l"
+              textClassName="text-danger self-center"
+              onPress={() => {
+                deletePatient(data)
+                router.back()
+                setTabBarVisibility(true)
+              }}
+            >
+              {i18n.t('patient.delete')}
+            </PressableText>
+          ) : null}
         </KeyboardAvoidingView>
       </Skeleton.Group>
       <ActionButton ID="editPatient" action="edit" />
