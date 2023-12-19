@@ -19,6 +19,9 @@ export default ({ config }: ConfigContext): ExpoConfig => {
     },
     assetBundlePatterns: ['**/*'],
     runtimeVersion: { policy: 'sdkVersion' },
+    updates: {
+      url: 'https://u.expo.dev/3b9b3761-b746-4bce-b3f2-f32fefb45c93',
+    },
     ios: {
       buildNumber: appVersion.expo.ios.buildNumber,
       bundleIdentifier: 'com.psychomapp.mobile',
