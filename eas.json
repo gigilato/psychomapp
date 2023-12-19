@@ -7,37 +7,21 @@
       "developmentClient": true,
       "distribution": "internal",
       "channel": "default",
-      "android": {
-        "buildType": "apk"
-      },
-      "ios": {
-        "cocoapods": "1.12.0"
-      },
-      "cache": {
-        "key": "2"
-      }
+      "android": { "buildType": "apk" },
+      "ios": { "cocoapods": "1.12.0" },
+      "cache": { "key": "2" }
     },
-    "staging": {
+    "preview": {
       "distribution": "internal",
-      "channel": "staging",
-      "android": {
-        "buildType": "apk"
-      },
-      "ios": {
-        "cocoapods": "1.12.0"
-      },
-      "cache": {
-        "key": "2"
-      }
+      "channel": "preview",
+      "android": { "buildType": "apk" },
+      "ios": { "cocoapods": "1.12.0" },
+      "cache": { "key": "2" }
     },
     "production": {
       "channel": "production",
-      "ios": {
-        "cocoapods": "1.12.0"
-      },
-      "cache": {
-        "key": "2"
-      }
+      "ios": { "cocoapods": "1.12.0" },
+      "cache": { "key": "2" }
     }
   },
   "submit": {

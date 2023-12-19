@@ -2,7 +2,7 @@ import { get } from 'lodash'
 
 import { DeepKey, DeepValue } from '$types/common'
 
-export type EnvName = 'dev' | 'staging' | 'production'
+export type EnvName = 'dev' | 'preview' | 'production'
 
 const env = process.env.EXPO_PUBLIC_ENV as EnvName
 const config = {
