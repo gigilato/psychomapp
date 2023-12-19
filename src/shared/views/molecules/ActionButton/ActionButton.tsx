@@ -22,7 +22,7 @@ export const ActionButton = ({
     <PressableIcon
       animation="scale"
       shadow
-      icon={action === 'add' ? 'plus' : 'edit'}
+      icon={action === 'add' ? 'plus' : 'edit-2'}
       iconSize={24}
       iconClassName="text-white-classic"
       className="absolute right-l rounded-full bg-primary-classic p-m"

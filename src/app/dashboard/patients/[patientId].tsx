@@ -5,6 +5,7 @@ import { KeyboardAvoidingView, Text } from '$atoms'
 import { usePatient } from '$features/patient/infra/controllers/usePatient'
 import { i18n } from '$infra/i18n'
 import { dateFormat, format, getAge } from '$libs/dates'
+import { ActionButton, PressableText } from '$molecules'
 import { InformationBox } from '$organisms'
 
 export default function PatientRoute() {
@@ -31,8 +32,16 @@ export default function PatientRoute() {
                 : ''
             }
           />
+          <PressableText
+            ID="deletePatient"
+            className="mt-l"
+            textClassName="text-danger self-center "
+          >
+            {i18n.t('patient.delete')}
+          </PressableText>
         </KeyboardAvoidingView>
       </Skeleton.Group>
+      <ActionButton ID="editPatient" action="edit" />
     </>
   )
 }

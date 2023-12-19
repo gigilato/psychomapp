@@ -68,6 +68,7 @@ export const fr = {
     patient: {
       age_one: '{{count}} an',
       age_other: '{{count}} ans',
+      delete: 'Supprimer le patient',
     },
   },
 } as const
