@@ -131,6 +131,9 @@ module.exports = {
       xl: '1080px',
       '2xl': '1536px',
     },
+    height: {
+      calendar: 250,
+    },
   },
   plugins: [],
 }

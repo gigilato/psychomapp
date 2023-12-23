@@ -8,6 +8,8 @@ export type TextVariant =
   // Body
   | 'body'
   | 'boldBody'
+  | 'blackBody'
+  | 'smallBody'
   // action
   | 'button'
   | 'link'

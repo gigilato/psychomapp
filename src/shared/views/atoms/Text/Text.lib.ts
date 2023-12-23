@@ -11,6 +11,8 @@ export const textVariants: Record<TextVariant, string> = {
   // Body
   body: 'font-[SpaceGrotesk-Regular] text-[16px] leading-[18px]',
   boldBody: 'font-[SpaceGrotesk-Medium] text-[16px] leading-[18px]',
+  blackBody: 'font-[SpaceGrotesk-Bold] text-[16px] leading-[18px]',
+  smallBody: 'font-[SpaceGrotesk-light] text-[12px] leading-[16px]',
   // action
   button: 'font-[SpaceGrotesk-Bold] text-[16px] classic',
   link: 'font-[SpaceGrotesk-Medium] text-[14px] text-grey-strong underline',

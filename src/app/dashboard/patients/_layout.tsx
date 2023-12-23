@@ -1,32 +1,16 @@
-import { Stack, router } from 'expo-router'
+import { Stack } from 'expo-router'
 
-import { Text } from '$atoms'
-import { setTabBarVisibility } from '$infra/layout'
-import { PressableIcon } from '$molecules'
+import { HeaderLeft, HeaderTitle } from '$navigation'
 
 export default function PatientsLayout() {
   return (
     <Stack
       screenOptions={{
         headerLeft(props) {
-          return props.canGoBack ? (
-            <PressableIcon
-              ID="goback"
-              icon="chevron-left"
-              iconSize={30}
-              onPress={() => {
-                setTabBarVisibility(true)
-                router.back()
-              }}
-            />
-          ) : null
+          return <HeaderLeft {...props} restoreTabBar />
         },
         headerTitle(props) {
-          return (
-            <Text variant="navigation" textTransform="upper-first">
-              {props.children}
-            </Text>
-          )
+          return <HeaderTitle {...props} />
         },
       }}
     >

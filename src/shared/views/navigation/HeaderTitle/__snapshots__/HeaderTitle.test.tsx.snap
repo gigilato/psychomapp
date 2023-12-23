@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeaderTitle renders correctly 1`] = `
+<Text
+  style={
+    [
+      {
+        "fontFamily": "SpaceGrotesk-Medium",
+      },
+      {
+        "fontSize": 18,
+      },
+    ]
+  }
+>
+  Title
+</Text>
+`;
