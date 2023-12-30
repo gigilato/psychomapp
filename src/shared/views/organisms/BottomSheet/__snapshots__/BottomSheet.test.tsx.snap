@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BottomSheet renders correctly 1`] = `
+<View
+  onLayout={[Function]}
+>
+  <View
+    style={
+      [
+        {
+          "justifyContent": "center",
+        },
+        {
+          "alignItems": "center",
+        },
+        {
+          "height": 40,
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "fontFamily": "HKGrotesk",
+          },
+          {
+            "fontSize": 14,
+          },
+          {
+            "lineHeight": 18,
+          },
+        ]
+      }
+    >
+      Content
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`BottomSheet renders with multiple snap points 1`] = `
+<View
+  onLayout={[Function]}
+>
+  <View
+    style={
+      [
+        {
+          "justifyContent": "center",
+        },
+        {
+          "alignItems": "center",
+        },
+        {
+          "height": 40,
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "fontFamily": "HKGrotesk",
+          },
+          {
+            "fontSize": 14,
+          },
+          {
+            "lineHeight": 18,
+          },
+        ]
+      }
+    >
+      Content
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`BottomSheet renders without dynamic snap 1`] = `
+<View
+  onLayout={[Function]}
+>
+  <View
+    style={
+      [
+        {
+          "justifyContent": "center",
+        },
+        {
+          "alignItems": "center",
+        },
+        {
+          "height": 40,
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "fontFamily": "HKGrotesk",
+          },
+          {
+            "fontSize": 14,
+          },
+          {
+            "lineHeight": 18,
+          },
+        ]
+      }
+    >
+      Content
+    </Text>
+  </View>
+</View>
+`;

@@ -5,7 +5,7 @@ import { DeepKey, DeepValue } from '$types/common'
 export type EnvName = 'dev' | 'preview' | 'production'
 
 const env = process.env.EXPO_PUBLIC_ENV as EnvName
-const config = {
+export const config = {
   env,
   enableAnalytics: env !== 'dev',
   sentry: {

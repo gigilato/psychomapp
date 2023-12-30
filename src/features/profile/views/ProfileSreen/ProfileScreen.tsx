@@ -1,4 +1,7 @@
+import { Alert } from 'react-native'
+
 import { Box, KeyboardAvoidingView, Separator, Text } from '$atoms'
+import { config } from '$config'
 import { signOutAsync, useAuthStore } from '$infra/auth'
 import { i18n } from '$infra/i18n'
 import { Header } from '$views/navigation'
@@ -29,18 +32,29 @@ export const ProfileScreen = () => {
       <Separator className="my-l" />
       <Box className="px-l">
         <ProfileSetting ID="profile/test" content={i18n.t('settings.tests')} type="navigation" />
-        {/* <ProfileSetting
-          ID="profile/equipment"
-          content={i18n.t('settings.equipment')}
+        <ProfileSetting
+          ID="profile/objectives"
+          content={i18n.t('settings.objectives')}
           type="navigation"
-          onPress={() => router.push('/dashboard/profile/equipment/')}
-        /> */}
+        />
         <ProfileSetting
           ID="profile/billing"
           content={i18n.t('settings.billing')}
           type="navigation"
         />
       </Box>
+      {email === 'dev@psychomapp.com' ? (
+        <>
+          <Separator className="my-l" />
+          <ProfileSetting
+            ID="profile/dev"
+            content="Dev config"
+            type="navigation"
+            className="px-l"
+            onPress={() => Alert.alert('Config', JSON.stringify(config, undefined, 2))}
+          />
+        </>
+      ) : null}
       <Separator className="my-l" />
       <ProfileSetting
         ID="profile/signOut"
