@@ -9,7 +9,6 @@ export const SignInScreen = () => {
     <KeyboardAvoidingView variant="screen">
       <Screen>
         <Header className="items-center justify-center flex-row">
-          <Image source="logo" height={50} />
           <Text className="ml-s">
             <Text variant="title" className="text-white-light">
               {i18n.t('common.appName')}
