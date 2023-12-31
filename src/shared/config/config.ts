@@ -1,20 +1,23 @@
+import * as Updates from 'expo-updates'
 import { get } from 'lodash'
 
 import { DeepKey, DeepValue } from '$types/common'
 
 export type EnvName = 'dev' | 'preview' | 'production'
 
-const env = process.env.EXPO_PUBLIC_ENV as EnvName
+const channel = !Updates.channel || Updates.channel === '' ? 'dev' : (Updates.channel as EnvName)
+
 export const config = {
-  env,
-  enableAnalytics: env !== 'dev',
+  channel,
+  enableAnalytics: channel !== 'dev',
   sentry: {
     dns: 'https://7d20641da3e6f34e60c7d53a1be2c55f@o294118.ingest.sentry.io/4506330741145600',
   },
   supabase: {
-    url: process.env.EXPO_PUBLIC_SUPABASE_URL!,
-    anon: process.env.EXPO_PUBLIC_SUPABASE_ANON!,
-    serviceRole: process.env.EXPO_PUBLIC_SUPABASE_SERVICE!,
+    url: 'https://kzpjuxpqzrvnbjjbcjeh.supabase.co',
+    anon: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imt6cGp1eHBxenJ2bmJqamJjamVoIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDE1MzY5NTUsImV4cCI6MjAxNzExMjk1NX0.vChmLoV0dPUx8p1tidVmlesjs3yt3BhTJWRB3fG04NU',
+    serviceRole:
+      'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imt6cGp1eHBxenJ2bmJqamJjamVoIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTcwMTUzNjk1NSwiZXhwIjoyMDE3MTEyOTU1fQ.txE_EwZ_Pqx4QW6fnJ48RdD7Ikw9j_RopJXdP_HnQGU',
   },
 }
 

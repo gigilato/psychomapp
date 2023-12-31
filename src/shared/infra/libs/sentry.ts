@@ -3,7 +3,7 @@ import * as Sentry from 'sentry-expo'
 
 import { getConfig } from '$config'
 
-const env = getConfig('env')
+const channel = getConfig('channel')
 const sentry = getConfig('sentry')
 
 export const init = () =>
@@ -11,7 +11,7 @@ export const init = () =>
     dsn: sentry.dns,
     enableInExpoDevelopment: false,
     enableNative: false,
-    debug: env !== 'production',
+    debug: channel !== 'production',
   })
 
 export const addBreadcrumb = (breadcrumb: Sentry.Browser.Breadcrumb) =>

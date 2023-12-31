@@ -1,4 +1,4 @@
 export * from './theme.borderRadius'
 export * from './theme.colors'
 export * from './theme.spacing'
-export * from './theme.heights'
+export * from './theme.height'

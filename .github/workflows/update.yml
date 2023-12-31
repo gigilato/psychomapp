@@ -47,4 +47,4 @@ jobs:
         run: yarn install
 
       - name: 📦 EAS
-        run: EXPO_PUBLIC_ENV=${{github.event.inputs.environment}} npx eas-cli update --channel ${{ github.event.inputs.environment }} --non-interactive --platform ${{ github.event.inputs.platform }}
+        run: EXPO_PUBLIC_ENV=${{github.event.inputs.environment}} npx eas-cli update --channel ${{ github.event.inputs.environment }} --non-interactive --platform ${{ github.event.inputs.platform }} --auto

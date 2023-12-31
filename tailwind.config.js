@@ -1,4 +1,15 @@
 /** @type {import('tailwindcss').Config} */
+
+const spacing = {
+  xxs: 4,
+  xs: 8,
+  s: 12,
+  m: 16,
+  l: 24,
+  xl: 32,
+  xxl: 64,
+}
+
 module.exports = {
   content: ['./src/**/*.{ts,tsx}'],
   theme: {
@@ -115,15 +126,7 @@ module.exports = {
         light: '#D2B48C',
       },
     },
-    spacing: {
-      xxs: 4,
-      xs: 8,
-      s: 12,
-      m: 16,
-      l: 24,
-      xl: 32,
-      xxl: 64,
-    },
+    spacing,
     screens: {
       sm: '390px',
       md: '700px',
@@ -133,6 +136,7 @@ module.exports = {
     },
     height: {
       calendar: 250,
+      ...spacing,
     },
   },
   plugins: [],

@@ -71,6 +71,7 @@ export const ProfileScreen = () => {
         onPress={signOutAsync}
         className="px-l"
       />
+      <Box className="h-[120]" />
     </KeyboardAvoidingView>
   )
 }
