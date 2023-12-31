@@ -1,7 +1,6 @@
-import { Stack, useLocalSearchParams, router } from 'expo-router'
+import { Stack, useLocalSearchParams } from 'expo-router'
 
-import { KeyboardAvoidingView } from '$atoms'
-import { PatientForm } from '$features/patient/views'
+import { PatientUpdateScreen } from '$features/patient/views'
 import { i18n } from '$infra/i18n'
 import { HeaderLeft } from '$navigation'
 
@@ -15,9 +14,7 @@ export default function UpdatePatientRoute() {
           headerLeft: (props) => <HeaderLeft {...props} />,
         }}
       />
-      <KeyboardAvoidingView>
-        <PatientForm className="px-l mt-l" patientId={patientId as string} onSubmit={router.back} />
-      </KeyboardAvoidingView>
+      <PatientUpdateScreen patientId={patientId as string} />
     </>
   )
 }

@@ -37,7 +37,7 @@ export const BottomSheetBackdrop = ({ pressBehavior, ...props }: BottomSheetBack
       animation="none"
       pointerEvents={pointerEvents}
       onPress={pressBehavior === 'close' ? closeSheet : undefined}
-      className="bg-grey-electric"
+      className="bg-grey-classic"
       style={[animatedStyle, StyleSheet.absoluteFill]}
       {...props}
     />

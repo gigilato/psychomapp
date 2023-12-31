@@ -1,0 +1,297 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tag should render correctly 1`] = `
+<View
+  style={
+    [
+      {
+        "flexDirection": "row",
+      },
+      {
+        "flexWrap": "wrap",
+      },
+      [
+        undefined,
+        [
+          {
+            "marginLeft": -8,
+            "marginTop": -8,
+          },
+          undefined,
+        ],
+      ],
+    ]
+  }
+>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": true,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      [
+        {
+          "borderBottomLeftRadius": 9999,
+          "borderBottomRightRadius": 9999,
+          "borderTopLeftRadius": 9999,
+          "borderTopRightRadius": 9999,
+        },
+        {
+          "paddingBottom": 4,
+          "paddingLeft": 4,
+          "paddingRight": 4,
+          "paddingTop": 4,
+        },
+        {
+          "flexDirection": "row",
+        },
+        {
+          "alignSelf": "flex-start",
+        },
+        [
+          {
+            "opacity": undefined,
+          },
+          [
+            {
+              "backgroundColor": "#ff00ff",
+            },
+            {
+              "marginLeft": 8,
+              "marginTop": 8,
+            },
+            undefined,
+          ],
+        ],
+      ]
+    }
+    testID="tag/tag1"
+  >
+    <Text
+      style={
+        [
+          {
+            "fontFamily": "SpaceGrotesk-light",
+          },
+          {
+            "fontSize": 12,
+          },
+          {
+            "lineHeight": 16,
+          },
+          {
+            "color": "#FFFCF9",
+          },
+        ]
+      }
+    >
+      tag1
+    </Text>
+  </View>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": true,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      [
+        {
+          "borderBottomLeftRadius": 9999,
+          "borderBottomRightRadius": 9999,
+          "borderTopLeftRadius": 9999,
+          "borderTopRightRadius": 9999,
+        },
+        {
+          "paddingBottom": 4,
+          "paddingLeft": 4,
+          "paddingRight": 4,
+          "paddingTop": 4,
+        },
+        {
+          "flexDirection": "row",
+        },
+        {
+          "alignSelf": "flex-start",
+        },
+        [
+          {
+            "opacity": undefined,
+          },
+          [
+            {
+              "backgroundColor": "#4f00ff",
+            },
+            {
+              "marginLeft": 8,
+              "marginTop": 8,
+            },
+            undefined,
+          ],
+        ],
+      ]
+    }
+    testID="tag/tag2"
+  >
+    <Text
+      style={
+        [
+          {
+            "fontFamily": "SpaceGrotesk-light",
+          },
+          {
+            "fontSize": 12,
+          },
+          {
+            "lineHeight": 16,
+          },
+          {
+            "color": "#FFFCF9",
+          },
+        ]
+      }
+    >
+      tag2
+    </Text>
+  </View>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": true,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      [
+        {
+          "borderBottomLeftRadius": 9999,
+          "borderBottomRightRadius": 9999,
+          "borderTopLeftRadius": 9999,
+          "borderTopRightRadius": 9999,
+        },
+        {
+          "paddingBottom": 4,
+          "paddingLeft": 4,
+          "paddingRight": 4,
+          "paddingTop": 4,
+        },
+        {
+          "flexDirection": "row",
+        },
+        {
+          "alignSelf": "flex-start",
+        },
+        [
+          {
+            "opacity": undefined,
+          },
+          [
+            {
+              "backgroundColor": "#f0007f",
+            },
+            {
+              "marginLeft": 8,
+              "marginTop": 8,
+            },
+            undefined,
+          ],
+        ],
+      ]
+    }
+    testID="tag/tag3"
+  >
+    <Text
+      style={
+        [
+          {
+            "fontFamily": "SpaceGrotesk-light",
+          },
+          {
+            "fontSize": 12,
+          },
+          {
+            "lineHeight": 16,
+          },
+          {
+            "color": "#FFFCF9",
+          },
+        ]
+      }
+    >
+      tag3
+    </Text>
+  </View>
+</View>
+`;

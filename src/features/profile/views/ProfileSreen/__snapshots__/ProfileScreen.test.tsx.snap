@@ -591,6 +591,83 @@ exports[`ProfileScreen should renders correctly 1`] = `
               ],
             ]
           }
+          testID="profile/objectives"
+        >
+          <Text
+            style={
+              [
+                {
+                  "fontFamily": "SpaceGrotesk-Regular",
+                },
+                {
+                  "fontSize": 16,
+                },
+                {
+                  "lineHeight": 18,
+                },
+                {
+                  "flexBasis": "0%",
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                },
+              ]
+            }
+          >
+            Mes objectifs
+          </Text>
+          <Text />
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          animation="opacity"
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            [
+              {
+                "flexDirection": "row",
+              },
+              {
+                "alignItems": "center",
+              },
+              {
+                "paddingBottom": 12,
+                "paddingTop": 12,
+              },
+              [
+                {
+                  "opacity": undefined,
+                },
+                undefined,
+              ],
+            ]
+          }
           testID="profile/billing"
         >
           <Text
@@ -852,6 +929,167 @@ exports[`ProfileScreen should renders correctly 1`] = `
         >
           Déconnexion
         </Text>
+      </View>
+      <View
+        style={
+          [
+            {
+              "height": 120,
+            },
+            [
+              undefined,
+              undefined,
+            ],
+          ]
+        }
+      />
+      <View
+        onLayout={[Function]}
+        style={
+          [
+            [
+              undefined,
+              undefined,
+            ],
+          ]
+        }
+      >
+        <View
+          style={
+            [
+              {
+                "paddingLeft": 24,
+                "paddingRight": 24,
+              },
+              {
+                "paddingBottom": 16,
+                "paddingTop": 16,
+              },
+              [
+                undefined,
+                undefined,
+              ],
+            ]
+          }
+        >
+          <Text
+            style={
+              [
+                {
+                  "fontFamily": "SpaceGrotesk-Bold",
+                },
+                {
+                  "fontSize": 20,
+                },
+                {
+                  "lineHeight": 28,
+                },
+                {
+                  "textAlign": "center",
+                },
+              ]
+            }
+          >
+            Mes objectifs
+          </Text>
+          <View
+            style={
+              [
+                {
+                  "marginBottom": 24,
+                  "marginTop": 24,
+                },
+                [
+                  undefined,
+                  undefined,
+                ],
+              ]
+            }
+          >
+            <ActivityIndicator />
+          </View>
+          <View
+            style={
+              [
+                {
+                  "justifyContent": "center",
+                },
+                {
+                  "alignItems": "center",
+                },
+                [
+                  undefined,
+                  undefined,
+                ],
+              ]
+            }
+          >
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              hitSlop={5}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                [
+                  [
+                    {
+                      "opacity": undefined,
+                    },
+                    undefined,
+                  ],
+                ]
+              }
+              testID="objectives/create"
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "fontFamily": "SpaceGrotesk-Medium",
+                    },
+                    {
+                      "fontSize": 14,
+                    },
+                    {
+                      "color": "#505050",
+                    },
+                    {
+                      "textDecorationLine": "underline",
+                    },
+                  ]
+                }
+              >
+                Créer un objectif
+              </Text>
+            </View>
+          </View>
+        </View>
       </View>
     </View>
   </RCTScrollView>,

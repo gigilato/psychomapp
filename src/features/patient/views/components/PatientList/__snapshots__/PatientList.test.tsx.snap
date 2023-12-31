@@ -1,0 +1,1705 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PatientList should render correctly 1`] = `
+<RCTScrollView
+  ItemSeparatorComponent={[Function]}
+  ListEmptyComponent={
+    <React.Fragment>
+      <ErrorState
+        className="mt-xxl"
+        type="empty"
+      />
+    </React.Fragment>
+  }
+  ListFooterComponent={
+    <React.Fragment>
+      <Box
+        className="h-m"
+      />
+    </React.Fragment>
+  }
+  ListHeaderComponent={
+    <React.Fragment>
+      <Box
+        className="h-s"
+      />
+    </React.Fragment>
+  }
+  contentContainerStyle={
+    [
+      {
+        "flexGrow": 1,
+      },
+      undefined,
+    ]
+  }
+  data={
+    [
+      {
+        "birthdate": "2021-01-01",
+        "createdAt": "",
+        "firstname": "John",
+        "id": "1",
+        "lastname": "Doe",
+        "practitionnerId": "",
+        "updatedAt": "",
+      },
+      {
+        "birthdate": "2021-01-01",
+        "createdAt": "",
+        "firstname": "John",
+        "id": "2",
+        "lastname": "Doe",
+        "practitionnerId": "",
+        "updatedAt": "",
+      },
+      {
+        "birthdate": "2021-01-01",
+        "createdAt": "",
+        "firstname": "John",
+        "id": "3",
+        "lastname": "Doe",
+        "practitionnerId": "",
+        "updatedAt": "",
+      },
+      {
+        "birthdate": "2021-01-01",
+        "createdAt": "",
+        "firstname": "John",
+        "id": "4",
+        "lastname": "Doe",
+        "practitionnerId": "",
+        "updatedAt": "",
+      },
+    ]
+  }
+  getItem={[Function]}
+  getItemCount={[Function]}
+  horizontal={false}
+  keyExtractor={[Function]}
+  onContentSizeChange={[Function]}
+  onLayout={[Function]}
+  onMomentumScrollBegin={[Function]}
+  onMomentumScrollEnd={[Function]}
+  onScroll={[Function]}
+  onScrollBeginDrag={[Function]}
+  onScrollEndDrag={[Function]}
+  refreshControl={
+    <RefreshControlMock
+      refreshing={false}
+    />
+  }
+  removeClippedSubviews={false}
+  renderItem={[Function]}
+  scrollEventThrottle={50}
+  stickyHeaderIndices={[]}
+  style={
+    {
+      "backgroundColor": "#FFFCF9",
+    }
+  }
+  viewabilityConfigCallbackPairs={[]}
+>
+  <RCTRefreshControl />
+  <View>
+    <View
+      collapsable={false}
+      onLayout={[Function]}
+    >
+      <View
+        style={
+          [
+            {
+              "height": 12,
+            },
+            [
+              undefined,
+              undefined,
+            ],
+          ]
+        }
+      />
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          [
+            {
+              "backgroundColor": "#FFFCF9",
+            },
+            {
+              "shadowColor": "rgba(0, 0, 0, 0.1)",
+              "shadowOffset": {
+                "height": 2,
+                "width": 0,
+              },
+              "shadowOpacity": 1,
+              "shadowRadius": 6,
+            },
+            {
+              "shadowColor": "#D3D3D3",
+            },
+            {
+              "marginLeft": 24,
+              "marginRight": 24,
+            },
+            {
+              "paddingBottom": 12,
+              "paddingLeft": 12,
+              "paddingRight": 12,
+              "paddingTop": 12,
+            },
+            {
+              "borderBottomLeftRadius": 6,
+              "borderBottomRightRadius": 6,
+              "borderTopLeftRadius": 6,
+              "borderTopRightRadius": 6,
+            },
+            [
+              {
+                "opacity": undefined,
+              },
+              undefined,
+            ],
+          ]
+        }
+        testID=""
+      >
+        <Text
+          style={
+            [
+              {
+                "fontFamily": "SpaceGrotesk-Regular",
+              },
+              {
+                "fontSize": 16,
+              },
+              {
+                "lineHeight": 18,
+              },
+            ]
+          }
+        >
+          John Doe
+        </Text>
+      </View>
+      <View
+        style={
+          [
+            {
+              "height": 12,
+            },
+            [
+              undefined,
+              undefined,
+            ],
+          ]
+        }
+      />
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          [
+            {
+              "backgroundColor": "#FFFCF9",
+            },
+            {
+              "shadowColor": "rgba(0, 0, 0, 0.1)",
+              "shadowOffset": {
+                "height": 2,
+                "width": 0,
+              },
+              "shadowOpacity": 1,
+              "shadowRadius": 6,
+            },
+            {
+              "shadowColor": "#D3D3D3",
+            },
+            {
+              "marginLeft": 24,
+              "marginRight": 24,
+            },
+            {
+              "paddingBottom": 12,
+              "paddingLeft": 12,
+              "paddingRight": 12,
+              "paddingTop": 12,
+            },
+            {
+              "borderBottomLeftRadius": 6,
+              "borderBottomRightRadius": 6,
+              "borderTopLeftRadius": 6,
+              "borderTopRightRadius": 6,
+            },
+            [
+              {
+                "opacity": undefined,
+              },
+              undefined,
+            ],
+          ]
+        }
+        testID=""
+      >
+        <Text
+          style={
+            [
+              {
+                "fontFamily": "SpaceGrotesk-Regular",
+              },
+              {
+                "fontSize": 16,
+              },
+              {
+                "lineHeight": 18,
+              },
+            ]
+          }
+        >
+          John Doe
+        </Text>
+      </View>
+      <View
+        style={
+          [
+            {
+              "height": 12,
+            },
+            [
+              undefined,
+              undefined,
+            ],
+          ]
+        }
+      />
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          [
+            {
+              "backgroundColor": "#FFFCF9",
+            },
+            {
+              "shadowColor": "rgba(0, 0, 0, 0.1)",
+              "shadowOffset": {
+                "height": 2,
+                "width": 0,
+              },
+              "shadowOpacity": 1,
+              "shadowRadius": 6,
+            },
+            {
+              "shadowColor": "#D3D3D3",
+            },
+            {
+              "marginLeft": 24,
+              "marginRight": 24,
+            },
+            {
+              "paddingBottom": 12,
+              "paddingLeft": 12,
+              "paddingRight": 12,
+              "paddingTop": 12,
+            },
+            {
+              "borderBottomLeftRadius": 6,
+              "borderBottomRightRadius": 6,
+              "borderTopLeftRadius": 6,
+              "borderTopRightRadius": 6,
+            },
+            [
+              {
+                "opacity": undefined,
+              },
+              undefined,
+            ],
+          ]
+        }
+        testID=""
+      >
+        <Text
+          style={
+            [
+              {
+                "fontFamily": "SpaceGrotesk-Regular",
+              },
+              {
+                "fontSize": 16,
+              },
+              {
+                "lineHeight": 18,
+              },
+            ]
+          }
+        >
+          John Doe
+        </Text>
+      </View>
+      <View
+        style={
+          [
+            {
+              "height": 12,
+            },
+            [
+              undefined,
+              undefined,
+            ],
+          ]
+        }
+      />
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          [
+            {
+              "backgroundColor": "#FFFCF9",
+            },
+            {
+              "shadowColor": "rgba(0, 0, 0, 0.1)",
+              "shadowOffset": {
+                "height": 2,
+                "width": 0,
+              },
+              "shadowOpacity": 1,
+              "shadowRadius": 6,
+            },
+            {
+              "shadowColor": "#D3D3D3",
+            },
+            {
+              "marginLeft": 24,
+              "marginRight": 24,
+            },
+            {
+              "paddingBottom": 12,
+              "paddingLeft": 12,
+              "paddingRight": 12,
+              "paddingTop": 12,
+            },
+            {
+              "borderBottomLeftRadius": 6,
+              "borderBottomRightRadius": 6,
+              "borderTopLeftRadius": 6,
+              "borderTopRightRadius": 6,
+            },
+            [
+              {
+                "opacity": undefined,
+              },
+              undefined,
+            ],
+          ]
+        }
+        testID=""
+      >
+        <Text
+          style={
+            [
+              {
+                "fontFamily": "SpaceGrotesk-Regular",
+              },
+              {
+                "fontSize": 16,
+              },
+              {
+                "lineHeight": 18,
+              },
+            ]
+          }
+        >
+          John Doe
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+    >
+      <View
+        style={
+          [
+            {
+              "height": 16,
+            },
+            [
+              undefined,
+              undefined,
+            ],
+          ]
+        }
+      />
+    </View>
+  </View>
+</RCTScrollView>
+`;
+
+exports[`PatientList should render error 1`] = `
+<RCTScrollView
+  ItemSeparatorComponent={[Function]}
+  ListEmptyComponent={
+    <React.Fragment>
+      <ErrorState
+        className="mt-xxl"
+        type="empty"
+      />
+    </React.Fragment>
+  }
+  ListFooterComponent={
+    <React.Fragment>
+      <Box
+        className="h-m"
+      />
+    </React.Fragment>
+  }
+  ListHeaderComponent={
+    <React.Fragment>
+      <Box
+        className="h-s"
+      />
+    </React.Fragment>
+  }
+  contentContainerStyle={
+    [
+      {
+        "flexGrow": 1,
+      },
+      undefined,
+    ]
+  }
+  data={
+    [
+      {
+        "birthdate": "2021-01-01",
+        "createdAt": "",
+        "firstname": "John",
+        "id": "1",
+        "lastname": "Doe",
+        "practitionnerId": "",
+        "updatedAt": "",
+      },
+      {
+        "birthdate": "2021-01-01",
+        "createdAt": "",
+        "firstname": "John",
+        "id": "2",
+        "lastname": "Doe",
+        "practitionnerId": "",
+        "updatedAt": "",
+      },
+      {
+        "birthdate": "2021-01-01",
+        "createdAt": "",
+        "firstname": "John",
+        "id": "3",
+        "lastname": "Doe",
+        "practitionnerId": "",
+        "updatedAt": "",
+      },
+      {
+        "birthdate": "2021-01-01",
+        "createdAt": "",
+        "firstname": "John",
+        "id": "4",
+        "lastname": "Doe",
+        "practitionnerId": "",
+        "updatedAt": "",
+      },
+    ]
+  }
+  getItem={[Function]}
+  getItemCount={[Function]}
+  horizontal={false}
+  keyExtractor={[Function]}
+  onContentSizeChange={[Function]}
+  onLayout={[Function]}
+  onMomentumScrollBegin={[Function]}
+  onMomentumScrollEnd={[Function]}
+  onScroll={[Function]}
+  onScrollBeginDrag={[Function]}
+  onScrollEndDrag={[Function]}
+  refreshControl={
+    <RefreshControlMock
+      refreshing={false}
+    />
+  }
+  removeClippedSubviews={false}
+  renderItem={[Function]}
+  scrollEventThrottle={50}
+  stickyHeaderIndices={[]}
+  style={
+    {
+      "backgroundColor": "#FFFCF9",
+    }
+  }
+  viewabilityConfigCallbackPairs={[]}
+>
+  <RCTRefreshControl />
+  <View>
+    <View
+      collapsable={false}
+      onLayout={[Function]}
+    >
+      <View
+        style={
+          [
+            {
+              "height": 12,
+            },
+            [
+              undefined,
+              undefined,
+            ],
+          ]
+        }
+      />
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          [
+            {
+              "backgroundColor": "#FFFCF9",
+            },
+            {
+              "shadowColor": "rgba(0, 0, 0, 0.1)",
+              "shadowOffset": {
+                "height": 2,
+                "width": 0,
+              },
+              "shadowOpacity": 1,
+              "shadowRadius": 6,
+            },
+            {
+              "shadowColor": "#D3D3D3",
+            },
+            {
+              "marginLeft": 24,
+              "marginRight": 24,
+            },
+            {
+              "paddingBottom": 12,
+              "paddingLeft": 12,
+              "paddingRight": 12,
+              "paddingTop": 12,
+            },
+            {
+              "borderBottomLeftRadius": 6,
+              "borderBottomRightRadius": 6,
+              "borderTopLeftRadius": 6,
+              "borderTopRightRadius": 6,
+            },
+            [
+              {
+                "opacity": undefined,
+              },
+              undefined,
+            ],
+          ]
+        }
+        testID=""
+      >
+        <Text
+          style={
+            [
+              {
+                "fontFamily": "SpaceGrotesk-Regular",
+              },
+              {
+                "fontSize": 16,
+              },
+              {
+                "lineHeight": 18,
+              },
+            ]
+          }
+        >
+          John Doe
+        </Text>
+      </View>
+      <View
+        style={
+          [
+            {
+              "height": 12,
+            },
+            [
+              undefined,
+              undefined,
+            ],
+          ]
+        }
+      />
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          [
+            {
+              "backgroundColor": "#FFFCF9",
+            },
+            {
+              "shadowColor": "rgba(0, 0, 0, 0.1)",
+              "shadowOffset": {
+                "height": 2,
+                "width": 0,
+              },
+              "shadowOpacity": 1,
+              "shadowRadius": 6,
+            },
+            {
+              "shadowColor": "#D3D3D3",
+            },
+            {
+              "marginLeft": 24,
+              "marginRight": 24,
+            },
+            {
+              "paddingBottom": 12,
+              "paddingLeft": 12,
+              "paddingRight": 12,
+              "paddingTop": 12,
+            },
+            {
+              "borderBottomLeftRadius": 6,
+              "borderBottomRightRadius": 6,
+              "borderTopLeftRadius": 6,
+              "borderTopRightRadius": 6,
+            },
+            [
+              {
+                "opacity": undefined,
+              },
+              undefined,
+            ],
+          ]
+        }
+        testID=""
+      >
+        <Text
+          style={
+            [
+              {
+                "fontFamily": "SpaceGrotesk-Regular",
+              },
+              {
+                "fontSize": 16,
+              },
+              {
+                "lineHeight": 18,
+              },
+            ]
+          }
+        >
+          John Doe
+        </Text>
+      </View>
+      <View
+        style={
+          [
+            {
+              "height": 12,
+            },
+            [
+              undefined,
+              undefined,
+            ],
+          ]
+        }
+      />
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          [
+            {
+              "backgroundColor": "#FFFCF9",
+            },
+            {
+              "shadowColor": "rgba(0, 0, 0, 0.1)",
+              "shadowOffset": {
+                "height": 2,
+                "width": 0,
+              },
+              "shadowOpacity": 1,
+              "shadowRadius": 6,
+            },
+            {
+              "shadowColor": "#D3D3D3",
+            },
+            {
+              "marginLeft": 24,
+              "marginRight": 24,
+            },
+            {
+              "paddingBottom": 12,
+              "paddingLeft": 12,
+              "paddingRight": 12,
+              "paddingTop": 12,
+            },
+            {
+              "borderBottomLeftRadius": 6,
+              "borderBottomRightRadius": 6,
+              "borderTopLeftRadius": 6,
+              "borderTopRightRadius": 6,
+            },
+            [
+              {
+                "opacity": undefined,
+              },
+              undefined,
+            ],
+          ]
+        }
+        testID=""
+      >
+        <Text
+          style={
+            [
+              {
+                "fontFamily": "SpaceGrotesk-Regular",
+              },
+              {
+                "fontSize": 16,
+              },
+              {
+                "lineHeight": 18,
+              },
+            ]
+          }
+        >
+          John Doe
+        </Text>
+      </View>
+      <View
+        style={
+          [
+            {
+              "height": 12,
+            },
+            [
+              undefined,
+              undefined,
+            ],
+          ]
+        }
+      />
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          [
+            {
+              "backgroundColor": "#FFFCF9",
+            },
+            {
+              "shadowColor": "rgba(0, 0, 0, 0.1)",
+              "shadowOffset": {
+                "height": 2,
+                "width": 0,
+              },
+              "shadowOpacity": 1,
+              "shadowRadius": 6,
+            },
+            {
+              "shadowColor": "#D3D3D3",
+            },
+            {
+              "marginLeft": 24,
+              "marginRight": 24,
+            },
+            {
+              "paddingBottom": 12,
+              "paddingLeft": 12,
+              "paddingRight": 12,
+              "paddingTop": 12,
+            },
+            {
+              "borderBottomLeftRadius": 6,
+              "borderBottomRightRadius": 6,
+              "borderTopLeftRadius": 6,
+              "borderTopRightRadius": 6,
+            },
+            [
+              {
+                "opacity": undefined,
+              },
+              undefined,
+            ],
+          ]
+        }
+        testID=""
+      >
+        <Text
+          style={
+            [
+              {
+                "fontFamily": "SpaceGrotesk-Regular",
+              },
+              {
+                "fontSize": 16,
+              },
+              {
+                "lineHeight": 18,
+              },
+            ]
+          }
+        >
+          John Doe
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+    >
+      <View
+        style={
+          [
+            {
+              "height": 16,
+            },
+            [
+              undefined,
+              undefined,
+            ],
+          ]
+        }
+      />
+    </View>
+  </View>
+</RCTScrollView>
+`;
+
+exports[`PatientList should render loading 1`] = `
+<RCTScrollView
+  ItemSeparatorComponent={[Function]}
+  ListEmptyComponent={
+    <React.Fragment>
+      <ErrorState
+        className="mt-xxl"
+        type="empty"
+      />
+    </React.Fragment>
+  }
+  ListFooterComponent={
+    <React.Fragment>
+      <Box
+        className="h-m"
+      />
+    </React.Fragment>
+  }
+  ListHeaderComponent={
+    <React.Fragment>
+      <Box
+        className="h-s"
+      />
+    </React.Fragment>
+  }
+  contentContainerStyle={
+    [
+      {
+        "flexGrow": 1,
+      },
+      undefined,
+    ]
+  }
+  data={
+    [
+      {
+        "birthdate": "2021-01-01",
+        "createdAt": "",
+        "firstname": "John",
+        "id": "1",
+        "lastname": "Doe",
+        "practitionnerId": "",
+        "updatedAt": "",
+      },
+      {
+        "birthdate": "2021-01-01",
+        "createdAt": "",
+        "firstname": "John",
+        "id": "2",
+        "lastname": "Doe",
+        "practitionnerId": "",
+        "updatedAt": "",
+      },
+      {
+        "birthdate": "2021-01-01",
+        "createdAt": "",
+        "firstname": "John",
+        "id": "3",
+        "lastname": "Doe",
+        "practitionnerId": "",
+        "updatedAt": "",
+      },
+      {
+        "birthdate": "2021-01-01",
+        "createdAt": "",
+        "firstname": "John",
+        "id": "4",
+        "lastname": "Doe",
+        "practitionnerId": "",
+        "updatedAt": "",
+      },
+    ]
+  }
+  getItem={[Function]}
+  getItemCount={[Function]}
+  horizontal={false}
+  keyExtractor={[Function]}
+  onContentSizeChange={[Function]}
+  onLayout={[Function]}
+  onMomentumScrollBegin={[Function]}
+  onMomentumScrollEnd={[Function]}
+  onScroll={[Function]}
+  onScrollBeginDrag={[Function]}
+  onScrollEndDrag={[Function]}
+  refreshControl={
+    <RefreshControlMock
+      refreshing={false}
+    />
+  }
+  removeClippedSubviews={false}
+  renderItem={[Function]}
+  scrollEventThrottle={50}
+  stickyHeaderIndices={[]}
+  style={
+    {
+      "backgroundColor": "#FFFCF9",
+    }
+  }
+  viewabilityConfigCallbackPairs={[]}
+>
+  <RCTRefreshControl />
+  <View>
+    <View
+      collapsable={false}
+      onLayout={[Function]}
+    >
+      <View
+        style={
+          [
+            {
+              "height": 12,
+            },
+            [
+              undefined,
+              undefined,
+            ],
+          ]
+        }
+      />
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          [
+            {
+              "backgroundColor": "#FFFCF9",
+            },
+            {
+              "shadowColor": "rgba(0, 0, 0, 0.1)",
+              "shadowOffset": {
+                "height": 2,
+                "width": 0,
+              },
+              "shadowOpacity": 1,
+              "shadowRadius": 6,
+            },
+            {
+              "shadowColor": "#D3D3D3",
+            },
+            {
+              "marginLeft": 24,
+              "marginRight": 24,
+            },
+            {
+              "paddingBottom": 12,
+              "paddingLeft": 12,
+              "paddingRight": 12,
+              "paddingTop": 12,
+            },
+            {
+              "borderBottomLeftRadius": 6,
+              "borderBottomRightRadius": 6,
+              "borderTopLeftRadius": 6,
+              "borderTopRightRadius": 6,
+            },
+            [
+              {
+                "opacity": undefined,
+              },
+              undefined,
+            ],
+          ]
+        }
+        testID=""
+      >
+        <Text
+          style={
+            [
+              {
+                "fontFamily": "SpaceGrotesk-Regular",
+              },
+              {
+                "fontSize": 16,
+              },
+              {
+                "lineHeight": 18,
+              },
+            ]
+          }
+        >
+          John Doe
+        </Text>
+      </View>
+      <View
+        style={
+          [
+            {
+              "height": 12,
+            },
+            [
+              undefined,
+              undefined,
+            ],
+          ]
+        }
+      />
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          [
+            {
+              "backgroundColor": "#FFFCF9",
+            },
+            {
+              "shadowColor": "rgba(0, 0, 0, 0.1)",
+              "shadowOffset": {
+                "height": 2,
+                "width": 0,
+              },
+              "shadowOpacity": 1,
+              "shadowRadius": 6,
+            },
+            {
+              "shadowColor": "#D3D3D3",
+            },
+            {
+              "marginLeft": 24,
+              "marginRight": 24,
+            },
+            {
+              "paddingBottom": 12,
+              "paddingLeft": 12,
+              "paddingRight": 12,
+              "paddingTop": 12,
+            },
+            {
+              "borderBottomLeftRadius": 6,
+              "borderBottomRightRadius": 6,
+              "borderTopLeftRadius": 6,
+              "borderTopRightRadius": 6,
+            },
+            [
+              {
+                "opacity": undefined,
+              },
+              undefined,
+            ],
+          ]
+        }
+        testID=""
+      >
+        <Text
+          style={
+            [
+              {
+                "fontFamily": "SpaceGrotesk-Regular",
+              },
+              {
+                "fontSize": 16,
+              },
+              {
+                "lineHeight": 18,
+              },
+            ]
+          }
+        >
+          John Doe
+        </Text>
+      </View>
+      <View
+        style={
+          [
+            {
+              "height": 12,
+            },
+            [
+              undefined,
+              undefined,
+            ],
+          ]
+        }
+      />
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          [
+            {
+              "backgroundColor": "#FFFCF9",
+            },
+            {
+              "shadowColor": "rgba(0, 0, 0, 0.1)",
+              "shadowOffset": {
+                "height": 2,
+                "width": 0,
+              },
+              "shadowOpacity": 1,
+              "shadowRadius": 6,
+            },
+            {
+              "shadowColor": "#D3D3D3",
+            },
+            {
+              "marginLeft": 24,
+              "marginRight": 24,
+            },
+            {
+              "paddingBottom": 12,
+              "paddingLeft": 12,
+              "paddingRight": 12,
+              "paddingTop": 12,
+            },
+            {
+              "borderBottomLeftRadius": 6,
+              "borderBottomRightRadius": 6,
+              "borderTopLeftRadius": 6,
+              "borderTopRightRadius": 6,
+            },
+            [
+              {
+                "opacity": undefined,
+              },
+              undefined,
+            ],
+          ]
+        }
+        testID=""
+      >
+        <Text
+          style={
+            [
+              {
+                "fontFamily": "SpaceGrotesk-Regular",
+              },
+              {
+                "fontSize": 16,
+              },
+              {
+                "lineHeight": 18,
+              },
+            ]
+          }
+        >
+          John Doe
+        </Text>
+      </View>
+      <View
+        style={
+          [
+            {
+              "height": 12,
+            },
+            [
+              undefined,
+              undefined,
+            ],
+          ]
+        }
+      />
+    </View>
+    <View
+      onFocusCapture={[Function]}
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          [
+            {
+              "backgroundColor": "#FFFCF9",
+            },
+            {
+              "shadowColor": "rgba(0, 0, 0, 0.1)",
+              "shadowOffset": {
+                "height": 2,
+                "width": 0,
+              },
+              "shadowOpacity": 1,
+              "shadowRadius": 6,
+            },
+            {
+              "shadowColor": "#D3D3D3",
+            },
+            {
+              "marginLeft": 24,
+              "marginRight": 24,
+            },
+            {
+              "paddingBottom": 12,
+              "paddingLeft": 12,
+              "paddingRight": 12,
+              "paddingTop": 12,
+            },
+            {
+              "borderBottomLeftRadius": 6,
+              "borderBottomRightRadius": 6,
+              "borderTopLeftRadius": 6,
+              "borderTopRightRadius": 6,
+            },
+            [
+              {
+                "opacity": undefined,
+              },
+              undefined,
+            ],
+          ]
+        }
+        testID=""
+      >
+        <Text
+          style={
+            [
+              {
+                "fontFamily": "SpaceGrotesk-Regular",
+              },
+              {
+                "fontSize": 16,
+              },
+              {
+                "lineHeight": 18,
+              },
+            ]
+          }
+        >
+          John Doe
+        </Text>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+    >
+      <View
+        style={
+          [
+            {
+              "height": 16,
+            },
+            [
+              undefined,
+              undefined,
+            ],
+          ]
+        }
+      />
+    </View>
+  </View>
+</RCTScrollView>
+`;

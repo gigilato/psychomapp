@@ -1,7 +1,10 @@
+import { BottomSheetModal } from '@gorhom/bottom-sheet'
+import { useRef } from 'react'
 import { Alert } from 'react-native'
 
 import { Box, KeyboardAvoidingView, Separator, Text } from '$atoms'
 import { config } from '$config'
+import { ObjectiveBottomSheet } from '$features/objective/views'
 import { signOutAsync, useAuthStore } from '$infra/auth'
 import { i18n } from '$infra/i18n'
 import { Header } from '$views/navigation'
@@ -10,6 +13,7 @@ import { ProfileSetting } from './components'
 
 export const ProfileScreen = () => {
   const { firstname, lastname, job, gender, email } = useAuthStore((state) => state.profile!)
+  const objectivesRef = useRef<BottomSheetModal>(null)
   return (
     <KeyboardAvoidingView>
       <Header className="items-center justify-center">
@@ -34,8 +38,9 @@ export const ProfileScreen = () => {
         <ProfileSetting ID="profile/test" content={i18n.t('settings.tests')} type="navigation" />
         <ProfileSetting
           ID="profile/objectives"
-          content={i18n.t('settings.objectives')}
+          content={i18n.t('objectives.title')}
           type="navigation"
+          onPress={() => objectivesRef.current?.present()}
         />
         <ProfileSetting
           ID="profile/billing"
@@ -72,6 +77,7 @@ export const ProfileScreen = () => {
         className="px-l"
       />
       <Box className="h-[120]" />
+      <ObjectiveBottomSheet ref={objectivesRef} />
     </KeyboardAvoidingView>
   )
 }

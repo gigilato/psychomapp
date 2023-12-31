@@ -2,6 +2,7 @@ import 'intl-pluralrules'
 import 'react-native-url-polyfill/auto'
 
 import { Toasts } from '@backpackapp-io/react-native-toast'
+import { BottomSheetModalProvider } from '@gorhom/bottom-sheet'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { SplashScreen, Stack } from 'expo-router'
 import { StatusBar } from 'expo-status-bar'
@@ -31,9 +32,11 @@ export default function AppLayout() {
     <QueryClientProvider client={queryClient}>
       <SafeAreaProvider>
         <KeyboardProvider>
-          <Stack screenOptions={{ headerShown: false }} />
-          <StatusBar style="light" />
-          <Toasts />
+          <BottomSheetModalProvider>
+            <Stack screenOptions={{ headerShown: false }} />
+            <StatusBar style="light" />
+            <Toasts />
+          </BottomSheetModalProvider>
         </KeyboardProvider>
       </SafeAreaProvider>
     </QueryClientProvider>

@@ -9,7 +9,7 @@ import { BottomSheetBackgroundProps } from './BottomSheetBackground.props'
 export const BottomSheetBackground = memo<BottomSheetBackgroundProps>(({ className, ...props }) => {
   return (
     <Box
-      className={clsx('bg-white overflow-hidden rounded-t-l', className)}
+      className={clsx('bg-white-classic overflow-hidden rounded-t-l', className)}
       style={StyleSheet.absoluteFill}
       {...props}
     />

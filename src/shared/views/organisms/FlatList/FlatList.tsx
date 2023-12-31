@@ -30,7 +30,7 @@ export const FlatList: <T>(props: IFlatListProps<T>) => ReactNode = memo(
       isLoadingMore ? () => <ActivityIndicator /> : <Box className={horizontal ? 'w-l' : 'h-m'} />,
     renderSeparator = () => <Box className={horizontal ? 'w-s' : 'h-s'} />,
     error,
-    errorClassName,
+    errorClassName = 'mt-xxl',
     renderEmpty = () => <ErrorState type="empty" className={errorClassName} />,
     renderError = () => <ErrorState className={errorClassName} />,
     contentContainerStyle,

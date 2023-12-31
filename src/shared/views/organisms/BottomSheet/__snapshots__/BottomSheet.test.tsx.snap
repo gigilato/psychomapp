@@ -3,6 +3,14 @@
 exports[`BottomSheet renders correctly 1`] = `
 <View
   onLayout={[Function]}
+  style={
+    [
+      [
+        undefined,
+        undefined,
+      ],
+    ]
+  }
 >
   <View
     style={
@@ -16,6 +24,10 @@ exports[`BottomSheet renders correctly 1`] = `
         {
           "height": 40,
         },
+        [
+          undefined,
+          undefined,
+        ],
       ]
     }
   >
@@ -23,10 +35,10 @@ exports[`BottomSheet renders correctly 1`] = `
       style={
         [
           {
-            "fontFamily": "HKGrotesk",
+            "fontFamily": "SpaceGrotesk-Regular",
           },
           {
-            "fontSize": 14,
+            "fontSize": 16,
           },
           {
             "lineHeight": 18,
@@ -43,6 +55,14 @@ exports[`BottomSheet renders correctly 1`] = `
 exports[`BottomSheet renders with multiple snap points 1`] = `
 <View
   onLayout={[Function]}
+  style={
+    [
+      [
+        undefined,
+        undefined,
+      ],
+    ]
+  }
 >
   <View
     style={
@@ -56,6 +76,10 @@ exports[`BottomSheet renders with multiple snap points 1`] = `
         {
           "height": 40,
         },
+        [
+          undefined,
+          undefined,
+        ],
       ]
     }
   >
@@ -63,10 +87,10 @@ exports[`BottomSheet renders with multiple snap points 1`] = `
       style={
         [
           {
-            "fontFamily": "HKGrotesk",
+            "fontFamily": "SpaceGrotesk-Regular",
           },
           {
-            "fontSize": 14,
+            "fontSize": 16,
           },
           {
             "lineHeight": 18,
@@ -83,6 +107,14 @@ exports[`BottomSheet renders with multiple snap points 1`] = `
 exports[`BottomSheet renders without dynamic snap 1`] = `
 <View
   onLayout={[Function]}
+  style={
+    [
+      [
+        undefined,
+        undefined,
+      ],
+    ]
+  }
 >
   <View
     style={
@@ -96,6 +128,10 @@ exports[`BottomSheet renders without dynamic snap 1`] = `
         {
           "height": 40,
         },
+        [
+          undefined,
+          undefined,
+        ],
       ]
     }
   >
@@ -103,10 +139,10 @@ exports[`BottomSheet renders without dynamic snap 1`] = `
       style={
         [
           {
-            "fontFamily": "HKGrotesk",
+            "fontFamily": "SpaceGrotesk-Regular",
           },
           {
-            "fontSize": 14,
+            "fontSize": 16,
           },
           {
             "lineHeight": 18,

@@ -70,8 +70,11 @@ jest.mock('@shopify/react-native-skia', () => {
         }),
       },
     },
+    vec: jest.fn(),
     Canvas: View,
     Path: View,
+    LinearGradient: View,
+    Rect: View,
   }
 })
 
@@ -134,6 +137,11 @@ function MockSkeleton({ children }) {
 }
 MockSkeleton.Group = ({ children }) => <>{children}</>
 jest.mock('moti/skeleton', () => ({ Skeleton: MockSkeleton }))
+
+jest.mock('@gorhom/bottom-sheet', () => ({
+  __esModule: true,
+  ...require('@gorhom/bottom-sheet/mock'),
+}))
 
 global.console = {
   ...console,

@@ -6,10 +6,6 @@ import { EquipmentScreen } from './EquipmentScreen'
 
 describe('EquipmentScreen', () => {
   it('should render correctly', () => {
-    render(
-      <QueryWrapper>
-        <EquipmentScreen />
-      </QueryWrapper>
-    )
+    render(<EquipmentScreen />, { wrapper: QueryWrapper })
   })
 })

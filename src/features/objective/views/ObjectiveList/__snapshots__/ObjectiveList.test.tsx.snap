@@ -1,0 +1,491 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ObjectiveList should render correctly 1`] = `
+<View
+  style={
+    [
+      [
+        undefined,
+        undefined,
+      ],
+    ]
+  }
+>
+  <View
+    style={
+      [
+        {
+          "flexDirection": "row",
+        },
+        {
+          "flexWrap": "wrap",
+        },
+        [
+          undefined,
+          [
+            {
+              "marginLeft": -8,
+              "marginTop": -8,
+            },
+            undefined,
+          ],
+        ],
+      ]
+    }
+  >
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": true,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        [
+          {
+            "borderBottomLeftRadius": 9999,
+            "borderBottomRightRadius": 9999,
+            "borderTopLeftRadius": 9999,
+            "borderTopRightRadius": 9999,
+          },
+          {
+            "paddingBottom": 4,
+            "paddingLeft": 4,
+            "paddingRight": 4,
+            "paddingTop": 4,
+          },
+          {
+            "flexDirection": "row",
+          },
+          {
+            "alignSelf": "flex-start",
+          },
+          [
+            {
+              "opacity": undefined,
+            },
+            [
+              {
+                "backgroundColor": "#1fff00",
+              },
+              {
+                "marginLeft": 8,
+                "marginTop": 8,
+              },
+              undefined,
+            ],
+          ],
+        ]
+      }
+      testID="tag/Obj1"
+    >
+      <Text
+        style={
+          [
+            {
+              "fontFamily": "SpaceGrotesk-light",
+            },
+            {
+              "fontSize": 12,
+            },
+            {
+              "lineHeight": 16,
+            },
+            {
+              "color": "#FFFCF9",
+            },
+          ]
+        }
+      >
+        Obj1
+      </Text>
+    </View>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": true,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        [
+          {
+            "borderBottomLeftRadius": 9999,
+            "borderBottomRightRadius": 9999,
+            "borderTopLeftRadius": 9999,
+            "borderTopRightRadius": 9999,
+          },
+          {
+            "paddingBottom": 4,
+            "paddingLeft": 4,
+            "paddingRight": 4,
+            "paddingTop": 4,
+          },
+          {
+            "flexDirection": "row",
+          },
+          {
+            "alignSelf": "flex-start",
+          },
+          [
+            {
+              "opacity": undefined,
+            },
+            [
+              {
+                "backgroundColor": "#ff3f00",
+              },
+              {
+                "marginLeft": 8,
+                "marginTop": 8,
+              },
+              undefined,
+            ],
+          ],
+        ]
+      }
+      testID="tag/Obj2"
+    >
+      <Text
+        style={
+          [
+            {
+              "fontFamily": "SpaceGrotesk-light",
+            },
+            {
+              "fontSize": 12,
+            },
+            {
+              "lineHeight": 16,
+            },
+            {
+              "color": "#FFFCF9",
+            },
+          ]
+        }
+      >
+        Obj2
+      </Text>
+    </View>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": true,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        [
+          {
+            "borderBottomLeftRadius": 9999,
+            "borderBottomRightRadius": 9999,
+            "borderTopLeftRadius": 9999,
+            "borderTopRightRadius": 9999,
+          },
+          {
+            "paddingBottom": 4,
+            "paddingLeft": 4,
+            "paddingRight": 4,
+            "paddingTop": 4,
+          },
+          {
+            "flexDirection": "row",
+          },
+          {
+            "alignSelf": "flex-start",
+          },
+          [
+            {
+              "opacity": undefined,
+            },
+            [
+              {
+                "backgroundColor": "#ffff00",
+              },
+              {
+                "marginLeft": 8,
+                "marginTop": 8,
+              },
+              undefined,
+            ],
+          ],
+        ]
+      }
+      testID="tag/Obj3"
+    >
+      <Text
+        style={
+          [
+            {
+              "fontFamily": "SpaceGrotesk-light",
+            },
+            {
+              "fontSize": 12,
+            },
+            {
+              "lineHeight": 16,
+            },
+            {
+              "color": "#FFFCF9",
+            },
+          ]
+        }
+      >
+        Obj3
+      </Text>
+    </View>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": true,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        [
+          {
+            "borderBottomLeftRadius": 9999,
+            "borderBottomRightRadius": 9999,
+            "borderTopLeftRadius": 9999,
+            "borderTopRightRadius": 9999,
+          },
+          {
+            "paddingBottom": 4,
+            "paddingLeft": 4,
+            "paddingRight": 4,
+            "paddingTop": 4,
+          },
+          {
+            "flexDirection": "row",
+          },
+          {
+            "alignSelf": "flex-start",
+          },
+          [
+            {
+              "opacity": undefined,
+            },
+            [
+              {
+                "backgroundColor": "#100f50",
+              },
+              {
+                "marginLeft": 8,
+                "marginTop": 8,
+              },
+              undefined,
+            ],
+          ],
+        ]
+      }
+      testID="tag/Obj4"
+    >
+      <Text
+        style={
+          [
+            {
+              "fontFamily": "SpaceGrotesk-light",
+            },
+            {
+              "fontSize": 12,
+            },
+            {
+              "lineHeight": 16,
+            },
+            {
+              "color": "#FFFCF9",
+            },
+          ]
+        }
+      >
+        Obj4
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`ObjectiveList should render error 1`] = `
+<View
+  style={
+    [
+      [
+        undefined,
+        undefined,
+      ],
+    ]
+  }
+>
+  <View
+    style={
+      [
+        {
+          "justifyContent": "center",
+        },
+        {
+          "alignItems": "center",
+        },
+        {
+          "alignSelf": "center",
+        },
+        [
+          undefined,
+          undefined,
+        ],
+      ]
+    }
+  >
+    <ViewManagerAdapter_ExpoImage
+      contentFit="contain"
+      contentPosition={
+        {
+          "left": "50%",
+          "top": "50%",
+        }
+      }
+      height={100}
+      onError={[Function]}
+      onLoad={[Function]}
+      onLoadStart={[Function]}
+      onProgress={[Function]}
+      placeholder={[]}
+      source={[]}
+      style={
+        {
+          "height": 100,
+          "width": 100,
+        }
+      }
+      transition={null}
+      width={100}
+    />
+    <Text
+      style={
+        [
+          {
+            "fontFamily": "SpaceGrotesk-Regular",
+          },
+          {
+            "fontSize": 16,
+          },
+          {
+            "lineHeight": 18,
+          },
+          {
+            "marginTop": 24,
+          },
+        ]
+      }
+    >
+      Une erreur s'est produite
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`ObjectiveList should render loading 1`] = `
+<View
+  style={
+    [
+      [
+        undefined,
+        undefined,
+      ],
+    ]
+  }
+>
+  <ActivityIndicator />
+</View>
+`;

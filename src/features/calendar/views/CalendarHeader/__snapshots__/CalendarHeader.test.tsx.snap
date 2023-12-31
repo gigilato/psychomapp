@@ -1,0 +1,1061 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CalendarHeader should render correctly 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "#FFFCF9",
+      },
+      {
+        "shadowColor": "rgba(0, 0, 0, 0.1)",
+        "shadowOffset": {
+          "height": 2,
+          "width": 0,
+        },
+        "shadowOpacity": 1,
+        "shadowRadius": 6,
+      },
+      {
+        "shadowColor": "#D3D3D3",
+      },
+      {
+        "borderBottomLeftRadius": 48,
+        "borderBottomRightRadius": 48,
+      },
+      {
+        "marginBottom": 8,
+      },
+      [
+        undefined,
+        {
+          "height": 250,
+        },
+      ],
+    ]
+  }
+>
+  <View
+    style={
+      [
+        {
+          "borderBottomLeftRadius": 48,
+          "borderBottomRightRadius": 48,
+        },
+        {
+          "overflow": "hidden",
+        },
+        [
+          undefined,
+          {
+            "height": 250,
+          },
+        ],
+      ]
+    }
+  >
+    <View
+      style={
+        {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+    >
+      <View
+        height={250}
+        width={750}
+        x={0}
+        y={0}
+      >
+        <View
+          colors={
+            [
+              "#BB99DD",
+              "#D8BFD8",
+            ]
+          }
+        />
+      </View>
+    </View>
+    <View
+      style={
+        [
+          {
+            "flexBasis": "0%",
+            "flexGrow": 1,
+            "flexShrink": 1,
+          },
+          {
+            "paddingLeft": 24,
+            "paddingRight": 24,
+          },
+          [
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+    >
+      <View
+        style={
+          [
+            {
+              "flexDirection": "row",
+            },
+            {
+              "justifyContent": "space-between",
+            },
+            {
+              "alignItems": "center",
+            },
+            [
+              undefined,
+              {
+                "paddingTop": 28,
+              },
+            ],
+          ]
+        }
+      >
+        <Text
+          style={
+            [
+              {
+                "fontFamily": "SpaceGrotesk-Bold",
+              },
+              {
+                "fontSize": 34,
+              },
+              {
+                "lineHeight": 42,
+              },
+              {
+                "color": "#FFFCF9",
+              },
+            ]
+          }
+        >
+          Décembre
+        </Text>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          hitSlop={5}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            [
+              [
+                {
+                  "opacity": undefined,
+                },
+                undefined,
+              ],
+            ]
+          }
+          testID=""
+        >
+          <Text />
+        </View>
+      </View>
+      <View
+        style={
+          [
+            {
+              "flexDirection": "row",
+            },
+            {
+              "alignItems": "center",
+            },
+            {
+              "flexBasis": "0%",
+              "flexGrow": 1,
+              "flexShrink": 1,
+            },
+            [
+              undefined,
+              undefined,
+            ],
+          ]
+        }
+      >
+        <View
+          style={
+            [
+              {
+                "justifyContent": "center",
+              },
+              {
+                "alignItems": "center",
+              },
+              {
+                "flexBasis": "0%",
+                "flexGrow": 1,
+                "flexShrink": 1,
+              },
+              [
+                undefined,
+                undefined,
+              ],
+            ]
+          }
+        >
+          <Text
+            style={
+              [
+                {
+                  "fontFamily": "SpaceGrotesk-Regular",
+                },
+                {
+                  "fontSize": 16,
+                },
+                {
+                  "lineHeight": 18,
+                },
+                {
+                  "color": "#FFFCF9",
+                },
+              ]
+            }
+          >
+            lu.
+          </Text>
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              [
+                {
+                  "paddingBottom": 12,
+                  "paddingLeft": 12,
+                  "paddingRight": 12,
+                  "paddingTop": 12,
+                },
+                {
+                  "borderBottomLeftRadius": 9999,
+                  "borderBottomRightRadius": 9999,
+                  "borderTopLeftRadius": 9999,
+                  "borderTopRightRadius": 9999,
+                },
+                {
+                  "marginTop": 12,
+                },
+                [
+                  {
+                    "opacity": undefined,
+                  },
+                  undefined,
+                ],
+              ]
+            }
+            testID=""
+          >
+            <Text
+              style={
+                [
+                  {
+                    "fontFamily": "SpaceGrotesk-Bold",
+                  },
+                  {
+                    "fontSize": 16,
+                  },
+                  {
+                    "lineHeight": 18,
+                  },
+                  {
+                    "color": "#FFFCF9",
+                  },
+                ]
+              }
+            >
+              25
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            [
+              {
+                "justifyContent": "center",
+              },
+              {
+                "alignItems": "center",
+              },
+              {
+                "flexBasis": "0%",
+                "flexGrow": 1,
+                "flexShrink": 1,
+              },
+              [
+                undefined,
+                undefined,
+              ],
+            ]
+          }
+        >
+          <Text
+            style={
+              [
+                {
+                  "fontFamily": "SpaceGrotesk-Regular",
+                },
+                {
+                  "fontSize": 16,
+                },
+                {
+                  "lineHeight": 18,
+                },
+                {
+                  "color": "#FFFCF9",
+                },
+              ]
+            }
+          >
+            ma.
+          </Text>
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              [
+                {
+                  "paddingBottom": 12,
+                  "paddingLeft": 12,
+                  "paddingRight": 12,
+                  "paddingTop": 12,
+                },
+                {
+                  "borderBottomLeftRadius": 9999,
+                  "borderBottomRightRadius": 9999,
+                  "borderTopLeftRadius": 9999,
+                  "borderTopRightRadius": 9999,
+                },
+                {
+                  "marginTop": 12,
+                },
+                [
+                  {
+                    "opacity": undefined,
+                  },
+                  undefined,
+                ],
+              ]
+            }
+            testID=""
+          >
+            <Text
+              style={
+                [
+                  {
+                    "fontFamily": "SpaceGrotesk-Bold",
+                  },
+                  {
+                    "fontSize": 16,
+                  },
+                  {
+                    "lineHeight": 18,
+                  },
+                  {
+                    "color": "#FFFCF9",
+                  },
+                ]
+              }
+            >
+              26
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            [
+              {
+                "justifyContent": "center",
+              },
+              {
+                "alignItems": "center",
+              },
+              {
+                "flexBasis": "0%",
+                "flexGrow": 1,
+                "flexShrink": 1,
+              },
+              [
+                undefined,
+                undefined,
+              ],
+            ]
+          }
+        >
+          <Text
+            style={
+              [
+                {
+                  "fontFamily": "SpaceGrotesk-Regular",
+                },
+                {
+                  "fontSize": 16,
+                },
+                {
+                  "lineHeight": 18,
+                },
+                {
+                  "color": "#FFFCF9",
+                },
+              ]
+            }
+          >
+            me.
+          </Text>
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              [
+                {
+                  "paddingBottom": 12,
+                  "paddingLeft": 12,
+                  "paddingRight": 12,
+                  "paddingTop": 12,
+                },
+                {
+                  "borderBottomLeftRadius": 9999,
+                  "borderBottomRightRadius": 9999,
+                  "borderTopLeftRadius": 9999,
+                  "borderTopRightRadius": 9999,
+                },
+                {
+                  "marginTop": 12,
+                },
+                [
+                  {
+                    "opacity": undefined,
+                  },
+                  undefined,
+                ],
+              ]
+            }
+            testID=""
+          >
+            <Text
+              style={
+                [
+                  {
+                    "fontFamily": "SpaceGrotesk-Bold",
+                  },
+                  {
+                    "fontSize": 16,
+                  },
+                  {
+                    "lineHeight": 18,
+                  },
+                  {
+                    "color": "#FFFCF9",
+                  },
+                ]
+              }
+            >
+              27
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            [
+              {
+                "justifyContent": "center",
+              },
+              {
+                "alignItems": "center",
+              },
+              {
+                "flexBasis": "0%",
+                "flexGrow": 1,
+                "flexShrink": 1,
+              },
+              [
+                undefined,
+                undefined,
+              ],
+            ]
+          }
+        >
+          <Text
+            style={
+              [
+                {
+                  "fontFamily": "SpaceGrotesk-Regular",
+                },
+                {
+                  "fontSize": 16,
+                },
+                {
+                  "lineHeight": 18,
+                },
+                {
+                  "color": "#FFFCF9",
+                },
+              ]
+            }
+          >
+            je.
+          </Text>
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              [
+                {
+                  "paddingBottom": 12,
+                  "paddingLeft": 12,
+                  "paddingRight": 12,
+                  "paddingTop": 12,
+                },
+                {
+                  "borderBottomLeftRadius": 9999,
+                  "borderBottomRightRadius": 9999,
+                  "borderTopLeftRadius": 9999,
+                  "borderTopRightRadius": 9999,
+                },
+                {
+                  "marginTop": 12,
+                },
+                [
+                  {
+                    "opacity": undefined,
+                  },
+                  undefined,
+                ],
+              ]
+            }
+            testID=""
+          >
+            <Text
+              style={
+                [
+                  {
+                    "fontFamily": "SpaceGrotesk-Bold",
+                  },
+                  {
+                    "fontSize": 16,
+                  },
+                  {
+                    "lineHeight": 18,
+                  },
+                  {
+                    "color": "#FFFCF9",
+                  },
+                ]
+              }
+            >
+              28
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            [
+              {
+                "justifyContent": "center",
+              },
+              {
+                "alignItems": "center",
+              },
+              {
+                "flexBasis": "0%",
+                "flexGrow": 1,
+                "flexShrink": 1,
+              },
+              [
+                undefined,
+                undefined,
+              ],
+            ]
+          }
+        >
+          <Text
+            style={
+              [
+                {
+                  "fontFamily": "SpaceGrotesk-Regular",
+                },
+                {
+                  "fontSize": 16,
+                },
+                {
+                  "lineHeight": 18,
+                },
+                {
+                  "color": "#FFFCF9",
+                },
+              ]
+            }
+          >
+            ve.
+          </Text>
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              [
+                {
+                  "paddingBottom": 12,
+                  "paddingLeft": 12,
+                  "paddingRight": 12,
+                  "paddingTop": 12,
+                },
+                {
+                  "borderBottomLeftRadius": 9999,
+                  "borderBottomRightRadius": 9999,
+                  "borderTopLeftRadius": 9999,
+                  "borderTopRightRadius": 9999,
+                },
+                {
+                  "marginTop": 12,
+                },
+                [
+                  {
+                    "opacity": undefined,
+                  },
+                  undefined,
+                ],
+              ]
+            }
+            testID=""
+          >
+            <Text
+              style={
+                [
+                  {
+                    "fontFamily": "SpaceGrotesk-Bold",
+                  },
+                  {
+                    "fontSize": 16,
+                  },
+                  {
+                    "lineHeight": 18,
+                  },
+                  {
+                    "color": "#FFFCF9",
+                  },
+                ]
+              }
+            >
+              29
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            [
+              {
+                "justifyContent": "center",
+              },
+              {
+                "alignItems": "center",
+              },
+              {
+                "flexBasis": "0%",
+                "flexGrow": 1,
+                "flexShrink": 1,
+              },
+              [
+                undefined,
+                undefined,
+              ],
+            ]
+          }
+        >
+          <Text
+            style={
+              [
+                {
+                  "fontFamily": "SpaceGrotesk-Regular",
+                },
+                {
+                  "fontSize": 16,
+                },
+                {
+                  "lineHeight": 18,
+                },
+                {
+                  "color": "#FFFCF9",
+                },
+              ]
+            }
+          >
+            sa.
+          </Text>
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              [
+                {
+                  "paddingBottom": 12,
+                  "paddingLeft": 12,
+                  "paddingRight": 12,
+                  "paddingTop": 12,
+                },
+                {
+                  "borderBottomLeftRadius": 9999,
+                  "borderBottomRightRadius": 9999,
+                  "borderTopLeftRadius": 9999,
+                  "borderTopRightRadius": 9999,
+                },
+                {
+                  "marginTop": 12,
+                },
+                [
+                  {
+                    "opacity": undefined,
+                  },
+                  undefined,
+                ],
+              ]
+            }
+            testID=""
+          >
+            <Text
+              style={
+                [
+                  {
+                    "fontFamily": "SpaceGrotesk-Bold",
+                  },
+                  {
+                    "fontSize": 16,
+                  },
+                  {
+                    "lineHeight": 18,
+                  },
+                  {
+                    "color": "#FFFCF9",
+                  },
+                ]
+              }
+            >
+              30
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            [
+              {
+                "justifyContent": "center",
+              },
+              {
+                "alignItems": "center",
+              },
+              {
+                "flexBasis": "0%",
+                "flexGrow": 1,
+                "flexShrink": 1,
+              },
+              [
+                undefined,
+                undefined,
+              ],
+            ]
+          }
+        >
+          <Text
+            style={
+              [
+                {
+                  "fontFamily": "SpaceGrotesk-Regular",
+                },
+                {
+                  "fontSize": 16,
+                },
+                {
+                  "lineHeight": 18,
+                },
+                {
+                  "color": "#FFFCF9",
+                },
+              ]
+            }
+          >
+            di.
+          </Text>
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              [
+                {
+                  "paddingBottom": 12,
+                  "paddingLeft": 12,
+                  "paddingRight": 12,
+                  "paddingTop": 12,
+                },
+                {
+                  "borderBottomLeftRadius": 9999,
+                  "borderBottomRightRadius": 9999,
+                  "borderTopLeftRadius": 9999,
+                  "borderTopRightRadius": 9999,
+                },
+                {
+                  "marginTop": 12,
+                },
+                {
+                  "backgroundColor": "#FFFCF9",
+                },
+                [
+                  {
+                    "opacity": undefined,
+                  },
+                  undefined,
+                ],
+              ]
+            }
+            testID=""
+          >
+            <Text
+              style={
+                [
+                  {
+                    "fontFamily": "SpaceGrotesk-Bold",
+                  },
+                  {
+                    "fontSize": 16,
+                  },
+                  {
+                    "lineHeight": 18,
+                  },
+                  {
+                    "color": "#FFFCF9",
+                  },
+                  {
+                    "color": "#FFA500",
+                  },
+                ]
+              }
+            >
+              31
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

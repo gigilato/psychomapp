@@ -13,9 +13,6 @@ exports[`ErrorState should render correctly 1`] = `
       {
         "alignSelf": "center",
       },
-      {
-        "marginTop": 64,
-      },
       [
         undefined,
         undefined,
@@ -82,9 +79,6 @@ exports[`ErrorState should render with custom message 1`] = `
       },
       {
         "alignSelf": "center",
-      },
-      {
-        "marginTop": 64,
       },
       [
         undefined,

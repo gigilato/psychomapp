@@ -1,2 +1,4 @@
-export * from './PatientList'
-export * from './PatientForm'
+export * from './PatientCreateScreen'
+export * from './PatientUpdateScreen'
+export * from './PatientScreen'
+export * from './PatientsScreen'

@@ -4,16 +4,6 @@ import { Center, Text } from '$atoms'
 
 import { BottomSheet } from './BottomSheet'
 
-jest.mock('react-native-safe-area-context', () => {
-  const actualSafeAreaContext = jest.requireActual('react-native-safe-area-context')
-  return {
-    ...actualSafeAreaContext,
-    useSafeAreaInsets: () => ({
-      bottom: 16,
-    }),
-  }
-})
-
 const Content = () => (
   <Center className="h-[40]">
     <Text>Content</Text>

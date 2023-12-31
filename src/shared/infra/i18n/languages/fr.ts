@@ -33,8 +33,11 @@ export const fr = {
       cgu: "Conditions générales d'utilisation",
       tests: 'Mon classeur de tests',
       equipment: 'Mon matériel',
-      objectives: 'Mes objectifs',
       billing: 'Ma facturation',
+    },
+    objectives: {
+      title: 'Mes objectifs',
+      create: 'Créer un objectif',
     },
     forms: {
       email: {

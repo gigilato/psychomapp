@@ -6,6 +6,7 @@ exports[`FlatList renders correctly 1`] = `
   ListEmptyComponent={
     <React.Fragment>
       <ErrorState
+        className="mt-xxl"
         type="empty"
       />
     </React.Fragment>
@@ -617,6 +618,7 @@ exports[`FlatList renders with Footer 1`] = `
   ListEmptyComponent={
     <React.Fragment>
       <ErrorState
+        className="mt-xxl"
         type="empty"
       />
     </React.Fragment>
@@ -1232,6 +1234,7 @@ exports[`FlatList renders with Header 1`] = `
   ListEmptyComponent={
     <React.Fragment>
       <ErrorState
+        className="mt-xxl"
         type="empty"
       />
     </React.Fragment>
@@ -1867,6 +1870,7 @@ exports[`FlatList renders with error 1`] = `
   ListEmptyComponent={
     <React.Fragment>
       <ErrorState
+        className="mt-xxl"
         type="empty"
       />
     </React.Fragment>
@@ -2478,6 +2482,7 @@ exports[`FlatList renders with loading 1`] = `
   ListEmptyComponent={
     <React.Fragment>
       <ErrorState
+        className="mt-xxl"
         type="empty"
       />
     </React.Fragment>

@@ -1,0 +1,554 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PatientForm should render correctly 1`] = `
+<View
+  style={
+    [
+      [
+        undefined,
+        undefined,
+      ],
+    ]
+  }
+>
+  <View
+    style={
+      [
+        [
+          undefined,
+          undefined,
+        ],
+      ]
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          {
+            "marginBottom": 8,
+          },
+          {
+            "alignItems": "center",
+          },
+          {
+            "justifyContent": "space-between",
+          },
+          [
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "fontFamily": "SpaceGrotesk-Medium",
+            },
+            {
+              "fontSize": 16,
+            },
+            {
+              "lineHeight": 18,
+            },
+            {
+              "color": "#505050",
+            },
+          ]
+        }
+      >
+        Prénom
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          {
+            "alignItems": "center",
+          },
+          {
+            "borderBottomLeftRadius": 6,
+            "borderBottomRightRadius": 6,
+            "borderTopLeftRadius": 6,
+            "borderTopRightRadius": 6,
+          },
+          {
+            "paddingBottom": 12,
+            "paddingTop": 12,
+          },
+          {
+            "borderBottomWidth": 1,
+            "borderLeftWidth": 1,
+            "borderRightWidth": 1,
+            "borderTopWidth": 1,
+          },
+          {
+            "backgroundColor": "#FFFFFF",
+          },
+          {
+            "overflow": "hidden",
+          },
+          {
+            "borderBottomColor": "#505050",
+            "borderLeftColor": "#505050",
+            "borderRightColor": "#505050",
+            "borderTopColor": "#505050",
+          },
+          [
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+    >
+      <View
+        style={
+          [
+            {
+              "flexBasis": "0%",
+              "flexGrow": 1,
+              "flexShrink": 1,
+            },
+            {
+              "paddingLeft": 12,
+              "paddingRight": 12,
+            },
+            [
+              undefined,
+              undefined,
+            ],
+          ]
+        }
+      >
+        <TextInput
+          autoCapitalize="words"
+          className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[16px] leading-[18px]"
+          cursorColor="#FFB300"
+          keyboardType="default"
+          onBlur={[Function]}
+          onChangeText={[Function]}
+          onSubmitEditing={[Function]}
+          placeholder="Entrez le prénom"
+          selectionColor="#FFB300"
+          testID="input/firstname"
+          textContentType="givenName"
+          value=""
+        />
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      [
+        {
+          "marginTop": 12,
+        },
+        [
+          undefined,
+          undefined,
+        ],
+      ]
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          {
+            "marginBottom": 8,
+          },
+          {
+            "alignItems": "center",
+          },
+          {
+            "justifyContent": "space-between",
+          },
+          [
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "fontFamily": "SpaceGrotesk-Medium",
+            },
+            {
+              "fontSize": 16,
+            },
+            {
+              "lineHeight": 18,
+            },
+            {
+              "color": "#505050",
+            },
+          ]
+        }
+      >
+        Nom
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          {
+            "alignItems": "center",
+          },
+          {
+            "borderBottomLeftRadius": 6,
+            "borderBottomRightRadius": 6,
+            "borderTopLeftRadius": 6,
+            "borderTopRightRadius": 6,
+          },
+          {
+            "paddingBottom": 12,
+            "paddingTop": 12,
+          },
+          {
+            "borderBottomWidth": 1,
+            "borderLeftWidth": 1,
+            "borderRightWidth": 1,
+            "borderTopWidth": 1,
+          },
+          {
+            "backgroundColor": "#FFFFFF",
+          },
+          {
+            "overflow": "hidden",
+          },
+          {
+            "borderBottomColor": "#505050",
+            "borderLeftColor": "#505050",
+            "borderRightColor": "#505050",
+            "borderTopColor": "#505050",
+          },
+          [
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+    >
+      <View
+        style={
+          [
+            {
+              "flexBasis": "0%",
+              "flexGrow": 1,
+              "flexShrink": 1,
+            },
+            {
+              "paddingLeft": 12,
+              "paddingRight": 12,
+            },
+            [
+              undefined,
+              undefined,
+            ],
+          ]
+        }
+      >
+        <TextInput
+          autoCapitalize="words"
+          className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[16px] leading-[18px]"
+          cursorColor="#FFB300"
+          keyboardType="default"
+          onBlur={[Function]}
+          onChangeText={[Function]}
+          placeholder="Entrez le nom de famille"
+          selectionColor="#FFB300"
+          testID="input/lastname"
+          textContentType="givenName"
+          value=""
+        />
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      [
+        {
+          "marginTop": 12,
+        },
+        [
+          undefined,
+          undefined,
+        ],
+      ]
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          {
+            "marginBottom": 8,
+          },
+          {
+            "alignItems": "center",
+          },
+          {
+            "justifyContent": "space-between",
+          },
+          [
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "fontFamily": "SpaceGrotesk-Medium",
+            },
+            {
+              "fontSize": 16,
+            },
+            {
+              "lineHeight": 18,
+            },
+            {
+              "color": "#505050",
+            },
+          ]
+        }
+      >
+        Date de naissance
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "flexDirection": "row",
+          },
+          {
+            "alignItems": "center",
+          },
+          {
+            "borderBottomLeftRadius": 6,
+            "borderBottomRightRadius": 6,
+            "borderTopLeftRadius": 6,
+            "borderTopRightRadius": 6,
+          },
+          {
+            "paddingBottom": 12,
+            "paddingTop": 12,
+          },
+          {
+            "borderBottomWidth": 1,
+            "borderLeftWidth": 1,
+            "borderRightWidth": 1,
+            "borderTopWidth": 1,
+          },
+          {
+            "backgroundColor": "#FFFFFF",
+          },
+          {
+            "overflow": "hidden",
+          },
+          {
+            "borderBottomColor": "#505050",
+            "borderLeftColor": "#505050",
+            "borderRightColor": "#505050",
+            "borderTopColor": "#505050",
+          },
+          [
+            undefined,
+            undefined,
+          ],
+        ]
+      }
+    >
+      <View
+        style={
+          [
+            {
+              "flexBasis": "0%",
+              "flexGrow": 1,
+              "flexShrink": 1,
+            },
+            {
+              "paddingLeft": 12,
+              "paddingRight": 12,
+            },
+            [
+              undefined,
+              undefined,
+            ],
+          ]
+        }
+      >
+        <TextInput
+          autoCapitalize="none"
+          className="text-[16px] leading-[20px] font-[SpaceGrotesk-Regular] text-[16px] leading-[18px]"
+          cursorColor="#FFB300"
+          editable={false}
+          keyboardType="default"
+          placeholder="Entrez la date de naissance"
+          selectionColor="#FFB300"
+          testID="dateInput"
+          value=""
+        />
+      </View>
+    </View>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        [
+          [
+            {
+              "opacity": undefined,
+            },
+            {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            },
+          ],
+        ]
+      }
+      testID="dateInputPressable"
+    />
+  </View>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": false,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    animation="scale"
+    collapsable={false}
+    event="clic_create_patient"
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      [
+        {
+          "flexDirection": "row",
+        },
+        {
+          "alignItems": "center",
+        },
+        {
+          "justifyContent": "center",
+        },
+        {
+          "borderBottomLeftRadius": 6,
+          "borderBottomRightRadius": 6,
+          "borderTopLeftRadius": 6,
+          "borderTopRightRadius": 6,
+        },
+        {
+          "height": 44,
+        },
+        {
+          "backgroundColor": "#FFB300",
+        },
+        {
+          "marginTop": 32,
+        },
+        [
+          {
+            "transform": [
+              {
+                "scale": undefined,
+              },
+            ],
+          },
+          undefined,
+        ],
+      ]
+    }
+    testID="patientForm/button"
+  >
+    <Text
+      style={
+        [
+          {
+            "fontFamily": "SpaceGrotesk-Bold",
+          },
+          {
+            "fontSize": 16,
+          },
+          {
+            "color": "#FFFFFF",
+          },
+        ]
+      }
+    >
+      Valider
+    </Text>
+  </View>
+</View>
+`;
