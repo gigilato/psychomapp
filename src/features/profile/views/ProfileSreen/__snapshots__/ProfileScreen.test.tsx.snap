@@ -996,6 +996,9 @@ exports[`ProfileScreen should renders correctly 1`] = `
             style={
               [
                 {
+                  "flexDirection": "row",
+                },
+                {
                   "marginBottom": 24,
                   "marginTop": 24,
                 },
@@ -1006,7 +1009,80 @@ exports[`ProfileScreen should renders correctly 1`] = `
               ]
             }
           >
-            <ActivityIndicator />
+            <View
+              style={
+                [
+                  {
+                    "height": 12,
+                  },
+                  {
+                    "width": 30,
+                  },
+                  [
+                    undefined,
+                    undefined,
+                  ],
+                ]
+              }
+            />
+            <View
+              style={
+                [
+                  {
+                    "width": 4,
+                  },
+                  [
+                    undefined,
+                    undefined,
+                  ],
+                ]
+              }
+            />
+            <View
+              style={
+                [
+                  {
+                    "height": 12,
+                  },
+                  {
+                    "width": 50,
+                  },
+                  [
+                    undefined,
+                    undefined,
+                  ],
+                ]
+              }
+            />
+            <View
+              style={
+                [
+                  {
+                    "width": 4,
+                  },
+                  [
+                    undefined,
+                    undefined,
+                  ],
+                ]
+              }
+            />
+            <View
+              style={
+                [
+                  {
+                    "height": 12,
+                  },
+                  {
+                    "width": 40,
+                  },
+                  [
+                    undefined,
+                    undefined,
+                  ],
+                ]
+              }
+            />
           </View>
           <View
             style={

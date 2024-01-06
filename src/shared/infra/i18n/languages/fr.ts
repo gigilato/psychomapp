@@ -40,6 +40,7 @@ export const fr = {
       title: 'Mes objectifs',
       create: 'Créer un objectif',
       update: 'Modifier un objectif',
+      empty: 'Aucun objectif',
     },
     forms: {
       email: {
@@ -66,6 +67,11 @@ export const fr = {
       common: {
         required: 'Requis',
         chooseDate: 'Choisir une date',
+      },
+      objective: {
+        label_one: 'Objectif',
+        label_other: 'Objectifs',
+        placeholder: 'Choisir les objectifs',
       },
     },
     errors: {

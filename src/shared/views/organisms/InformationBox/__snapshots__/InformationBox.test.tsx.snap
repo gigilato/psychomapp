@@ -23,6 +23,9 @@ exports[`InformationBox renders correctly 1`] = `
         {
           "lineHeight": 18,
         },
+        {
+          "marginBottom": 4,
+        },
       ]
     }
   >

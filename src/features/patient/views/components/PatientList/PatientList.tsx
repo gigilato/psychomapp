@@ -3,6 +3,7 @@ import { router } from 'expo-router'
 import { Skeleton } from 'moti/skeleton'
 
 import { Box, Pressable, Text } from '$atoms'
+import { ObjectiveListContainer } from '$features/objective/views'
 import { getQueryKey } from '$features/patient/infra/controllers/usePatient'
 import { usePatients } from '$features/patient/infra/controllers/usePatients'
 import { mockPatientList } from '$features/patient/infra/mocks/mockPatients'
@@ -30,8 +31,15 @@ export const PatientList = () => {
             className="mx-l p-s rounded-s"
           >
             <Skeleton colorMode="light">
-              <Text>{`${item.firstname} ${item.lastname}`}</Text>
+              <Text
+                className={isLoading ? 'text-transparent' : undefined}
+              >{`${item.firstname} ${item.lastname}`}</Text>
             </Skeleton>
+            <ObjectiveListContainer
+              data={item.objectives}
+              className="mt-xxs"
+              isLoading={isLoading}
+            />
           </Pressable>
         </Skeleton.Group>
       )}

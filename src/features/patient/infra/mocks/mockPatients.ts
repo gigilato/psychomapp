@@ -1,6 +1,7 @@
-import { Patient } from '$types/database'
+import { mockObjectiveList } from '$features/objective/infra/mocks/mockObjectives'
+import { PatientWithObjectives } from '$types/database'
 
-export const mockPatientList: Patient[] = [
+export const mockPatientList: PatientWithObjectives[] = [
   {
     birthdate: '2021-01-01',
     id: '1',
@@ -9,6 +10,7 @@ export const mockPatientList: Patient[] = [
     createdAt: '',
     updatedAt: '',
     practitionnerId: '',
+    objectives: mockObjectiveList.slice(0, 2),
   },
   {
     birthdate: '2021-01-01',
@@ -18,6 +20,7 @@ export const mockPatientList: Patient[] = [
     createdAt: '',
     updatedAt: '',
     practitionnerId: '',
+    objectives: mockObjectiveList.slice(0, 1),
   },
   {
     birthdate: '2021-01-01',
@@ -27,6 +30,7 @@ export const mockPatientList: Patient[] = [
     createdAt: '',
     updatedAt: '',
     practitionnerId: '',
+    objectives: [],
   },
   {
     birthdate: '2021-01-01',
@@ -36,5 +40,6 @@ export const mockPatientList: Patient[] = [
     createdAt: '',
     updatedAt: '',
     practitionnerId: '',
+    objectives: mockObjectiveList.slice(1, 2),
   },
 ]

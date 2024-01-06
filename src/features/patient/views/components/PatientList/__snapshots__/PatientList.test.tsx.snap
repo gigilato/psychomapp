@@ -41,6 +41,26 @@ exports[`PatientList should render correctly 1`] = `
         "firstname": "John",
         "id": "1",
         "lastname": "Doe",
+        "objectives": [
+          {
+            "color": "#1fff00",
+            "createdAt": "",
+            "id": "1",
+            "name": "Obj1",
+            "practitionnerId": "",
+            "slug": "Obj1",
+            "updatedAt": "",
+          },
+          {
+            "color": "#ff3f00",
+            "createdAt": "",
+            "id": "2",
+            "name": "Obj2",
+            "practitionnerId": "",
+            "slug": "Obj2",
+            "updatedAt": "",
+          },
+        ],
         "practitionnerId": "",
         "updatedAt": "",
       },
@@ -50,6 +70,17 @@ exports[`PatientList should render correctly 1`] = `
         "firstname": "John",
         "id": "2",
         "lastname": "Doe",
+        "objectives": [
+          {
+            "color": "#1fff00",
+            "createdAt": "",
+            "id": "1",
+            "name": "Obj1",
+            "practitionnerId": "",
+            "slug": "Obj1",
+            "updatedAt": "",
+          },
+        ],
         "practitionnerId": "",
         "updatedAt": "",
       },
@@ -59,6 +90,7 @@ exports[`PatientList should render correctly 1`] = `
         "firstname": "John",
         "id": "3",
         "lastname": "Doe",
+        "objectives": [],
         "practitionnerId": "",
         "updatedAt": "",
       },
@@ -68,6 +100,17 @@ exports[`PatientList should render correctly 1`] = `
         "firstname": "John",
         "id": "4",
         "lastname": "Doe",
+        "objectives": [
+          {
+            "color": "#ff3f00",
+            "createdAt": "",
+            "id": "2",
+            "name": "Obj2",
+            "practitionnerId": "",
+            "slug": "Obj2",
+            "updatedAt": "",
+          },
+        ],
         "practitionnerId": "",
         "updatedAt": "",
       },
@@ -215,6 +258,223 @@ exports[`PatientList should render correctly 1`] = `
         >
           John Doe
         </Text>
+        <View
+          style={
+            [
+              {
+                "marginTop": 4,
+              },
+              [
+                undefined,
+                undefined,
+              ],
+            ]
+          }
+        >
+          <View
+            style={
+              [
+                {
+                  "flexDirection": "row",
+                },
+                {
+                  "flexWrap": "wrap",
+                },
+                [
+                  undefined,
+                  [
+                    {
+                      "marginLeft": -8,
+                      "marginTop": -8,
+                    },
+                    undefined,
+                  ],
+                ],
+              ]
+            }
+          >
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": true,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                [
+                  {
+                    "borderBottomLeftRadius": 9999,
+                    "borderBottomRightRadius": 9999,
+                    "borderTopLeftRadius": 9999,
+                    "borderTopRightRadius": 9999,
+                  },
+                  {
+                    "paddingBottom": 4,
+                    "paddingLeft": 4,
+                    "paddingRight": 4,
+                    "paddingTop": 4,
+                  },
+                  {
+                    "flexDirection": "row",
+                  },
+                  {
+                    "alignSelf": "flex-start",
+                  },
+                  [
+                    {
+                      "opacity": undefined,
+                    },
+                    [
+                      {
+                        "backgroundColor": "#1fff00",
+                      },
+                      {
+                        "marginLeft": 8,
+                        "marginTop": 8,
+                      },
+                      undefined,
+                    ],
+                  ],
+                ]
+              }
+              testID="tag/Obj1"
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "fontFamily": "SpaceGrotesk-light",
+                    },
+                    {
+                      "fontSize": 12,
+                    },
+                    {
+                      "lineHeight": 16,
+                    },
+                    {
+                      "color": "#FFFCF9",
+                    },
+                  ]
+                }
+              >
+                Obj1
+              </Text>
+            </View>
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": true,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                [
+                  {
+                    "borderBottomLeftRadius": 9999,
+                    "borderBottomRightRadius": 9999,
+                    "borderTopLeftRadius": 9999,
+                    "borderTopRightRadius": 9999,
+                  },
+                  {
+                    "paddingBottom": 4,
+                    "paddingLeft": 4,
+                    "paddingRight": 4,
+                    "paddingTop": 4,
+                  },
+                  {
+                    "flexDirection": "row",
+                  },
+                  {
+                    "alignSelf": "flex-start",
+                  },
+                  [
+                    {
+                      "opacity": undefined,
+                    },
+                    [
+                      {
+                        "backgroundColor": "#ff3f00",
+                      },
+                      {
+                        "marginLeft": 8,
+                        "marginTop": 8,
+                      },
+                      undefined,
+                    ],
+                  ],
+                ]
+              }
+              testID="tag/Obj2"
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "fontFamily": "SpaceGrotesk-light",
+                    },
+                    {
+                      "fontSize": 12,
+                    },
+                    {
+                      "lineHeight": 16,
+                    },
+                    {
+                      "color": "#FFFCF9",
+                    },
+                  ]
+                }
+              >
+                Obj2
+              </Text>
+            </View>
+          </View>
+        </View>
       </View>
       <View
         style={
@@ -325,6 +585,133 @@ exports[`PatientList should render correctly 1`] = `
         >
           John Doe
         </Text>
+        <View
+          style={
+            [
+              {
+                "marginTop": 4,
+              },
+              [
+                undefined,
+                undefined,
+              ],
+            ]
+          }
+        >
+          <View
+            style={
+              [
+                {
+                  "flexDirection": "row",
+                },
+                {
+                  "flexWrap": "wrap",
+                },
+                [
+                  undefined,
+                  [
+                    {
+                      "marginLeft": -8,
+                      "marginTop": -8,
+                    },
+                    undefined,
+                  ],
+                ],
+              ]
+            }
+          >
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": true,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                [
+                  {
+                    "borderBottomLeftRadius": 9999,
+                    "borderBottomRightRadius": 9999,
+                    "borderTopLeftRadius": 9999,
+                    "borderTopRightRadius": 9999,
+                  },
+                  {
+                    "paddingBottom": 4,
+                    "paddingLeft": 4,
+                    "paddingRight": 4,
+                    "paddingTop": 4,
+                  },
+                  {
+                    "flexDirection": "row",
+                  },
+                  {
+                    "alignSelf": "flex-start",
+                  },
+                  [
+                    {
+                      "opacity": undefined,
+                    },
+                    [
+                      {
+                        "backgroundColor": "#1fff00",
+                      },
+                      {
+                        "marginLeft": 8,
+                        "marginTop": 8,
+                      },
+                      undefined,
+                    ],
+                  ],
+                ]
+              }
+              testID="tag/Obj1"
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "fontFamily": "SpaceGrotesk-light",
+                    },
+                    {
+                      "fontSize": 12,
+                    },
+                    {
+                      "lineHeight": 16,
+                    },
+                    {
+                      "color": "#FFFCF9",
+                    },
+                  ]
+                }
+              >
+                Obj1
+              </Text>
+            </View>
+          </View>
+        </View>
       </View>
       <View
         style={
@@ -435,6 +822,37 @@ exports[`PatientList should render correctly 1`] = `
         >
           John Doe
         </Text>
+        <View
+          style={
+            [
+              {
+                "marginTop": 4,
+              },
+              [
+                undefined,
+                undefined,
+              ],
+            ]
+          }
+        >
+          <Text
+            style={
+              [
+                {
+                  "fontFamily": "SpaceGrotesk-light",
+                },
+                {
+                  "fontSize": 12,
+                },
+                {
+                  "lineHeight": 16,
+                },
+              ]
+            }
+          >
+            Aucun objectif
+          </Text>
+        </View>
       </View>
       <View
         style={
@@ -545,6 +963,133 @@ exports[`PatientList should render correctly 1`] = `
         >
           John Doe
         </Text>
+        <View
+          style={
+            [
+              {
+                "marginTop": 4,
+              },
+              [
+                undefined,
+                undefined,
+              ],
+            ]
+          }
+        >
+          <View
+            style={
+              [
+                {
+                  "flexDirection": "row",
+                },
+                {
+                  "flexWrap": "wrap",
+                },
+                [
+                  undefined,
+                  [
+                    {
+                      "marginLeft": -8,
+                      "marginTop": -8,
+                    },
+                    undefined,
+                  ],
+                ],
+              ]
+            }
+          >
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": true,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                [
+                  {
+                    "borderBottomLeftRadius": 9999,
+                    "borderBottomRightRadius": 9999,
+                    "borderTopLeftRadius": 9999,
+                    "borderTopRightRadius": 9999,
+                  },
+                  {
+                    "paddingBottom": 4,
+                    "paddingLeft": 4,
+                    "paddingRight": 4,
+                    "paddingTop": 4,
+                  },
+                  {
+                    "flexDirection": "row",
+                  },
+                  {
+                    "alignSelf": "flex-start",
+                  },
+                  [
+                    {
+                      "opacity": undefined,
+                    },
+                    [
+                      {
+                        "backgroundColor": "#ff3f00",
+                      },
+                      {
+                        "marginLeft": 8,
+                        "marginTop": 8,
+                      },
+                      undefined,
+                    ],
+                  ],
+                ]
+              }
+              testID="tag/Obj2"
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "fontFamily": "SpaceGrotesk-light",
+                    },
+                    {
+                      "fontSize": 12,
+                    },
+                    {
+                      "lineHeight": 16,
+                    },
+                    {
+                      "color": "#FFFCF9",
+                    },
+                  ]
+                }
+              >
+                Obj2
+              </Text>
+            </View>
+          </View>
+        </View>
       </View>
     </View>
     <View
@@ -609,6 +1154,26 @@ exports[`PatientList should render error 1`] = `
         "firstname": "John",
         "id": "1",
         "lastname": "Doe",
+        "objectives": [
+          {
+            "color": "#1fff00",
+            "createdAt": "",
+            "id": "1",
+            "name": "Obj1",
+            "practitionnerId": "",
+            "slug": "Obj1",
+            "updatedAt": "",
+          },
+          {
+            "color": "#ff3f00",
+            "createdAt": "",
+            "id": "2",
+            "name": "Obj2",
+            "practitionnerId": "",
+            "slug": "Obj2",
+            "updatedAt": "",
+          },
+        ],
         "practitionnerId": "",
         "updatedAt": "",
       },
@@ -618,6 +1183,17 @@ exports[`PatientList should render error 1`] = `
         "firstname": "John",
         "id": "2",
         "lastname": "Doe",
+        "objectives": [
+          {
+            "color": "#1fff00",
+            "createdAt": "",
+            "id": "1",
+            "name": "Obj1",
+            "practitionnerId": "",
+            "slug": "Obj1",
+            "updatedAt": "",
+          },
+        ],
         "practitionnerId": "",
         "updatedAt": "",
       },
@@ -627,6 +1203,7 @@ exports[`PatientList should render error 1`] = `
         "firstname": "John",
         "id": "3",
         "lastname": "Doe",
+        "objectives": [],
         "practitionnerId": "",
         "updatedAt": "",
       },
@@ -636,6 +1213,17 @@ exports[`PatientList should render error 1`] = `
         "firstname": "John",
         "id": "4",
         "lastname": "Doe",
+        "objectives": [
+          {
+            "color": "#ff3f00",
+            "createdAt": "",
+            "id": "2",
+            "name": "Obj2",
+            "practitionnerId": "",
+            "slug": "Obj2",
+            "updatedAt": "",
+          },
+        ],
         "practitionnerId": "",
         "updatedAt": "",
       },
@@ -783,6 +1371,223 @@ exports[`PatientList should render error 1`] = `
         >
           John Doe
         </Text>
+        <View
+          style={
+            [
+              {
+                "marginTop": 4,
+              },
+              [
+                undefined,
+                undefined,
+              ],
+            ]
+          }
+        >
+          <View
+            style={
+              [
+                {
+                  "flexDirection": "row",
+                },
+                {
+                  "flexWrap": "wrap",
+                },
+                [
+                  undefined,
+                  [
+                    {
+                      "marginLeft": -8,
+                      "marginTop": -8,
+                    },
+                    undefined,
+                  ],
+                ],
+              ]
+            }
+          >
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": true,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                [
+                  {
+                    "borderBottomLeftRadius": 9999,
+                    "borderBottomRightRadius": 9999,
+                    "borderTopLeftRadius": 9999,
+                    "borderTopRightRadius": 9999,
+                  },
+                  {
+                    "paddingBottom": 4,
+                    "paddingLeft": 4,
+                    "paddingRight": 4,
+                    "paddingTop": 4,
+                  },
+                  {
+                    "flexDirection": "row",
+                  },
+                  {
+                    "alignSelf": "flex-start",
+                  },
+                  [
+                    {
+                      "opacity": undefined,
+                    },
+                    [
+                      {
+                        "backgroundColor": "#1fff00",
+                      },
+                      {
+                        "marginLeft": 8,
+                        "marginTop": 8,
+                      },
+                      undefined,
+                    ],
+                  ],
+                ]
+              }
+              testID="tag/Obj1"
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "fontFamily": "SpaceGrotesk-light",
+                    },
+                    {
+                      "fontSize": 12,
+                    },
+                    {
+                      "lineHeight": 16,
+                    },
+                    {
+                      "color": "#FFFCF9",
+                    },
+                  ]
+                }
+              >
+                Obj1
+              </Text>
+            </View>
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": true,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                [
+                  {
+                    "borderBottomLeftRadius": 9999,
+                    "borderBottomRightRadius": 9999,
+                    "borderTopLeftRadius": 9999,
+                    "borderTopRightRadius": 9999,
+                  },
+                  {
+                    "paddingBottom": 4,
+                    "paddingLeft": 4,
+                    "paddingRight": 4,
+                    "paddingTop": 4,
+                  },
+                  {
+                    "flexDirection": "row",
+                  },
+                  {
+                    "alignSelf": "flex-start",
+                  },
+                  [
+                    {
+                      "opacity": undefined,
+                    },
+                    [
+                      {
+                        "backgroundColor": "#ff3f00",
+                      },
+                      {
+                        "marginLeft": 8,
+                        "marginTop": 8,
+                      },
+                      undefined,
+                    ],
+                  ],
+                ]
+              }
+              testID="tag/Obj2"
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "fontFamily": "SpaceGrotesk-light",
+                    },
+                    {
+                      "fontSize": 12,
+                    },
+                    {
+                      "lineHeight": 16,
+                    },
+                    {
+                      "color": "#FFFCF9",
+                    },
+                  ]
+                }
+              >
+                Obj2
+              </Text>
+            </View>
+          </View>
+        </View>
       </View>
       <View
         style={
@@ -893,6 +1698,133 @@ exports[`PatientList should render error 1`] = `
         >
           John Doe
         </Text>
+        <View
+          style={
+            [
+              {
+                "marginTop": 4,
+              },
+              [
+                undefined,
+                undefined,
+              ],
+            ]
+          }
+        >
+          <View
+            style={
+              [
+                {
+                  "flexDirection": "row",
+                },
+                {
+                  "flexWrap": "wrap",
+                },
+                [
+                  undefined,
+                  [
+                    {
+                      "marginLeft": -8,
+                      "marginTop": -8,
+                    },
+                    undefined,
+                  ],
+                ],
+              ]
+            }
+          >
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": true,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                [
+                  {
+                    "borderBottomLeftRadius": 9999,
+                    "borderBottomRightRadius": 9999,
+                    "borderTopLeftRadius": 9999,
+                    "borderTopRightRadius": 9999,
+                  },
+                  {
+                    "paddingBottom": 4,
+                    "paddingLeft": 4,
+                    "paddingRight": 4,
+                    "paddingTop": 4,
+                  },
+                  {
+                    "flexDirection": "row",
+                  },
+                  {
+                    "alignSelf": "flex-start",
+                  },
+                  [
+                    {
+                      "opacity": undefined,
+                    },
+                    [
+                      {
+                        "backgroundColor": "#1fff00",
+                      },
+                      {
+                        "marginLeft": 8,
+                        "marginTop": 8,
+                      },
+                      undefined,
+                    ],
+                  ],
+                ]
+              }
+              testID="tag/Obj1"
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "fontFamily": "SpaceGrotesk-light",
+                    },
+                    {
+                      "fontSize": 12,
+                    },
+                    {
+                      "lineHeight": 16,
+                    },
+                    {
+                      "color": "#FFFCF9",
+                    },
+                  ]
+                }
+              >
+                Obj1
+              </Text>
+            </View>
+          </View>
+        </View>
       </View>
       <View
         style={
@@ -1003,6 +1935,37 @@ exports[`PatientList should render error 1`] = `
         >
           John Doe
         </Text>
+        <View
+          style={
+            [
+              {
+                "marginTop": 4,
+              },
+              [
+                undefined,
+                undefined,
+              ],
+            ]
+          }
+        >
+          <Text
+            style={
+              [
+                {
+                  "fontFamily": "SpaceGrotesk-light",
+                },
+                {
+                  "fontSize": 12,
+                },
+                {
+                  "lineHeight": 16,
+                },
+              ]
+            }
+          >
+            Aucun objectif
+          </Text>
+        </View>
       </View>
       <View
         style={
@@ -1113,6 +2076,133 @@ exports[`PatientList should render error 1`] = `
         >
           John Doe
         </Text>
+        <View
+          style={
+            [
+              {
+                "marginTop": 4,
+              },
+              [
+                undefined,
+                undefined,
+              ],
+            ]
+          }
+        >
+          <View
+            style={
+              [
+                {
+                  "flexDirection": "row",
+                },
+                {
+                  "flexWrap": "wrap",
+                },
+                [
+                  undefined,
+                  [
+                    {
+                      "marginLeft": -8,
+                      "marginTop": -8,
+                    },
+                    undefined,
+                  ],
+                ],
+              ]
+            }
+          >
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": true,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                [
+                  {
+                    "borderBottomLeftRadius": 9999,
+                    "borderBottomRightRadius": 9999,
+                    "borderTopLeftRadius": 9999,
+                    "borderTopRightRadius": 9999,
+                  },
+                  {
+                    "paddingBottom": 4,
+                    "paddingLeft": 4,
+                    "paddingRight": 4,
+                    "paddingTop": 4,
+                  },
+                  {
+                    "flexDirection": "row",
+                  },
+                  {
+                    "alignSelf": "flex-start",
+                  },
+                  [
+                    {
+                      "opacity": undefined,
+                    },
+                    [
+                      {
+                        "backgroundColor": "#ff3f00",
+                      },
+                      {
+                        "marginLeft": 8,
+                        "marginTop": 8,
+                      },
+                      undefined,
+                    ],
+                  ],
+                ]
+              }
+              testID="tag/Obj2"
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "fontFamily": "SpaceGrotesk-light",
+                    },
+                    {
+                      "fontSize": 12,
+                    },
+                    {
+                      "lineHeight": 16,
+                    },
+                    {
+                      "color": "#FFFCF9",
+                    },
+                  ]
+                }
+              >
+                Obj2
+              </Text>
+            </View>
+          </View>
+        </View>
       </View>
     </View>
     <View
@@ -1177,6 +2267,26 @@ exports[`PatientList should render loading 1`] = `
         "firstname": "John",
         "id": "1",
         "lastname": "Doe",
+        "objectives": [
+          {
+            "color": "#1fff00",
+            "createdAt": "",
+            "id": "1",
+            "name": "Obj1",
+            "practitionnerId": "",
+            "slug": "Obj1",
+            "updatedAt": "",
+          },
+          {
+            "color": "#ff3f00",
+            "createdAt": "",
+            "id": "2",
+            "name": "Obj2",
+            "practitionnerId": "",
+            "slug": "Obj2",
+            "updatedAt": "",
+          },
+        ],
         "practitionnerId": "",
         "updatedAt": "",
       },
@@ -1186,6 +2296,17 @@ exports[`PatientList should render loading 1`] = `
         "firstname": "John",
         "id": "2",
         "lastname": "Doe",
+        "objectives": [
+          {
+            "color": "#1fff00",
+            "createdAt": "",
+            "id": "1",
+            "name": "Obj1",
+            "practitionnerId": "",
+            "slug": "Obj1",
+            "updatedAt": "",
+          },
+        ],
         "practitionnerId": "",
         "updatedAt": "",
       },
@@ -1195,6 +2316,7 @@ exports[`PatientList should render loading 1`] = `
         "firstname": "John",
         "id": "3",
         "lastname": "Doe",
+        "objectives": [],
         "practitionnerId": "",
         "updatedAt": "",
       },
@@ -1204,6 +2326,17 @@ exports[`PatientList should render loading 1`] = `
         "firstname": "John",
         "id": "4",
         "lastname": "Doe",
+        "objectives": [
+          {
+            "color": "#ff3f00",
+            "createdAt": "",
+            "id": "2",
+            "name": "Obj2",
+            "practitionnerId": "",
+            "slug": "Obj2",
+            "updatedAt": "",
+          },
+        ],
         "practitionnerId": "",
         "updatedAt": "",
       },
@@ -1346,11 +2479,231 @@ exports[`PatientList should render loading 1`] = `
               {
                 "lineHeight": 18,
               },
+              {
+                "color": "transparent",
+              },
             ]
           }
         >
           John Doe
         </Text>
+        <View
+          style={
+            [
+              {
+                "marginTop": 4,
+              },
+              [
+                undefined,
+                undefined,
+              ],
+            ]
+          }
+        >
+          <View
+            style={
+              [
+                {
+                  "flexDirection": "row",
+                },
+                {
+                  "flexWrap": "wrap",
+                },
+                [
+                  undefined,
+                  [
+                    {
+                      "marginLeft": -8,
+                      "marginTop": -8,
+                    },
+                    undefined,
+                  ],
+                ],
+              ]
+            }
+          >
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": true,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                [
+                  {
+                    "borderBottomLeftRadius": 9999,
+                    "borderBottomRightRadius": 9999,
+                    "borderTopLeftRadius": 9999,
+                    "borderTopRightRadius": 9999,
+                  },
+                  {
+                    "paddingBottom": 4,
+                    "paddingLeft": 4,
+                    "paddingRight": 4,
+                    "paddingTop": 4,
+                  },
+                  {
+                    "flexDirection": "row",
+                  },
+                  {
+                    "alignSelf": "flex-start",
+                  },
+                  [
+                    {
+                      "opacity": undefined,
+                    },
+                    [
+                      {
+                        "backgroundColor": "#1fff00",
+                      },
+                      {
+                        "marginLeft": 8,
+                        "marginTop": 8,
+                      },
+                      undefined,
+                    ],
+                  ],
+                ]
+              }
+              testID="tag/Obj1"
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "fontFamily": "SpaceGrotesk-light",
+                    },
+                    {
+                      "fontSize": 12,
+                    },
+                    {
+                      "lineHeight": 16,
+                    },
+                    {
+                      "color": "#FFFCF9",
+                    },
+                  ]
+                }
+              >
+                Obj1
+              </Text>
+            </View>
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": true,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                [
+                  {
+                    "borderBottomLeftRadius": 9999,
+                    "borderBottomRightRadius": 9999,
+                    "borderTopLeftRadius": 9999,
+                    "borderTopRightRadius": 9999,
+                  },
+                  {
+                    "paddingBottom": 4,
+                    "paddingLeft": 4,
+                    "paddingRight": 4,
+                    "paddingTop": 4,
+                  },
+                  {
+                    "flexDirection": "row",
+                  },
+                  {
+                    "alignSelf": "flex-start",
+                  },
+                  [
+                    {
+                      "opacity": undefined,
+                    },
+                    [
+                      {
+                        "backgroundColor": "#ff3f00",
+                      },
+                      {
+                        "marginLeft": 8,
+                        "marginTop": 8,
+                      },
+                      undefined,
+                    ],
+                  ],
+                ]
+              }
+              testID="tag/Obj2"
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "fontFamily": "SpaceGrotesk-light",
+                    },
+                    {
+                      "fontSize": 12,
+                    },
+                    {
+                      "lineHeight": 16,
+                    },
+                    {
+                      "color": "#FFFCF9",
+                    },
+                  ]
+                }
+              >
+                Obj2
+              </Text>
+            </View>
+          </View>
+        </View>
       </View>
       <View
         style={
@@ -1456,11 +2809,141 @@ exports[`PatientList should render loading 1`] = `
               {
                 "lineHeight": 18,
               },
+              {
+                "color": "transparent",
+              },
             ]
           }
         >
           John Doe
         </Text>
+        <View
+          style={
+            [
+              {
+                "marginTop": 4,
+              },
+              [
+                undefined,
+                undefined,
+              ],
+            ]
+          }
+        >
+          <View
+            style={
+              [
+                {
+                  "flexDirection": "row",
+                },
+                {
+                  "flexWrap": "wrap",
+                },
+                [
+                  undefined,
+                  [
+                    {
+                      "marginLeft": -8,
+                      "marginTop": -8,
+                    },
+                    undefined,
+                  ],
+                ],
+              ]
+            }
+          >
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": true,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                [
+                  {
+                    "borderBottomLeftRadius": 9999,
+                    "borderBottomRightRadius": 9999,
+                    "borderTopLeftRadius": 9999,
+                    "borderTopRightRadius": 9999,
+                  },
+                  {
+                    "paddingBottom": 4,
+                    "paddingLeft": 4,
+                    "paddingRight": 4,
+                    "paddingTop": 4,
+                  },
+                  {
+                    "flexDirection": "row",
+                  },
+                  {
+                    "alignSelf": "flex-start",
+                  },
+                  [
+                    {
+                      "opacity": undefined,
+                    },
+                    [
+                      {
+                        "backgroundColor": "#1fff00",
+                      },
+                      {
+                        "marginLeft": 8,
+                        "marginTop": 8,
+                      },
+                      undefined,
+                    ],
+                  ],
+                ]
+              }
+              testID="tag/Obj1"
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "fontFamily": "SpaceGrotesk-light",
+                    },
+                    {
+                      "fontSize": 12,
+                    },
+                    {
+                      "lineHeight": 16,
+                    },
+                    {
+                      "color": "#FFFCF9",
+                    },
+                  ]
+                }
+              >
+                Obj1
+              </Text>
+            </View>
+          </View>
+        </View>
       </View>
       <View
         style={
@@ -1566,11 +3049,45 @@ exports[`PatientList should render loading 1`] = `
               {
                 "lineHeight": 18,
               },
+              {
+                "color": "transparent",
+              },
             ]
           }
         >
           John Doe
         </Text>
+        <View
+          style={
+            [
+              {
+                "marginTop": 4,
+              },
+              [
+                undefined,
+                undefined,
+              ],
+            ]
+          }
+        >
+          <Text
+            style={
+              [
+                {
+                  "fontFamily": "SpaceGrotesk-light",
+                },
+                {
+                  "fontSize": 12,
+                },
+                {
+                  "lineHeight": 16,
+                },
+              ]
+            }
+          >
+            Aucun objectif
+          </Text>
+        </View>
       </View>
       <View
         style={
@@ -1676,11 +3193,141 @@ exports[`PatientList should render loading 1`] = `
               {
                 "lineHeight": 18,
               },
+              {
+                "color": "transparent",
+              },
             ]
           }
         >
           John Doe
         </Text>
+        <View
+          style={
+            [
+              {
+                "marginTop": 4,
+              },
+              [
+                undefined,
+                undefined,
+              ],
+            ]
+          }
+        >
+          <View
+            style={
+              [
+                {
+                  "flexDirection": "row",
+                },
+                {
+                  "flexWrap": "wrap",
+                },
+                [
+                  undefined,
+                  [
+                    {
+                      "marginLeft": -8,
+                      "marginTop": -8,
+                    },
+                    undefined,
+                  ],
+                ],
+              ]
+            }
+          >
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": true,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                [
+                  {
+                    "borderBottomLeftRadius": 9999,
+                    "borderBottomRightRadius": 9999,
+                    "borderTopLeftRadius": 9999,
+                    "borderTopRightRadius": 9999,
+                  },
+                  {
+                    "paddingBottom": 4,
+                    "paddingLeft": 4,
+                    "paddingRight": 4,
+                    "paddingTop": 4,
+                  },
+                  {
+                    "flexDirection": "row",
+                  },
+                  {
+                    "alignSelf": "flex-start",
+                  },
+                  [
+                    {
+                      "opacity": undefined,
+                    },
+                    [
+                      {
+                        "backgroundColor": "#ff3f00",
+                      },
+                      {
+                        "marginLeft": 8,
+                        "marginTop": 8,
+                      },
+                      undefined,
+                    ],
+                  ],
+                ]
+              }
+              testID="tag/Obj2"
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "fontFamily": "SpaceGrotesk-light",
+                    },
+                    {
+                      "fontSize": 12,
+                    },
+                    {
+                      "lineHeight": 16,
+                    },
+                    {
+                      "color": "#FFFCF9",
+                    },
+                  ]
+                }
+              >
+                Obj2
+              </Text>
+            </View>
+          </View>
+        </View>
       </View>
     </View>
     <View

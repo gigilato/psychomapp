@@ -2,6 +2,7 @@ import { router } from 'expo-router'
 import { Skeleton } from 'moti/skeleton'
 
 import { KeyboardAvoidingView, Text } from '$atoms'
+import { ObjectiveListContainer } from '$features/objective/views'
 import { useDeletePatient } from '$features/patient/infra/controllers/useDeletePatient'
 import { usePatient } from '$features/patient/infra/controllers/usePatient'
 import { i18n } from '$infra/i18n'
@@ -35,6 +36,12 @@ export const PatientScreen = ({ patientId }: IPatientScreenProps) => {
                 : ''
             }
           />
+          <InformationBox
+            className="mt-m"
+            label={i18n.t('forms.objective.label', { count: data?.objectives?.length ?? 0 })}
+          >
+            <ObjectiveListContainer data={data?.objectives} />
+          </InformationBox>
           {data ? (
             <PressableText
               ID="deletePatient"
