@@ -36,7 +36,10 @@ export const CalendarHeader = () => {
                   <Text className={textColor}>{format(item, dayOfWeekFormat)}</Text>
                   <Pressable
                     ID=""
-                    className={clsx('p-s rounded-full mt-s', isToday ? 'bg-white-classic' : '')}
+                    className={clsx(
+                      'w-[40] h-[40] rounded-full mt-s items-center justify-center',
+                      isToday ? 'bg-white-classic' : ''
+                    )}
                   >
                     <Text
                       variant="blackBody"

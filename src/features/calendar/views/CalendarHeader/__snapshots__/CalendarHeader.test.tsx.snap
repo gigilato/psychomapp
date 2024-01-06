@@ -282,10 +282,10 @@ exports[`CalendarHeader should render correctly 1`] = `
             style={
               [
                 {
-                  "paddingBottom": 12,
-                  "paddingLeft": 12,
-                  "paddingRight": 12,
-                  "paddingTop": 12,
+                  "width": 40,
+                },
+                {
+                  "height": 40,
                 },
                 {
                   "borderBottomLeftRadius": 9999,
@@ -295,6 +295,12 @@ exports[`CalendarHeader should render correctly 1`] = `
                 },
                 {
                   "marginTop": 12,
+                },
+                {
+                  "alignItems": "center",
+                },
+                {
+                  "justifyContent": "center",
                 },
                 [
                   {
@@ -402,10 +408,10 @@ exports[`CalendarHeader should render correctly 1`] = `
             style={
               [
                 {
-                  "paddingBottom": 12,
-                  "paddingLeft": 12,
-                  "paddingRight": 12,
-                  "paddingTop": 12,
+                  "width": 40,
+                },
+                {
+                  "height": 40,
                 },
                 {
                   "borderBottomLeftRadius": 9999,
@@ -415,6 +421,12 @@ exports[`CalendarHeader should render correctly 1`] = `
                 },
                 {
                   "marginTop": 12,
+                },
+                {
+                  "alignItems": "center",
+                },
+                {
+                  "justifyContent": "center",
                 },
                 [
                   {
@@ -522,10 +534,10 @@ exports[`CalendarHeader should render correctly 1`] = `
             style={
               [
                 {
-                  "paddingBottom": 12,
-                  "paddingLeft": 12,
-                  "paddingRight": 12,
-                  "paddingTop": 12,
+                  "width": 40,
+                },
+                {
+                  "height": 40,
                 },
                 {
                   "borderBottomLeftRadius": 9999,
@@ -535,6 +547,12 @@ exports[`CalendarHeader should render correctly 1`] = `
                 },
                 {
                   "marginTop": 12,
+                },
+                {
+                  "alignItems": "center",
+                },
+                {
+                  "justifyContent": "center",
                 },
                 {
                   "backgroundColor": "#FFFCF9",
@@ -648,10 +666,10 @@ exports[`CalendarHeader should render correctly 1`] = `
             style={
               [
                 {
-                  "paddingBottom": 12,
-                  "paddingLeft": 12,
-                  "paddingRight": 12,
-                  "paddingTop": 12,
+                  "width": 40,
+                },
+                {
+                  "height": 40,
                 },
                 {
                   "borderBottomLeftRadius": 9999,
@@ -661,6 +679,12 @@ exports[`CalendarHeader should render correctly 1`] = `
                 },
                 {
                   "marginTop": 12,
+                },
+                {
+                  "alignItems": "center",
+                },
+                {
+                  "justifyContent": "center",
                 },
                 [
                   {
@@ -768,10 +792,10 @@ exports[`CalendarHeader should render correctly 1`] = `
             style={
               [
                 {
-                  "paddingBottom": 12,
-                  "paddingLeft": 12,
-                  "paddingRight": 12,
-                  "paddingTop": 12,
+                  "width": 40,
+                },
+                {
+                  "height": 40,
                 },
                 {
                   "borderBottomLeftRadius": 9999,
@@ -781,6 +805,12 @@ exports[`CalendarHeader should render correctly 1`] = `
                 },
                 {
                   "marginTop": 12,
+                },
+                {
+                  "alignItems": "center",
+                },
+                {
+                  "justifyContent": "center",
                 },
                 [
                   {
@@ -888,10 +918,10 @@ exports[`CalendarHeader should render correctly 1`] = `
             style={
               [
                 {
-                  "paddingBottom": 12,
-                  "paddingLeft": 12,
-                  "paddingRight": 12,
-                  "paddingTop": 12,
+                  "width": 40,
+                },
+                {
+                  "height": 40,
                 },
                 {
                   "borderBottomLeftRadius": 9999,
@@ -901,6 +931,12 @@ exports[`CalendarHeader should render correctly 1`] = `
                 },
                 {
                   "marginTop": 12,
+                },
+                {
+                  "alignItems": "center",
+                },
+                {
+                  "justifyContent": "center",
                 },
                 [
                   {
@@ -1008,10 +1044,10 @@ exports[`CalendarHeader should render correctly 1`] = `
             style={
               [
                 {
-                  "paddingBottom": 12,
-                  "paddingLeft": 12,
-                  "paddingRight": 12,
-                  "paddingTop": 12,
+                  "width": 40,
+                },
+                {
+                  "height": 40,
                 },
                 {
                   "borderBottomLeftRadius": 9999,
@@ -1021,6 +1057,12 @@ exports[`CalendarHeader should render correctly 1`] = `
                 },
                 {
                   "marginTop": 12,
+                },
+                {
+                  "alignItems": "center",
+                },
+                {
+                  "justifyContent": "center",
                 },
                 [
                   {
