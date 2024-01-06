@@ -7,6 +7,7 @@ export const fr = {
       continue: 'Continuer',
       validate: 'Valider',
       cancel: 'Annuler',
+      delete: 'Supprimer',
     },
     signIn: {
       forgotPassword: 'Mot de passe oublié ?',
@@ -38,6 +39,7 @@ export const fr = {
     objectives: {
       title: 'Mes objectifs',
       create: 'Créer un objectif',
+      update: 'Modifier un objectif',
     },
     forms: {
       email: {

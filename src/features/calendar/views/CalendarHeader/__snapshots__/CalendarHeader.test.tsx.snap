@@ -139,7 +139,7 @@ exports[`CalendarHeader should render correctly 1`] = `
             ]
           }
         >
-          Décembre
+          Janvier
         </Text>
         <View
           accessibilityState={
@@ -324,7 +324,7 @@ exports[`CalendarHeader should render correctly 1`] = `
                 ]
               }
             >
-              25
+              1
             </Text>
           </View>
         </View>
@@ -444,7 +444,7 @@ exports[`CalendarHeader should render correctly 1`] = `
                 ]
               }
             >
-              26
+              2
             </Text>
           </View>
         </View>
@@ -536,6 +536,9 @@ exports[`CalendarHeader should render correctly 1`] = `
                 {
                   "marginTop": 12,
                 },
+                {
+                  "backgroundColor": "#FFFCF9",
+                },
                 [
                   {
                     "opacity": undefined,
@@ -561,10 +564,13 @@ exports[`CalendarHeader should render correctly 1`] = `
                   {
                     "color": "#FFFCF9",
                   },
+                  {
+                    "color": "#FFA500",
+                  },
                 ]
               }
             >
-              27
+              3
             </Text>
           </View>
         </View>
@@ -684,7 +690,7 @@ exports[`CalendarHeader should render correctly 1`] = `
                 ]
               }
             >
-              28
+              4
             </Text>
           </View>
         </View>
@@ -804,7 +810,7 @@ exports[`CalendarHeader should render correctly 1`] = `
                 ]
               }
             >
-              29
+              5
             </Text>
           </View>
         </View>
@@ -924,7 +930,7 @@ exports[`CalendarHeader should render correctly 1`] = `
                 ]
               }
             >
-              30
+              6
             </Text>
           </View>
         </View>
@@ -1016,9 +1022,6 @@ exports[`CalendarHeader should render correctly 1`] = `
                 {
                   "marginTop": 12,
                 },
-                {
-                  "backgroundColor": "#FFFCF9",
-                },
                 [
                   {
                     "opacity": undefined,
@@ -1044,13 +1047,10 @@ exports[`CalendarHeader should render correctly 1`] = `
                   {
                     "color": "#FFFCF9",
                   },
-                  {
-                    "color": "#FFA500",
-                  },
                 ]
               }
             >
-              31
+              7
             </Text>
           </View>
         </View>
