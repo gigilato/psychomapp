@@ -7,7 +7,7 @@ export default function PatientsLayout() {
     <Stack
       screenOptions={{
         headerLeft(props) {
-          return <HeaderLeft {...props} restoreTabBar />
+          return <HeaderLeft {...props} />
         },
         headerTitle(props) {
           return <HeaderTitle {...props} />

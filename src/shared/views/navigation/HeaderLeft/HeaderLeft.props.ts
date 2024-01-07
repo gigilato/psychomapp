@@ -3,5 +3,4 @@ import { HeaderBackButtonProps } from '@react-navigation/native-stack/lib/typesc
 export interface IHeaderLeftProps extends HeaderBackButtonProps {
   type?: 'back' | 'close'
   onPress?: () => void
-  restoreTabBar?: boolean
 }

@@ -6,7 +6,6 @@ import { ObjectiveListContainer } from '$features/objective/views'
 import { useDeletePatient } from '$features/patient/infra/controllers/useDeletePatient'
 import { usePatient } from '$features/patient/infra/controllers/usePatient'
 import { i18n } from '$infra/i18n'
-import { setTabBarVisibility } from '$infra/layout'
 import { dateFormat, format, getAge } from '$libs/dates'
 import { ActionButton, PressableText } from '$molecules'
 import { InformationBox } from '$organisms'
@@ -50,7 +49,6 @@ export const PatientScreen = ({ patientId }: IPatientScreenProps) => {
               onPress={() => {
                 deletePatient(data)
                 router.back()
-                setTabBarVisibility(true)
               }}
             >
               {i18n.t('patient.delete')}
